@@ -168,46 +168,12 @@ type StreamingServer = {
   url: (id: number, type?: string, s?: number, e?: number) => string;
 };
 
+// Unlicensed streaming embeds were removed during import; titles open the free-movie notice instead.
 export const STREAMING_SERVERS: StreamingServer[] = [
-  // Documented TMDB embed routes; audio availability is checked per title.
-  { id: 'vidsrccc', name: 'VidSrc.cc', category: 'multi', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.cc/v2/embed/tv/${id}/${s}/${e}` : `https://vidsrc.cc/v2/embed/movie/${id}` },
-  { id: 'vidsrcicu', name: 'VidSrc.icu', category: 'multi', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.icu/embed/tv/${id}/${s}/${e}` : `https://vidsrc.icu/embed/movie/${id}` },
-  // 🔥 NEW RELEASES — best for early releases / latest movies
-  { id: 'vidlink', name: 'VidLink Pro', category: 'new', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidlink.pro/tv/${id}/${s}/${e}` : `https://vidlink.pro/${type}/${id}` },
-  { id: 'embedapi', name: 'Embed-API', category: 'new', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://embed-api.stream/embed/tv/${id}/${s}/${e}` : `https://embed-api.stream/embed/${type}/${id}` },
-  { id: 'vidzee', name: 'VidZee', category: 'new', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://player.vidzee.wtf/embed/tv/${id}/${s}/${e}` : `https://player.vidzee.wtf/embed/${type}/${id}` },
-
-  // 💎 4K / HD
-  { id: 'cinesrc', name: 'CineSrc HD', category: '4k', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://cinesrc.st/embed/tv/${id}/${s}/${e}` : `https://cinesrc.st/embed/${type}/${id}` },
-
-  // ⚡ FAST
-  { id: 'autoembed', name: 'AutoEmbed', category: 'fast', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://autoembed.co/tv/tmdb/${id}-${s}-${e}` : `https://autoembed.co/${type}/tmdb/${id}` },
-  { id: 'apiplayer', name: 'APIPlayer', category: 'fast', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://apiplayer.ru/embed/tv/${id}/${s}/${e}` : `https://apiplayer.ru/embed/${type}/${id}` },
-
-  // 🎯 MULTI-SOURCE / FAILOVER
-  { id: 'superembed', name: 'SuperEmbed', category: 'multi', url: (id, _type, s, e) => s && e ? `https://multiembed.mov/?video_id=${id}&tmdb=1&s=${s}&e=${e}` : `https://multiembed.mov/?video_id=${id}&tmdb=1` },
-  { id: 'twoembed', name: '2Embed', category: 'multi', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://www.2embed.cc/embedtv/${id}&s=${s}&e=${e}` : `https://www.2embed.cc/embed/${id}` },
-
-  // 🛡️ BACKUP (legacy / reliable)
-
-  // 🔥 EXTRA NEW RELEASES (added — best for brand-new movies like Tuner, etc.)
-  { id: 'vidsrcsu', name: 'VidSrc.su', category: 'new', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.su/embed/tv/${id}/${s}/${e}` : `https://vidsrc.su/embed/${type}/${id}` },
-  { id: 'vidfast', name: 'VidFast', category: 'new', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidfast.pro/tv/${id}/${s}/${e}?autoPlay=true` : `https://vidfast.pro/movie/${id}?autoPlay=true` },
-
-  // 💎 EXTRA 4K / HD
-
-  // ⚡ EXTRA FAST
-
-  // 🛡️ EXTRA BACKUP
+  { id: 'free', name: 'Free & legal sources', category: 'multi', url: () => '/movie-unavailable' },
 ];
 
-
-export const DOWNLOAD_PROVIDERS = [
-  { id: 'vidfast', name: 'VidFast', url: (id: number, type: string, s?: number, e?: number) => type === 'tv' && s && e ? `https://vidfast.pro/tv/${id}/${s}/${e}` : `https://vidfast.pro/${type}/${id}` },
-  { id: 'vidlink', name: 'VidLink', url: (id: number, type: string, s?: number, e?: number) => type === 'tv' && s && e ? `https://vidlink.pro/tv/${id}/${s}/${e}` : `https://vidlink.pro/${type}/${id}` },
-  { id: 'vidsrcto', name: 'VidSrc', url: (id: number, type: string, s?: number, e?: number) => type === 'tv' && s && e ? `https://vidsrc.to/embed/tv/${id}/${s}/${e}` : `https://vidsrc.to/embed/${type}/${id}` },
-  { id: 'fmovies', name: 'FMovies', url: (id: number, type: string, s?: number, e?: number) => type === 'tv' && s && e ? `https://fmovies.ps/tv/${id}/${s}/${e}` : `https://fmovies.ps/${type}/${id}` },
-] as const;
+export const DOWNLOAD_PROVIDERS: readonly { id: string; name: string; url: (id: number, type: string, s?: number, e?: number) => string }[] = [];
 
 export const GENRES: Record<number, string> = {
   28: 'Action', 12: 'Adventure', 16: 'Animation', 35: 'Comedy', 80: 'Crime',
