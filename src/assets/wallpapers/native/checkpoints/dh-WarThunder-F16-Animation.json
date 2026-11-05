@@ -1,0 +1,17 @@
+{
+  "id": "dh-WarThunder-F16-Animation",
+  "source": "https://www.desktophut.com/WarThunder-F16-Animation",
+  "previousUrls": [
+    "/__l5e/assets-v1/c367eb0a-41f2-481b-b405-5dfc723dbd67/dh-WarThunder-F16-Animation.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3888x1620",
+  "width": 3888,
+  "height": 1620,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1670598681-1670598681-warthunder-f16-animation.mp4",
+  "bytes": 6163669,
+  "sha256": "4306f04ac216c6f0e710a0dee2cc990dd9bc9d93ed506be3e41b088e3fe5ad26",
+  "videoPointer": "assets/wallpapers/native/dh-WarThunder-F16-Animation-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-WarThunder-F16-Animation-native.jpg.asset.json"
+}

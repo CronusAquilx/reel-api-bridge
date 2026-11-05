@@ -1,0 +1,17 @@
+{
+  "id": "dh-sandworm-encounter-8517",
+  "source": "https://www.desktophut.com/sandworm-encounter-8517",
+  "previousUrls": [
+    "/__l5e/assets-v1/2478a8c3-f639-4b62-b43f-af621e51fece/dh-sandworm-encounter-8517.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "av1",
+  "originalUrl": "https://media.desktophut.com/files/WIm0gLk3cS-1112Prob4.mp4",
+  "bytes": 13289183,
+  "sha256": "9f5c10de9e0b49727e21b7cc723162941f2cede529a5da8a459d414c800b4dae",
+  "videoPointer": "assets/wallpapers/native/dh-sandworm-encounter-8517-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-sandworm-encounter-8517-native.jpg.asset.json"
+}
