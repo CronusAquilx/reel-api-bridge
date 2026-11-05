@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "eadff278-a5df-4ecc-b6f0-6bf847743c67",
-  "project_id": "65f9d704-e521-4207-b878-dc53b4f8ad7e",
-  "url": "/__l5e/assets-v1/eadff278-a5df-4ecc-b6f0-6bf847743c67/app1000589-preview-original.mp4",
-  "r2_key": "a/v1/65f9d704-e521-4207-b878-dc53b4f8ad7e/eadff278-a5df-4ecc-b6f0-6bf847743c67/app1000589-preview-original.mp4",
-  "original_filename": "app1000589-preview-original.mp4",
-  "size": 23545470,
+  "asset_id": "ba6669ff-cd61-48cf-b428-5e4e7f622aaf",
+  "project_id": "7ca9a6d4-424c-4f58-accb-229889c0d6d1",
+  "url": "/__l5e/assets-v1/ba6669ff-cd61-48cf-b428-5e4e7f622aaf/app1000589-preview.mp4",
+  "r2_key": "a/v1/7ca9a6d4-424c-4f58-accb-229889c0d6d1/ba6669ff-cd61-48cf-b428-5e4e7f622aaf/app1000589-preview.mp4",
+  "original_filename": "app1000589-preview.mp4",
+  "size": 1138450,
   "content_type": "video/mp4",
-  "created_at": "2026-11-01T22:28:26Z"
+  "created_at": "2026-11-05T04:30:49Z"
 }
