@@ -83,6 +83,8 @@ async function relayGameSocket(request: Request, url: URL): Promise<Response> {
   const protocol = request.headers.get("sec-websocket-protocol") ?? "";
   const headers: Record<string, string> = { Upgrade: "websocket", "user-agent": "Mozilla/5.0" };
   if (protocol) headers["sec-websocket-protocol"] = protocol;
+  // Workers can only open outbound sockets on standard ports; Photon serves WSS on 443 too.
+  target.port = "";
   const res = await fetch(target.href.replace(/^wss/, "https"), { headers });
   const up = (res as Response & { webSocket?: WS | null }).webSocket;
   if (!up) return new Response("Upstream refused", { status: 502 });

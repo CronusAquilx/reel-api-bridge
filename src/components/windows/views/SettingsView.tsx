@@ -18,6 +18,7 @@ import { ACCENTS, PALETTES, resetPrefs, setPrefs, usePrefs, type Prefs } from "@
 import { cn } from "@/lib/utils";
 import { AppearanceSettings } from "@/components/astra/AppearanceSettings";
 import { DeveloperGameSettings } from "@/components/games/DeveloperGameSettings";
+import { LiveVisitorsPanel } from "@/components/astra/LiveVisitorsPanel";
 import { useDeveloperGameAccess } from "@/lib/games/developer-games";
 
 
@@ -228,7 +229,7 @@ export function SettingsView() {
         )}
 
         {tab === "AI" && <AISettings />}
-        {tab === "Developer" && <DeveloperGameSettings />}
+        {tab === "Developer" && <div className="space-y-6"><LiveVisitorsPanel /><DeveloperGameSettings /></div>}
         </div>
       </div>
     </div>

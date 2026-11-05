@@ -313,6 +313,33 @@ export type Database = {
         }
         Relationships: []
       }
+      site_commands: {
+        Row: {
+          created_at: string
+          created_by: string
+          id: string
+          kind: string
+          message: string | null
+          target: string | null
+        }
+        Insert: {
+          created_at?: string
+          created_by?: string
+          id?: string
+          kind: string
+          message?: string | null
+          target?: string | null
+        }
+        Update: {
+          created_at?: string
+          created_by?: string
+          id?: string
+          kind?: string
+          message?: string | null
+          target?: string | null
+        }
+        Relationships: []
+      }
       social_blocks: {
         Row: {
           target_id: string

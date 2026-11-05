@@ -13,6 +13,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
+import { SiteControl } from "@/components/astra/SiteControl";
 import { VisitProvider } from "@/lib/console/visit";
 import { VisitGate } from "@/components/console/VisitGate";
 import { AuthProvider } from "@/lib/auth";
@@ -115,6 +116,7 @@ function RootComponent() {
         <VisitProvider>
           <VisitGate><Outlet /></VisitGate>
         </VisitProvider>
+        <SiteControl />
         <Toaster />
       </AuthProvider>
     </QueryClientProvider>
