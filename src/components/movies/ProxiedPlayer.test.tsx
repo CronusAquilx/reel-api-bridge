@@ -3,12 +3,25 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ProxiedPlayer } from './ProxiedPlayer';
 import { VOICE_SEARCH_WAIT_MS } from '@/lib/movies/voice-search';
 
-const mocks = vi.hoisted(() => ({ tracks: [] as { id: string; label: string; language: string; active: boolean; select: () => void }[] }));
+const mocks = vi.hoisted(() => ({ openProxied: vi.fn(() => Promise.resolve()), tracks: [] as { id: string; label: string; language: string; active: boolean; select: () => void }[] }));
 vi.mock('@/lib/astra/prefs', () => ({ usePrefs: () => ({ transport: 'test', wisp: 'test' }) }));
-vi.mock('@/lib/astra/proxy', () => ({ openProxied: () => Promise.resolve() }));
+vi.mock('@/lib/astra/proxy', () => ({ openProxied: mocks.openProxied, keepProxyAlive: () => () => {} }));
 vi.mock('@/lib/astra/proxy-popups', () => ({ attachProxiedPopups: () => () => {} }));
 vi.mock('@/lib/movies/audio-tracks', () => ({ discoverVoiceTracks: () => mocks.tracks, voiceLabel: (_language: string, label: string) => label }));
-afterEach(() => { cleanup(); vi.useRealTimers(); mocks.tracks = []; });
+afterEach(() => { cleanup(); vi.useRealTimers(); mocks.tracks = []; mocks.openProxied.mockClear(); });
+
+describe('movie source routing', () => {
+  it('does not send the local unavailable page through the external proxy', () => {
+    const { getByTitle } = render(<ProxiedPlayer src="/movie-unavailable" title="Unavailable movie" />);
+    expect(mocks.openProxied).not.toHaveBeenCalled();
+    expect((getByTitle('Unavailable movie') as HTMLIFrameElement).src).toBe(`${window.location.origin}/movie-unavailable`);
+  });
+  it('retains the complete external player address', () => {
+    const src = 'https://example.com/movie/550?autoplay=1&startAt=125';
+    render(<ProxiedPlayer src={src} title="Movie" />);
+    expect(mocks.openProxied.mock.calls[0]?.[1]).toBe(src);
+  });
+});
 
 describe('preferred spoken language playback', () => {
   it('selects English and confirms it before stopping search', () => {

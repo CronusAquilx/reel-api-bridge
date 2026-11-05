@@ -1,0 +1,17 @@
+{
+  "id": "dh-Futaba-Sakura-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Futaba-Sakura-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bd116d27-c3fe-4cb7-a7a8-872fad755780/dh-Futaba-Sakura-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668456625-1668456625-futaba-sakura-live-wallpaper.mp4",
+  "bytes": 3158320,
+  "sha256": "470e90502ebd852dae4e0fe44fc940770a4d98fa799e8f4fd3b38fd59f663e45",
+  "videoPointer": "assets/wallpapers/native/dh-Futaba-Sakura-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Futaba-Sakura-Live-Wallpaper-native.jpg.asset.json"
+}

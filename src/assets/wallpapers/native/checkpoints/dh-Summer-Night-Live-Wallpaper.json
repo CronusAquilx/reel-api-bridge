@@ -1,0 +1,17 @@
+{
+  "id": "dh-Summer-Night-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Summer-Night-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4ae3cf24-9188-4e62-acf7-e67f63a50381/dh-Summer-Night-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668458217-1668458217-summer-night-live-wallpaper.mp4",
+  "bytes": 2683418,
+  "sha256": "17398f1ad4fdad435801bb87a3c4015aca3d88fb14987963f64bf9a0e5f940df",
+  "videoPointer": "assets/wallpapers/native/dh-Summer-Night-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Summer-Night-Live-Wallpaper-native.jpg.asset.json"
+}

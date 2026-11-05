@@ -1,0 +1,17 @@
+{
+  "id": "dh-pikachu-wall-live-wallpaper",
+  "source": "https://www.desktophut.com/pikachu-wall-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/362632f6-29aa-457b-bb1c-a3068b5c638f/dh-pikachu-wall-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/GTiy5zkfZzJlmWX_pi_2_prob4.mp4",
+  "bytes": 69460833,
+  "sha256": "70245f8f910370d89cab586f6a4d464be11d0a7c9c9ae9c083d783ce03dc54d7",
+  "videoPointer": "assets/wallpapers/native/dh-pikachu-wall-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-pikachu-wall-live-wallpaper-native.jpg.asset.json"
+}

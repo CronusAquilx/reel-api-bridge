@@ -1,0 +1,17 @@
+{
+  "id": "dh-Pirate-Man-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Pirate-Man-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/16f1e1bd-3ebb-4d04-a487-0a5ed5faba36/dh-Pirate-Man-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684134860-1684134860-pirate-man-live-wallpaper.mp4",
+  "bytes": 32275845,
+  "sha256": "721656994bfb8e9f9af2c4b7aed7dda1c42ca975b970fe9fab05b937042652d2",
+  "videoPointer": "assets/wallpapers/native/dh-Pirate-Man-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Pirate-Man-Live-Wallpaper-native.jpg.asset.json"
+}

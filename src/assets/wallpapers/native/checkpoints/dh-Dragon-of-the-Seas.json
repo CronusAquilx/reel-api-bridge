@@ -1,0 +1,17 @@
+{
+  "id": "dh-Dragon-of-the-Seas",
+  "source": "https://www.desktophut.com/Dragon-of-the-Seas",
+  "previousUrls": [
+    "/__l5e/assets-v1/cec13a88-7162-45b1-9795-aaaccfd2f394/dh-Dragon-of-the-Seas.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/08rOvCU9y6xuoDL_Dragon%20-%20Lord%20of%20the%20Seas%20Live%20Wallpaper_4_192401.mp4",
+  "bytes": 45019144,
+  "sha256": "d96b129fd1e5a7a8701c0e68d186f6000a2bbdf1404a0bafedb918840dbed8f0",
+  "videoPointer": "assets/wallpapers/native/dh-Dragon-of-the-Seas-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Dragon-of-the-Seas-native.jpg.asset.json"
+}

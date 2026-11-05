@@ -1,0 +1,17 @@
+{
+  "id": "dh-Heavy-Rain-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Heavy-Rain-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/60e9a688-8581-4c13-b223-996f4c05d00c/dh-Heavy-Rain-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668456541-1668456541-heavy-rain-live-wallpaper.mp4",
+  "bytes": 3208903,
+  "sha256": "08ffaa07d3fd0fb64b6d130487ea0f6d0afebf4bdf7e2eb045fa8176c54bcc89",
+  "videoPointer": "assets/wallpapers/native/dh-Heavy-Rain-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Heavy-Rain-Live-Wallpaper-native.jpg.asset.json"
+}
