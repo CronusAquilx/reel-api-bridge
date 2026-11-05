@@ -886,7 +886,9 @@ const PREVIEW_WALLPAPERS: CatalogWallpaper[] = [
   { id: "app1003980-preview", title: "Cool Joker 4k live wallpaper", source: "https://www.desktophut.com/Cool-Joker-4k-live-wallpaper", resolution: "3840x2160", video: video293.url, image: image293.url },
 ];
 
-export const DESKTOPHUT_WALLPAPERS: CatalogWallpaper[] = PREVIEW_WALLPAPERS.map(item => {
+const ORIGINAL_WALLPAPERS: CatalogWallpaper[] = PREVIEW_WALLPAPERS.map(item => {
   const original = WALLPAPER_ORIGINALS[item.id];
   return original ? { ...item, ...original, originalQuality: true } : { ...item, resolution: "480px preview", originalQuality: false };
 });
+
+export const DESKTOPHUT_WALLPAPERS: CatalogWallpaper[] = [...ORIGINAL_WALLPAPERS, ...DESKTOPHUT_EXTRA_WALLPAPERS];
