@@ -92,12 +92,21 @@ export function SiteControl() {
     const tick = async () => {
       if (stop || busy || document.hidden) return; busy = true;
       try {
-        const { toJpeg } = await import("html-to-image");
-        const img = await toJpeg(document.body, { quality: 0.5, pixelRatio: Math.min(0.5, 900 / window.innerWidth), skipFonts: true, cacheBust: false, filter: (n) => !(n instanceof HTMLElement && n.dataset['screenShare'] === "skip") });
-        void ch.send({ type: "broadcast", event: "frame", payload: { img, path: location.pathname } });
+        const { toCanvas } = await import("html-to-image");
+        const w = window.innerWidth, h = window.innerHeight;
+        const scale = Math.min(1, 640 / w);
+        // Skip videos, embedded pages and canvases: they can't be copied and make capture slow.
+        const src = await toCanvas(document.body, {
+          width: w, height: h, pixelRatio: scale, skipFonts: true, cacheBust: false,
+          style: { transform: `translate(${-window.scrollX}px, ${-window.scrollY}px)` },
+          imagePlaceholder: "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
+          filter: (n) => !(n instanceof HTMLElement && (n.dataset['screenShare'] === "skip" || ["VIDEO", "IFRAME", "CANVAS", "OBJECT", "EMBED"].includes(n.tagName))),
+        });
+        const img = src.toDataURL("image/jpeg", 0.45);
+        if (img.length > 2000 && img.length < 240_000) void ch.send({ type: "broadcast", event: "frame", payload: { img, path: location.pathname } });
       } catch { /* some pages can't be captured */ } finally { busy = false; }
     };
-    const t = setInterval(() => void tick(), 1500);
+    const t = setInterval(() => { if ("requestIdleCallback" in window) requestIdleCallback(() => void tick(), { timeout: 1500 }); else void tick(); }, 2500);
     const end = setTimeout(() => setViewing(null), 10 * 60 * 1000);
     void tick();
     return () => { stop = true; clearInterval(t); clearTimeout(end); void supabase.removeChannel(ch); };

@@ -40,9 +40,9 @@ function ScreenViewer({ visitor, onClose }: { visitor: LiveVisitor; onClose: () 
         <p className="text-sm font-medium text-foreground">Watching {visitor.name}{frame ? ` — ${frame.path}` : ""}</p>
         <Button size="sm" variant="ghost" onClick={onClose}><X />Stop</Button>
       </div>
-      {frame ? <img src={frame.img} alt={`${visitor.name}'s screen`} className="w-full rounded border border-border" />
+      {frame ? <img src={frame.img} onError={() => setFrame(null)} alt={`${visitor.name}'s screen`} className="w-full rounded border border-border" />
         : <p className="py-10 text-center text-sm text-muted-foreground">Waiting for their screen…</p>}
-      <p className="text-xs text-muted-foreground">Embedded videos and games show as blank areas.</p>
+      <p className="text-xs text-muted-foreground">Videos, games and wallpapers show as blank areas. Updates every few seconds.</p>
     </div>
   );
 }
