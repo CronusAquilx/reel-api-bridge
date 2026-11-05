@@ -13,7 +13,7 @@ export class AstraRelayTransport {
 
   async request(remote: URL, method: string, body: BodyInit | null, headers: RawHeaders, signal: AbortSignal | undefined) {
     const { data } = await supabase.auth.getSession();
-    const token = data.session?.access_token ?? "";
+    const token = data.session?.access_token ?? "guest";
     const payload = body == null || method === "GET" || method === "HEAD" ? new Uint8Array(0) : new Uint8Array(await new Response(body).arrayBuffer());
     const meta = new TextEncoder().encode(JSON.stringify({ url: remote.href, method, headers: Array.isArray(headers) ? headers : Object.entries(headers ?? {}) }));
     const framed = new Uint8Array(4 + meta.length + payload.length);

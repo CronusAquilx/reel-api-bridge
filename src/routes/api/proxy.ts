@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { authenticateRequest } from "@/lib/astra/api-user.server";
+import { canReadGuestProxy } from "@/lib/astra/proxy-access";
 
 /**
  * Astra relay: the browser proxy engine sends each page request here and Astra's
@@ -30,7 +31,8 @@ async function authorized(request: Request) {
 }
 
 async function handle(request: Request) {
-  if (!(await authorized(request))) return new Response("Unauthorized", { status: 401 });
+  const guest = request.headers.get("authorization") === "Bearer guest";
+  if (!guest && !(await authorized(request))) return new Response("Unauthorized", { status: 401 });
   // Framed request: [4-byte meta length][JSON meta][body]. Avoids header-size limits
   // (big cookies / header lists made many page files fail to load).
   const buf = new Uint8Array(await request.arrayBuffer());
@@ -50,6 +52,7 @@ async function handle(request: Request) {
   let url: URL;
   try { url = new URL(target ?? ""); } catch { return new Response("Bad url", { status: 400 }); }
   if (!/^https?:$/.test(url.protocol) || blockedHost(url.hostname)) return new Response("Blocked url", { status: 400 });
+  if (guest && !canReadGuestProxy(request, url, method)) return new Response("Guest browsing permits public website reads only.", { status: 403 });
 
   const raw: [string, string][] = Array.isArray(meta.headers) ? meta.headers : [];
   const headers = new Headers({ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36", "accept-language": "en-US,en;q=0.9" });

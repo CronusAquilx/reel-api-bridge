@@ -1,0 +1,17 @@
+{
+  "id": "dh-happy-night",
+  "source": "https://www.desktophut.com/happy-night",
+  "previousUrls": [
+    "/__l5e/assets-v1/4bba32c6-00d0-4795-a5bc-d140d8235686/dh-happy-night.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/6fufINDvYFCryD9_JoyRide-Desktophut.mp4",
+  "bytes": 45695743,
+  "sha256": "579a453288ef9057b0e1d17d67b970458d4335d13b0abaa436f0c87d120a43a2",
+  "videoPointer": "assets/wallpapers/native/dh-happy-night-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-happy-night-native.jpg.asset.json"
+}

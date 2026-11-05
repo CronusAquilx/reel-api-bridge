@@ -1,19 +1,20 @@
 # Birchbeat import roadmap
 
 ## Current request — movie playback and remaining wallpapers
-- [ ] Repair same-origin movie playback errors and restore the movie server choices.
-- [ ] Finish native wallpaper downloads, connect successful upgrades and preserve unavailable previews.
-- [ ] Verify movie playback routing and original wallpaper selection with focused checks.
+- [x] Repair same-origin movie playback errors, restore twelve original server choices and keep guest public relay reads separate from authenticated mutations.
+- [x] Finish native wallpaper downloads: 985 originals connected, 434 native 4K-or-higher; two unavailable source videos retain previews.
+- [x] Verify routing, visible server choices and selected 3840×2160 animated wallpaper; 31 focused checks pass and preview compilation is clean.
+- [ ] Complete provider playback verification — APIPlayer rejects its connection verification; requesting-user account cannot be minted, so authenticated playback remains unverified.
 
 ## Current request — full-quality collection refresh
-- [ ] Download and host the available native originals for all 987 catalog wallpapers, without compression or artificial upscaling.
-- [ ] Update actual dimensions and saved wallpaper URL upgrades; preserve working previews for unavailable sources.
-- [ ] Run focused catalog checks and verify original-quality wallpaper selection and playback.
+- [x] Download and host all 985 available native originals out of 987 catalog wallpapers, without compression or artificial upscaling (32.47 GiB).
+- [x] Update actual dimensions, original posters and saved wallpaper URL upgrades; preserve working previews for two unavailable sources.
+- [x] Run focused catalog checks and verify original-quality wallpaper selection and playback in Settings.
 
 ## Current request — expanded wallpapers and layout chooser
 - [x] Refreshed DesktopHut wallpapers: 693 new originals added (987 total), search and genre filters live.
-- [ ] Add shared wallpaper category filters and improve specific-title search.
-- [ ] Redesign the opening layout chooser with visual previews and smooth, accessible animations.
+- [x] Add shared wallpaper category filters and improve specific-title search.
+- [x] Redesign the opening layout chooser with visual previews and smooth, accessible animations.
 - [ ] Run focused catalog checks and verify wallpaper selection plus chooser on desktop and phone.
 
 ## Current request — account personalization
