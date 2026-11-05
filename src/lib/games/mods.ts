@@ -26,10 +26,31 @@ const MODS: Record<string, GameMod[]> = {
     { id: "pstr", label: "Max player strength", prop: "map:strength", value: 10 },
     { id: "pstam", label: "Max player stamina", prop: "map:stamina", value: 10 },
   ],
+  // Retro Bowl College ships unobfuscated: savegame fields are "gml" + their save name.
+  "Retro Bowl College": [
+    { id: "credits", label: "Infinite coaching credits", prop: "gmlcoach_credit", value: 99999 },
+    { id: "roster", label: "Unlimited recruiting credits / roster", prop: "gmlrecruitment_credits_cap", value: 9999 },
+    { id: "cap", label: "Huge salary cap ($999M)", prop: "gmlsalary_cap", value: 999 },
+    { id: "fans", label: "Max fan support", prop: "gmlfans", value: 100 },
+    { id: "boss", label: "Athletic director always happy", prop: "gmlrelationship_boss", value: 100 },
+    { id: "rating", label: "Max coach rating", prop: "gmlcoach_rating", value: 20 },
+    { id: "stadium", label: "Max stadium level", prop: "gmlfacility_stadium", value: 10 },
+    { id: "training", label: "Max training facility", prop: "gmlfacility_training", value: 10 },
+    { id: "rehab", label: "Max rehab facility", prop: "gmlfacility_rehab", value: 10 },
+    { id: "qbnrg", label: "QB never tired", prop: "gmlqb_nrg", value: 100 },
+    { id: "pall", label: "Max ALL player stats", prop: "map:*", value: 10 },
+    { id: "pspeed", label: "Max player speed", prop: "map:speed", value: 10 },
+    { id: "pskill", label: "Max player skill", prop: "map:skill", value: 10 },
+    { id: "pstr", label: "Max player strength", prop: "map:strength", value: 10 },
+    { id: "pstam", label: "Max player stamina", prop: "map:stamina", value: 10 },
+  ],
 };
 
 /** Compiled ds_map_find_value name + a key only player maps have. */
-const MAP_READER: Record<string, { fn: string; probe: string }> = { "Retro Bowl": { fn: "_5n", probe: "max_skill" } };
+const MAP_READER: Record<string, { fn: string; probe: string }> = {
+  "Retro Bowl": { fn: "_5n", probe: "max_skill" },
+  "Retro Bowl College": { fn: "ds_map_find_value", probe: "max_skill" },
+};
 export const mapReaderFor = (name: string) => MAP_READER[name];
 
 export const modsFor = (name: string): GameMod[] => MODS[name] ?? [];

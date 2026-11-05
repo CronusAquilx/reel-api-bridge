@@ -57,3 +57,4 @@
 - First-account personalization edits a local draft and composes the same preview and controls as Settings; save the confirmed appearance before marking account setup complete.
 - macOS and iPad layouts share one AppleDesktop shell (variant prop) with the Windows window model and the shared DesktopAppContent app views, so all desktop-style layouts open the same apps without nested shells.
 - Store-downloadable mini apps use `tool:<id>` desktop app IDs from the shared tool catalog; installs are per-device and launchers merge them via useLauncherApps so every desktop layout lists them.
+- Arcade game pages reroute Photon multiplayer sockets through the app's /api/game-ws relay (allowlisted hosts only) so networks blocking game ports can still connect.
