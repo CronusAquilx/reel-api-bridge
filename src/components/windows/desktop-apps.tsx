@@ -3,6 +3,8 @@ import { Bot, Brain, Film, Gamepad2, Globe, Home, LayoutGrid, Mic, Music, Settin
 import { AccountOnly } from "@/components/astra/SignInRequired";
 import type { DesktopApp, WindowTab } from "@/lib/windows/window-model";
 import { StoreView } from "./views/StoreView";
+import { TOOL_APPS, toolFromApp, useInstalledTools } from "@/lib/windows/tool-apps";
+const ToolAppView = lazy(() => import("./views/ToolAppView").then(m => ({ default: m.ToolAppView })));
 
 const MusicView = lazy(() => import("./views/MusicView").then(m => ({ default: m.MusicView })));
 const MoviesView = lazy(() => import("./views/MoviesView").then(m => ({ default: m.MoviesView })));
@@ -28,8 +30,13 @@ export const DESKTOP_APPS = [
   { id: "voice", title: "Voice", icon: Mic, tone: "cyan" },
   { id: "settings", title: "Settings", icon: Settings, tone: "neutral" },
 ] as const;
-export type DesktopAppInfo = typeof DESKTOP_APPS[number];
-export const desktopAppInfo = (id: DesktopApp) => DESKTOP_APPS.find(a => a.id === id) ?? DESKTOP_APPS[0];
+export type DesktopAppInfo = { id: DesktopApp; title: string; tone: string };
+export const desktopAppInfo = (id: DesktopApp): DesktopAppInfo => { const t = toolFromApp(id); if (t) return { id, title: t.title, tone: t.tone }; return DESKTOP_APPS.find(a => a.id === id) ?? DESKTOP_APPS[0]; };
+/** Built-in apps followed by the store apps this person has downloaded. */
+export function useLauncherApps(): DesktopAppInfo[] {
+  const installed = useInstalledTools();
+  return [...DESKTOP_APPS, ...TOOL_APPS.filter(t => installed.includes(t.id)).map(t => ({ id: `tool:${t.id}` as DesktopApp, title: t.title, tone: t.tone }))];
+}
 
 /** Renders one app tab; `home` is the layout's own home screen, `children` the routed page. */
 export function DesktopAppContent({ tab, onOpen, home, children }: { tab: WindowTab; onOpen: (app: DesktopApp) => void; home: ReactNode; children?: ReactNode }) {
@@ -46,5 +53,6 @@ export function DesktopAppContent({ tab, onOpen, home, children }: { tab: Window
     case "settings": return <SettingsView/>;
     case "social": return <div className="h-full overflow-auto p-4"><SocialHub/></div>;
     case "route": return <>{children}</>;
+    default: return tab.app.startsWith("tool:") ? <ToolAppView id={tab.app.slice(5)}/> : null;
   }
 }

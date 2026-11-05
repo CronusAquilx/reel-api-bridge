@@ -14,6 +14,12 @@ interface Props {
   compact?: boolean;
 }
 
+/** Best quality usually available for a title, based on its release year. */
+export function estimatedResolution(year: string): string | null {
+  const y = Number(year); if (!y) return null;
+  return y >= 2016 ? "4K" : y >= 2006 ? "1080p" : y >= 1995 ? "720p" : "SD";
+}
+
 export default function MovieCard({ movie, index = 0, showRank, compact }: Props) {
   const prefs = usePrefs();
   const title = movie.title || movie.name || 'Untitled';
@@ -24,6 +30,7 @@ export default function MovieCard({ movie, index = 0, showRank, compact }: Props
     ? 'tv'
     : 'movie';
   const rating = movie.vote_average?.toFixed(1);
+  const resolution = estimatedResolution(year);
   const rank = (index ?? 0) + 1;
   const shortcut = prefs.layout === "windows" && prefs.console === "off" ? <Button variant="secondary" size="icon" className="absolute right-1 top-1 z-20 size-8" title="Add to desktop" aria-label={`Add ${title} to desktop`} onClick={() => { addDesktopShortcut({ id: `movie:${type}:${movie.id}`, kind: "movie", title, tmdbId: movie.id, mediaType: type, image: img(movie.poster_path) }); toast("Added to desktop"); }}><SquarePlus className="size-4"/></Button> : null;
 
@@ -88,6 +95,7 @@ export default function MovieCard({ movie, index = 0, showRank, compact }: Props
             </div>
           </div>
 
+          {resolution && <span className="absolute right-2 bottom-14 rounded bg-background/85 px-1.5 py-0.5 text-[10px] font-bold text-foreground backdrop-blur" title="Typical best available quality">{resolution}</span>}
           {year === String(new Date().getFullYear()) && (
             <div className="absolute top-2 left-2">
               <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-star text-star-foreground">NEW</span>

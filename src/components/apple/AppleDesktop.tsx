@@ -9,7 +9,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSepara
 import { useAuth, signOutAll } from "@/lib/auth";
 import { getAppearance, setAppearance, setPrefs, usePrefs } from "@/lib/astra/prefs";
 import { desktopReducer, makeWindow, type DesktopApp, type DesktopWindow, type WindowTab } from "@/lib/windows/window-model";
-import { DESKTOP_APPS, DesktopAppContent, desktopAppInfo } from "@/components/windows/desktop-apps";
+import { DesktopAppContent, desktopAppInfo, useLauncherApps } from "@/components/windows/desktop-apps";
 import { AppIcon } from "@/components/astra/AppIcon";
 import { NowPlayingBar } from "@/components/music/NowPlayingBar";
 import { RoomFollower } from "@/components/RoomFollower";
@@ -69,6 +69,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
     window.addEventListener("keydown", key); return () => window.removeEventListener("keydown", key);
   }, []);
 
+  const launcher = useLauncherApps();
   const open = (app: DesktopApp, intoWindow?: string, fresh = false) => {
     setPanel(null); setAddTo(null); setQuery("");
     if (intoWindow) { dispatch({ type: "tab", id: intoWindow, tab: tabFor(app) }); return; }
@@ -81,9 +82,9 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
   const active = state.windows.find(w => w.id === state.active && !w.minimized);
   const visible = state.windows.filter(w => !w.minimized);
   const fullApp = visible.some(w => w.mode === "maximized" || compact);
-  const results = DESKTOP_APPS.filter(a => a.id !== "home" && a.title.toLowerCase().includes(query.toLowerCase()));
+  const results = launcher.filter(a => a.id !== "home" && a.title.toLowerCase().includes(query.toLowerCase()));
   const toggleMode = (w: DesktopWindow) => patch(w.id, { mode: w.mode === "maximized" ? "normal" : "maximized" });
-  const home = <div className="h-full overflow-auto p-8"><p className="text-xs text-muted-foreground">BIRCHBLOCK</p><h1 className="mt-2 text-3xl font-semibold">Welcome, {name}</h1><div className="mt-6 grid grid-cols-3 gap-4 sm:grid-cols-5">{DESKTOP_APPS.filter(a => a.id !== "home").map(a => <Button key={a.id} variant="ghost" className="apple-grid-app" onClick={() => open(a.id)}><Tile app={a.id} size="home"/><span>{a.title}</span></Button>)}</div></div>;
+  const home = <div className="h-full overflow-auto p-8"><p className="text-xs text-muted-foreground">BIRCHBLOCK</p><h1 className="mt-2 text-3xl font-semibold">Welcome, {name}</h1><div className="mt-6 grid grid-cols-3 gap-4 sm:grid-cols-5">{launcher.filter(a => a.id !== "home").map(a => <Button key={a.id} variant="ghost" className="apple-grid-app" onClick={() => open(a.id)}><Tile app={a.id} size="home"/><span>{a.title}</span></Button>)}</div></div>;
   const clock = now ? `${now.toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" })}  ${now.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}` : "";
 
   const menu = (label: ReactNode, items: { label: string; run: () => void; disabled?: boolean }[], bold = false, aria?: string) => <DropdownMenu>
@@ -141,7 +142,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
 
     <div ref={workspace} className="relative min-h-0 flex-1" onPointerDown={e => { if (e.target === e.currentTarget) setPanel(null); }}>
       {!mac && <div className="ipad-home" aria-label="Home screen" onPointerDown={e => { if (e.target === e.currentTarget) setPanel(null); }}>
-        <div className="ipad-home-grid">{DESKTOP_APPS.filter(a => a.id !== "home").map(a => <Button key={a.id} variant="ghost" className="apple-grid-app" onClick={() => open(a.id)} aria-label={`Open ${a.title}`}><Tile app={a.id} size="home"/>{look.iconLabels !== false && <span>{a.title}</span>}</Button>)}</div>
+        <div className="ipad-home-grid">{launcher.filter(a => a.id !== "home").map(a => <Button key={a.id} variant="ghost" className="apple-grid-app" onClick={() => open(a.id)} aria-label={`Open ${a.title}`}><Tile app={a.id} size="home"/>{look.iconLabels !== false && <span>{a.title}</span>}</Button>)}</div>
       </div>}
       <DesktopWidgets onMusic={() => open("music")}/>
 
