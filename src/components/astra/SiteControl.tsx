@@ -93,7 +93,7 @@ export function SiteControl() {
       if (stop || busy || document.hidden) return; busy = true;
       try {
         const { toJpeg } = await import("html-to-image");
-        const img = await toJpeg(document.body, { quality: 0.5, pixelRatio: Math.min(0.5, 900 / window.innerWidth), skipFonts: true, cacheBust: false, filter: (n) => !(n instanceof HTMLElement && n.dataset.screenShare === "skip") });
+        const img = await toJpeg(document.body, { quality: 0.5, pixelRatio: Math.min(0.5, 900 / window.innerWidth), skipFonts: true, cacheBust: false, filter: (n) => !(n instanceof HTMLElement && n.dataset['screenShare'] === "skip") });
         void ch.send({ type: "broadcast", event: "frame", payload: { img, path: location.pathname } });
       } catch { /* some pages can't be captured */ } finally { busy = false; }
     };

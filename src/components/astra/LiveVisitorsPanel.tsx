@@ -16,11 +16,11 @@ async function send(kind: Kind, target: string | null, message?: string, quiet =
   return true;
 }
 
-async function banDevice(v: LiveVisitor) {
-  if (v.owner) return toast.error("The owner can't be banned.");
+async function banDevice(v: LiveVisitor): Promise<void> {
+  if (v.owner) { toast.error("The owner can't be banned."); return; }
   if (!confirm(`Ban ${v.name}'s device? They won't be able to use the site until unbanned.`)) return;
   const { error } = await supabase.from("banned_devices").upsert({ device_id: v.deviceId, label: v.name });
-  if (error) return toast.error("Couldn't ban that device.");
+  if (error) { toast.error("Couldn't ban that device."); return; }
   if (v.userId) await send("ban", v.userId, undefined, true);
   void broadcastBanCheck();
   toast.success(`${v.name}'s device is banned`);
