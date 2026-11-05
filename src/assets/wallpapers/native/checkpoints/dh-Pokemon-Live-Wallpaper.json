@@ -1,0 +1,17 @@
+{
+  "id": "dh-Pokemon-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Pokemon-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/83f13c14-5a4c-42bf-bcb3-15875abc4dc2/dh-Pokemon-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669392065-1669392065-pokemon-live-wallpaper.mp4",
+  "bytes": 5720058,
+  "sha256": "9b216d50b0f6edd013d26fbd07bbad305ce9ffc650c12774b0a60b79e2e59cdf",
+  "videoPointer": "assets/wallpapers/native/dh-Pokemon-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Pokemon-Live-Wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-16x9-Horizons",
+  "source": "https://www.desktophut.com/16x9-Horizons",
+  "previousUrls": [
+    "/__l5e/assets-v1/f15b59f1-9d73-4af2-9170-069ed30353e6/dh-16x9-Horizons.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673470914-1673470914-16x9-horizons.mp4",
+  "bytes": 67314234,
+  "sha256": "4cf56237c475605678583bd68afcdc806eaab41957e931a4c09f8a022013b1cc",
+  "videoPointer": "assets/wallpapers/native/dh-16x9-Horizons-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-16x9-Horizons-native.jpg.asset.json"
+}

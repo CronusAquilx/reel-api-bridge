@@ -1,0 +1,17 @@
+{
+  "id": "dh-Black-Ocean-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Black-Ocean-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a18c9324-39c4-4efa-b47a-e286ad9926e0/dh-Black-Ocean-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668457930-1668457930-black-ocean-live-wallpaper.mp4",
+  "bytes": 2803982,
+  "sha256": "7dc6f6494d3bdcd553b2d4eee728eb802c5334e17479def54587eed23cb05353",
+  "videoPointer": "assets/wallpapers/native/dh-Black-Ocean-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Black-Ocean-Live-Wallpaper-native.jpg.asset.json"
+}
