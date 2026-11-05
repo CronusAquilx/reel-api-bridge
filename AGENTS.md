@@ -20,6 +20,7 @@
 - Layout selection precedes the shared account picker on each document; account-specific device/focus setup is saved in profiles so returning users are not asked again.
 - Username accounts use normalized internal Auth email identities and optional contact email, with server-only identity resolution and rate-limited password verification; usernames never grant roles.
 - Guest mode is a session-tab flag in AuthProvider that lets the signed-in layouts render with no Auth session; nothing saves because database policies only accept signed-in users, so never give guests an anonymous Auth user.
+- The guest browser relay accepts same-origin public GET/HEAD reads only; signed-in authentication remains mandatory for proxy mutations and account data.
 - Developer sign-in is hidden: no visible entry; the account screen opens a PIN pad via a keyboard shortcut or an invisible corner button, and the PIN is checked only on the server.
 - Console media and arcade launches use router navigation to retain the current document's visit confirmation; cloud games alone open the standalone player tab.
 - Console game artwork goes through one shared resolver: the game's source thumbnail first (arcade cover, cloud site screenshot), bundled genre illustration as fallback.
