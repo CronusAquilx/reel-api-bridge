@@ -20,6 +20,7 @@ import { AppearanceSettings } from "@/components/astra/AppearanceSettings";
 import { DeveloperGameSettings } from "@/components/games/DeveloperGameSettings";
 import { LiveVisitorsPanel } from "@/components/astra/LiveVisitorsPanel";
 import { useDeveloperGameAccess } from "@/lib/games/developer-games";
+import { useStaffRole } from "@/lib/astra/staff";
 
 
 
@@ -77,7 +78,9 @@ function Choice<T extends string>({ value, options, onChange }: { value: T; opti
 export function SettingsView() {
   const p = usePrefs();
   const { user } = useAuth();
-  const { data: developer } = useDeveloperGameAccess();
+  const { data: devGames } = useDeveloperGameAccess();
+  const { data: staffRole } = useStaffRole();
+  const developer = Boolean(devGames) || Boolean(staffRole);
   const windows = p.layout === "windows" && p.console === "off";
   const [tab, setTab] = useState<TabName>(windows ? "Home" : "Layout");
   const [filter, setFilter] = useState("");
@@ -229,7 +232,7 @@ export function SettingsView() {
         )}
 
         {tab === "AI" && <AISettings />}
-        {tab === "Developer" && <div className="space-y-6"><LiveVisitorsPanel /><DeveloperGameSettings /></div>}
+        {tab === "Developer" && <div className="space-y-6"><LiveVisitorsPanel />{devGames ? <DeveloperGameSettings /> : null}</div>}
         </div>
       </div>
     </div>
