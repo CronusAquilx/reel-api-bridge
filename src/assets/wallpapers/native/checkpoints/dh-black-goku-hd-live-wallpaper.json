@@ -1,0 +1,17 @@
+{
+  "id": "dh-black-goku-hd-live-wallpaper",
+  "source": "https://www.desktophut.com/black-goku-hd-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f67fb0f4-98c7-4369-8ade-0c7351add788/dh-black-goku-hd-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/RUFw6DqL36gSTAp_BLACK%20GOKU%20HD%20Live%20Wallpaper.mp4",
+  "bytes": 54240335,
+  "sha256": "b30dac071bf39098c6eb27f9f779e48451e0291d72f0f3ee36bc24aa6f4a7328",
+  "videoPointer": "assets/wallpapers/native/dh-black-goku-hd-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-black-goku-hd-live-wallpaper-native.jpg.asset.json"
+}

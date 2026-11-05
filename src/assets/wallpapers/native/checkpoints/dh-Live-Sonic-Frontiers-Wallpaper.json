@@ -1,0 +1,17 @@
+{
+  "id": "dh-Live-Sonic-Frontiers-Wallpaper",
+  "source": "https://www.desktophut.com/Live-Sonic-Frontiers-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ca7cd1c8-5128-4bea-a0c8-0f73bc96c36d/dh-Live-Sonic-Frontiers-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668194619-1668194619-live-sonic-frontiers-wallpaper.mp4",
+  "bytes": 9784854,
+  "sha256": "3dfeb8580b424abf32ffc9ba8934aa748aca836395c82f6a69b80898a9aed360",
+  "videoPointer": "assets/wallpapers/native/dh-Live-Sonic-Frontiers-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Live-Sonic-Frontiers-Wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Oni-Samurai-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/Oni-Samurai-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8376b762-9461-4fd0-b82c-d042184c3c39/dh-Oni-Samurai-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669906288-1669906288-oni-samurai-4k-live-wallpaper.mp4",
+  "bytes": 24411286,
+  "sha256": "8efe0b4dd7ea9c080c8439197bae37bc9701b49a1bc7f1f1513312cea7a57691",
+  "videoPointer": "assets/wallpapers/native/dh-Oni-Samurai-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Oni-Samurai-4k-live-wallpaper-native.jpg.asset.json"
+}

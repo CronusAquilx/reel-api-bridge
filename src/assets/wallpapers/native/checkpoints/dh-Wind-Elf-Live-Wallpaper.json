@@ -1,0 +1,17 @@
+{
+  "id": "dh-Wind-Elf-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Wind-Elf-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/0a8af19a-5bf1-4664-b072-e3b499f7eee4/dh-Wind-Elf-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668004675-1668004675-wind-elf-live-wallpaper.mp4",
+  "bytes": 27603078,
+  "sha256": "2cc77d08b184d567a0e54390e8d0bf48abb0c6269f3950b7660c372bc11cc4e7",
+  "videoPointer": "assets/wallpapers/native/dh-Wind-Elf-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Wind-Elf-Live-Wallpaper-native.jpg.asset.json"
+}

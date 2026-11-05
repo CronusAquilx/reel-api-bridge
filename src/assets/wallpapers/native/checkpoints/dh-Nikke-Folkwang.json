@@ -1,0 +1,17 @@
+{
+  "id": "dh-Nikke-Folkwang",
+  "source": "https://www.desktophut.com/Nikke-Folkwang",
+  "previousUrls": [
+    "/__l5e/assets-v1/4a7e51a6-3f83-424d-9c43-d714a15c8384/dh-Nikke-Folkwang.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1689420831-1689420831-nikke-folkwang.mp4",
+  "bytes": 24051313,
+  "sha256": "35aa9a16528cd47d9fe62b6cc6a4bcb0d44657170be8cc0ac45e86aff6da2981",
+  "videoPointer": "assets/wallpapers/native/dh-Nikke-Folkwang-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Nikke-Folkwang-native.jpg.asset.json"
+}

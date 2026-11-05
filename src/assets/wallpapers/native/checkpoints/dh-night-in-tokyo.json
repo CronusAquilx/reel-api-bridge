@@ -1,0 +1,17 @@
+{
+  "id": "dh-night-in-tokyo",
+  "source": "https://www.desktophut.com/night-in-tokyo",
+  "previousUrls": [
+    "/__l5e/assets-v1/d4ea6082-228d-4462-a95d-ee606ce54f8e/dh-night-in-tokyo.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/3twMixsHZHPYSyq_A%20Lonely%20Night%20in%20Tokyo%20Live%20Wallpaper_1_114436.mp4",
+  "bytes": 48140613,
+  "sha256": "5451d59a5bb13e7cc6d4c261c595b6bf4455b3163fde82eaf443db1906f9e968",
+  "videoPointer": "assets/wallpapers/native/dh-night-in-tokyo-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-night-in-tokyo-native.jpg.asset.json"
+}

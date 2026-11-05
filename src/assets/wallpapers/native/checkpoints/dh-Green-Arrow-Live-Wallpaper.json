@@ -1,0 +1,17 @@
+{
+  "id": "dh-Green-Arrow-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Green-Arrow-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/cb2c419b-70f1-4c10-ae2c-30193e123c2a/dh-Green-Arrow-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684295025-1684295025-green-arrow-live-wallpaper.mp4",
+  "bytes": 39008537,
+  "sha256": "66d5b34c7b55e616c6a5426e41577588006c1f777d9f79c6cce83c1f644b458c",
+  "videoPointer": "assets/wallpapers/native/dh-Green-Arrow-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Green-Arrow-Live-Wallpaper-native.jpg.asset.json"
+}

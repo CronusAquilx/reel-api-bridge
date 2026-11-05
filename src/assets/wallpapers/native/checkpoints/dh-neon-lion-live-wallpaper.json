@@ -1,0 +1,17 @@
+{
+  "id": "dh-neon-lion-live-wallpaper",
+  "source": "https://www.desktophut.com/neon-lion-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a3b6a25e-cd5a-40d6-9fc1-b545b0cf0d43/dh-neon-lion-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1761136205.mp4",
+  "bytes": 29232481,
+  "sha256": "1065eeb6e97848a285473faf79284cfd2db24725e220df0c266f60ae5591c4f8",
+  "videoPointer": "assets/wallpapers/native/dh-neon-lion-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-neon-lion-live-wallpaper-native.jpg.asset.json"
+}

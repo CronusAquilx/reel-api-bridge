@@ -1,0 +1,17 @@
+{
+  "id": "dh-jinx-rain-pool",
+  "source": "https://www.desktophut.com/jinx-rain-pool",
+  "previousUrls": [
+    "/__l5e/assets-v1/a7dd9ab4-78f0-41b7-bd3a-b4e146c9d2cc/dh-jinx-rain-pool.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/AC0nVw88jeyqDIH_Jinx%20in%20Rain%20Live%20Wallpaper_2_184114.mp4",
+  "bytes": 39035917,
+  "sha256": "abe627a240390f69c23d6b83ce10d159db911e48ea313b96997376467e982bf1",
+  "videoPointer": "assets/wallpapers/native/dh-jinx-rain-pool-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-jinx-rain-pool-native.jpg.asset.json"
+}

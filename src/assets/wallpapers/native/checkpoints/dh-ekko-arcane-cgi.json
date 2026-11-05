@@ -1,0 +1,17 @@
+{
+  "id": "dh-ekko-arcane-cgi",
+  "source": "https://www.desktophut.com/ekko-arcane-cgi",
+  "previousUrls": [
+    "/__l5e/assets-v1/9cc6df88-3bc9-48bf-a3b6-2f7dd4940d55/dh-ekko-arcane-cgi.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/FglaC5CkFoa1hxT_Ekko%20Live%20Wallpaper_1_123542.mp4",
+  "bytes": 65066665,
+  "sha256": "cbee2fae641c48c47d955a18a48d00d06ba8fc9ce3f757bc843a0850e03f401f",
+  "videoPointer": "assets/wallpapers/native/dh-ekko-arcane-cgi-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-ekko-arcane-cgi-native.jpg.asset.json"
+}

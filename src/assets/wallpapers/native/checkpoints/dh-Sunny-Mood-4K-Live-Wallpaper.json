@@ -1,0 +1,17 @@
+{
+  "id": "dh-Sunny-Mood-4K-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Sunny-Mood-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9a82aa6a-d2e8-46ba-9c85-d67f3dbff1e5/dh-Sunny-Mood-4K-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687190232-1687190232-sunny-mood-4k-live-wallpaper.mp4",
+  "bytes": 44162528,
+  "sha256": "2bcc55841f7dda55577f9c88c07205e1da8f81747bc2e8b9bc1e4aa86ff2abe2",
+  "videoPointer": "assets/wallpapers/native/dh-Sunny-Mood-4K-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Sunny-Mood-4K-Live-Wallpaper-native.jpg.asset.json"
+}

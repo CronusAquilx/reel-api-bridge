@@ -1,0 +1,17 @@
+{
+  "id": "dh-wallpaper-4",
+  "source": "https://www.desktophut.com/星之守护者辛德拉",
+  "previousUrls": [
+    "/__l5e/assets-v1/9a352b33-3c16-465b-8b3c-2f13b0f355d7/dh-wallpaper-4.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673471663-1673471663-%E6%98%9F%E4%B9%8B%E5%AE%88%E6%8A%A4%E8%80%85%E8%BE%9B%E5%BE%B7%E6%8B%89.mp4",
+  "bytes": 92408007,
+  "sha256": "bfce09e208f68232cb46b1bb477b3898337c624101975019b0a45ac393248140",
+  "videoPointer": "assets/wallpapers/native/dh-wallpaper-4-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-wallpaper-4-native.jpg.asset.json"
+}

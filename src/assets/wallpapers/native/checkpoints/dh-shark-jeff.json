@@ -1,0 +1,17 @@
+{
+  "id": "dh-shark-jeff",
+  "source": "https://www.desktophut.com/shark-jeff",
+  "previousUrls": [
+    "/__l5e/assets-v1/d2528270-b977-4926-b327-e4a784c7d1b5/dh-shark-jeff.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/8KHJCK8Zn4kAYcO_Shark%20Heff%20Marvel%20Rivals_2_prob4.mp4",
+  "bytes": 204436077,
+  "sha256": "7eef17ef5f3a4d62541673a10af529425423aa0c9bad1a0bee77436bccb92762",
+  "videoPointer": "assets/wallpapers/native/dh-shark-jeff-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-shark-jeff-native.jpg.asset.json"
+}

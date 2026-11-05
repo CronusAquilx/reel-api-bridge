@@ -1,0 +1,17 @@
+{
+  "id": "dh-nike-gojo",
+  "source": "https://www.desktophut.com/nike-gojo",
+  "previousUrls": [
+    "/__l5e/assets-v1/435ee926-4b4e-4860-96ae-31a34875ce3d/dh-nike-gojo.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/FncDSJM0iJydodT_Nike%20Gojo_1_1_112803.mp4",
+  "bytes": 25938010,
+  "sha256": "eff4a86060b99a3f6fac41b03e5f20b06b3bd6a7348973ca13d07a8975d15f8c",
+  "videoPointer": "assets/wallpapers/native/dh-nike-gojo-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-nike-gojo-native.jpg.asset.json"
+}

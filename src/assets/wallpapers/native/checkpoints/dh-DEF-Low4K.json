@@ -1,0 +1,17 @@
+{
+  "id": "dh-DEF-Low4K",
+  "source": "https://www.desktophut.com/DEF-Low4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/8dadcd5c-dbbf-4dbf-b6de-ceb282a371bc/dh-DEF-Low4K.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673739990-1673739990-def-low4k.mp4",
+  "bytes": 10871578,
+  "sha256": "33ffffb2b36b8ab216a322bcd9f5c47e8915e52ffecbae28f0cc5412481e3eab",
+  "videoPointer": "assets/wallpapers/native/dh-DEF-Low4K-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-DEF-Low4K-native.jpg.asset.json"
+}

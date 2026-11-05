@@ -1,0 +1,17 @@
+{
+  "id": "dh-Nebula-007-Lively-Wallpaper",
+  "source": "https://www.desktophut.com/Nebula-007-Lively-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ff6066bb-0db5-4fbc-ac81-3c6f41e10b41/dh-Nebula-007-Lively-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1658833442-1658833442-nebula-007-lively-wallpaper.mp4",
+  "bytes": 58033061,
+  "sha256": "8fff0fd66bf1d678631075d23fe3a71ce23841c31c284a4d28089f562c3a915b",
+  "videoPointer": "assets/wallpapers/native/dh-Nebula-007-Lively-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Nebula-007-Lively-Wallpaper-native.jpg.asset.json"
+}

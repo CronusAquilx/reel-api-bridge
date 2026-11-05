@@ -1,0 +1,17 @@
+{
+  "id": "dh-Burning-City-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Burning-City-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5a0238a2-de5a-4eff-8418-6b4bc9bd0ef5/dh-Burning-City-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668458303-1668458303-burning-city-live-wallpaper.mp4",
+  "bytes": 2651013,
+  "sha256": "8269d3c42e14f6c8e957bdd12a796fb5690912d456925ff1a5e5e1a3935a0313",
+  "videoPointer": "assets/wallpapers/native/dh-Burning-City-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Burning-City-Live-Wallpaper-native.jpg.asset.json"
+}

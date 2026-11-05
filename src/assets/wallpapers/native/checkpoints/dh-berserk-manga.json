@@ -1,0 +1,17 @@
+{
+  "id": "dh-berserk-manga",
+  "source": "https://www.desktophut.com/berserk-manga",
+  "previousUrls": [
+    "/__l5e/assets-v1/2fe48d3d-08a4-4598-a280-22e7d311a7a5/dh-berserk-manga.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/VcdnfaeVS1x0xxC_Berserk-Eclipse-4K_1_1_091116_3_091425.mp4",
+  "bytes": 24905720,
+  "sha256": "b882e3e405ce0f14b2481d44fe7830d95ac0834a26109d6d34a6d68d199d8893",
+  "videoPointer": "assets/wallpapers/native/dh-berserk-manga-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-berserk-manga-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-princess-zelda-live-wallpaper",
+  "source": "https://www.desktophut.com/princess-zelda-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/85ed0da0-0b70-46fd-920a-c3dec96c9720/dh-princess-zelda-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/PPYKe7MnYuc2uTe_Princess%20Zelda%20Live%20Wallpaper.mp4",
+  "bytes": 16964707,
+  "sha256": "b8cb5eea3147e9578edb94ccf64f1c6a49c6949f412e0c70ac1ba932aa7d37f4",
+  "videoPointer": "assets/wallpapers/native/dh-princess-zelda-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-princess-zelda-live-wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-The-Callisto-Protocol-Live-Wallpaper",
+  "source": "https://www.desktophut.com/The-Callisto-Protocol-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/46bfc5a0-5d59-4f67-ae6a-7ced7264cf3f/dh-The-Callisto-Protocol-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1660724338-1660724338-the-callisto-protocol-live-wallpaper.mp4",
+  "bytes": 75953839,
+  "sha256": "4ba6ad73d5f45bf63ee65f6d3841f778aaa1dc275d51be587e0faf71ea835cbe",
+  "videoPointer": "assets/wallpapers/native/dh-The-Callisto-Protocol-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-The-Callisto-Protocol-Live-Wallpaper-native.jpg.asset.json"
+}

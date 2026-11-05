@@ -1,0 +1,17 @@
+{
+  "id": "dh-sanctum-tower",
+  "source": "https://www.desktophut.com/sanctum-tower",
+  "previousUrls": [
+    "/__l5e/assets-v1/17d2e0c5-a199-4324-abaa-c2dbbbf088f4/dh-sanctum-tower.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1TJdFlmayo8QZTr_BlueArchive_SacntumTower_WithouBlackBar_4_115709.mp4",
+  "bytes": 53277065,
+  "sha256": "b821d8dda1cce690b5612bb3e14382451edd272e682b1ae88b467af1589852a3",
+  "videoPointer": "assets/wallpapers/native/dh-sanctum-tower-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-sanctum-tower-native.jpg.asset.json"
+}

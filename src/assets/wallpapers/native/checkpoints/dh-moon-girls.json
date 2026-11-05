@@ -1,0 +1,17 @@
+{
+  "id": "dh-moon-girls",
+  "source": "https://www.desktophut.com/moon-girls",
+  "previousUrls": [
+    "/__l5e/assets-v1/00cdff58-da6e-48d2-a902-2dc3e912cc0f/dh-moon-girls.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/tzDVsn4itKnWhJ3_Moon%20Girls%20Live%20Wallpaper_2_130813.mp4",
+  "bytes": 36380892,
+  "sha256": "7387e1240fa00ae70c165384a2f54d2824bbbef24be6fd9aa929019e120e95b5",
+  "videoPointer": "assets/wallpapers/native/dh-moon-girls-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-moon-girls-native.jpg.asset.json"
+}
