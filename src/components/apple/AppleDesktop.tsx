@@ -88,7 +88,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
 
   const menu = (label: ReactNode, items: { label: string; run: () => void; disabled?: boolean }[], bold = false, aria?: string) => <DropdownMenu>
     <DropdownMenuTrigger asChild><Button variant="ghost" size="sm" aria-label={aria} className={cn("apple-menu-button", bold && "font-semibold")}>{label}</Button></DropdownMenuTrigger>
-    <DropdownMenuContent align="start" className="apple-menu min-w-52">{items.map((i, n) => i.label === "-" ? <DropdownMenuSeparator key={`sep-${n}`}/> : <DropdownMenuItem key={`${n}-${i.label}`} disabled={i.disabled} onSelect={i.run}>{i.label}</DropdownMenuItem>)}</DropdownMenuContent>
+    <DropdownMenuContent align="start" className="apple-menu min-w-52">{items.map((i, n) => i.label === "-" ? <DropdownMenuSeparator key={`sep-${n}`}/> : <DropdownMenuItem key={`${n}-${i.label}`} disabled={Boolean(i.disabled)} onSelect={i.run}>{i.label}</DropdownMenuItem>)}</DropdownMenuContent>
   </DropdownMenu>;
 
   return <div data-apple={variant} data-full-window={fullApp} className="apple-desktop fixed inset-0 flex flex-col overflow-hidden bg-background text-foreground">
@@ -190,7 +190,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
           <Button variant="ghost" className="apple-cc-tile" onClick={() => void document.documentElement.requestFullscreen().catch(() => {})}><Maximize2/><span>Full screen</span></Button>
           <Button variant="ghost" className="apple-cc-tile" onClick={() => setPanel(mac ? "launchpad" : "switcher")}><LayoutGrid/><span>{mac ? "Launchpad" : "App switcher"}</span></Button>
         </div>
-        <div className="apple-cc-slider mt-3"><p>Display</p><div className="flex items-center gap-3"><Sun className="size-4 opacity-70"/><Slider aria-label="Display brightness" min={50} max={130} step={5} value={[look.brightness ?? 100]} onValueChange={([v]) => setAppearance(variant, { brightness: v })}/></div></div>
+        <div className="apple-cc-slider mt-3"><p>Display</p><div className="flex items-center gap-3"><Sun className="size-4 opacity-70"/><Slider aria-label="Display brightness" min={50} max={130} step={5} value={[look.brightness ?? 100]} onValueChange={([v]) => setAppearance(variant, { brightness: v ?? 100 })}/></div></div>
         <Button variant="ghost" className="mt-3 w-full justify-start" onClick={() => open("settings")}><Settings/>All settings</Button>
       </section>}
     </div>
