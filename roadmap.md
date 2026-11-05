@@ -1,5 +1,10 @@
 # Birchbeat import roadmap
 
+## Current request — movie playback and remaining wallpapers
+- [ ] Repair same-origin movie playback errors and restore the movie server choices.
+- [ ] Finish native wallpaper downloads, connect successful upgrades and preserve unavailable previews.
+- [ ] Verify movie playback routing and original wallpaper selection with focused checks.
+
 ## Current request — full-quality collection refresh
 - [ ] Download and host the available native originals for all 987 catalog wallpapers, without compression or artificial upscaling.
 - [ ] Update actual dimensions and saved wallpaper URL upgrades; preserve working previews for unavailable sources.
