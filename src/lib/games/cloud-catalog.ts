@@ -1,0 +1,37 @@
+import { AAA_GAMES } from "./aaa";
+
+/** Cloud gaming services: big games (GTA V, Call of Duty, Fortnite) stream from their servers. */
+export const CLOUD_GAMES = [
+  ...AAA_GAMES,
+  { name: "XO Beta", url: "https://xo-beta-full.vercel.app/" },
+  { name: "Rift Arena", url: "https://rift-arena-eight.vercel.app/" },
+  { name: "EMX Freebuild (browser simulator)", url: "https://freebuild.emxtweaks.com/" },
+  { name: "Fortnite Season 1 — Retrora (community port)", url: "https://retrora.lol/" },
+  { name: "Fortnite — Xbox Cloud (official)", url: "https://www.xbox.com/play/games/fortnite/BT5P2X999VH2" },
+  { name: "Fortnite — GeForce NOW (official)", url: "https://play.geforcenow.com/" },
+  { name: "Xbox Cloud (GTA V, COD)", url: "https://www.xbox.com/play" },
+  { name: "GeForce NOW", url: "https://play.geforcenow.com/" },
+  { name: "now.gg", url: "https://now.gg/" },
+  { name: "EasyFun", url: "https://www.easyfun.gg/" },
+  { name: "Boosteroid", url: "https://cloud.boosteroid.com/" },
+  { name: "Amazon Luna", url: "https://luna.amazon.com/" },
+  { name: "Krunker", url: "https://krunker.io/" },
+  { name: "Shell Shockers", url: "https://shellshock.io/" },
+  { name: "Venge.io", url: "https://venge.io/" },
+  { name: "Smash Karts", url: "https://smashkarts.io/" },
+  { name: "Bloxd.io", url: "https://bloxd.io/" },
+  { name: "Minecraft Classic", url: "https://classic.minecraft.net/" },
+  { name: "Eaglercraft", url: "https://eaglercraft.com/" },
+  { name: "Slither.io", url: "https://slither.io/" },
+  { name: "Agar.io", url: "https://agar.io/" },
+  { name: "Diep.io", url: "https://diep.io/" },
+  { name: "Zombs Royale", url: "https://zombsroyale.io/" },
+  { name: "Ev.io", url: "https://ev.io/" },
+  { name: "Kirka.io", url: "https://kirka.io/" },
+  { name: "BuildNow GG", url: "https://www.crazygames.com/game/buildnow-gg" },
+  { name: "Doom (js-dos)", url: "https://dos.zone/doom-dec-1993/" },
+  { name: "Quake (WebQuake)", url: "https://www.netquake.io/" },
+  { name: "Polytrack", url: "https://www.kodub.com/apps/polytrack" },
+  { name: "Drift Hunters", url: "https://drift-hunters.co/" },
+] as const;
+
