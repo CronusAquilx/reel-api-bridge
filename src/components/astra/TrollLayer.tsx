@@ -65,7 +65,7 @@ function beep(ctx: AudioContext) {
   o.start(); o.stop(ctx.currentTime + 0.15 + Math.random() * 0.2);
 }
 
-type Pop = { id: number; x: number; y: number; ad: string; video?: string };
+type Pop = { id: number; x: number; y: number; ad: string; video?: string | undefined };
 
 function Virus() {
   const [pops, setPops] = useState<Pop[]>([]);
