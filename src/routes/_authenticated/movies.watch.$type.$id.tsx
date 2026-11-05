@@ -43,7 +43,7 @@ function Watch() {
   const isTV = type === "tv";
   const playerRef = useRef<HTMLDivElement>(null);
   const [school] = useState(() => localStorage.getItem("astra-watch-mode") === "school");
-  const [server, setServerRaw] = useState(() => { if (localStorage.getItem("astra-watch-mode") === "school") return "free"; const saved = localStorage.getItem("astra-movie-server"); return saved && STREAMING_SERVERS.some((x) => x.id === saved) ? saved : STREAMING_SERVERS[0]?.id ?? ""; });
+  const [server, setServerRaw] = useState(() => { if (localStorage.getItem("astra-watch-mode") === "school") return "apiplayer"; const saved = localStorage.getItem("astra-movie-server"); return saved && STREAMING_SERVERS.some((x) => x.id === saved) ? saved : STREAMING_SERVERS[0]?.id ?? ""; });
   const setServer = (v: string) => { if (!school) setServerRaw(v); };
   const [loaded, setLoaded] = useState(false);
   const triedRef = useRef<Set<string>>(new Set());
@@ -69,22 +69,22 @@ function Watch() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [downloadsOpen, setDownloadsOpen] = useState(false);
   const [caption, setCaption] = useState(() => localStorage.getItem("astra-caption-language") || "off");
-  const [category, setCategory] = useState<ServerCategory | "all">(() => (localStorage.getItem("astra-server-category") as ServerCategory | "all") || "new");
+  const [category, setCategory] = useState<ServerCategory | "all">("all");
   const movie = useMovieDetail(isTV ? 0 : n);
   const tv = useTVDetail(isTV ? n : 0);
   const d = isTV ? tv.data : movie.data;
   const isAnime = supportsAnimationSources(d);
   const history = useWatchHistory();
   const room = useRoom("movies");
-  const voiceSources = school ? STREAMING_SERVERS.filter(source => source.id === 'free') : [...(isAnime && animeId ? [{ id: 'free' }] : []), ...(isAnime && anilistId ? [{ id: 'anime-icu' }] : []), ...STREAMING_SERVERS];
+  const voiceSources = school ? STREAMING_SERVERS.filter(source => source.id === 'apiplayer') : [...(isAnime && animeId ? [{ id: 'anime-vidlink' }] : []), ...(isAnime && anilistId ? [{ id: 'anime-icu' }] : []), ...STREAMING_SERVERS];
   function chooseVoice(value: string) {
     setManualSource(false);
     setVoiceAttempt(attempt => attempt + 1);
     setVoice(value);
     voiceTried.current = new Set();
     setVoiceStatus(value === 'auto' ? 'idle' : 'searching');
-    if (value !== 'auto' && !school && isAnime && animeId) setServerRaw('free');
-    if (value === 'auto' && server.startsWith('anime-')) setServerRaw('free');
+    if (value !== 'auto' && !school && isAnime && animeId) setServerRaw('anime-vidlink');
+    if (value === 'auto' && server.startsWith('anime-')) setServerRaw(STREAMING_SERVERS[0]?.id ?? "");
   }
   function voiceResult(found: boolean) {
     if (voice === 'auto' || manualSource || voiceStatus !== 'searching') return;
@@ -228,9 +228,9 @@ function Watch() {
   const seasons = tv.data?.seasons?.filter((x) => x.season_number > 0) ?? [];
   const epCount = seasons.find((x) => x.season_number === season)?.episode_count ?? 1;
   const filteredServers = category === "all" ? STREAMING_SERVERS : STREAMING_SERVERS.filter((item) => item.category === category);
-  const usingAnimeSource = server === 'free' && animeId !== null && voice !== 'auto';
+  const usingAnimeSource = server === 'anime-vidlink' && animeId !== null && voice !== 'auto';
   const usingIcuAnime = server === 'anime-icu' && anilistId !== null && voice !== 'auto';
-  const usingAnikoto = server === 'free';
+  const usingAnikoto = server === 'anikoto';
   const sourceName = usingAnikoto ? 'Anikoto' : usingAnimeSource ? 'VidLink Anime' : usingIcuAnime ? 'VidSrc.icu Anime' : s.name;
   const baseUrl = usingAnikoto ? anikotoSearchUrl(d?.title || d?.name || '') : usingAnimeSource ? animeVoiceUrl(animeId, episode, voice === 'en' ? 'en' : 'ja') : usingIcuAnime ? animeIcuVoiceUrl(anilistId, episode, voice === 'en' ? 'en' : 'ja') : s.url(n, type, isTV ? season : undefined, isTV ? episode : undefined);
   const directUrl = `${baseUrl}${baseUrl.includes("?") ? "&" : "?"}autoplay=1${caption !== "off" ? `&sub_lang=${caption}` : ""}${startAt ? `&startAt=${startAt}&progress=${startAt}&t=${startAt}&start=${startAt}` : ""}`;
@@ -275,12 +275,12 @@ function Watch() {
             {voiceStatus === 'missing' && <Button variant="outline" size="sm" onClick={() => { chooseVoice(voice); setServerRaw(voiceSources[0]?.id ?? server); }}>Retry language search</Button>}
             {isAnime && !school && <>
               {animeLookup === 'loading' && <p className="text-xs text-muted-foreground">Finding dedicated anime sources…</p>}
-              {animeMatches.length > 0 && <Select value={animeId ? String(animeId) : ''} onValueChange={value => { setAnimeId(Number(value)); voiceTried.current = new Set(); setVoiceStatus('searching'); setServerRaw('free'); }}><SelectTrigger aria-label="Confirm anime series for dub"><SelectValue placeholder="Choose matching anime series / season" /></SelectTrigger><SelectContent>{animeMatches.map(match => <SelectItem key={match.id} value={String(match.id)}>{match.title}{match.episodes ? ` · ${match.episodes} episodes` : ''}</SelectItem>)}</SelectContent></Select>}
+              {animeMatches.length > 0 && <Select value={animeId ? String(animeId) : ''} onValueChange={value => { setAnimeId(Number(value)); voiceTried.current = new Set(); setVoiceStatus('searching'); setServerRaw('anime-vidlink'); }}><SelectTrigger aria-label="Confirm anime series for dub"><SelectValue placeholder="Choose matching anime series / season" /></SelectTrigger><SelectContent>{animeMatches.map(match => <SelectItem key={match.id} value={String(match.id)}>{match.title}{match.episodes ? ` · ${match.episodes} episodes` : ''}</SelectItem>)}</SelectContent></Select>}
               {(animeLookup === 'error' || (animeLookup === 'ready' && !animeMatches.length)) && <p className="text-xs text-muted-foreground">Dedicated anime lookup unavailable; checking regular sources.</p>}
             </>}
           </div>}
           {isAnime && !school && <div className="mt-3 flex flex-wrap gap-2">
-            <Button variant="outline" size="sm" onClick={() => { setManualSource(true); setServerRaw('free'); }}>Anikoto</Button>
+            <Button variant="outline" size="sm" onClick={() => { setManualSource(true); setServerRaw('anikoto'); }}>Anikoto</Button>
             {n === 663558 && !isTV && <Button asChild variant="outline" size="sm"><a href="https://www.netflix.com/title/81418302" target="_blank" rel="noopener noreferrer">English on Netflix · subscription required</a></Button>}
           </div>}
           <div className="mt-3 flex flex-wrap gap-2">
@@ -321,8 +321,8 @@ function Watch() {
               <Button type="button" variant="outline" size="sm" onClick={tryNextServer}><RefreshCw />Try next</Button>
             </div>
             <div className="mt-3 grid gap-2 sm:grid-cols-[14rem_minmax(0,1fr)]">
-              <Select value={category} onValueChange={(value) => setCategory(value as ServerCategory | "all")}><SelectTrigger><SelectValue /></SelectTrigger><SelectContent><SelectItem value="all">All categories</SelectItem>{SERVER_CATEGORIES.map((item) => <SelectItem key={item.id} value={item.id}>{item.name}</SelectItem>)}</SelectContent></Select>
-              <Select value={server} onValueChange={value => { setManualSource(true); setServer(value); }}><SelectTrigger><SelectValue /></SelectTrigger><SelectContent>{filteredServers.map((item) => <SelectItem key={item.id} value={item.id}>{item.name}</SelectItem>)}{isAnime && <SelectItem value="anikoto">Anikoto</SelectItem>}</SelectContent></Select>
+              <Select value={category} onValueChange={(value) => setCategory(value as ServerCategory | "all")}><SelectTrigger aria-label="Server category"><SelectValue /></SelectTrigger><SelectContent><SelectItem value="all">All categories</SelectItem>{SERVER_CATEGORIES.map((item) => <SelectItem key={item.id} value={item.id}>{item.name}</SelectItem>)}</SelectContent></Select>
+              <Select value={server} onValueChange={value => { setManualSource(true); setServer(value); }}><SelectTrigger aria-label="Streaming server"><SelectValue /></SelectTrigger><SelectContent>{filteredServers.map((item) => <SelectItem key={item.id} value={item.id}>{item.name}</SelectItem>)}{isAnime && <SelectItem value="anikoto">Anikoto</SelectItem>}</SelectContent></Select>
             </div>
           </section>}
         </>}

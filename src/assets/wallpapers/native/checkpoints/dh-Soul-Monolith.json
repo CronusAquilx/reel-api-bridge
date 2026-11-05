@@ -1,0 +1,17 @@
+{
+  "id": "dh-Soul-Monolith",
+  "source": "https://www.desktophut.com/Soul-Monolith",
+  "previousUrls": [
+    "/__l5e/assets-v1/e48c05db-87f0-4078-97d9-37aa93971fe0/dh-Soul-Monolith.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/6ZLgJEEZ1FqREVB_Soul%20Monolith%20Live%20Wallpaper.mp4",
+  "bytes": 27886293,
+  "sha256": "b5958f9e663c00ed6cb717787931a52be5d0848cbfb2778da25ef17981ff28ea",
+  "videoPointer": "assets/wallpapers/native/dh-Soul-Monolith-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Soul-Monolith-native.jpg.asset.json"
+}
