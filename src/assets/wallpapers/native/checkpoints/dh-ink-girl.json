@@ -1,0 +1,17 @@
+{
+  "id": "dh-ink-girl",
+  "source": "https://www.desktophut.com/ink-girl",
+  "previousUrls": [
+    "/__l5e/assets-v1/2ef524a6-08b1-41b7-925b-f9d384190e48/dh-ink-girl.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/FOpbilFG2b4StQK_Ink-Splatter-4K_10_093011.mp4",
+  "bytes": 30293880,
+  "sha256": "f2091f45e63bb11944a3320f3167e0d525779bd3ad9e686498ab23416228b856",
+  "videoPointer": "assets/wallpapers/native/dh-ink-girl-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-ink-girl-native.jpg.asset.json"
+}
