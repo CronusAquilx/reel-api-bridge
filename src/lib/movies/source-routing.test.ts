@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-vi.mock("@/integrations/supabase/client", () => ({ supabase: {} }));
+vi.mock("@/integrations/supabase/client", () => ({ supabase: { auth: { getSession: async () => ({ data: { session: null } }), onAuthStateChange: () => ({}) } } }));
 import { STREAMING_SERVERS } from "./tmdb";
 import { anikotoSearchUrl, animeIcuVoiceUrl, animeVoiceUrl } from "./anime-sources";
 
