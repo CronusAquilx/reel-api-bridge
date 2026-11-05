@@ -1,0 +1,18 @@
+{
+  "id": "app1010397-preview",
+  "source": "https://www.desktophut.com/4K-Japanese-House-On-A-Sunny-Day-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/320a2a5e-79cb-4214-a2ff-408a7a0c99c6/app1010397-preview.mp4",
+    "/__l5e/assets-v1/086df60b-1c8e-4ce9-8f92-04237ac22fbf/app1010397-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877662-1654877662-4k-japanese-house-on-a-sunny-day-live-wallpaper-for-pc.mp4",
+  "bytes": 74092578,
+  "sha256": "48cf5b0a8b0ed252874787400d2302792457aaf7c480a279812a725078edf18f",
+  "videoPointer": "assets/wallpapers/native/app1010397-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010397-preview-native.jpg.asset.json"
+}

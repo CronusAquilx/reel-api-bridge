@@ -1,0 +1,18 @@
+{
+  "id": "app1056619-preview",
+  "source": "https://www.desktophut.com/Cherry-Blossoms-Girl-Live-Wallpaper-Anime-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/6664c838-7115-43fb-b148-9d547d26b6e0/app1056619-preview.mp4",
+    "/__l5e/assets-v1/4f852e5b-fe2e-49a8-afa5-532bb2f8c6c3/app1056619-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "5120x2880",
+  "width": 5120,
+  "height": 2880,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885466-1657885466-cherry-blossoms-girl-live-wallpaper-anime-4k.mp4",
+  "bytes": 198635067,
+  "sha256": "b5f38e3cf08585ed61dced843e2d08dc5ba6f75a99cd36953635246796d9af00",
+  "videoPointer": "assets/wallpapers/native/app1056619-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056619-preview-native.jpg.asset.json"
+}

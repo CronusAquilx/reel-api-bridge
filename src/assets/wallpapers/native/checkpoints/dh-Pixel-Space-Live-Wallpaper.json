@@ -1,0 +1,17 @@
+{
+  "id": "dh-Pixel-Space-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Pixel-Space-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e66a903a-bb59-4f2e-a3f6-1a13c6e1dcd8/dh-Pixel-Space-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657792771-1657792771-pixel-space-live-wallpaper.mp4",
+  "bytes": 11052041,
+  "sha256": "045851fad05182cb947cf134eeb10c7d1fdc4d5e829a8fb555a28a902f33ae4c",
+  "videoPointer": "assets/wallpapers/native/dh-Pixel-Space-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Pixel-Space-Live-Wallpaper-native.jpg.asset.json"
+}

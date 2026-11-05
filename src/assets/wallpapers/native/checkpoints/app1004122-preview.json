@@ -1,0 +1,18 @@
+{
+  "id": "app1004122-preview",
+  "source": "https://www.desktophut.com/Cool-Sasuke-Uchiha-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/94c32503-e1d1-4d63-85fa-3686b40a118a/app1004122-preview.mp4",
+    "/__l5e/assets-v1/c7a5f073-eaf3-4971-a55a-c43c0931758d/app1004122-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Sasuke%20Uchiha%204K%20Live%20Wallpaper.mp4",
+  "bytes": 21684650,
+  "sha256": "f1389dc2c73f9bf67bd983f75b734d5e3e17d4e8231f18145d611d713cdcd1df",
+  "videoPointer": "assets/wallpapers/native/app1004122-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004122-preview-native.jpg.asset.json"
+}

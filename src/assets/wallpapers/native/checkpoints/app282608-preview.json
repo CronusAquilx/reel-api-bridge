@@ -1,0 +1,18 @@
+{
+  "id": "app282608-preview",
+  "source": "https://www.desktophut.com/Galaxy-4K-Animation-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6c34e619-85f4-4d0c-b262-b387667ebfb2/app282608-preview.mp4",
+    "/__l5e/assets-v1/6a005725-019b-45f8-bce7-6dfec0d0fbe0/app282608-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Galaxy%204K%20Animation%20Live%20Wallpaper.mp4",
+  "bytes": 105530923,
+  "sha256": "3398c88ce72bdd9eb56a729fb8cae28a2500787679861378c8bad794de9f89f7",
+  "videoPointer": "assets/wallpapers/native/app282608-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app282608-preview-native.jpg.asset.json"
+}

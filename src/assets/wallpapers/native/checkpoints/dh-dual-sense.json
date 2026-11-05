@@ -1,0 +1,17 @@
+{
+  "id": "dh-dual-sense",
+  "source": "https://www.desktophut.com/dual-sense",
+  "previousUrls": [
+    "/__l5e/assets-v1/c670d885-eb47-458d-993f-08d8397f2727/dh-dual-sense.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674102898-1674102898-dual-sense.mp4",
+  "bytes": 15071178,
+  "sha256": "925b1956193e9fa872507133a394185e2c4724ee7e5106d06c9bdac1c75d8680",
+  "videoPointer": "assets/wallpapers/native/dh-dual-sense-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-dual-sense-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1000779-preview",
+  "source": "https://www.desktophut.com/Anime-Dragon-Ball-Beast-Mode-Goku-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/55a4c313-ff59-4053-ab2f-aa602ed8ab53/app1000779-preview.mp4",
+    "/__l5e/assets-v1/863237b1-4218-4aad-bb73-4e71f107cd57/app1000779-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Anime%20Dragon%20Ball%20Beast%20Mode%20Goku%204K%20Live%20Wallpaper.mp4",
+  "bytes": 23472335,
+  "sha256": "2e42c77c57122233f79bfad10cce712bf733665acdf54d738211e92b0c700c43",
+  "videoPointer": "assets/wallpapers/native/app1000779-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000779-preview-native.jpg.asset.json"
+}

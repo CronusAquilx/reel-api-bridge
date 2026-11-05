@@ -1,0 +1,17 @@
+{
+  "id": "dh-Owl-Head-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Owl-Head-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1758bf56-0c19-46f4-8579-af727787a31f/dh-Owl-Head-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668457671-1668457671-owl-head-live-wallpaper.mp4",
+  "bytes": 2946561,
+  "sha256": "1987babf2255ceae76101712aeca81cc04f301c80d20f91cd8cf5a4736847d46",
+  "videoPointer": "assets/wallpapers/native/dh-Owl-Head-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Owl-Head-Live-Wallpaper-native.jpg.asset.json"
+}

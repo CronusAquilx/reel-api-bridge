@@ -1,0 +1,17 @@
+{
+  "id": "dh-Sea-Wave-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/Sea-Wave-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f1e78b26-42b3-4849-adaa-eea9afe7b0dd/dh-Sea-Wave-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669906205-1669906205-sea-wave-4k-live-wallpaper.mp4",
+  "bytes": 25452684,
+  "sha256": "f1efd4a7740a4d4d3efe60e8a7e9edf2b5ad8e2354b7be609f549f2e92b8dadb",
+  "videoPointer": "assets/wallpapers/native/dh-Sea-Wave-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Sea-Wave-4k-live-wallpaper-native.jpg.asset.json"
+}

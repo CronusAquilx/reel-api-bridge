@@ -1,0 +1,18 @@
+{
+  "id": "app1010414-preview",
+  "source": "https://www.desktophut.com/4K-Nezuko-Kamado-Demon-Slayer-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/a32e1679-9c18-4270-9de4-3e3ef0d3e23f/app1010414-preview.mp4",
+    "/__l5e/assets-v1/38f3b2b1-6f89-4115-a723-d39b73f49e0a/app1010414-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877799-1654877799-4k-nezuko-kamado-demon-slayer-live-wallpaper-for-pc.mp4",
+  "bytes": 56878853,
+  "sha256": "ce47740599fc85637ee8d699fc475d2fcdcdb00b4340dda561cf10d546eb2b31",
+  "videoPointer": "assets/wallpapers/native/app1010414-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010414-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073115-preview",
+  "source": "https://www.desktophut.com/4K-Fly-Outer-Space-Live-Wallpapers",
+  "previousUrls": [
+    "/__l5e/assets-v1/0809c2bc-8662-4128-8fe4-705be77125c4/app1073115-preview.mp4",
+    "/__l5e/assets-v1/a81e7fe4-30cd-4fd1-8e4e-b91e8971c746/app1073115-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1683983843-1683983843-4k-fly-outer-space-live-wallpapers.mp4",
+  "bytes": 6759646,
+  "sha256": "90e6a8ba829992694b08eac04abf1fbfd25002beceda3b77677a22ea9df299a4",
+  "videoPointer": "assets/wallpapers/native/app1073115-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073115-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073302-preview",
+  "source": "https://www.desktophut.com/Cute-Ai-Hoshino-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/839ddf61-bf44-45fd-a46a-4e281d7b60c0/app1073302-preview.mp4",
+    "/__l5e/assets-v1/dca65b4a-0922-418e-82fe-18544b67bcea/app1073302-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1685176927-1685176927-cute-ai-hoshino-4k-live-wallpaper.mp4",
+  "bytes": 22547245,
+  "sha256": "3d8ba52616de549724bf343931692de40dabc1e8b1a2b7c9697d14f17ee4c40a",
+  "videoPointer": "assets/wallpapers/native/app1073302-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073302-preview-native.jpg.asset.json"
+}

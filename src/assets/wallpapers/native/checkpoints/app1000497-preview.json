@@ -1,0 +1,18 @@
+{
+  "id": "app1000497-preview",
+  "source": "https://www.desktophut.com/Anime-Nobara-Kugisaki-Jujutsu-Kaisen-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/366193ad-640f-4a4f-8aba-c58ae5d729b5/app1000497-preview.mp4",
+    "/__l5e/assets-v1/25ab0523-d91e-4817-8492-50b0d089c6a2/app1000497-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Anime%20Nobara%20Kugisaki%20Jujutsu%20Kaisen%204K%20Live%20Wallpaper.mp4",
+  "bytes": 36479510,
+  "sha256": "b4eb515e6a08c185460df54c8f06e58d48a56df7b2eb8cfd3fbee2ff20b9832b",
+  "videoPointer": "assets/wallpapers/native/app1000497-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000497-preview-native.jpg.asset.json"
+}

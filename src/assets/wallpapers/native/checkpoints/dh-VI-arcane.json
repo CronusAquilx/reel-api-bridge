@@ -1,0 +1,17 @@
+{
+  "id": "dh-VI-arcane",
+  "source": "https://www.desktophut.com/VI-arcane",
+  "previousUrls": [
+    "/__l5e/assets-v1/0710b5f9-ea02-42f3-bd90-51e905a6027b/dh-VI-arcane.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/mAAizgdq75AMfNQ_VI%20from%20Arcane%20Live%20Wallpaper_2_4_105740.mp4",
+  "bytes": 34080463,
+  "sha256": "fe44decffa62c0833e3020d42c5b7d37bb6bb783913612ef40b5595e13ead990",
+  "videoPointer": "assets/wallpapers/native/dh-VI-arcane-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-VI-arcane-native.jpg.asset.json"
+}

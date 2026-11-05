@@ -1,0 +1,18 @@
+{
+  "id": "app1010417-preview",
+  "source": "https://www.desktophut.com/4K-Pokemon-Family-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/e7fe4c22-95ae-4b25-b209-ece5a84b92ab/app1010417-preview.mp4",
+    "/__l5e/assets-v1/b7b8bade-306e-4c1b-b41e-2fa7f1cde5da/app1010417-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877833-1654877833-4k-pokemon-family-live-wallpaper-for-pc.mp4",
+  "bytes": 52356804,
+  "sha256": "0ae6101718897862f962ed4dab327c8598eccfd72df7082eeb50bca5606b87a5",
+  "videoPointer": "assets/wallpapers/native/app1010417-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010417-preview-native.jpg.asset.json"
+}

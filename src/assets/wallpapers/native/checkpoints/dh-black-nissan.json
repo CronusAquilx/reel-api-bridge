@@ -1,0 +1,17 @@
+{
+  "id": "dh-black-nissan",
+  "source": "https://www.desktophut.com/black-nissan",
+  "previousUrls": [
+    "/__l5e/assets-v1/dc23cbe0-c0dc-4c16-a493-189ea51d29bb/dh-black-nissan.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/OBlOSNaED65BqNZ_Black-Nissan_114154.mp4",
+  "bytes": 27793903,
+  "sha256": "0da8c18ae552dc4fec4ed2a33509f8aafc45ee39b0cccd1d1092ce5e4826a706",
+  "videoPointer": "assets/wallpapers/native/dh-black-nissan-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-black-nissan-native.jpg.asset.json"
+}

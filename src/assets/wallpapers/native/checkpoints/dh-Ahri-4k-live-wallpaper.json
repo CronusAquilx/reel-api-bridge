@@ -1,0 +1,17 @@
+{
+  "id": "dh-Ahri-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/Ahri-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/3076ccd4-817c-4c40-8131-455b3aa55027/dh-Ahri-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669815862-1669815862-ahri-4k-live-wallpaper.mp4",
+  "bytes": 28076929,
+  "sha256": "86b073902dd25b4a2e53650799d22776311198226049daf1614f09cc62f11894",
+  "videoPointer": "assets/wallpapers/native/dh-Ahri-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Ahri-4k-live-wallpaper-native.jpg.asset.json"
+}

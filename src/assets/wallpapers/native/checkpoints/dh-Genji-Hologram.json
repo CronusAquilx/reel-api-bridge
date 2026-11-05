@@ -1,0 +1,17 @@
+{
+  "id": "dh-Genji-Hologram",
+  "source": "https://www.desktophut.com/Genji-Hologram",
+  "previousUrls": [
+    "/__l5e/assets-v1/474a44be-d09d-4b9d-ac89-1e8e9bc2bd24/dh-Genji-Hologram.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1064",
+  "width": 1920,
+  "height": 1064,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669997397-1669997397-genji-hologram.mp4",
+  "bytes": 7946218,
+  "sha256": "35df464dd0e583508844aa0de2ff591c50b3df6c9da01376ce13761d2037eca8",
+  "videoPointer": "assets/wallpapers/native/dh-Genji-Hologram-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Genji-Hologram-native.jpg.asset.json"
+}

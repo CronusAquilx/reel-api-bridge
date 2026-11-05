@@ -1,0 +1,18 @@
+{
+  "id": "app1003996-preview",
+  "source": "https://www.desktophut.com/Cool-Batman-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/52531a6e-0d39-4df6-a998-c940cac6b918/app1003996-preview.mp4",
+    "/__l5e/assets-v1/c45a5758-f38a-4872-8f51-39452e2f1465/app1003996-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Batman%204k%20live%20wallpaper.mp4",
+  "bytes": 13372704,
+  "sha256": "76b370e949858a5a0edc18e4727d3f2425783f1297fa11816759325268b73c05",
+  "videoPointer": "assets/wallpapers/native/app1003996-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003996-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1061947-preview",
+  "source": "https://www.desktophut.com/Anime-Berserker-4K-Lively-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9db8846f-5839-4f57-9e15-f803a0c562f0/app1061947-preview.mp4",
+    "/__l5e/assets-v1/9b92546a-d26f-49ad-9e1f-5c89cf28c1a8/app1061947-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1671376437-1671376437-anime-berserker-4k-lively-wallpaper.mp4",
+  "bytes": 22703288,
+  "sha256": "eb6f8095d77a4fd6a9a3803ec6c4085ba300f0a079fd25969b7311e9aed50128",
+  "videoPointer": "assets/wallpapers/native/app1061947-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1061947-preview-native.jpg.asset.json"
+}

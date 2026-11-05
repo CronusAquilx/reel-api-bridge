@@ -1,0 +1,17 @@
+{
+  "id": "dh-mortal-blade-sekiro",
+  "source": "https://www.desktophut.com/mortal-blade-sekiro",
+  "previousUrls": [
+    "/__l5e/assets-v1/16864f9d-a609-4fef-8c8f-1e63c19db620/dh-mortal-blade-sekiro.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/thenePBHkfznZin_Sekiro-Mortal-Blade-4K_1_3_112131.mp4",
+  "bytes": 25585483,
+  "sha256": "b5db2744614f2867f7aa2774a34b9298ecc53cfc4161482337cf2540dd9f0a1c",
+  "videoPointer": "assets/wallpapers/native/dh-mortal-blade-sekiro-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-mortal-blade-sekiro-native.jpg.asset.json"
+}

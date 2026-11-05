@@ -1,0 +1,18 @@
+{
+  "id": "app1001271-preview",
+  "source": "https://www.desktophut.com/Neon-Tunnel-Abstract-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7804c30a-9bf0-4f5b-93e8-03f93404f448/app1001271-preview.mp4",
+    "/__l5e/assets-v1/5ab23b2c-4a8f-47f7-8f16-944494f836f8/app1001271-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Neon%20Tunnel%20Abstract%204k%20Live%20Wallpaper.mp4",
+  "bytes": 22084973,
+  "sha256": "05ffbbc9707eafafb9ddbed07b58061e6d5fe60c39ed7e34519e21b111123597",
+  "videoPointer": "assets/wallpapers/native/app1001271-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001271-preview-native.jpg.asset.json"
+}

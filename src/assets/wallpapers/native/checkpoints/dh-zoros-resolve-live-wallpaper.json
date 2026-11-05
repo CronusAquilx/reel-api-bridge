@@ -1,0 +1,17 @@
+{
+  "id": "dh-zoros-resolve-live-wallpaper",
+  "source": "https://www.desktophut.com/zoros-resolve-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7a3dc0dd-19dc-4da9-80c5-1116dd633975/dh-zoros-resolve-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/ulKXG8nAVdewC2X_zr_3_132247.mp4",
+  "bytes": 22490536,
+  "sha256": "70f81b5818f54879687ee744e4ac3e4c7387f7bfd594f32bc130aa8209e6cebf",
+  "videoPointer": "assets/wallpapers/native/dh-zoros-resolve-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-zoros-resolve-live-wallpaper-native.jpg.asset.json"
+}

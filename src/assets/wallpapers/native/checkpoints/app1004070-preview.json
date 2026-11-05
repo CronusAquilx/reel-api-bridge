@@ -1,0 +1,18 @@
+{
+  "id": "app1004070-preview",
+  "source": "https://www.desktophut.com/Spaceman-Walking-Home-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9354c0fd-ecce-4b57-b610-c106e550a519/app1004070-preview.mp4",
+    "/__l5e/assets-v1/fc3de40e-d51f-4cdc-817d-2f6208462aaf/app1004070-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Spaceman%20Walking%20Home%204K%20Live%20Wallpaper.mp4",
+  "bytes": 16087279,
+  "sha256": "1aa37b0874d50564000af110ada7db16a14082a2ecab390900dc0d97136d9956",
+  "videoPointer": "assets/wallpapers/native/app1004070-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004070-preview-native.jpg.asset.json"
+}

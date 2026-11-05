@@ -1,0 +1,18 @@
+{
+  "id": "app1073408-preview",
+  "source": "https://www.desktophut.com/Anime-Girl-With-Glasses-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e029b985-a7d0-431b-ab66-56c8b7fcb691/app1073408-preview.mp4",
+    "/__l5e/assets-v1/2ae954f9-041a-41c1-b531-fbce4a8c2537/app1073408-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687450717-1687450717-anime-girl-with-glasses-4k-live-wallpaper.mp4",
+  "bytes": 8071395,
+  "sha256": "01bc93f01117efef925263c54406a80812a5f17307b4e47c8b3d1cae9fd0dd90",
+  "videoPointer": "assets/wallpapers/native/app1073408-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073408-preview-native.jpg.asset.json"
+}

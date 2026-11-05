@@ -1,0 +1,17 @@
+{
+  "id": "dh-samurai-black-and-white",
+  "source": "https://www.desktophut.com/samurai-black-and-white",
+  "previousUrls": [
+    "/__l5e/assets-v1/1c6eee09-3cc0-47f1-94a7-cd3376840ade/dh-samurai-black-and-white.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/nncXibwItmMrG5Z_Nomad-Samurai-4K_2_prob4.mp4",
+  "bytes": 52153242,
+  "sha256": "7aa66e99b96732eade83d92f5c1c9ec09021bebf3e810ef1e8c201f80e787f14",
+  "videoPointer": "assets/wallpapers/native/dh-samurai-black-and-white-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-samurai-black-and-white-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Live-Particles-Wallpaper",
+  "source": "https://www.desktophut.com/Live-Particles-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/d2874815-3367-4c8f-b2d2-9148a7b86298/dh-Live-Particles-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668456333-1668456333-live-particles-wallpaper.mp4",
+  "bytes": 3850218,
+  "sha256": "0ae74d2d9f79dadac4625829a359b7d7d1b860dbd723c397e0192a2354037979",
+  "videoPointer": "assets/wallpapers/native/dh-Live-Particles-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Live-Particles-Wallpaper-native.jpg.asset.json"
+}

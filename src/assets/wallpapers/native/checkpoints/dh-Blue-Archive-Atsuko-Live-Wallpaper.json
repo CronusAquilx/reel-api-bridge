@@ -1,0 +1,17 @@
+{
+  "id": "dh-Blue-Archive-Atsuko-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Blue-Archive-Atsuko-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/695c602e-e06f-418e-a4f0-4ba2966b3887/dh-Blue-Archive-Atsuko-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668457541-1668457541-blue-archive-atsuko-live-wallpaper.mp4",
+  "bytes": 2997145,
+  "sha256": "d9ea071471c6115f28123814479f638b187ce7f8ea342ada50ad7fee139c9d47",
+  "videoPointer": "assets/wallpapers/native/dh-Blue-Archive-Atsuko-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Blue-Archive-Atsuko-Live-Wallpaper-native.jpg.asset.json"
+}

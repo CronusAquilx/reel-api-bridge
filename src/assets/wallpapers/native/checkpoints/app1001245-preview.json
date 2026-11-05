@@ -1,0 +1,18 @@
+{
+  "id": "app1001245-preview",
+  "source": "https://www.desktophut.com/Hokushin-Mei-Houkai-Gakuen-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/913c5b31-ddb2-4c80-bc56-65c17fa6eef8/app1001245-preview.mp4",
+    "/__l5e/assets-v1/c3e817f8-9aec-4171-8367-0c1fd67a24a6/app1001245-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Hokushin%20Mei%20Houkai%20Gakuen%204k%20Live%20Wallpaper.mp4",
+  "bytes": 11226081,
+  "sha256": "306c361518634b0a59e6ff9c2436c33eac20b7178469585224845aeb133b9832",
+  "videoPointer": "assets/wallpapers/native/app1001245-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001245-preview-native.jpg.asset.json"
+}

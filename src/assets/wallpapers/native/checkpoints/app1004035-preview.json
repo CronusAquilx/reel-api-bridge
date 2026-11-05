@@ -1,0 +1,18 @@
+{
+  "id": "app1004035-preview",
+  "source": "https://www.desktophut.com/Cool-Dark-Superman-Justice-League-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/db8db860-ca8a-40fe-84a5-42d235bc9fa2/app1004035-preview.mp4",
+    "/__l5e/assets-v1/836286b3-4e52-4828-887b-1442850d0efd/app1004035-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Dark%20Superman%20Justice%20League%204k%20live%20wallpaper.mp4",
+  "bytes": 15772855,
+  "sha256": "685e820289a2322b797f1955b5390f0eeba215fa6566bc0843f01de211c0cb26",
+  "videoPointer": "assets/wallpapers/native/app1004035-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004035-preview-native.jpg.asset.json"
+}

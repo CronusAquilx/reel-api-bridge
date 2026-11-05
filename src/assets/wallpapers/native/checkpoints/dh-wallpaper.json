@@ -1,0 +1,17 @@
+{
+  "id": "dh-wallpaper",
+  "source": "https://www.desktophut.com/铃鹿御前电脑版",
+  "previousUrls": [
+    "/__l5e/assets-v1/44410a5e-2bf7-4d2c-a89e-32a1e9999684/dh-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4000x1700",
+  "width": 4000,
+  "height": 1700,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674104502-1674104502-%E9%93%83%E9%B9%BF%E5%BE%A1%E5%89%8D%E7%94%B5%E8%84%91%E7%89%88.mp4",
+  "bytes": 26422738,
+  "sha256": "fd4624f41ca5bb1bc82be0138512042f54aeb50065a290b4300a78e81279b5b5",
+  "videoPointer": "assets/wallpapers/native/dh-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-wallpaper-native.jpg.asset.json"
+}

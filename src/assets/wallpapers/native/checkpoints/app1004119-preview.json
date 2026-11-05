@@ -1,0 +1,18 @@
+{
+  "id": "app1004119-preview",
+  "source": "https://www.desktophut.com/Cool-Levi-4k-Live-Wallpaper-Attack-On-Titan-Anime-Live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6e29efdc-6aa0-4464-ba82-d10c80f9a128/app1004119-preview.mp4",
+    "/__l5e/assets-v1/347ceb8c-1dd9-42fc-b88b-1d73882645f1/app1004119-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Levi%204k%20Live%20Wallpaper%20Attack%20On%20Titan%20Anime%20Live%20wallpaper.mp4",
+  "bytes": 22186865,
+  "sha256": "c8bcc19e33ca0fd789da64b1c94efb10e8a6dd248f6a1ce3f929a29b1c6501d6",
+  "videoPointer": "assets/wallpapers/native/app1004119-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004119-preview-native.jpg.asset.json"
+}

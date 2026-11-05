@@ -1,0 +1,18 @@
+{
+  "id": "app1004091-preview",
+  "source": "https://www.desktophut.com/Cool-Fading-joker-With-Bats-4k-Live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1855988b-47e6-4e57-9903-ef295e8174e7/app1004091-preview.mp4",
+    "/__l5e/assets-v1/2acde097-0cde-4e1d-8157-f9e1e94e7f49/app1004091-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Fading%20joker%20With%20Bats%204k%20Live%20wallpaper.mp4",
+  "bytes": 17046381,
+  "sha256": "99277e200b36551a11e23850a557e0cbf2516c7c9d3492461fa7ad56d5666457",
+  "videoPointer": "assets/wallpapers/native/app1004091-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004091-preview-native.jpg.asset.json"
+}

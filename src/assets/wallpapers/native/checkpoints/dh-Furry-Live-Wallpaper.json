@@ -1,0 +1,17 @@
+{
+  "id": "dh-Furry-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Furry-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/450028ae-b6a7-44d1-af65-0324ff1551d4/dh-Furry-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1670241806-1670241806-furry-live-wallpaper.mp4",
+  "bytes": 15452490,
+  "sha256": "851d980f6a235ebf99724a817b45c376d32aadfc0ce345046ab9bc2af4a9d9f5",
+  "videoPointer": "assets/wallpapers/native/dh-Furry-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Furry-Live-Wallpaper-native.jpg.asset.json"
+}

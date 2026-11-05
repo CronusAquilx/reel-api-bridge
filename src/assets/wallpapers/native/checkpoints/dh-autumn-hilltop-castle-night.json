@@ -1,0 +1,17 @@
+{
+  "id": "dh-autumn-hilltop-castle-night",
+  "source": "https://www.desktophut.com/autumn-hilltop-castle-night",
+  "previousUrls": [
+    "/__l5e/assets-v1/277ef83c-3e1c-40c7-8612-724b2d272d13/dh-autumn-hilltop-castle-night.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/9Kr1nN5G9rRMaqh_Autumn%20Hilltop%20Castle%20-%20Night_3_115705.mp4",
+  "bytes": 40834856,
+  "sha256": "def167ce711112f399777501e0afb07dfc5e1c3ce1e39bbadd81c2619cfaf65f",
+  "videoPointer": "assets/wallpapers/native/dh-autumn-hilltop-castle-night-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-autumn-hilltop-castle-night-native.jpg.asset.json"
+}

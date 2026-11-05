@@ -1,0 +1,17 @@
+{
+  "id": "dh-spider-man-classic-live-wallpaper",
+  "source": "https://www.desktophut.com/spider-man-classic-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/558f351b-1a1e-48e2-8c2a-219efc3555e7/dh-spider-man-classic-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/JWASZLHxUtjSdob_Spider%20Man%20Classic%20Live%20Wallpaper.mp4",
+  "bytes": 44144333,
+  "sha256": "fdc1ad0f379b3f1030f84062ec0358d8c7c4352879390396667099f779f5bb15",
+  "videoPointer": "assets/wallpapers/native/dh-spider-man-classic-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-spider-man-classic-live-wallpaper-native.jpg.asset.json"
+}

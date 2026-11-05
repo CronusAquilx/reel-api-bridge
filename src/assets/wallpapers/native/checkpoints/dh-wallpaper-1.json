@@ -1,0 +1,17 @@
+{
+  "id": "dh-wallpaper-1",
+  "source": "https://www.desktophut.com/《傀儡経典》猩々緋",
+  "previousUrls": [
+    "/__l5e/assets-v1/c7e952cb-c27a-418b-a07d-2caa0f9b2342/dh-wallpaper-1.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1672869140-1672869140-%E3%80%8A%E5%82%80%E5%84%A1%E7%B5%8C%E5%85%B8%E3%80%8B%E7%8C%A9%E3%80%85%E7%B7%8B.mp4",
+  "bytes": 40168066,
+  "sha256": "c7cc4790d67e1ab4f0b7406767e7d262619d63a7a1a17e587117cd5ae484d222",
+  "videoPointer": "assets/wallpapers/native/dh-wallpaper-1-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-wallpaper-1-native.jpg.asset.json"
+}

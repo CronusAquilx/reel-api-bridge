@@ -1,0 +1,17 @@
+{
+  "id": "dh-ancestral-ruins",
+  "source": "https://www.desktophut.com/ancestral-ruins",
+  "previousUrls": [
+    "/__l5e/assets-v1/47fc730f-a453-4f44-b62a-0b6f94485131/dh-ancestral-ruins.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/L1xZ3c45R4ut7Aw_Ancestral%20Ruins%20Live%20Wallpaper_4_122013.mp4",
+  "bytes": 11734785,
+  "sha256": "da711b02f6f1162831849bc658dd15059752d0d2ba1b0c37df90b550dd4804b9",
+  "videoPointer": "assets/wallpapers/native/dh-ancestral-ruins-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-ancestral-ruins-native.jpg.asset.json"
+}

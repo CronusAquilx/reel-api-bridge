@@ -1,0 +1,17 @@
+{
+  "id": "dh-peppa-pig-wallpaper",
+  "source": "https://www.desktophut.com/peppa-pig-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/949b53f9-fc76-494d-9df4-8c2b7d5dd7d0/dh-peppa-pig-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1670598685-1670598685-peppa-pig-wallpaper.mp4",
+  "bytes": 5405043,
+  "sha256": "f22fa8b5af8d7a8f05a8f6e918d05d2c55a21833026e91a7645223a8571fbbf3",
+  "videoPointer": "assets/wallpapers/native/dh-peppa-pig-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-peppa-pig-wallpaper-native.jpg.asset.json"
+}

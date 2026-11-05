@@ -1,0 +1,18 @@
+{
+  "id": "app1066524-preview",
+  "source": "https://www.desktophut.com/Smoke-By-mcbess-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/19e104e9-4741-4ff0-8f1f-4c1ea15a85fb/app1066524-preview.mp4",
+    "/__l5e/assets-v1/945dfa9d-0ed7-41ef-8bbc-450a20ca2528/app1066524-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2160",
+  "width": 4096,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1675813491-1675813491-smoke-by-mcbess-4k-live-wallpaper.mp4",
+  "bytes": 212883386,
+  "sha256": "b81d79f9b99d6d1537a374f3850f7221ec5ff0f53b3a2b33a6bdbf76697bf56a",
+  "videoPointer": "assets/wallpapers/native/app1066524-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1066524-preview-native.jpg.asset.json"
+}

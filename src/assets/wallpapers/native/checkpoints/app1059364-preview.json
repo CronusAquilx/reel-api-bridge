@@ -1,0 +1,18 @@
+{
+  "id": "app1059364-preview",
+  "source": "https://www.desktophut.com/Anime-Type-95-Yu-Linglong-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e64daca3-0383-4c24-8e8e-083921ab44ad/app1059364-preview.mp4",
+    "/__l5e/assets-v1/8a088bd9-e39e-4f04-9d36-07c2a08d8bee/app1059364-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1663850167-1663850167-anime-type-95---yu-linglong-4k-live-wallpaper.mp4",
+  "bytes": 16281083,
+  "sha256": "6e862a257807ed37ba9571249b761f12affe1399ec6d09a000f650442340564f",
+  "videoPointer": "assets/wallpapers/native/app1059364-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059364-preview-native.jpg.asset.json"
+}

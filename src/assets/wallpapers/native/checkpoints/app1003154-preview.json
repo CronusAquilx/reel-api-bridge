@@ -1,0 +1,18 @@
+{
+  "id": "app1003154-preview",
+  "source": "https://www.desktophut.com/Good-Bad-Fake-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/cd364ff7-1b7b-4150-9aec-6f30d2be3e68/app1003154-preview.mp4",
+    "/__l5e/assets-v1/9c2b233b-114a-41bf-92d2-f1af35c2e193/app1003154-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Good%20Bad%20Fake%204K%20Live%20Wallpaper.mp4",
+  "bytes": 72855398,
+  "sha256": "c56356375b06bf632d06a64a0aa0620b428be9ba14b32e088a158a2624bab193",
+  "videoPointer": "assets/wallpapers/native/app1003154-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003154-preview-native.jpg.asset.json"
+}

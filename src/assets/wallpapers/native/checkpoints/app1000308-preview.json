@@ -1,0 +1,18 @@
+{
+  "id": "app1000308-preview",
+  "source": "https://www.desktophut.com/Marvel-Black-Panther-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4cebbeb5-ed4a-4ec9-ba5a-03212cf12bab/app1000308-preview.mp4",
+    "/__l5e/assets-v1/32d6a2b8-8a5d-4a97-942e-5951030b9055/app1000308-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Marvel%20Black%20Panther%204K%20Live%20Wallpaper.mp4",
+  "bytes": 4854081,
+  "sha256": "e6fccdf0bd957f4b048ac853b0253949485fd235bee2011279ce5e7ec8141fcc",
+  "videoPointer": "assets/wallpapers/native/app1000308-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000308-preview-native.jpg.asset.json"
+}

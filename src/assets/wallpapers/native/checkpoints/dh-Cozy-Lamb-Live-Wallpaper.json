@@ -1,0 +1,17 @@
+{
+  "id": "dh-Cozy-Lamb-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Cozy-Lamb-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/94b3fa96-95db-4cb0-b8ab-9f133ca4bd67/dh-Cozy-Lamb-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1000",
+  "width": 1920,
+  "height": 1000,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668456946-1668456946-cozy-lamb-live-wallpaper.mp4",
+  "bytes": 3088792,
+  "sha256": "35b0c51503e328f9666cca1b940d2a6ce7d0606ec06b0cd2b2da44e3de8b4a94",
+  "videoPointer": "assets/wallpapers/native/dh-Cozy-Lamb-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Cozy-Lamb-Live-Wallpaper-native.jpg.asset.json"
+}

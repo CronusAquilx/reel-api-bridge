@@ -1,0 +1,18 @@
+{
+  "id": "app1066570-preview",
+  "source": "https://www.desktophut.com/4K-Logo-Zelda-Skyward-by-ITZAH-PixelArt-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f9134a24-7097-4c84-9eba-a5c6ffd49a7e/app1066570-preview.mp4",
+    "/__l5e/assets-v1/50803f56-f133-48dd-99d1-f45f37d8627f/app1066570-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1675813620-1675813620-4k-logo-zelda-skyward-by-itzah-pixelart-live-wallpaper.mp4",
+  "bytes": 7454767,
+  "sha256": "4811a13df477d3f4e00dbd778e73d00bb63f0e736b7fe761373ce223ca7403e6",
+  "videoPointer": "assets/wallpapers/native/app1066570-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1066570-preview-native.jpg.asset.json"
+}

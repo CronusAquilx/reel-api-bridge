@@ -1,0 +1,18 @@
+{
+  "id": "app1003135-preview",
+  "source": "https://www.desktophut.com/PC-Night-Market-Fireworks-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/3b9cd40b-e8bc-4780-a864-e78631b4f721/app1003135-preview.mp4",
+    "/__l5e/assets-v1/0f0dc76e-e821-45d6-aa16-42d57e657986/app1003135-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/PC%20Night%20Market%20Fireworks%204K%20Live%20Wallpaper.mp4",
+  "bytes": 73287848,
+  "sha256": "aa2763113f44613278e15c0ae05818b710aed8bec1d83aec62b4f91bf222b41e",
+  "videoPointer": "assets/wallpapers/native/app1003135-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003135-preview-native.jpg.asset.json"
+}

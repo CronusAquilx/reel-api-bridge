@@ -1,0 +1,18 @@
+{
+  "id": "app1003128-preview",
+  "source": "https://www.desktophut.com/PC-Badass-Batman-Gotham-City-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/28f7c5a6-9f61-4dc6-9b37-ae523033a123/app1003128-preview.mp4",
+    "/__l5e/assets-v1/76ab71ba-532a-451b-b516-68e7c25e50e0/app1003128-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/PC%20Badass%20Batman%20Gotham%20City%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65606846,
+  "sha256": "8b2be8bff59aebf20e3a008e68b3b6496acaa231de59998e0c01eee0c72a1e7b",
+  "videoPointer": "assets/wallpapers/native/app1003128-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003128-preview-native.jpg.asset.json"
+}

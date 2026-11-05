@@ -1,0 +1,18 @@
+{
+  "id": "app1010427-preview",
+  "source": "https://www.desktophut.com/4K-Rain-In-Buddhist-Temple-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/2bd9f76c-2625-46fd-b7d6-7c1d6bbde418/app1010427-preview.mp4",
+    "/__l5e/assets-v1/88d98054-c70c-4876-ad5e-db766c910420/app1010427-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877909-1654877909-4k-rain-in-buddhist-temple-live-wallpaper-for-pc.mp4",
+  "bytes": 65826846,
+  "sha256": "e9063ee723a6e7833f71525ea72e6f8e3342f30cc48f68ececb631170c96e10d",
+  "videoPointer": "assets/wallpapers/native/app1010427-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010427-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1000362-preview",
+  "source": "https://www.desktophut.com/Diablo-4-Druid-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/c86068db-a7ed-4020-9f34-3b651ad742a7/app1000362-preview.mp4",
+    "/__l5e/assets-v1/2e6e34f7-bb7e-4a0f-a169-b59b99dd3447/app1000362-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3600x1840",
+  "width": 3600,
+  "height": 1840,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Diablo%204%20Druid%204K%20Live%20Wallpaper.mp4",
+  "bytes": 3586218,
+  "sha256": "99f2753dac9b84833bb4168c643a9b2ab071fc4ee9bff919715f922ea9ac85de",
+  "videoPointer": "assets/wallpapers/native/app1000362-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000362-preview-native.jpg.asset.json"
+}

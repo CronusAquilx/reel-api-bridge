@@ -1,0 +1,18 @@
+{
+  "id": "app1010411-preview",
+  "source": "https://www.desktophut.com/4K-Minato-Aqua-Samurai-Virtual-Youtuber-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/4b10d5c2-0702-4263-8404-26be098a2aaa/app1010411-preview.mp4",
+    "/__l5e/assets-v1/3d9f5e9c-184a-41c7-a6c7-020202823381/app1010411-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877776-1654877776-4k-minato-aqua-samurai-virtual-youtuber-live-wallpaper-for-pc.mp4",
+  "bytes": 34975571,
+  "sha256": "aa3c6dffb8074e06f8708830d3b9801776a89717dadc16d6538dcf4e052f4820",
+  "videoPointer": "assets/wallpapers/native/app1010411-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010411-preview-native.jpg.asset.json"
+}

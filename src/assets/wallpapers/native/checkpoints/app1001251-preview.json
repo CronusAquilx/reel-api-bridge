@@ -1,0 +1,18 @@
+{
+  "id": "app1001251-preview",
+  "source": "https://www.desktophut.com/Jon-Snow-And-Ghost-Game-Of-Thrones-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a15b04a8-e84e-486e-a98b-6cc4cd5227a8/app1001251-preview.mp4",
+    "/__l5e/assets-v1/1edfc557-c00d-47c4-8b03-2b892fd49212/app1001251-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Jon%20Snow%20And%20Ghost%20Game%20Of%20Thrones%204k%20Live%20Wallpaper.mp4",
+  "bytes": 19823851,
+  "sha256": "7369081c6923a5fc94daa04400a1001f53d32b1a59a3ac4897b5a53e7ac14a62",
+  "videoPointer": "assets/wallpapers/native/app1001251-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001251-preview-native.jpg.asset.json"
+}

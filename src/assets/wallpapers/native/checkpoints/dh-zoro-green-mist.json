@@ -1,0 +1,17 @@
+{
+  "id": "dh-zoro-green-mist",
+  "source": "https://www.desktophut.com/zoro-green-mist",
+  "previousUrls": [
+    "/__l5e/assets-v1/046f14b2-f2e1-497f-88cf-210148a98339/dh-zoro-green-mist.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/U2OlcSonxFKlvjA_Zoro_7_115709.mp4",
+  "bytes": 49169827,
+  "sha256": "8683ea29e4a4105ff782cb931fe0f496e4fd7de65bce7a5deb9a19b5b842d2e6",
+  "videoPointer": "assets/wallpapers/native/dh-zoro-green-mist-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-zoro-green-mist-native.jpg.asset.json"
+}

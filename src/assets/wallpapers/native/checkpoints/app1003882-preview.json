@@ -1,0 +1,18 @@
+{
+  "id": "app1003882-preview",
+  "source": "https://www.desktophut.com/Cool-Goku-Ultrainsinct-Punch-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8f662f8e-a36f-4987-af76-4467048ab5bf/app1003882-preview.mp4",
+    "/__l5e/assets-v1/33a87d79-185c-4d42-b7d7-277fd1c1265a/app1003882-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Goku%20Ultrainsinct%20Punch%204k%20Live%20Wallpaper.mp4",
+  "bytes": 8534154,
+  "sha256": "7464ae33a402e9d44c91508d97e5efee500462a143005255f8e9e395e1be9e71",
+  "videoPointer": "assets/wallpapers/native/app1003882-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003882-preview-native.jpg.asset.json"
+}

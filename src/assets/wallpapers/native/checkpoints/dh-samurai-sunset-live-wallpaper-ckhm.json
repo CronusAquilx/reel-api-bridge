@@ -1,0 +1,17 @@
+{
+  "id": "dh-samurai-sunset-live-wallpaper-ckhm",
+  "source": "https://www.desktophut.com/samurai-sunset-live-wallpaper-ckhm",
+  "previousUrls": [
+    "/__l5e/assets-v1/022b4887-c65c-4066-8e0e-8445138efdb8/dh-samurai-sunset-live-wallpaper-ckhm.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/4L7qjWAV16-samurai-sunset-live-wallpaper.mp4",
+  "bytes": 49361240,
+  "sha256": "d0499ba29605862a9b89ecaea3e7f5f3fe14c29ee4112691935b6525ce47b2e7",
+  "videoPointer": "assets/wallpapers/native/dh-samurai-sunset-live-wallpaper-ckhm-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-samurai-sunset-live-wallpaper-ckhm-native.jpg.asset.json"
+}

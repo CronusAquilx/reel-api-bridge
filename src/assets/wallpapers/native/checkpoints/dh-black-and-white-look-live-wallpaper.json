@@ -1,0 +1,17 @@
+{
+  "id": "dh-black-and-white-look-live-wallpaper",
+  "source": "https://www.desktophut.com/black-and-white-look-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/508fe13e-01a5-4773-808e-8d44d64c0c02/dh-black-and-white-look-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1759816523.mp4",
+  "bytes": 105293763,
+  "sha256": "e883a0c122e3116f13b986642987732f51d5b59ee07c898632588fb9a6b1f995",
+  "videoPointer": "assets/wallpapers/native/dh-black-and-white-look-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-black-and-white-look-live-wallpaper-native.jpg.asset.json"
+}

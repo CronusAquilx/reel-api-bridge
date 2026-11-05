@@ -1,0 +1,17 @@
+{
+  "id": "dh-Live-Wallpaper-Sunrise",
+  "source": "https://www.desktophut.com/♬-Live-Wallpaper-Sunrise",
+  "previousUrls": [
+    "/__l5e/assets-v1/9be836d9-8292-4009-a448-c267378c0e1f/dh-Live-Wallpaper-Sunrise.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1280x720",
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1661347455-1661347455-%E2%99%AC-live-wallpaper-sunrise.mp4",
+  "bytes": 5348025,
+  "sha256": "9cd3902534164eb2175cb0ed499803c8aed14b6aee628b10ef477f2fd59039bc",
+  "videoPointer": "assets/wallpapers/native/dh-Live-Wallpaper-Sunrise-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Live-Wallpaper-Sunrise-native.jpg.asset.json"
+}

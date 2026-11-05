@@ -1,0 +1,18 @@
+{
+  "id": "app1001103-preview",
+  "source": "https://www.desktophut.com/Milky-way-in-Black-Space-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/565ab2b0-9868-49af-81cf-8598cc9f5cf4/app1001103-preview.mp4",
+    "/__l5e/assets-v1/200fdaf0-cd96-458d-9196-b33145ff74f6/app1001103-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Milky%20way%20in%20Black%20%20Space%204K%20Live%20Wallpaper.mp4",
+  "bytes": 154664777,
+  "sha256": "0be659e0a14009aeb420524da68ca67fa52054cb6a57cf1a1eab432622b769e5",
+  "videoPointer": "assets/wallpapers/native/app1001103-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001103-preview-native.jpg.asset.json"
+}

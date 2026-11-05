@@ -1,0 +1,18 @@
+{
+  "id": "app1003159-preview",
+  "source": "https://www.desktophut.com/Milky-Way-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/35a71ba8-c568-4799-8b4f-544074caaacd/app1003159-preview.mp4",
+    "/__l5e/assets-v1/b8138eaa-4d78-46c4-bcb7-562ec185ed0f/app1003159-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Milky%20Way%204K%20Live%20Wallpaper.mp4",
+  "bytes": 91686356,
+  "sha256": "0399800c44ac23b94c1e146f8ef43f08ba93363bc004098ac29363e53375495f",
+  "videoPointer": "assets/wallpapers/native/app1003159-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003159-preview-native.jpg.asset.json"
+}

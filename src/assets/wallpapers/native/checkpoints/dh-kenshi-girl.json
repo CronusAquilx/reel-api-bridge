@@ -1,0 +1,17 @@
+{
+  "id": "dh-kenshi-girl",
+  "source": "https://www.desktophut.com/kenshi-girl",
+  "previousUrls": [
+    "/__l5e/assets-v1/ef3d89a7-47bd-4869-9347-f55a9a4833e2/dh-kenshi-girl.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/2aAfL1j2Go0Fx5f_Kenshi%20Girl_5_212245.mp4",
+  "bytes": 39735688,
+  "sha256": "1a71a91aafe34890997fc07e72387bee1c8f1db3c932c347cc78e339823b04e0",
+  "videoPointer": "assets/wallpapers/native/dh-kenshi-girl-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-kenshi-girl-native.jpg.asset.json"
+}

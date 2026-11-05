@@ -1,0 +1,18 @@
+{
+  "id": "app1052041-preview",
+  "source": "https://www.desktophut.com/Spacex-Falcon-9-Rocket-Takeoff-And-Landing-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e04c746d-2f54-4620-9a48-411bbd9d3c65/app1052041-preview.mp4",
+    "/__l5e/assets-v1/018d7744-a0eb-4dbb-880e-54b8bf68be79/app1052041-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x1968",
+  "width": 3840,
+  "height": 1968,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657018428-1657018428-spacex-falcon-9-rocket-takeoff-and-landing-4k-live-wallpaper.mp4",
+  "bytes": 5581733,
+  "sha256": "080caf8b1444b84e716a79e253cec1d6ea114e5ad8645e7e86e866d7a6a71099",
+  "videoPointer": "assets/wallpapers/native/app1052041-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1052041-preview-native.jpg.asset.json"
+}

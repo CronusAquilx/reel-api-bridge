@@ -1,0 +1,18 @@
+{
+  "id": "app1010440-preview",
+  "source": "https://www.desktophut.com/4K-Toyota-Supra-Need-For-Speed-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/9f567b7f-befe-4aeb-9616-72e483b9bd37/app1010440-preview.mp4",
+    "/__l5e/assets-v1/8b8e0318-566a-48d8-864b-8cc1804cd6ba/app1010440-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877998-1654877998-4k-toyota-supra-need-for-speed-live-wallpaper-for-pc.mp4",
+  "bytes": 63557531,
+  "sha256": "7df774cd87fa6242c9d0e2596b955327104843be75d43a7b9252355bd50cbc94",
+  "videoPointer": "assets/wallpapers/native/app1010440-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010440-preview-native.jpg.asset.json"
+}

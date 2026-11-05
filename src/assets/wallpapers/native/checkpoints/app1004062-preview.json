@@ -1,0 +1,18 @@
+{
+  "id": "app1004062-preview",
+  "source": "https://www.desktophut.com/Cool-Ken-Kaneki-Tokyo-Ghoul-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/48e46f10-2e8e-4994-be78-ff102824aaae/app1004062-preview.mp4",
+    "/__l5e/assets-v1/d52f8037-8f96-4bff-817e-2c3bfdbfde06/app1004062-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Ken%20Kaneki%20Tokyo%20Ghoul%204k%20Live%20Wallpaper.mp4",
+  "bytes": 16258301,
+  "sha256": "62ec8555880be0d500a34c8a8a6dc847dd9c48e3a698f89a8b6fea27b7c2b4b2",
+  "videoPointer": "assets/wallpapers/native/app1004062-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004062-preview-native.jpg.asset.json"
+}

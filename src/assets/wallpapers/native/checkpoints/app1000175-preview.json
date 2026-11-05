@@ -1,0 +1,18 @@
+{
+  "id": "app1000175-preview",
+  "source": "https://www.desktophut.com/Sonic-Forces-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9630809a-2acb-4a15-9fbf-d7713299c1de/app1000175-preview.mp4",
+    "/__l5e/assets-v1/6c8644b0-68c8-4bcb-9da5-13d6cb5da167/app1000175-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Sonic%20%20Forces%20%204K%20%20Live%20%20Wallpaper.mp4",
+  "bytes": 3170474,
+  "sha256": "b98c6356cc691fbddf6812bc2106ba60590afbb57f279832e1affa330519cbdf",
+  "videoPointer": "assets/wallpapers/native/app1000175-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000175-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Midnight-Ahri-Animation",
+  "source": "https://www.desktophut.com/Midnight-Ahri-Animation",
+  "previousUrls": [
+    "/__l5e/assets-v1/3ae00589-913d-4850-ae2a-df1f87ba41c3/dh-Midnight-Ahri-Animation.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674581536-1674581536-midnight-ahri-animation.mp4",
+  "bytes": 11361283,
+  "sha256": "fd93501b64669db3a2ed26c11e48954eba6214e1c0139bdda3858cf060200afb",
+  "videoPointer": "assets/wallpapers/native/dh-Midnight-Ahri-Animation-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Midnight-Ahri-Animation-native.jpg.asset.json"
+}

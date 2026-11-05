@@ -1,0 +1,18 @@
+{
+  "id": "app1073299-preview",
+  "source": "https://www.desktophut.com/March-7th-Honkai-Star-Rail-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7d74a432-771a-4ed6-9a54-b289ca18fa54/app1073299-preview.mp4",
+    "/__l5e/assets-v1/4a078576-a896-48bc-8c5f-e70b40d917cd/app1073299-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1685176414-1685176414-march-7th-honkai-star-rail-4k-live-wallpaper.mp4",
+  "bytes": 27464643,
+  "sha256": "66afa1a8461aa8a7fd660c6a2a77eb3f0cd781993841ad6a53ac4fdf75ae3036",
+  "videoPointer": "assets/wallpapers/native/app1073299-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073299-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-lake-landscape",
+  "source": "https://www.desktophut.com/lake-landscape",
+  "previousUrls": [
+    "/__l5e/assets-v1/64331d46-9abc-4a6f-98bd-ef775f3b02f5/dh-lake-landscape.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/KxPSWfOwBrLIhlM_Minimal%20Lake%20Landscape%20Live%20Wallpaper_3_184114.mp4",
+  "bytes": 58076830,
+  "sha256": "a9356edb22d150a0ab1065c84fc5b0d3e5976fa7e562fb2534a481c4c411f04e",
+  "videoPointer": "assets/wallpapers/native/dh-lake-landscape-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-lake-landscape-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Wallpaper-Preppy",
+  "source": "https://www.desktophut.com/Wallpaper-Preppy",
+  "previousUrls": [
+    "/__l5e/assets-v1/e97a2872-117f-47d6-bc6e-ab30e5e556a7/dh-Wallpaper-Preppy.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668122500-1668122500-wallpaper-preppy.mp4",
+  "bytes": 26005696,
+  "sha256": "66e21cb4e89e2611164e3dfea7027c9f0a65d360fa1ed1e00804a18a6b075441",
+  "videoPointer": "assets/wallpapers/native/dh-Wallpaper-Preppy-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Wallpaper-Preppy-native.jpg.asset.json"
+}

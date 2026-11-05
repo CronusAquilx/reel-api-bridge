@@ -1,0 +1,17 @@
+{
+  "id": "dh-the-drive-4k-60fps",
+  "source": "https://www.desktophut.com/the-drive-4k-60fps",
+  "previousUrls": [
+    "/__l5e/assets-v1/52d9bb62-37ae-4202-92f7-21ece02b58c3/dh-the-drive-4k-60fps.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/mAvc5aSDLGSowUF_The%20Drive%204K%2060Fps.mp4",
+  "bytes": 159042067,
+  "sha256": "bc4081cc3a46a58a52da452bf960b771dff671c5982cc361a8e0a9e28f35890a",
+  "videoPointer": "assets/wallpapers/native/dh-the-drive-4k-60fps-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-the-drive-4k-60fps-native.jpg.asset.json"
+}

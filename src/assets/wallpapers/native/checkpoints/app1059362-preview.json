@@ -1,0 +1,18 @@
+{
+  "id": "app1059362-preview",
+  "source": "https://www.desktophut.com/Anime-BlueArchive-Miyu-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/28e729c1-b847-4823-8e78-9b10f2476471/app1059362-preview.mp4",
+    "/__l5e/assets-v1/3225c5b6-4202-4c60-9afa-fc2dea8ea4a1/app1059362-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1663850160-1663850160-anime-bluearchive-miyu-4k-live-wallpaper.mp4",
+  "bytes": 155259181,
+  "sha256": "25bdbaf1eb0b56c453a0e65bcd08a908d963631a9125cc6be2fdcb91dd7e07a5",
+  "videoPointer": "assets/wallpapers/native/app1059362-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059362-preview-native.jpg.asset.json"
+}

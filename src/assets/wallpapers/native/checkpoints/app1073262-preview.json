@@ -1,0 +1,18 @@
+{
+  "id": "app1073262-preview",
+  "source": "https://www.desktophut.com/Girl-with-Umbrella-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ed0042e8-9c4b-4a82-ad9f-27e7b3a52989/app1073262-preview.mp4",
+    "/__l5e/assets-v1/7d15e6b0-5073-464b-9b34-cac6e4a5351e/app1073262-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684089749-1684089749-girl-with-umbrella-4k-live-wallpaper.mp4",
+  "bytes": 31313103,
+  "sha256": "2b6e51db5479f2f8752adfa768616c8b149a65af69050b0c49c230745df3f1c5",
+  "videoPointer": "assets/wallpapers/native/app1073262-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073262-preview-native.jpg.asset.json"
+}
