@@ -1,0 +1,18 @@
+{
+  "id": "app1073669-preview",
+  "source": "https://www.desktophut.com/goku-meditating-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/80628dd8-1ae5-44ba-ae96-5303300913f8/app1073669-preview.mp4",
+    "/__l5e/assets-v1/f34f30b0-271d-4c71-b92a-a0df5af6ad78/app1073669-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/0UsISxCs61hQ7VC_Goku%20Meditating%204K%20Live%20Wallpaper.mp4",
+  "bytes": 29928517,
+  "sha256": "15e8fc86c9f0d156727a608d92c7e76dd3ec34e3cb2795432fee1e1e7d5933c1",
+  "videoPointer": "assets/wallpapers/native/app1073669-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073669-preview-native.jpg.asset.json"
+}

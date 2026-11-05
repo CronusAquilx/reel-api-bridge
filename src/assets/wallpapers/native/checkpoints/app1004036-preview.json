@@ -1,0 +1,18 @@
+{
+  "id": "app1004036-preview",
+  "source": "https://www.desktophut.com/Cool-DRAGON-BALL-SUPER-SAIYAN-BLUE-GOKU-4k-LIVE-WALLPAPER",
+  "previousUrls": [
+    "/__l5e/assets-v1/01c14ce1-e210-49bb-8363-b0659ad7adac/app1004036-preview.mp4",
+    "/__l5e/assets-v1/09a685cb-75fc-4c73-a885-8efd825ba6ad/app1004036-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20DRAGON%20BALL%20SUPER%20SAIYAN%20BLUE%20GOKU%204k%20LIVE%20WALLPAPER.mp4",
+  "bytes": 15597779,
+  "sha256": "86f4de358881a275019f1acbb1976fb28d9c68757b554ef0a6bf434311e1c9a1",
+  "videoPointer": "assets/wallpapers/native/app1004036-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004036-preview-native.jpg.asset.json"
+}

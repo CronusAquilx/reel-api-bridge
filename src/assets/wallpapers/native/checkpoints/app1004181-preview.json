@@ -1,0 +1,18 @@
+{
+  "id": "app1004181-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Kyojuro-Rengoku-Demon-Slayer",
+  "previousUrls": [
+    "/__l5e/assets-v1/7113ead9-03f3-4aac-856f-c43012a41a32/app1004181-preview.mp4",
+    "/__l5e/assets-v1/49ed07d2-35df-4469-846b-f81db4bbf1cc/app1004181-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Kyojuro%20Rengoku%20Demon%20Slayer.mp4",
+  "bytes": 36388468,
+  "sha256": "999b32f30d39cc7fcc1431865f9be5cb0de12f399224efa650bdd7d0597d6d90",
+  "videoPointer": "assets/wallpapers/native/app1004181-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004181-preview-native.jpg.asset.json"
+}

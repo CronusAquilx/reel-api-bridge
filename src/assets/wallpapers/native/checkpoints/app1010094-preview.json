@@ -1,0 +1,18 @@
+{
+  "id": "app1010094-preview",
+  "source": "https://www.desktophut.com/PC-Long-Drive-4K-Live-Wallpaper-Free",
+  "previousUrls": [
+    "/__l5e/assets-v1/2ad8841f-bbc3-47df-8b1b-608823ec4ae2/app1010094-preview.mp4",
+    "/__l5e/assets-v1/d55865cf-c0e7-4e84-9559-9babbe7a4c72/app1010094-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654797457-1654797457-pc-long-drive-4k-live-wallpaper-free.mp4",
+  "bytes": 38713057,
+  "sha256": "e83e3827cc08cf212681e75d2497f312c2d10cfa8b5152aff4b910d6f06ea34a",
+  "videoPointer": "assets/wallpapers/native/app1010094-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010094-preview-native.jpg.asset.json"
+}

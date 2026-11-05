@@ -1,0 +1,18 @@
+{
+  "id": "app431473-preview",
+  "source": "https://www.desktophut.com/Tomb-Rider-UHD-4K-Video-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/575bd9bd-a625-482c-8504-0924b1b6486e/app431473-preview.mp4",
+    "/__l5e/assets-v1/52b68c29-5958-46a6-9b23-aa7a9ff367c4/app431473-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Tomb%20Rider%20UHD%204K%20Video%20Live%20Wallpaper.mp4",
+  "bytes": 58090662,
+  "sha256": "85ffb7c5d95be60cc7aef7ad0d67b852ba6e103fa81727b9e2ea86b5f64ab849",
+  "videoPointer": "assets/wallpapers/native/app431473-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app431473-preview-native.jpg.asset.json"
+}

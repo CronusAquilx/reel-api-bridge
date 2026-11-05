@@ -1,0 +1,18 @@
+{
+  "id": "app1004197-preview",
+  "source": "https://www.desktophut.com/4K-MSI-GAMING-LIVE-WALLPAPER-2160p60",
+  "previousUrls": [
+    "/__l5e/assets-v1/522096da-72c4-4637-b0ec-13d7cbbf5471/app1004197-preview.mp4",
+    "/__l5e/assets-v1/9fff0391-ddf4-4a9f-a8ba-5eb59d36a559/app1004197-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/4K%20MSI%20GAMING%20LIVE%20WALLPAPER%202160p60.mp4",
+  "bytes": 50742776,
+  "sha256": "7d6acc8854a460c7a7eaa95bc81302c8771bd338417ee5920dbfef96ead47e4d",
+  "videoPointer": "assets/wallpapers/native/app1004197-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004197-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1076950-preview",
+  "source": "https://www.desktophut.com/4k-demon-slayer-tomioka-giyu-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/556b2b4d-93d4-4b4b-82ce-0db04cd50df2/app1076950-preview.mp4",
+    "/__l5e/assets-v1/2cb9bc4d-37ea-4be2-afe4-d787bd5bea39/app1076950-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1759400306.mp4",
+  "bytes": 63934872,
+  "sha256": "8796762ea14d3fbec16b84f478d6d9b0763bf197704be4f4b3bdc529ebd199de",
+  "videoPointer": "assets/wallpapers/native/app1076950-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1076950-preview-native.jpg.asset.json"
+}

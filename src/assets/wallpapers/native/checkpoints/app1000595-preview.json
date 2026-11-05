@@ -1,0 +1,18 @@
+{
+  "id": "app1000595-preview",
+  "source": "https://www.desktophut.com/Anime-ZGMF-X19A-Infinite-Justice-Gundam-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b3454a9d-b6e9-4867-8d4b-260e27fb674c/app1000595-preview.mp4",
+    "/__l5e/assets-v1/64c75e3b-376a-40e8-a0e7-de67c8486a80/app1000595-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Anime%20ZGMF%20X19A%20Infinite%20Justice%20Gundam%204K%20Live%20Wallpaper.mp4",
+  "bytes": 31249246,
+  "sha256": "c301e33cf6eeca9bbeb70421e3ea75ef2fab629aa1eb92f90a27cdaa7f591409",
+  "videoPointer": "assets/wallpapers/native/app1000595-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000595-preview-native.jpg.asset.json"
+}

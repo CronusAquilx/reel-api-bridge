@@ -1,0 +1,18 @@
+{
+  "id": "app1004182-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Dr-Stone",
+  "previousUrls": [
+    "/__l5e/assets-v1/90cbb34c-b1f6-460c-bd71-6b65a8b0d953/app1004182-preview.mp4",
+    "/__l5e/assets-v1/4ee86074-885f-46da-8b33-cee1c4bc3339/app1004182-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Dr%20Stone.mp4",
+  "bytes": 36079192,
+  "sha256": "fc62242a4879bf82ce6fd3f08e9d8233e0bd394afbb45f0d8a12980f1df2025f",
+  "videoPointer": "assets/wallpapers/native/app1004182-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004182-preview-native.jpg.asset.json"
+}

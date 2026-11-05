@@ -1,0 +1,18 @@
+{
+  "id": "app344765-preview",
+  "source": "https://www.desktophut.com/Immortality-Mia-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4c7a0279-8e37-4bae-bb28-7fc52fd5d6b0/app344765-preview.mp4",
+    "/__l5e/assets-v1/657357b3-e583-4ca5-8574-e6ad9245334d/app344765-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "2560x1440",
+  "width": 2560,
+  "height": 1440,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Immortality%20Mia%204K%20Live%20Wallpaper.mp4",
+  "bytes": 32936740,
+  "sha256": "de65227b1e1fc2bb8396166d92b3ed2b6d2b748bcb2b092140a4ca50fd54547e",
+  "videoPointer": "assets/wallpapers/native/app344765-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app344765-preview-native.jpg.asset.json"
+}

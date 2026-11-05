@@ -1,0 +1,18 @@
+{
+  "id": "app1010429-preview",
+  "source": "https://www.desktophut.com/4K-Rei-Ayanami-Angel-Neon-Genesis-Evangelion-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/26bcca55-a67a-4b87-aac8-5fbac37945e2/app1010429-preview.mp4",
+    "/__l5e/assets-v1/696b05d0-5e3e-4a0e-8f15-650972f9c33d/app1010429-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877914-1654877914-4k-rei-ayanami-angel-neon-genesis-evangelion-live-wallpaper-for-pc.mp4",
+  "bytes": 65691706,
+  "sha256": "8e76367cc79785d8b6868fce9ac152f07146993cfeba2f3f23002dd005495d92",
+  "videoPointer": "assets/wallpapers/native/app1010429-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010429-preview-native.jpg.asset.json"
+}

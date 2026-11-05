@@ -1,0 +1,18 @@
+{
+  "id": "app1073503-preview",
+  "source": "https://www.desktophut.com/Pain-Nagato-Chibaku-Tensei-Jutsu-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/aaeaee5a-c3e1-4c35-9535-18fa4593244c/app1073503-preview.mp4",
+    "/__l5e/assets-v1/96e8502c-4087-48e5-98fc-44ca9e93ccce/app1073503-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1688293465-1688293465-pain-nagato-chibaku-tensei-jutsu-live-wallpaper-4k.mp4",
+  "bytes": 65938471,
+  "sha256": "04ff127910eb166e37a8dd1414c834fcd49e32d00df6a618dc3e32352dd36a9d",
+  "videoPointer": "assets/wallpapers/native/app1073503-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073503-preview-native.jpg.asset.json"
+}

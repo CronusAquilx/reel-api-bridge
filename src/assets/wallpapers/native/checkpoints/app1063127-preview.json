@@ -1,0 +1,18 @@
+{
+  "id": "app1063127-preview",
+  "source": "https://www.desktophut.com/CHAINSAW-MAN-LIVE-Wallpaper-_-4K-Wallpapers",
+  "previousUrls": [
+    "/__l5e/assets-v1/c76adef1-de88-4ed6-b225-7e2e0e3bb213/app1063127-preview.mp4",
+    "/__l5e/assets-v1/61371601-4013-434c-8ac5-7860fb757070/app1063127-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1280x720",
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673473087-1673473087-chainsaw-man-live-wallpaper-_-4k-wallpapers.mp4",
+  "bytes": 6041634,
+  "sha256": "89b26b96864a5f99ca26fff88ad66b1052bad71fc85c4354420de1430c1300fa",
+  "videoPointer": "assets/wallpapers/native/app1063127-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1063127-preview-native.jpg.asset.json"
+}

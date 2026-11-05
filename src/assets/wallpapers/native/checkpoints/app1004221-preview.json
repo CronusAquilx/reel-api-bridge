@@ -1,0 +1,18 @@
+{
+  "id": "app1004221-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Goku-vs-Beerus",
+  "previousUrls": [
+    "/__l5e/assets-v1/4f643aa4-b198-4308-8f9c-cc3999055afb/app1004221-preview.mp4",
+    "/__l5e/assets-v1/ff6fc768-d850-4f0e-847c-6f5e91689a50/app1004221-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Goku%20vs%20Beerus.mp4",
+  "bytes": 72031544,
+  "sha256": "5df1d2f1d940744f2042e887e0408e7151bdcd9dcac386f98fa2d857b3ef21ae",
+  "videoPointer": "assets/wallpapers/native/app1004221-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004221-preview-native.jpg.asset.json"
+}

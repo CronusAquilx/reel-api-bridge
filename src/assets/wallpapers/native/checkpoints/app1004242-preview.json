@@ -1,0 +1,18 @@
+{
+  "id": "app1004242-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Shoto-Todoroki-My-Hero-Academia",
+  "previousUrls": [
+    "/__l5e/assets-v1/0c7983cc-973d-499d-98e4-38be0ff25bce/app1004242-preview.mp4",
+    "/__l5e/assets-v1/b86bde1d-2213-4361-b8dc-c25aeb8dc101/app1004242-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Shoto%20Todoroki%20My%20Hero%20Academia.mp4",
+  "bytes": 100472388,
+  "sha256": "613352fe60cdb92c80e3792db10b9d7daaceda9986f9a0b804669646d75ac2ac",
+  "videoPointer": "assets/wallpapers/native/app1004242-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004242-preview-native.jpg.asset.json"
+}

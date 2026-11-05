@@ -1,0 +1,18 @@
+{
+  "id": "app1062009-preview",
+  "source": "https://www.desktophut.com/Denji-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/b1908bbb-978d-497c-b9df-51c30794103b/app1062009-preview.mp4",
+    "/__l5e/assets-v1/a3a4fd80-0587-40f3-bb1d-f303395e04ba/app1062009-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1671549505-1671549505-denji-live-wallpaper-4k.mp4",
+  "bytes": 47414422,
+  "sha256": "b2ccbee3433979e43f7a891964823e1132dbf8a237bb24a3325de7ed3c35c338",
+  "videoPointer": "assets/wallpapers/native/app1062009-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1062009-preview-native.jpg.asset.json"
+}

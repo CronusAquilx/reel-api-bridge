@@ -1,0 +1,18 @@
+{
+  "id": "app1073500-preview",
+  "source": "https://www.desktophut.com/Zoro-Unleash-Enma-Sword-One-Piece-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/92f01069-cbbc-4290-bf93-59021e31c055/app1073500-preview.mp4",
+    "/__l5e/assets-v1/990e1cc6-e72d-4ae8-9a91-084ae1ff0b7d/app1073500-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1688285653-1688285653-zoro-unleash-enma-sword-one-piece-live-wallpaper-4k.mp4",
+  "bytes": 54214114,
+  "sha256": "83e0260ef0207a07de331429d8b2539647ddd689bb0cd1e05ea6153164391014",
+  "videoPointer": "assets/wallpapers/native/app1073500-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073500-preview-native.jpg.asset.json"
+}

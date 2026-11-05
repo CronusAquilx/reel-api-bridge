@@ -1,0 +1,18 @@
+{
+  "id": "app1003140-preview",
+  "source": "https://www.desktophut.com/Rei-Ayanami-Neon-Genesis-Evangelion-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6c75d0d5-8ac1-4a04-956b-ce4cb1ed1c34/app1003140-preview.mp4",
+    "/__l5e/assets-v1/e1319111-aebf-4e37-9ef8-481cdae333b1/app1003140-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Rei%20Ayanami%20Neon%20Genesis%20Evangelion%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65825632,
+  "sha256": "e47757cf4bdc4953de0f88e8b633f589b211f48106c1657f12a4fa591ba67c29",
+  "videoPointer": "assets/wallpapers/native/app1003140-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003140-preview-native.jpg.asset.json"
+}

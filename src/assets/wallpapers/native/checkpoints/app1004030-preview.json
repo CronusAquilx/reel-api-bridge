@@ -1,0 +1,18 @@
+{
+  "id": "app1004030-preview",
+  "source": "https://www.desktophut.com/Cool-Naruto-and-Sasuke-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e2ebf867-6475-413d-9d55-33ba92013807/app1004030-preview.mp4",
+    "/__l5e/assets-v1/7315f137-01ce-4e2b-8167-e1e0d63dd915/app1004030-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Naruto%20and%20Sasuke%204k%20Live%20Wallpaper.mp4",
+  "bytes": 13606626,
+  "sha256": "180f94fcd352c45e65b8c8549b8ff690d7baf10bf729787e20c752ecfdab35b4",
+  "videoPointer": "assets/wallpapers/native/app1004030-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004030-preview-native.jpg.asset.json"
+}

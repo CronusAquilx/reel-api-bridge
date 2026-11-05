@@ -1,0 +1,18 @@
+{
+  "id": "app1073495-preview",
+  "source": "https://www.desktophut.com/Batman-Animated-Series-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7d5948fb-474b-4b5a-b0d7-b3f2b02fb618/app1073495-preview.mp4",
+    "/__l5e/assets-v1/ddf97ccf-646b-4533-a3ec-1ee9e8a6aa17/app1073495-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1688230136-1688230136-batman-animated-series-4k-live-wallpaper.mp4",
+  "bytes": 22743171,
+  "sha256": "3df58b8d2c44ddbc44edd4bd307942fa3e9ad631f40e6eb41420a9851ed209ff",
+  "videoPointer": "assets/wallpapers/native/app1073495-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073495-preview-native.jpg.asset.json"
+}

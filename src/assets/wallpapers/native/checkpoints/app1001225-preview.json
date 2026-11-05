@@ -1,0 +1,18 @@
+{
+  "id": "app1001225-preview",
+  "source": "https://www.desktophut.com/Sans-In-The-Snow-Forest-Undertale-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/46ed189f-6828-4505-8739-f1c6dbe628f0/app1001225-preview.mp4",
+    "/__l5e/assets-v1/ef4715a9-184e-4f94-bf25-1a376a548897/app1001225-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Sans%20In%20The%20Snow%20Forest%20Undertale%204k%20Live%20Wallpaper.mp4",
+  "bytes": 20352665,
+  "sha256": "a050eaaf759c0f77c31fee01387a85bc0758d79ba8ad6d4c334e30c26399131f",
+  "videoPointer": "assets/wallpapers/native/app1001225-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001225-preview-native.jpg.asset.json"
+}

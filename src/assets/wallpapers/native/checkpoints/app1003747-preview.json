@@ -1,0 +1,18 @@
+{
+  "id": "app1003747-preview",
+  "source": "https://www.desktophut.com/Cool-Eren-4k-Live-wallpaper-Attack-On-Titan-Anime-Live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1a6c34c2-d162-4c77-9b3c-5de29a628aa7/app1003747-preview.mp4",
+    "/__l5e/assets-v1/b5ac185c-b738-488b-b54f-322de7b6da76/app1003747-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Eren%204k%20Live%20wallpaper%20Attack%20On%20Titan%20Anime%20Live%20wallpaper.mp4",
+  "bytes": 3756812,
+  "sha256": "fa6e5fd78ecc705041cccfd6197b88c184e8460004040800cf5e1f2af47d3a58",
+  "videoPointer": "assets/wallpapers/native/app1003747-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003747-preview-native.jpg.asset.json"
+}

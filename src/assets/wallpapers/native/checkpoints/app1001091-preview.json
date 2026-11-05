@@ -1,0 +1,18 @@
+{
+  "id": "app1001091-preview",
+  "source": "https://www.desktophut.com/4K-Star-Wars-Rogue-One-Darth-Vaders-Rage-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4d431b59-3721-4520-8685-16c080ede05f/app1001091-preview.mp4",
+    "/__l5e/assets-v1/8bebdee4-57e5-40b6-8105-847906a70c6b/app1001091-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/4K%20Star%20Wars%20Rogue%20One%20-%20Darth%20Vaders%20Rage%20Live%20Wallpaper.mp4",
+  "bytes": 52115847,
+  "sha256": "adac44805beb30298d6ff9318d20bdb2111e3504466562a28ea6f1aa65050edb",
+  "videoPointer": "assets/wallpapers/native/app1001091-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001091-preview-native.jpg.asset.json"
+}

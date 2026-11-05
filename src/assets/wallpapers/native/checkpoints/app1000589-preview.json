@@ -1,0 +1,18 @@
+{
+  "id": "app1000589-preview",
+  "source": "https://www.desktophut.com/Super-Saiyan-Rose-DBS-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ba6669ff-cd61-48cf-b428-5e4e7f622aaf/app1000589-preview.mp4",
+    "/__l5e/assets-v1/3ec40de6-6a86-4733-9323-7657d9c6f064/app1000589-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Super%20Saiyan%20Rose%20DBS%204K%20Live%20Wallpaper.mp4",
+  "bytes": 23545470,
+  "sha256": "df5d87ba5918614370f288bcda5360d009e6afc1c13a8011279264e0b5196b3a",
+  "videoPointer": "assets/wallpapers/native/app1000589-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000589-preview-native.jpg.asset.json"
+}

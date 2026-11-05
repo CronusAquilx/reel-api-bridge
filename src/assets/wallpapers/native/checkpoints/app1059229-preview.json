@@ -1,0 +1,18 @@
+{
+  "id": "app1059229-preview",
+  "source": "https://www.desktophut.com/4k-Snowy-Mountains-Live-Wallpaper-Free",
+  "previousUrls": [
+    "/__l5e/assets-v1/42e91ced-b382-4a94-9a5f-2f84cd466c64/app1059229-preview.mp4",
+    "/__l5e/assets-v1/d453add1-a2d9-4008-9029-35ee1f12ead5/app1059229-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1662111216-1662111216-4k-snowy-mountains-live-wallpaper-free.mp4",
+  "bytes": 19916490,
+  "sha256": "626d1c3366d42184341785cb0291220bb0cff07405c87d6f4a33d7b2f1b09e63",
+  "videoPointer": "assets/wallpapers/native/app1059229-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059229-preview-native.jpg.asset.json"
+}

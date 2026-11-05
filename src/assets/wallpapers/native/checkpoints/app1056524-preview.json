@@ -1,0 +1,18 @@
+{
+  "id": "app1056524-preview",
+  "source": "https://www.desktophut.com/Nekiri-%E8%8E%B1%E8%8C%B5%E7%94%9F%E5%AD%A6-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/40239025-0b80-402e-bdec-32d06c4da182/app1056524-preview.mp4",
+    "/__l5e/assets-v1/dd3b3447-eb3a-43df-af5d-bea232ab84b1/app1056524-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657707969-1657707969-nekiri-%E8%8E%B1%E8%8C%B5%E7%94%9F%E5%AD%A6-live-wallpaper-4k.mp4",
+  "bytes": 665373,
+  "sha256": "384ec5c56e0d9815df4c9952f91e6ef9a1bf4dcb70c2f0a9355ff27c1bcf0692",
+  "videoPointer": "assets/wallpapers/native/app1056524-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056524-preview-native.jpg.asset.json"
+}

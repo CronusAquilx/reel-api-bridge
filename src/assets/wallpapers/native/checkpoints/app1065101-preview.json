@@ -1,0 +1,18 @@
+{
+  "id": "app1065101-preview",
+  "source": "https://www.desktophut.com/Dark-Hacker-Room-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8d82c2e7-f375-4a1e-b529-5847a70fb510/app1065101-preview.mp4",
+    "/__l5e/assets-v1/75e4be75-27a1-4a35-8afe-6dc296d0591a/app1065101-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1675712359-1675712359-dark-hacker-room-4k-live-wallpaper.mp4",
+  "bytes": 28172306,
+  "sha256": "97c83f5e429c8af96364b99a3e343aa4da4ec1539e55e18144023dac903dcaa5",
+  "videoPointer": "assets/wallpapers/native/app1065101-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1065101-preview-native.jpg.asset.json"
+}

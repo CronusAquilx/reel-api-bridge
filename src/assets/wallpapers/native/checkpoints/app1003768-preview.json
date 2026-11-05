@@ -1,0 +1,18 @@
+{
+  "id": "app1003768-preview",
+  "source": "https://www.desktophut.com/Cool-Spiderman-Hanging-4k-Live-Wallpaper-Marvel-Spiderman-No-Way-Home",
+  "previousUrls": [
+    "/__l5e/assets-v1/80d63796-0cd5-421d-b865-db96fc6a313f/app1003768-preview.mp4",
+    "/__l5e/assets-v1/d91e5fa1-c1c0-4c3e-9dfe-f99ec9602cab/app1003768-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Spiderman%20Hanging%204k%20Live%20Wallpaper%20Marvel%20Spiderman%20No%20Way%20Home.mp4",
+  "bytes": 4321085,
+  "sha256": "053699ef9375f77465f03e55680dae3d834346d7863b9e67e63d426ba922d4ac",
+  "videoPointer": "assets/wallpapers/native/app1003768-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003768-preview-native.jpg.asset.json"
+}

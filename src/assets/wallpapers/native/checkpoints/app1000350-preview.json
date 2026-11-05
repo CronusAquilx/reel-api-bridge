@@ -1,0 +1,18 @@
+{
+  "id": "app1000350-preview",
+  "source": "https://www.desktophut.com/Anime-Girl-and-Computers-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6fe389da-f88d-4fe3-a76b-d78bc8aacd35/app1000350-preview.mp4",
+    "/__l5e/assets-v1/c4b22798-5ea8-45e2-bce0-5e612539893f/app1000350-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Anime%20Girl%20and%20Computers%204K%20Live%20Wallpaper.mp4",
+  "bytes": 24659134,
+  "sha256": "c84d6e70c92f3d1526562a3fe19a008f92051c040beb36092d4b7fcca26f4b15",
+  "videoPointer": "assets/wallpapers/native/app1000350-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000350-preview-native.jpg.asset.json"
+}

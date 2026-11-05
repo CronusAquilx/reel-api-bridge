@@ -1,0 +1,18 @@
+{
+  "id": "app1000222-preview",
+  "source": "https://www.desktophut.com/Red-Fire-Abstract-Tornado-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/67b189fa-d069-45b8-a505-fb880d5a529a/app1000222-preview.mp4",
+    "/__l5e/assets-v1/9bb9e5c1-b591-4875-9908-5932268d570b/app1000222-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Red%20%20Fire%20%20Abstract%20%20Tornado%20%204K%20%20Live%20%20Wallpaper.mp4",
+  "bytes": 5470196,
+  "sha256": "a054bb2739e59d564d4ae620829a8c3fbaed2264f5780141135de8c8525c53ab",
+  "videoPointer": "assets/wallpapers/native/app1000222-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000222-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073292-preview",
+  "source": "https://www.desktophut.com/Audi-RS-6-Avant-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/838a724d-b5a5-4ff5-b57c-095872fbf467/app1073292-preview.mp4",
+    "/__l5e/assets-v1/c653e344-f740-42e9-a6e0-9da6b4a2fe9f/app1073292-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1685075373-1685075373-audi-rs-6-avant-4k-live-wallpaper.mp4",
+  "bytes": 2177590,
+  "sha256": "b2a16f5a8bc901d2f77ab03aed4ab14ea2cb31c2f3bfe4428dc5f5a4b027f3eb",
+  "videoPointer": "assets/wallpapers/native/app1073292-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073292-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073538-preview",
+  "source": "https://www.desktophut.com/Gundam-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bfcaa0bf-497c-43f5-8f40-361e31c831f8/app1073538-preview.mp4",
+    "/__l5e/assets-v1/88ee2fc6-4e1c-4dfb-beeb-26baa80b499e/app1073538-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "5824x3264",
+  "width": 5824,
+  "height": 3264,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1689092796-1689092796-gundam-4k-live-wallpaper.mp4",
+  "bytes": 38760634,
+  "sha256": "fa54c4723a6e9be5fefc4b3dd053a166f41807c0a82088b9a50007b053883e72",
+  "videoPointer": "assets/wallpapers/native/app1073538-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073538-preview-native.jpg.asset.json"
+}

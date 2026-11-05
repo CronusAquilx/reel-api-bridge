@@ -1,0 +1,18 @@
+{
+  "id": "app1056627-preview",
+  "source": "https://www.desktophut.com/Diaochan-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/12993dc2-5ba2-458b-8578-01b5868e3471/app1056627-preview.mp4",
+    "/__l5e/assets-v1/902e574f-249f-435f-a7a1-22a3226c8b5e/app1056627-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885499-1657885499-diaochan-live-wallpaper-4k.mp4",
+  "bytes": 84151982,
+  "sha256": "b8eae57cf2995704100b6c5f1576c770d16758901cb3e83c8a0a6c850fe48417",
+  "videoPointer": "assets/wallpapers/native/app1056627-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056627-preview-native.jpg.asset.json"
+}

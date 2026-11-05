@@ -1,0 +1,18 @@
+{
+  "id": "app1056624-preview",
+  "source": "https://www.desktophut.com/Diana-the-Empress-Prestige-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/3ecc4ebb-8453-474e-9669-00aa30d30280/app1056624-preview.mp4",
+    "/__l5e/assets-v1/ddfc2890-6351-43d9-abf3-2c397dd806ac/app1056624-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885492-1657885492-diana-the-empress-prestige-live-wallpaper-4k.mp4",
+  "bytes": 55478668,
+  "sha256": "227933cfea5407e2aa6433e7d122a0886b0d27b34f096847f4459442703c0a23",
+  "videoPointer": "assets/wallpapers/native/app1056624-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056624-preview-native.jpg.asset.json"
+}

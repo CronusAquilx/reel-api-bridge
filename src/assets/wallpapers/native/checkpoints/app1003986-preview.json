@@ -1,0 +1,18 @@
+{
+  "id": "app1003986-preview",
+  "source": "https://www.desktophut.com/Cool-Akatsuki-Naruto-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6da90700-dd24-4c63-addd-26472d929397/app1003986-preview.mp4",
+    "/__l5e/assets-v1/5c8c0382-8571-4c4c-9e61-148b77f562d2/app1003986-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Akatsuki%20Naruto%204k%20Live%20Wallpaper.mp4",
+  "bytes": 12213501,
+  "sha256": "542eebc65ac2bdaa1a18efa109942a86c6f67dac3d9539df0e888e9d26cb9b83",
+  "videoPointer": "assets/wallpapers/native/app1003986-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003986-preview-native.jpg.asset.json"
+}

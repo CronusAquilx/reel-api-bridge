@@ -1,0 +1,18 @@
+{
+  "id": "app818611-preview",
+  "source": "https://www.desktophut.com/Nyan-Cat-Video-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/6ab39917-1708-40c7-8ec8-bdc07a735a3d/app818611-preview.mp4",
+    "/__l5e/assets-v1/b85f893b-e54d-489a-98d0-b84373b572b8/app818611-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Nyan%20Cat%20Video%20Live%20Wallpaper%204K.mp4",
+  "bytes": 5703920,
+  "sha256": "4fda66ad3a36fd27e8bac227ff8ca9f482b7706fb75bfffdf59746842631563d",
+  "videoPointer": "assets/wallpapers/native/app818611-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app818611-preview-native.jpg.asset.json"
+}

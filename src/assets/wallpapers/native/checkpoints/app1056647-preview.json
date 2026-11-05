@@ -1,0 +1,18 @@
+{
+  "id": "app1056647-preview",
+  "source": "https://www.desktophut.com/Rick-&-Morty-Alien-Worlds-in-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/454a312e-51ac-4f0b-a444-6149c607dfde/app1056647-preview.mp4",
+    "/__l5e/assets-v1/55e12136-2758-4129-89fb-d0ccb901d104/app1056647-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885624-1657885624-rick-%26-morty-alien-worlds-in-4k-live-wallpaper.mp4",
+  "bytes": 29855579,
+  "sha256": "9bb67a37c9be9c3314b1df7966a01ed6304c701c2969883982f4405b4cd20b6b",
+  "videoPointer": "assets/wallpapers/native/app1056647-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056647-preview-native.jpg.asset.json"
+}

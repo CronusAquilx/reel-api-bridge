@@ -1,0 +1,18 @@
+{
+  "id": "app1010401-preview",
+  "source": "https://www.desktophut.com/4K-Kaneki-Ken-Mask-Tokyo-Ghoul-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/02b3c35d-bdc9-4623-9f5c-318f323fefc4/app1010401-preview.mp4",
+    "/__l5e/assets-v1/99011337-4db1-479a-b0ba-e436b6476c91/app1010401-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877694-1654877694-4k-kaneki-ken-mask-tokyo-ghoul-live-wallpaper-for-pc.mp4",
+  "bytes": 65334308,
+  "sha256": "d832396b295d4242bf84f5118813469b14daad3033c5f56c2283e9039627a227",
+  "videoPointer": "assets/wallpapers/native/app1010401-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010401-preview-native.jpg.asset.json"
+}

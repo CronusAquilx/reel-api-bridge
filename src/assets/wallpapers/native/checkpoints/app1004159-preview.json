@@ -1,0 +1,18 @@
+{
+  "id": "app1004159-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Your-Name-Makoto-Shinkai",
+  "previousUrls": [
+    "/__l5e/assets-v1/0be4279c-dcb1-4477-b087-b8a8f78dd58f/app1004159-preview.mp4",
+    "/__l5e/assets-v1/a448cf64-5d6e-4deb-aea3-3a8c45ab69e0/app1004159-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Your%20Name%20Makoto%20Shinkai.mp4",
+  "bytes": 28977827,
+  "sha256": "2a7ec37f90a5876aa6e0166ed06d22a8caeb0640a81d749dc42be3dfa0ca0c5c",
+  "videoPointer": "assets/wallpapers/native/app1004159-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004159-preview-native.jpg.asset.json"
+}

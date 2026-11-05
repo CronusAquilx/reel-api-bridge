@@ -1,0 +1,18 @@
+{
+  "id": "app1003961-preview",
+  "source": "https://www.desktophut.com/Cool-Goku-Ultra-Instinct-Kamehameha-4k-live-wallpaper-Dragon-Ball-Anime-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/232b620c-e0ed-4f99-8059-87e902620a87/app1003961-preview.mp4",
+    "/__l5e/assets-v1/fae8aba0-9b82-4c65-802b-af6c7be4ce70/app1003961-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Goku%20Ultra%20Instinct%20Kamehameha%204k%20live%20wallpaper%20Dragon%20Ball%20Anime%20Live%20Wallpaper.mp4",
+  "bytes": 11727818,
+  "sha256": "b37ed171d96c7194166587fa70dbc894e9cc9508d687cb173452f324f8aa29fe",
+  "videoPointer": "assets/wallpapers/native/app1003961-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003961-preview-native.jpg.asset.json"
+}

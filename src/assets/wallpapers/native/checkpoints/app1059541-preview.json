@@ -1,0 +1,18 @@
+{
+  "id": "app1059541-preview",
+  "source": "https://www.desktophut.com/Live-Night-City-CyberPunk-2077-Pixel-4k-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/c4bfd862-e1ea-49a1-91f3-f5f5c90d3fef/app1059541-preview.mp4",
+    "/__l5e/assets-v1/60b4e91f-ff16-4053-8f27-0655741961a4/app1059541-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1665235917-1665235917-live-night-city-cyberpunk-2077-pixel-4k-wallpaper.mp4",
+  "bytes": 5682623,
+  "sha256": "d4fbb888a44104a4b4bf8859c89cc862cd6af0a46f873d9867dc791d583f2ed1",
+  "videoPointer": "assets/wallpapers/native/app1059541-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059541-preview-native.jpg.asset.json"
+}

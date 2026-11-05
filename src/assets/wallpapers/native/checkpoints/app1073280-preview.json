@@ -1,0 +1,18 @@
+{
+  "id": "app1073280-preview",
+  "source": "https://www.desktophut.com/4K-Downtown-Theater-Rain-Live-Wallpaper-Free",
+  "previousUrls": [
+    "/__l5e/assets-v1/026b614a-3fdb-4320-8faa-cff5878e29f3/app1073280-preview.mp4",
+    "/__l5e/assets-v1/e1875c12-2a60-43ab-8c89-3a55e4486209/app1073280-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1912x1078",
+  "width": 1912,
+  "height": 1078,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684162021-1684162021-4k-downtown-theater-rain-live-wallpaper-free.mp4",
+  "bytes": 48006611,
+  "sha256": "f59f210f73772e12f13358d5a3d7f3c2385e4054af8e46c6cb2dba8ba9c78f3f",
+  "videoPointer": "assets/wallpapers/native/app1073280-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073280-preview-native.jpg.asset.json"
+}

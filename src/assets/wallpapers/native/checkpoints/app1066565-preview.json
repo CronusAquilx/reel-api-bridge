@@ -1,0 +1,18 @@
+{
+  "id": "app1066565-preview",
+  "source": "https://www.desktophut.com/Zelda-Sunset-4K-PixelArt-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1a454a3b-6ef5-4124-949c-b529768bf341/app1066565-preview.mp4",
+    "/__l5e/assets-v1/c1d4c7c9-981d-4fb2-aea6-51f19fb5d902/app1066565-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1675813607-1675813607-zelda-sunset-4k-pixelart-live-wallpaper.mp4",
+  "bytes": 3517442,
+  "sha256": "37201d330a2f1e3f6d7b6a797eb237a4493625687c4329922c1f15811ddd69c8",
+  "videoPointer": "assets/wallpapers/native/app1066565-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1066565-preview-native.jpg.asset.json"
+}

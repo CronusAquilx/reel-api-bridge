@@ -1,0 +1,18 @@
+{
+  "id": "app1010393-preview",
+  "source": "https://www.desktophut.com/4K-Iron-Man-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/34937fe9-fe91-4e1a-bfe4-25ec5a6fd7e1/app1010393-preview.mp4",
+    "/__l5e/assets-v1/6ddfd4b4-25cf-48f0-abb3-8cbd80991609/app1010393-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877631-1654877631-4k-iron-man-live-wallpaper-for-pc.mp4",
+  "bytes": 65470461,
+  "sha256": "03b30c2afc5f16acbda08f3f684adcf4c6c320d310fdca549ee08530a1b4a528",
+  "videoPointer": "assets/wallpapers/native/app1010393-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010393-preview-native.jpg.asset.json"
+}

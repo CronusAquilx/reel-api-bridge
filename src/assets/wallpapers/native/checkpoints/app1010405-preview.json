@@ -1,0 +1,18 @@
+{
+  "id": "app1010405-preview",
+  "source": "https://www.desktophut.com/4K-Kurapika-Hunter-X-Hunter-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/14bdaa77-0fda-46dc-92cc-10fb8931dcfb/app1010405-preview.mp4",
+    "/__l5e/assets-v1/ad0b72b6-b15f-4227-b10b-f7d0bbc2f7a2/app1010405-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877730-1654877730-4k-kurapika-hunter-x-hunter-live-wallpaper-for-pc.mp4",
+  "bytes": 65457115,
+  "sha256": "ef260d1776a2ba1ac9d7402da7501568e508ee4657b0b0555de786e8db3e20c9",
+  "videoPointer": "assets/wallpapers/native/app1010405-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010405-preview-native.jpg.asset.json"
+}

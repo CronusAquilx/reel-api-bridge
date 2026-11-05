@@ -1,0 +1,18 @@
+{
+  "id": "app1000780-preview",
+  "source": "https://www.desktophut.com/Anime-Ganyu-Girl-And-Rainy-Night-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/2c82f0d9-ef20-4b82-a021-06a5ea047e04/app1000780-preview.mp4",
+    "/__l5e/assets-v1/62e557da-7b67-4433-8eee-185f9ead795c/app1000780-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Anime%20Ganyu%20Girl%20And%20Rainy%20Night%204K%20Live%20Wallpaper.mp4",
+  "bytes": 28222047,
+  "sha256": "3be7e78c1b91ceadf900639bc14322740490d19c839c1e211b1cb3ef31dc99ee",
+  "videoPointer": "assets/wallpapers/native/app1000780-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000780-preview-native.jpg.asset.json"
+}

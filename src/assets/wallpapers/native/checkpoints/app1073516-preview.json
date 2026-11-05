@@ -1,0 +1,18 @@
+{
+  "id": "app1073516-preview",
+  "source": "https://www.desktophut.com/Makima-Chainsaw-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/79261a38-0124-4fc2-8c80-d443ab030c31/app1073516-preview.mp4",
+    "/__l5e/assets-v1/5811ef2a-7df8-48fc-937b-340c4d5b3234/app1073516-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1688358007-1688358007-makima-chainsaw-4k-live-wallpaper.mp4",
+  "bytes": 73270128,
+  "sha256": "5a2d0f567a97dc8ff74cc1a963bba505656a4d4f5f6d3fd101aa28b470031fb8",
+  "videoPointer": "assets/wallpapers/native/app1073516-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073516-preview-native.jpg.asset.json"
+}

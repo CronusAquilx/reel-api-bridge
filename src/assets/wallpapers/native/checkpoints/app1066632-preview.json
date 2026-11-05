@@ -1,0 +1,18 @@
+{
+  "id": "app1066632-preview",
+  "source": "https://www.desktophut.com/Aquarium-3D-Fishes-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/1f48718e-1a10-490f-8a90-4e97e2de078f/app1066632-preview.mp4",
+    "/__l5e/assets-v1/77984623-6c1e-4087-9100-1ae5bb473b7a/app1066632-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1675813909-1675813909-aquarium-3d-fishes-live-wallpaper-4k.mp4",
+  "bytes": 39693892,
+  "sha256": "6a84268192831d70308c3fbad094a30a1f2fa32c7894020fe2839431b2b12151",
+  "videoPointer": "assets/wallpapers/native/app1066632-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1066632-preview-native.jpg.asset.json"
+}

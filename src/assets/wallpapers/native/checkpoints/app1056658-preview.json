@@ -1,0 +1,18 @@
+{
+  "id": "app1056658-preview",
+  "source": "https://www.desktophut.com/Yang-Yuhuan-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/a6cfc36c-7a59-4f7c-b089-6445d74aa58b/app1056658-preview.mp4",
+    "/__l5e/assets-v1/809f4247-b746-4c3a-93ba-0cd0282a7929/app1056658-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885693-1657885693-yang-yuhuan-live-wallpaper-4k.mp4",
+  "bytes": 84064253,
+  "sha256": "12c18c9905ccc45708ddc04d6f07028f3569088291299e1aa5504439a5a40bbf",
+  "videoPointer": "assets/wallpapers/native/app1056658-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056658-preview-native.jpg.asset.json"
+}

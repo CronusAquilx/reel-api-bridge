@@ -1,0 +1,18 @@
+{
+  "id": "app1004145-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Jujutsu-Kaisen-Satoru-Gojo",
+  "previousUrls": [
+    "/__l5e/assets-v1/c08fed9e-38ad-48ec-a4b5-f3370eb3c3ad/app1004145-preview.mp4",
+    "/__l5e/assets-v1/b4c66a85-d86f-4d7d-90e0-4b01e1dffbc6/app1004145-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Jujutsu%20Kaisen%20Satoru%20Gojo.mp4",
+  "bytes": 23713881,
+  "sha256": "1d47537faa4be88b4ee56d5f26281aee2bc339ba56baccbcd076b67762b85880",
+  "videoPointer": "assets/wallpapers/native/app1004145-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004145-preview-native.jpg.asset.json"
+}

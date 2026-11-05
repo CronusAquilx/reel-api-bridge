@@ -1,0 +1,18 @@
+{
+  "id": "app1004184-preview",
+  "source": "https://www.desktophut.com/Live-wallpaper-4K-Attack-On-Titan-logo",
+  "previousUrls": [
+    "/__l5e/assets-v1/69704097-997b-41be-8a25-614e5153e378/app1004184-preview.mp4",
+    "/__l5e/assets-v1/59a52540-c201-49b5-b7dd-82e5cdcb8f9c/app1004184-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20wallpaper%204K%20Attack%20On%20Titan%20logo.mp4",
+  "bytes": 37474965,
+  "sha256": "f7c2d680aa34c41cd206a4158bca23f16127a5ebd4dc0633d76aa2b302ebde2f",
+  "videoPointer": "assets/wallpapers/native/app1004184-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004184-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1004005-preview",
+  "source": "https://www.desktophut.com/Cool-Naruto-Sasuke-Angry-4k-Live-Wallpaper-Naruto-Anime-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9ce23c27-afbf-421c-b99c-f6e60fb634a0/app1004005-preview.mp4",
+    "/__l5e/assets-v1/31ac032e-6001-4d6f-89f9-e79c1817c7b7/app1004005-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Naruto%20%20Sasuke%20Angry%204k%20Live%20Wallpaper%20Naruto%20Anime%20Live%20Wallpaper.mp4",
+  "bytes": 12985291,
+  "sha256": "ae7c62deef92a887698e44944a197cb689e5f1c59ee2707061483352f2814968",
+  "videoPointer": "assets/wallpapers/native/app1004005-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004005-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1010438-preview",
+  "source": "https://www.desktophut.com/4K-Spiderman-Silhouette-Building-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/29dfc422-b936-48d2-9102-6dd889f84cf4/app1010438-preview.mp4",
+    "/__l5e/assets-v1/5c1e4725-7129-47bf-831c-cbca98b945e7/app1010438-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877979-1654877979-4k-spiderman-silhouette-building-live-wallpaper-for-pc.mp4",
+  "bytes": 64421259,
+  "sha256": "5e0a8f868f0226c4afd08621068a7243f9c6082f78e7a042bf507ee37abca9ed",
+  "videoPointer": "assets/wallpapers/native/app1010438-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010438-preview-native.jpg.asset.json"
+}

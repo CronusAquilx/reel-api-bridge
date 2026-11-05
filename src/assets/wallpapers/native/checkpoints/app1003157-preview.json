@@ -1,0 +1,18 @@
+{
+  "id": "app1003157-preview",
+  "source": "https://www.desktophut.com/Lelouch-Vi-Britannia-Code-Geass-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/acf5db76-8976-4fe8-980f-e637f05c8192/app1003157-preview.mp4",
+    "/__l5e/assets-v1/ebca48b9-6ffb-43c4-ba01-7ae3344dee8f/app1003157-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Lelouch%20Vi%20Britannia%20Code%20Geass%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65570015,
+  "sha256": "fa9f24bfe0fb49bb59a19352b4d85c70414db33e612501317415ae82612ca7ad",
+  "videoPointer": "assets/wallpapers/native/app1003157-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003157-preview-native.jpg.asset.json"
+}

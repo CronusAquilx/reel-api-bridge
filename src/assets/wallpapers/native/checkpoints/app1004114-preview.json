@@ -1,0 +1,18 @@
+{
+  "id": "app1004114-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-PC-4k-Espada-de-Sword-art-online-Kirito-Anime",
+  "previousUrls": [
+    "/__l5e/assets-v1/ef98e58d-752c-4783-a706-bcaa0618ab19/app1004114-preview.mp4",
+    "/__l5e/assets-v1/1e5132ab-1359-4f12-af21-06975a71cde6/app1004114-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%20PC%204k%20Espada%20de%20Sword%20art%20online%20Kirito%20Anime.mp4",
+  "bytes": 22538213,
+  "sha256": "15c1808c1331cd8d51c9eb4043f005a2bb40e3625cf07f29c3fc120603d40495",
+  "videoPointer": "assets/wallpapers/native/app1004114-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004114-preview-native.jpg.asset.json"
+}

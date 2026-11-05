@@ -1,0 +1,18 @@
+{
+  "id": "app1061867-preview",
+  "source": "https://www.desktophut.com/Cozy-Winter-NYC-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/2ccc0e67-bab5-4a5d-87ad-c4fbc487be32/app1061867-preview.mp4",
+    "/__l5e/assets-v1/f9c13808-6e47-492d-b816-8576836a4b50/app1061867-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1671147045-1671147045-cozy-winter-nyc-live-wallpaper-4k.mp4",
+  "bytes": 184404934,
+  "sha256": "f3a033d03921aed21dbc5cd96a908cd64ca9f119db50bd0ee07e755bd0dcfb55",
+  "videoPointer": "assets/wallpapers/native/app1061867-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1061867-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073443-preview",
+  "source": "https://www.desktophut.com/Ghost-Ambush-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/01837706-17d6-4cab-a09a-3cd7ee3888d0/app1073443-preview.mp4",
+    "/__l5e/assets-v1/a9a7bc4d-83af-4bd4-b794-38d42d3d9781/app1073443-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687681223-1687681223-ghost-ambush-4k-live-wallpaper.mp4",
+  "bytes": 20943838,
+  "sha256": "0c3a73901b39f39ceea2eaa3cff112786dadd1db00a4506caba680400f5ce686",
+  "videoPointer": "assets/wallpapers/native/app1073443-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073443-preview-native.jpg.asset.json"
+}

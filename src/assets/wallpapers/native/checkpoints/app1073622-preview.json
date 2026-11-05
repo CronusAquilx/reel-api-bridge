@@ -1,0 +1,18 @@
+{
+  "id": "app1073622-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Wonderful-Landscape-1080P",
+  "previousUrls": [
+    "/__l5e/assets-v1/d8835b6a-78a7-46ce-a5d4-fe9659d14b70/app1073622-preview.mp4",
+    "/__l5e/assets-v1/279bea00-59ed-421d-a8cf-94c63bf03616/app1073622-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1916x1080",
+  "width": 1916,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1689939330-1689939330-live-wallpaper-4k-wonderful-landscape-1080p.mp4",
+  "bytes": 18991130,
+  "sha256": "5ff82519cb4799c22bd131ef4c7ba02950c94a7d801476fd19e68685003a57a4",
+  "videoPointer": "assets/wallpapers/native/app1073622-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073622-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1052090-preview",
+  "source": "https://www.desktophut.com/dragon-ball-super-goku-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1119b7a4-4340-40f9-8bdb-ba51c75fcef8/app1052090-preview.mp4",
+    "/__l5e/assets-v1/20af0d0a-58ff-4959-8b8c-b65a2001839f/app1052090-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657119777-1657119777-dragon-ball-super-goku-4k-live-wallpaper.mp4",
+  "bytes": 65871302,
+  "sha256": "6f3d58393337ffece3a7f7f38c202907376455ce83bc6dec47cf60e9d7085127",
+  "videoPointer": "assets/wallpapers/native/app1052090-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1052090-preview-native.jpg.asset.json"
+}

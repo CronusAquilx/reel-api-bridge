@@ -1,0 +1,18 @@
+{
+  "id": "app1056628-preview",
+  "source": "https://www.desktophut.com/Fools-Servant-Live-Wallpaper-Anime-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/9bbdf99c-f3a9-487e-9b40-b775009425c7/app1056628-preview.mp4",
+    "/__l5e/assets-v1/799414cb-2907-4512-a559-8a9ba8093ef2/app1056628-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885511-1657885511-fools-servant-live-wallpaper-anime-4k.mp4",
+  "bytes": 45549045,
+  "sha256": "ad6111aca6e56b3d4e67b652039fe5e6a3c65ee268ccf2312a1e76cde7f6701a",
+  "videoPointer": "assets/wallpapers/native/app1056628-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056628-preview-native.jpg.asset.json"
+}

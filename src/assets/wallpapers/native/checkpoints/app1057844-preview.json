@@ -1,0 +1,18 @@
+{
+  "id": "app1057844-preview",
+  "source": "https://www.desktophut.com/Kaisa-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/795d46e5-a179-402e-9043-2d5e01270058/app1057844-preview.mp4",
+    "/__l5e/assets-v1/3ae303dd-5872-412c-97c5-bf530cbe3e36/app1057844-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1659698148-1659698148-kaisa-4k-live-wallpaper.mp4",
+  "bytes": 32499157,
+  "sha256": "10e5698fabdc5b5da18cfb7738fd591cd2d1877a5b591ad934762b3b8d8cb0dc",
+  "videoPointer": "assets/wallpapers/native/app1057844-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1057844-preview-native.jpg.asset.json"
+}

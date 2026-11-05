@@ -1,0 +1,18 @@
+{
+  "id": "app115539-preview",
+  "source": "https://www.desktophut.com/Foggy-Snow-Winter-Forest-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5eea677a-451e-40f9-9a03-0ab112902415/app115539-preview.mp4",
+    "/__l5e/assets-v1/a5963486-9f60-4d32-a593-b4b0bdd78900/app115539-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Foggy%20Snow%20Winter%20Forest%204K%20Live%20Wallpaper.mp4",
+  "bytes": 23982765,
+  "sha256": "9fc6fd5f2b736bf40958eb4df1eafda858c83e9081db972c22f81f33657d1579",
+  "videoPointer": "assets/wallpapers/native/app115539-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app115539-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1001215-preview",
+  "source": "https://www.desktophut.com/Killua-Landscape-2-Anime-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/1ba413fc-b437-4dac-beac-d30d25679c2e/app1001215-preview.mp4",
+    "/__l5e/assets-v1/48355260-6b5e-4baf-b8da-0e91ec467c4f/app1001215-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/Killua%20Landscape%202%20Anime%20Live%20Wallpaper%204K.mp4",
+  "bytes": 26385238,
+  "sha256": "dddece4dbfb7a5a08b636060fecd8171042c90909fccc36bddf706d293c49437",
+  "videoPointer": "assets/wallpapers/native/app1001215-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001215-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1059469-preview",
+  "source": "https://www.desktophut.com/Akatsuki-Rick-and-Morty-Anime-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/a8bbb3c7-fc9b-4cd2-8532-7c864c875f83/app1059469-preview.mp4",
+    "/__l5e/assets-v1/6386e73f-931a-4e53-bbd3-60a3acc7391b/app1059469-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1664440585-1664440585-akatsuki-rick-and-morty-anime-live-wallpaper-4k.mp4",
+  "bytes": 139425982,
+  "sha256": "58f6b136cb3c9056c5aefc0712a66759abeb1f7155346e564839035e42c93ed7",
+  "videoPointer": "assets/wallpapers/native/app1059469-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059469-preview-native.jpg.asset.json"
+}

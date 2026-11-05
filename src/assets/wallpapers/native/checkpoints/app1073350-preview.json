@@ -1,0 +1,18 @@
+{
+  "id": "app1073350-preview",
+  "source": "https://www.desktophut.com/Sanji-One-Piece-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5b7fc192-eab9-449b-a4b2-bc96636fa4b0/app1073350-preview.mp4",
+    "/__l5e/assets-v1/c44789ba-9a12-4dea-afb4-2cb545fde4ba/app1073350-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1686111446-1686111446-sanji-one-piece-4k-live-wallpaper.mp4",
+  "bytes": 24998226,
+  "sha256": "45b61ea17875a823224e232ad048ad3cabd7a103f6d127cd718b51ebd3d1516a",
+  "videoPointer": "assets/wallpapers/native/app1073350-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073350-preview-native.jpg.asset.json"
+}

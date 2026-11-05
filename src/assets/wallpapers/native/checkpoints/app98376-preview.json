@@ -1,0 +1,18 @@
+{
+  "id": "app98376-preview",
+  "source": "https://www.desktophut.com/God-of-War-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/fc74a1fc-09c2-42a7-8ea1-c2194b9492c5/app98376-preview.mp4",
+    "/__l5e/assets-v1/3f453524-c4f3-452e-8b1b-d634f2dc4014/app98376-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/God%20of%20War%204K%20Live%20Wallpaper.mp4",
+  "bytes": 30749782,
+  "sha256": "70317696d41b1f18f2ab61cb44bdf7b101af56b41cf5216fcd603c34c2b40fbb",
+  "videoPointer": "assets/wallpapers/native/app98376-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app98376-preview-native.jpg.asset.json"
+}

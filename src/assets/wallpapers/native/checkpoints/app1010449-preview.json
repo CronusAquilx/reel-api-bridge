@@ -1,0 +1,18 @@
+{
+  "id": "app1010449-preview",
+  "source": "https://www.desktophut.com/4K-Yuyuko-Saigyouji-Falling-Asleep-Next-To-The-Cherry-Blossom-Tree-Touhou-Project-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/fd4b4dae-8e1b-4050-885f-f6354ec686d0/app1010449-preview.mp4",
+    "/__l5e/assets-v1/9bfc6485-571a-4857-aa6b-ef4221759b14/app1010449-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654878051-1654878051-4k-yuyuko-saigyouji-falling-asleep-next-to-the-cherry-blossom-tree-touhou-project-live-wallpaper-for-pc.mp4",
+  "bytes": 65796710,
+  "sha256": "01aebabf7161f45318606785b73a4ab5d7cb2df790e95f4390b14eb51839eece",
+  "videoPointer": "assets/wallpapers/native/app1010449-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010449-preview-native.jpg.asset.json"
+}

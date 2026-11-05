@@ -1,0 +1,18 @@
+{
+  "id": "app1004230-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Attack-on-Titan-Shingeki-no-Kyojin",
+  "previousUrls": [
+    "/__l5e/assets-v1/d681a0c6-a7ae-4b99-9d0a-501d472ea0c3/app1004230-preview.mp4",
+    "/__l5e/assets-v1/2e03f3aa-3813-48d3-8c7e-b25fcf2e322a/app1004230-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Attack%20on%20Titan%20Shingeki%20no%20Kyojin.mp4",
+  "bytes": 77271588,
+  "sha256": "fabc754f1181e71ccdd4484e1c75facd23e5dfecd324c3377fd4b79a21a94e32",
+  "videoPointer": "assets/wallpapers/native/app1004230-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004230-preview-native.jpg.asset.json"
+}

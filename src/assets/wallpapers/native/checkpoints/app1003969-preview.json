@@ -1,0 +1,18 @@
+{
+  "id": "app1003969-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Junpei-Yoshino-Jujutsu-Kaisen",
+  "previousUrls": [
+    "/__l5e/assets-v1/9fdf58d9-f385-426c-adf5-be6eb721f865/app1003969-preview.mp4",
+    "/__l5e/assets-v1/c6da3d82-8ea8-419f-a214-073e2cb9c286/app1003969-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Junpei%20Yoshino%20Jujutsu%20Kaisen.mp4",
+  "bytes": 11516930,
+  "sha256": "acc3b58b0d47731bbb937a3b30d4d7e0f19d9d5c0572b775f6be808ee18d52b5",
+  "videoPointer": "assets/wallpapers/native/app1003969-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003969-preview-native.jpg.asset.json"
+}

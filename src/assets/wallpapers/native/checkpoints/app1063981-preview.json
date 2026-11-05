@@ -1,0 +1,18 @@
+{
+  "id": "app1063981-preview",
+  "source": "https://www.desktophut.com/Kamina-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/2c92e2f4-24c9-46e6-ab26-6db4329e1a32/app1063981-preview.mp4",
+    "/__l5e/assets-v1/006e5d98-944f-4629-af97-6b9296686003/app1063981-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674103239-1674103239-kamina-live-wallpaper-4k.mp4",
+  "bytes": 95793161,
+  "sha256": "cfd5535d6c880ab39fbe562d7aa87cdffb5d8e231995831ec40fe9940ea7ba79",
+  "videoPointer": "assets/wallpapers/native/app1063981-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1063981-preview-native.jpg.asset.json"
+}

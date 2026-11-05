@@ -1,0 +1,18 @@
+{
+  "id": "app1004237-preview",
+  "source": "https://www.desktophut.com/PC-Wallpaper-Live-4k-Demon-Slayer-Kimetsu-No-Yaiba-Zenitsu-Agatsuma",
+  "previousUrls": [
+    "/__l5e/assets-v1/a2312fd5-f2cc-4f36-b29d-08d8d07b31a9/app1004237-preview.mp4",
+    "/__l5e/assets-v1/bace32e6-fbe1-4059-b729-ad2b1fe41af8/app1004237-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/PC%20Wallpaper%20Live%204k%20Demon%20Slayer%20Kimetsu%20No%20Yaiba%20Zenitsu%20Agatsuma.mp4",
+  "bytes": 87785631,
+  "sha256": "34c5721207829d0eec2aceaccbdc2bbda8367b6831513667cef57a1d8af74eb6",
+  "videoPointer": "assets/wallpapers/native/app1004237-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004237-preview-native.jpg.asset.json"
+}

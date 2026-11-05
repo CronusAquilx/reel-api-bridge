@@ -1,0 +1,18 @@
+{
+  "id": "app1004069-preview",
+  "source": "https://www.desktophut.com/Cool-Spiderman-4k-Live-wallpaper-Wallpaper-For-Pc-Amazing-Spiderman-Marvel",
+  "previousUrls": [
+    "/__l5e/assets-v1/74d0c362-cade-47fb-ac33-2a7fe5cbca80/app1004069-preview.mp4",
+    "/__l5e/assets-v1/3113ca50-a3ad-42bb-8c1f-77e5018271e9/app1004069-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Spiderman%204k%20Live%20wallpaper%20Wallpaper%20For%20Pc%20Amazing%20Spiderman%20Marvel.mp4",
+  "bytes": 16096256,
+  "sha256": "0f749c1e04f57f0dd3c5b4431a7d3cde2c01f4b71824d7d5324dd76df76ab1ec",
+  "videoPointer": "assets/wallpapers/native/app1004069-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004069-preview-native.jpg.asset.json"
+}

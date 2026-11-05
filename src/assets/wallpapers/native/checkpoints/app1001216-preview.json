@@ -1,0 +1,18 @@
+{
+  "id": "app1001216-preview",
+  "source": "https://www.desktophut.com/Killua-Landscape-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/73546800-672a-412c-a2b4-cc734f2ab1c7/app1001216-preview.mp4",
+    "/__l5e/assets-v1/4340056f-7d1d-4cdc-9e78-25cfb208c23e/app1001216-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/Killua%20Landscape%20Live%20Wallpaper%204K.mp4",
+  "bytes": 31424452,
+  "sha256": "169e8330d6350f564a12500451bf2e442c58b7b5ae31be2720ef4e8d6ef0583f",
+  "videoPointer": "assets/wallpapers/native/app1001216-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001216-preview-native.jpg.asset.json"
+}

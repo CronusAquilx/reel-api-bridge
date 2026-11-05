@@ -1,0 +1,18 @@
+{
+  "id": "app1009346-preview",
+  "source": "https://www.desktophut.com/PC-Hogwarts-Legacy-4K-Live-Wallpaper-Free",
+  "previousUrls": [
+    "/__l5e/assets-v1/f92a9e55-86d3-4513-a8e9-5509a1043895/app1009346-preview.mp4",
+    "/__l5e/assets-v1/9cd74c64-c8e5-4867-804b-5821999325f1/app1009346-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654793663-1654793663-pc-hogwarts-legacy-4k-live-wallpaper-free.mp4",
+  "bytes": 30040991,
+  "sha256": "2652a71b061d881aca02e17e516153082d8b3094be1b5c2281cd3d6e4d9e09f6",
+  "videoPointer": "assets/wallpapers/native/app1009346-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1009346-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1004223-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Hisoka-Hunter-x-Hunter",
+  "previousUrls": [
+    "/__l5e/assets-v1/541fd9e7-516b-4e3a-8dfd-3bff45a89779/app1004223-preview.mp4",
+    "/__l5e/assets-v1/f5fda1bd-7841-42d7-8275-75e51d1e585d/app1004223-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Hisoka%20Hunter%20x%20Hunter.mp4",
+  "bytes": 67947873,
+  "sha256": "c5f9d84097119e49243ad046fa7d5298553836125b1bc3b46f0ad833921941db",
+  "videoPointer": "assets/wallpapers/native/app1004223-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004223-preview-native.jpg.asset.json"
+}
