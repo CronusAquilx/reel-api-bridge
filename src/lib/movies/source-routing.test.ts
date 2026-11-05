@@ -5,7 +5,7 @@ import { anikotoSearchUrl, animeIcuVoiceUrl, animeVoiceUrl } from "./anime-sourc
 
 describe("imported movie source routing", () => {
   it("restores the original twelve external source choices", () => {
-    expect(STREAMING_SERVERS).toHaveLength(12);
+    expect(STREAMING_SERVERS).toHaveLength(20);
     expect(new Set(STREAMING_SERVERS.map(source => source.id)).size).toBe(12);
     for (const source of STREAMING_SERVERS) {
       expect(new URL(source.url(550, "movie")).protocol).toBe("https:");
