@@ -6,7 +6,46 @@ export type ControlEvent = { type: "click"; x: number; y: number } | { type: "ty
 const MAX_ITEMS = 650;
 const transparent = (v: string) => !v || v === "transparent" || v === "rgba(0, 0, 0, 0)";
 
+const MAX_MEDIA = 3;
+const SHOT_W = 360;
+let shotCanvas: HTMLCanvasElement | null = null;
+
+/** Picks the drawable source for a media element; same-origin iframes (arcade, proxied pages) expose their biggest canvas/video. */
+function drawable(el: HTMLElement): HTMLVideoElement | HTMLCanvasElement | null {
+  if (el instanceof HTMLVideoElement) return el.readyState >= 2 ? el : null;
+  if (el instanceof HTMLCanvasElement) return el;
+  if (el instanceof HTMLIFrameElement) {
+    try {
+      const doc = el.contentDocument; if (!doc) return null;
+      let best: HTMLVideoElement | HTMLCanvasElement | null = null, area = 0;
+      doc.querySelectorAll("canvas,video").forEach((n) => {
+        const a = (n as HTMLElement).clientWidth * (n as HTMLElement).clientHeight;
+        if (a > area) { area = a; best = n as HTMLVideoElement | HTMLCanvasElement; }
+      });
+      return best;
+    } catch { return null; }
+  }
+  return null;
+}
+
+/** Tiny low-quality JPEG of a video/game so the viewer sees it without slowing the shared tab. */
+function snapshotMedia(el: HTMLElement): string | undefined {
+  const src = drawable(el); if (!src) return undefined;
+  const sw = src instanceof HTMLVideoElement ? src.videoWidth : src.width;
+  const sh = src instanceof HTMLVideoElement ? src.videoHeight : src.height;
+  if (!sw || !sh) return undefined;
+  try {
+    shotCanvas ??= document.createElement("canvas");
+    shotCanvas.width = Math.min(SHOT_W, sw); shotCanvas.height = Math.round(shotCanvas.width * sh / sw);
+    shotCanvas.getContext("2d")!.drawImage(src, 0, 0, shotCanvas.width, shotCanvas.height);
+    return shotCanvas.toDataURL("image/jpeg", 0.5);
+  } catch { return undefined; } // cross-origin pixels can't be read
+}
+
+let mediaShots = 0;
+
 export function captureFrame(): ScreenFrame {
+  mediaShots = 0;
   const w = window.innerWidth, h = window.innerHeight;
   const items: ScreenItem[] = [];
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
@@ -22,7 +61,9 @@ export function captureFrame(): ScreenFrame {
     const tag = el.tagName;
     const item: ScreenItem = { x: Math.round(r.left), y: Math.round(r.top), w: Math.round(r.width), h: Math.round(r.height) };
     if (tag === "VIDEO" || tag === "IFRAME" || tag === "CANVAS" || tag === "EMBED" || tag === "OBJECT") {
-      items.push({ ...item, media: true }); el = nextOutside(walker, el); continue;
+      const shot = mediaShots < MAX_MEDIA ? snapshotMedia(el) : undefined;
+      if (shot) mediaShots++;
+      items.push({ ...item, media: true, ...(shot ? { img: shot } : {}) }); el = nextOutside(walker, el); continue;
     }
     const cs = getComputedStyle(el);
     if (cs.visibility === "hidden" || cs.opacity === "0" || cs.display === "none") { el = nextOutside(walker, el); continue; }
