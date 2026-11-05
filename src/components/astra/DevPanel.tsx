@@ -6,11 +6,10 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Button } from "@/components/ui/button";
 import { checkDevPin, devSignIn } from "@/lib/astra/dev-access.functions";
 
-const ACCOUNTS = [{ id: "qais", label: "Qais" }, { id: "chance", label: "Chance" }] as const;
 
 /** Hidden developer panel: PIN pad first, then the developer account picker. */
 export function DevPanel({ open, onOpenChange, onSignedIn }: { open: boolean; onOpenChange: (o: boolean) => void; onSignedIn: () => Promise<void> }) {
-  const [pin, setPin] = useState(""); const [unlocked, setUnlocked] = useState(false);
+  const [pin, setPin] = useState(""); const [unlocked, setUnlocked] = useState(false); const [accounts, setAccounts] = useState<string[]>([]);
   const [busy, setBusy] = useState(false); const [error, setError] = useState("");
   const check = useServerFn(checkDevPin); const signIn = useServerFn(devSignIn);
   useEffect(() => { if (!open) { setPin(""); setUnlocked(false); setError(""); } }, [open]);
@@ -20,9 +19,9 @@ export function DevPanel({ open, onOpenChange, onSignedIn }: { open: boolean; on
     const next = pin + d; setPin(next); setError("");
     if (next.length === 4) {
       setBusy(true);
-      const r = await check({ data: { code: next } }).catch(() => ({ ok: false }));
+      const r = await check({ data: { code: next } }).catch(() => ({ ok: false, accounts: [] as string[] }));
       setBusy(false);
-      if (r.ok) setUnlocked(true); else { setError("Wrong code"); setPin(""); }
+      if (r.ok) { setAccounts(r.accounts); setUnlocked(true); } else { setError("Wrong code"); setPin(""); }
     }
   }
   useEffect(() => {
@@ -34,7 +33,7 @@ export function DevPanel({ open, onOpenChange, onSignedIn }: { open: boolean; on
     window.addEventListener("keydown", onKey); return () => window.removeEventListener("keydown", onKey);
   });
 
-  async function choose(account: "qais" | "chance") {
+  async function choose(account: string) {
     setBusy(true); setError("");
     try {
       const r = await signIn({ data: { account, code: pin } });
@@ -47,7 +46,7 @@ export function DevPanel({ open, onOpenChange, onSignedIn }: { open: boolean; on
   return <Dialog open={open} onOpenChange={onOpenChange}>
     <DialogContent className="max-w-xs">
       <DialogHeader><DialogTitle>{unlocked ? "Choose account" : "Enter code"}</DialogTitle><DialogDescription>{unlocked ? "Pick an account to continue." : "Enter the 4-digit code."}</DialogDescription></DialogHeader>
-      {unlocked ? <div className="grid gap-3">{ACCOUNTS.map(a => <Button key={a.id} disabled={busy} onClick={() => void choose(a.id)}>{a.label}</Button>)}</div> : <>
+      {unlocked ? <div className="grid gap-3">{accounts.map(a => <Button key={a} disabled={busy} onClick={() => void choose(a)}>{a.charAt(0).toUpperCase() + a.slice(1)}{a === "qais" ? " (Owner)" : ""}</Button>)}</div> : <>
         <div className="flex justify-center gap-3 py-2" aria-label={`${pin.length} of 4 digits entered`}>{[0, 1, 2, 3].map(i => <span key={i} className={`size-3 rounded-full border border-foreground ${i < pin.length ? "bg-foreground" : ""}`} />)}</div>
         <div className="grid grid-cols-3 gap-2">
           {["1", "2", "3", "4", "5", "6", "7", "8", "9"].map(d => <Button key={d} variant="outline" className="h-14 text-xl" disabled={busy} onClick={() => void press(d)}>{d}</Button>)}

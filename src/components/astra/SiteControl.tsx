@@ -4,7 +4,8 @@ import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth, signOutAll } from "@/lib/auth";
 
-export type LiveVisitor = { key: string; userId: string | null; name: string; path: string; since: string };
+export type LiveVisitor = { key: string; deviceId: string; userId: string | null; name: string; path: string; since: string; owner: boolean };
+export const OWNER_EMAIL = "qaisdev@gmail.org";
 
 let visitors: LiveVisitor[] = [];
 const listeners = new Set<() => void>();
@@ -12,18 +13,33 @@ const emit = () => listeners.forEach((l) => l());
 export const useLiveVisitors = () =>
   useSyncExternalStore((l) => (listeners.add(l), () => listeners.delete(l)), () => visitors, () => visitors);
 
+let presence: ReturnType<typeof supabase.channel> | null = null;
+/** Asks every tab to re-check whether its device is banned (the server decides). */
+export const broadcastBanCheck = () => presence?.send({ type: "broadcast", event: "ban-check", payload: {} });
+
 const tabKey = () => {
   let k = sessionStorage.getItem("birch-tab-key");
   if (!k) { k = crypto.randomUUID(); sessionStorage.setItem("birch-tab-key", k); }
   return k;
 };
+export const deviceId = () => {
+  let k = localStorage.getItem("birch-device-id");
+  if (!k) { k = crypto.randomUUID(); localStorage.setItem("birch-device-id", k); }
+  return k;
+};
 
-/** Shares this tab's presence and obeys developer commands (message, pause, kick). Mounted once at the root. */
+/** Shares this tab's presence and obeys developer commands (message, pause, kick, ban, screen view). Mounted once at the root. */
 export function SiteControl() {
   const { user, guest } = useAuth();
   const path = useRouterState({ select: (s) => s.location.pathname });
   const [paused, setPaused] = useState<string | null>(null);
+  const [banned, setBanned] = useState(false);
+  const [viewing, setViewing] = useState<string | null>(null);
   const [channel, setChannel] = useState<ReturnType<typeof supabase.channel> | null>(null);
+  const owner = user?.email?.toLowerCase() === OWNER_EMAIL;
+
+  const checkBan = () => { void supabase.rpc("is_device_banned", { _device: deviceId() }).then(({ data }) => setBanned(Boolean(data))); };
+  useEffect(checkBan, [user]);
 
   useEffect(() => {
     const key = tabKey();
@@ -32,18 +48,19 @@ export function SiteControl() {
       const state = ch.presenceState<LiveVisitor>();
       visitors = Object.values(state).map((v) => v[0]).filter((v): v is NonNullable<typeof v> => Boolean(v));
       emit();
-    }).subscribe((s) => { if (s === "SUBSCRIBED") setChannel(ch); });
-    return () => { setChannel(null); void supabase.removeChannel(ch); };
+    }).on("broadcast", { event: "ban-check" }, checkBan)
+      .subscribe((s) => { if (s === "SUBSCRIBED") { presence = ch; setChannel(ch); } });
+    return () => { presence = null; setChannel(null); void supabase.removeChannel(ch); };
   }, []);
 
   useEffect(() => {
     if (!channel) return;
     const meta = user?.user_metadata as { username?: string; display_name?: string } | undefined;
     void channel.track({
-      key: tabKey(), userId: user?.id ?? null, path, since: new Date().toISOString(),
+      key: tabKey(), deviceId: deviceId(), userId: user?.id ?? null, path, since: new Date().toISOString(), owner,
       name: user ? meta?.username ?? meta?.display_name ?? user.email?.split("@")[0] ?? "Player" : guest ? "Guest" : "Visitor",
     });
-  }, [channel, user, guest, path]);
+  }, [channel, user, guest, path, owner]);
 
   useEffect(() => {
     if (!user) return;
@@ -54,21 +71,55 @@ export function SiteControl() {
         if (cmd.target && cmd.target !== user.id) return;
         if (!cmd.target && cmd.created_by === user.id && cmd.kind !== "message") return;
         if (cmd.kind === "message") toast(cmd.message ?? "", { description: "Message from the developers", duration: 15000 });
+        if (cmd.kind === "view" && cmd.message) setViewing(cmd.message);
+        if (cmd.kind === "unview") setViewing(null);
+        if (owner) return; // the owner can't be paused, kicked or banned
         if (cmd.kind === "pause") setPaused(cmd.message || "Your screen was paused by a developer.");
         if (cmd.kind === "resume") setPaused(null);
         if (cmd.kind === "kick") { void signOutAll().finally(() => window.location.replace("/")); }
+        if (cmd.kind === "ban") checkBan();
       })
       .subscribe();
     return () => { void supabase.removeChannel(ch); };
-  }, [user]);
+  }, [user, owner]);
 
-  if (!paused) return null;
-  return (
-    <div className="fixed inset-0 z-[9999] grid place-items-center bg-background/95 backdrop-blur-xl" role="alertdialog" aria-label="Screen paused">
+  // Live screen share: sends small snapshots of this tab to the developer who asked.
+  useEffect(() => {
+    if (!viewing) return;
+    const ch = supabase.channel(`screen-${viewing}`);
+    let stop = false; let busy = false;
+    ch.subscribe();
+    const tick = async () => {
+      if (stop || busy || document.hidden) return; busy = true;
+      try {
+        const { toJpeg } = await import("html-to-image");
+        const img = await toJpeg(document.body, { quality: 0.5, pixelRatio: Math.min(0.5, 900 / window.innerWidth), skipFonts: true, cacheBust: false, filter: (n) => !(n instanceof HTMLElement && n.dataset.screenShare === "skip") });
+        void ch.send({ type: "broadcast", event: "frame", payload: { img, path: location.pathname } });
+      } catch { /* some pages can't be captured */ } finally { busy = false; }
+    };
+    const t = setInterval(() => void tick(), 1500);
+    const end = setTimeout(() => setViewing(null), 10 * 60 * 1000);
+    void tick();
+    return () => { stop = true; clearInterval(t); clearTimeout(end); void supabase.removeChannel(ch); };
+  }, [viewing]);
+
+  if (banned) return (
+    <div className="fixed inset-0 z-[10000] grid place-items-center bg-background" role="alertdialog" aria-label="Banned">
       <div className="max-w-md p-8 text-center">
-        <h2 className="text-2xl font-semibold text-foreground">Screen paused</h2>
-        <p className="mt-3 text-muted-foreground">{paused}</p>
+        <h2 className="text-2xl font-semibold text-foreground">This device is banned</h2>
+        <p className="mt-3 text-muted-foreground">A developer has blocked this device from using the site.</p>
       </div>
     </div>
   );
+  return <>
+    {viewing && <div data-screen-share="skip" className="fixed bottom-2 left-2 z-[9998] rounded-full bg-destructive px-3 py-1 text-xs text-destructive-foreground">A developer is viewing your screen</div>}
+    {paused && (
+      <div className="fixed inset-0 z-[9999] grid place-items-center bg-background/95 backdrop-blur-xl" role="alertdialog" aria-label="Screen paused">
+        <div className="max-w-md p-8 text-center">
+          <h2 className="text-2xl font-semibold text-foreground">Screen paused</h2>
+          <p className="mt-3 text-muted-foreground">{paused}</p>
+        </div>
+      </div>
+    )}
+  </>;
 }
