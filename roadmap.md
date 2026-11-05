@@ -1,5 +1,11 @@
 # Birchbeat import roadmap
 
+## Current request — expanded wallpapers and layout chooser
+- [ ] Refresh DesktopHut wallpapers and import a substantially larger, diverse original-quality collection.
+- [ ] Add shared wallpaper category filters and improve specific-title search.
+- [ ] Redesign the opening layout chooser with visual previews and smooth, accessible animations.
+- [ ] Run focused catalog checks and verify wallpaper selection plus chooser on desktop and phone.
+
 ## Current request — account personalization
 - [x] Expand shared appearance controls and preview: original dots/accents, liquid glass, brightness, snow/fireflies, effect speed and clocks.
 - [x] Add game/movie Windows desktop shortcuts and removal with stable title IDs and existing launch paths.
