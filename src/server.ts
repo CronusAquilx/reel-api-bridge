@@ -73,6 +73,33 @@ async function proxyWebSocket(url: URL): Promise<Response> {
   return new Response(null, { status: 101, webSocket: pair[0] } as ResponseInit & { webSocket: WebSocket });
 }
 
+/** Multiplayer game servers (Photon) reachable over the app's own port 443, for networks that block game ports. */
+const GAME_SOCKET_HOST = /(^|\.)(exitgames\.com|photonengine\.(io|com))$/i;
+async function relayGameSocket(request: Request, url: URL): Promise<Response> {
+  let target: URL;
+  try { target = new URL(url.searchParams.get("url") ?? ""); } catch { return new Response("Bad url", { status: 400 }); }
+  if (target.protocol !== "wss:" || !GAME_SOCKET_HOST.test(target.hostname)) return new Response("Not allowed", { status: 403 });
+  if (request.headers.get("upgrade")?.toLowerCase() !== "websocket") return new Response("Expected websocket", { status: 426 });
+  const protocol = request.headers.get("sec-websocket-protocol") ?? "";
+  const headers: Record<string, string> = { Upgrade: "websocket", "user-agent": "Mozilla/5.0" };
+  if (protocol) headers["sec-websocket-protocol"] = protocol;
+  const res = await fetch(target.href.replace(/^wss/, "https"), { headers });
+  const up = (res as Response & { webSocket?: WS | null }).webSocket;
+  if (!up) return new Response("Upstream refused", { status: 502 });
+  up.accept();
+  const pair = new WebSocketPair();
+  const browser = pair[1];
+  browser.accept();
+  const safe = (c: number) => (c >= 1000 && c < 5000 && c !== 1005 && c !== 1006 ? c : 1000);
+  browser.addEventListener("message", (e) => { try { up.send(e.data); } catch {} });
+  up.addEventListener("message", (e) => { try { browser.send(e.data); } catch {} });
+  browser.addEventListener("close", (e) => { try { up.close(safe(e.code), e.reason); } catch {} });
+  up.addEventListener("close", (e) => { try { browser.close(safe(e.code), e.reason); } catch {} });
+  up.addEventListener("error", () => { try { browser.close(1011, "upstream error"); } catch {} });
+  const chosen = res.headers.get("sec-websocket-protocol") ?? protocol.split(",")[0]?.trim();
+  return new Response(null, { status: 101, webSocket: pair[0], headers: chosen ? { "sec-websocket-protocol": chosen } : {} } as ResponseInit & { webSocket: WebSocket });
+}
+
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
     try {
@@ -83,6 +110,7 @@ export default {
         if (!user) return new Response("Please sign in again.", { status: 401 });
         return handleLiveRequest(request, token);
       }
+      if (url.pathname === "/api/game-ws") return relayGameSocket(request, url);
       if (url.pathname === "/api/proxy-ws") {
         const user = await authenticateRequest(new Request(request.url, { headers: { authorization: `Bearer ${url.searchParams.get("token") ?? ""}` } }));
         if (!user) return new Response("Unauthorized", { status: 401 });
