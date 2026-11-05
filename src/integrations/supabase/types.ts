@@ -44,6 +44,45 @@ export type Database = {
         }
         Relationships: []
       }
+      banned_devices: {
+        Row: {
+          banned_by: string
+          created_at: string
+          device_id: string
+          label: string | null
+        }
+        Insert: {
+          banned_by?: string
+          created_at?: string
+          device_id: string
+          label?: string | null
+        }
+        Update: {
+          banned_by?: string
+          created_at?: string
+          device_id?: string
+          label?: string | null
+        }
+        Relationships: []
+      }
+      dev_accounts: {
+        Row: {
+          created_at: string
+          created_by: string
+          handle: string
+        }
+        Insert: {
+          created_at?: string
+          created_by?: string
+          handle: string
+        }
+        Update: {
+          created_at?: string
+          created_by?: string
+          handle?: string
+        }
+        Relationships: []
+      }
       developer_games: {
         Row: {
           created_at: string
@@ -731,6 +770,8 @@ export type Database = {
         }
         Returns: boolean
       }
+      is_device_banned: { Args: { _device: string }; Returns: boolean }
+      is_site_owner: { Args: { _uid: string }; Returns: boolean }
       social_action: { Args: { action: string; payload?: Json }; Returns: Json }
       social_blocked: { Args: { a: string; b: string }; Returns: boolean }
       social_directory: {
