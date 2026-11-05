@@ -1,0 +1,85 @@
+/** Lightweight screen sharing: sends a layout outline (boxes, text, image links) instead of rendering pixels, so the shared tab stays fast. */
+export type ScreenItem = { x: number; y: number; w: number; h: number; bg?: string; c?: string; fs?: number; fw?: number; r?: string; t?: string; img?: string; media?: boolean; bd?: string };
+export type ScreenFrame = { w: number; h: number; path: string; bg: string; items: ScreenItem[] };
+export type ControlEvent = { type: "click"; x: number; y: number } | { type: "type"; text: string } | { type: "key"; key: string } | { type: "scroll"; x: number; y: number; dy: number };
+
+const MAX_ITEMS = 650;
+const transparent = (v: string) => !v || v === "transparent" || v === "rgba(0, 0, 0, 0)";
+
+export function captureFrame(): ScreenFrame {
+  const w = window.innerWidth, h = window.innerHeight;
+  const items: ScreenItem[] = [];
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
+  let el = walker.nextNode() as HTMLElement | null;
+  while (el && items.length < MAX_ITEMS) {
+    if (el.dataset?.["screenShare"] === "skip") { el = nextOutside(walker, el); continue; }
+    const r = el.getBoundingClientRect();
+    if (r.width < 2 || r.height < 2 || r.bottom < 0 || r.right < 0 || r.top > h || r.left > w) {
+      // Offscreen/collapsed: children of a zero box can still overflow, so only skip subtrees for hidden ones.
+      if (r.width === 0 && r.height === 0 && el.childElementCount === 0) { el = nextOutside(walker, el); continue; }
+      el = walker.nextNode() as HTMLElement | null; continue;
+    }
+    const tag = el.tagName;
+    const item: ScreenItem = { x: Math.round(r.left), y: Math.round(r.top), w: Math.round(r.width), h: Math.round(r.height) };
+    if (tag === "VIDEO" || tag === "IFRAME" || tag === "CANVAS" || tag === "EMBED" || tag === "OBJECT") {
+      items.push({ ...item, media: true }); el = nextOutside(walker, el); continue;
+    }
+    const cs = getComputedStyle(el);
+    if (cs.visibility === "hidden" || cs.opacity === "0" || cs.display === "none") { el = nextOutside(walker, el); continue; }
+    let keep = false;
+    if (!transparent(cs.backgroundColor)) { item.bg = cs.backgroundColor; keep = true; }
+    if (cs.borderTopWidth !== "0px" && !transparent(cs.borderTopColor) && r.width < w) { item.bd = cs.borderTopColor; keep = true; }
+    if (tag === "IMG") { const src = (el as HTMLImageElement).currentSrc; if (src && !src.startsWith("blob:") && src.length < 600) { item.img = src; keep = true; } }
+    let text = "";
+    for (const n of el.childNodes) if (n.nodeType === 3) text += n.textContent;
+    text = text.replace(/\s+/g, " ").trim();
+    if (!text && (tag === "INPUT" || tag === "TEXTAREA")) text = (el as HTMLInputElement).type === "password" ? "••••" : (el as HTMLInputElement).value || (el as HTMLInputElement).placeholder;
+    if (text) { item.t = text.slice(0, 120); item.c = cs.color; item.fs = Math.round(parseFloat(cs.fontSize)); item.fw = Number(cs.fontWeight) || 400; keep = true; }
+    if (keep) { if (cs.borderRadius !== "0px") item.r = cs.borderRadius; items.push(item); }
+    el = walker.nextNode() as HTMLElement | null;
+  }
+  return { w, h, path: location.pathname, bg: getComputedStyle(document.body).backgroundColor, items };
+}
+
+function nextOutside(walker: TreeWalker, el: HTMLElement) {
+  let n: Node | null = el;
+  while (n) { const s: Node | null = n.nextSibling; if (s) { walker.currentNode = s; return (s.nodeType === 1 ? s : walker.nextNode()) as HTMLElement | null; } n = n.parentNode; if (n === document.body) return null; }
+  return null;
+}
+
+let lastPoint = { x: 0, y: 0 };
+/** Applies a developer's remote input to this tab. */
+export function applyControl(ev: ControlEvent) {
+  if (ev.type === "click") {
+    lastPoint = { x: ev.x, y: ev.y };
+    const target = document.elementFromPoint(ev.x, ev.y) as HTMLElement | null;
+    if (!target || target.closest("[data-screen-share='skip']")) return;
+    const opts = { bubbles: true, cancelable: true, clientX: ev.x, clientY: ev.y, view: window };
+    target.dispatchEvent(new PointerEvent("pointerdown", opts));
+    target.dispatchEvent(new MouseEvent("mousedown", opts));
+    target.dispatchEvent(new PointerEvent("pointerup", opts));
+    target.dispatchEvent(new MouseEvent("mouseup", opts));
+    target.focus?.();
+    target.click();
+  } else if (ev.type === "type") {
+    const a = document.activeElement as HTMLInputElement | HTMLTextAreaElement | null;
+    if (!a || !("value" in a)) return;
+    const proto = a instanceof HTMLTextAreaElement ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
+    Object.getOwnPropertyDescriptor(proto, "value")?.set?.call(a, a.value + ev.text.slice(0, 500));
+    a.dispatchEvent(new Event("input", { bubbles: true }));
+  } else if (ev.type === "key") {
+    const a = (document.activeElement as HTMLElement | null) ?? document.body;
+    if (ev.key === "Backspace" && "value" in a) {
+      const i = a as HTMLInputElement;
+      Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")?.set?.call(i, i.value.slice(0, -1));
+      i.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+    a.dispatchEvent(new KeyboardEvent("keydown", { key: ev.key, bubbles: true, cancelable: true }));
+    a.dispatchEvent(new KeyboardEvent("keyup", { key: ev.key, bubbles: true }));
+    if (ev.key === "Enter" && a instanceof HTMLInputElement) a.form?.requestSubmit();
+  } else if (ev.type === "scroll") {
+    let n = document.elementFromPoint(ev.x || lastPoint.x, ev.y || lastPoint.y) as HTMLElement | null;
+    while (n && n !== document.body) { const s = getComputedStyle(n).overflowY; if ((s === "auto" || s === "scroll") && n.scrollHeight > n.clientHeight) break; n = n.parentElement; }
+    (n && n !== document.body ? n : document.scrollingElement ?? document.body).scrollBy({ top: ev.dy });
+  }
+}

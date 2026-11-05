@@ -3,6 +3,7 @@ import { useRouterState } from "@tanstack/react-router";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth, signOutAll } from "@/lib/auth";
+import { applyControl, captureFrame, type ControlEvent } from "@/lib/astra/screen-share";
 
 export type LiveVisitor = { key: string; deviceId: string; userId: string | null; name: string; path: string; since: string; owner: boolean };
 export const OWNER_EMAIL = "qaisdev@gmail.org";
@@ -83,33 +84,27 @@ export function SiteControl() {
     return () => { void supabase.removeChannel(ch); };
   }, [user, owner]);
 
-  // Live screen share: sends small snapshots of this tab to the developer who asked.
+  // Live screen share: sends a light layout outline (only when it changes) and accepts remote control.
+  const [controlled, setControlled] = useState(false);
   useEffect(() => {
     if (!viewing) return;
     const ch = supabase.channel(`screen-${viewing}`);
-    let stop = false; let busy = false;
-    ch.subscribe();
-    const tick = async () => {
-      if (stop || busy || document.hidden) return; busy = true;
-      try {
-        const { toCanvas } = await import("html-to-image");
-        const w = window.innerWidth, h = window.innerHeight;
-        const scale = Math.min(1, 640 / w);
-        // Skip videos, embedded pages and canvases: they can't be copied and make capture slow.
-        const src = await toCanvas(document.body, {
-          width: w, height: h, pixelRatio: scale, skipFonts: true, cacheBust: false,
-          style: { transform: `translate(${-window.scrollX}px, ${-window.scrollY}px)` },
-          imagePlaceholder: "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
-          filter: (n) => !(n instanceof HTMLElement && (n.dataset['screenShare'] === "skip" || ["VIDEO", "IFRAME", "CANVAS", "OBJECT", "EMBED"].includes(n.tagName))),
-        });
-        const img = src.toDataURL("image/jpeg", 0.45);
-        if (img.length > 2000 && img.length < 240_000) void ch.send({ type: "broadcast", event: "frame", payload: { img, path: location.pathname } });
-      } catch { /* some pages can't be captured */ } finally { busy = false; }
+    let last = ""; let lastSent = 0;
+    ch.on("broadcast", { event: "control" }, ({ payload }) => { setControlled(true); applyControl(payload as ControlEvent); setTimeout(() => void tick(), 120); })
+      .subscribe();
+    const tick = () => {
+      if (document.hidden) return;
+      const frame = captureFrame();
+      const json = JSON.stringify(frame);
+      if (json === last && Date.now() - lastSent < 10000) return; // nothing changed
+      last = json; lastSent = Date.now();
+      if (json.length < 240_000) void ch.send({ type: "broadcast", event: "frame", payload: frame });
     };
-    const t = setInterval(() => { if ("requestIdleCallback" in window) requestIdleCallback(() => void tick(), { timeout: 1500 }); else void tick(); }, 2500);
-    const end = setTimeout(() => setViewing(null), 10 * 60 * 1000);
-    void tick();
-    return () => { stop = true; clearInterval(t); clearTimeout(end); void supabase.removeChannel(ch); };
+    const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(tick, { timeout: 1000 }) : tick());
+    const t = setInterval(idle, 1000);
+    const end = setTimeout(() => setViewing(null), 15 * 60 * 1000);
+    idle();
+    return () => { clearInterval(t); clearTimeout(end); setControlled(false); void supabase.removeChannel(ch); };
   }, [viewing]);
 
   if (banned) return (
@@ -121,7 +116,7 @@ export function SiteControl() {
     </div>
   );
   return <>
-    {viewing && <div data-screen-share="skip" className="fixed bottom-2 left-2 z-[9998] rounded-full bg-destructive px-3 py-1 text-xs text-destructive-foreground">A developer is viewing your screen</div>}
+    {viewing && <div data-screen-share="skip" className="fixed bottom-2 left-2 z-[9998] rounded-full bg-destructive px-3 py-1 text-xs text-destructive-foreground">{controlled ? "A developer is controlling your screen" : "A developer is viewing your screen"}</div>}
     {paused && (
       <div className="fixed inset-0 z-[9999] grid place-items-center bg-background/95 backdrop-blur-xl" role="alertdialog" aria-label="Screen paused">
         <div className="max-w-md p-8 text-center">

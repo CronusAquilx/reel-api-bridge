@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { ControlEvent, ScreenFrame } from "@/lib/astra/screen-share";
 import { toast } from "sonner";
 import { useServerFn } from "@tanstack/react-start";
-import { Pause, Play, LogOut, Send, Ban, Eye, X, UserPlus } from "lucide-react";
+import { Pause, Play, LogOut, Send, Ban, Eye, X, UserPlus, MousePointer2 } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -27,22 +28,48 @@ async function banDevice(v: LiveVisitor): Promise<void> {
 }
 
 function ScreenViewer({ visitor, onClose }: { visitor: LiveVisitor; onClose: () => void }) {
-  const [frame, setFrame] = useState<{ img: string; path: string } | null>(null);
+  const [frame, setFrame] = useState<ScreenFrame | null>(null);
+  const [control, setControl] = useState(false);
+  const [box, setBox] = useState(0);
+  const chRef = useRef<ReturnType<typeof supabase.channel> | null>(null);
+  const boxRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const id = crypto.randomUUID();
-    const ch = supabase.channel(`screen-${id}`).on("broadcast", { event: "frame" }, ({ payload }) => setFrame(payload as { img: string; path: string }));
+    const ch = supabase.channel(`screen-${id}`).on("broadcast", { event: "frame" }, ({ payload }) => setFrame(payload as ScreenFrame));
     ch.subscribe((s) => { if (s === "SUBSCRIBED") void send("view", visitor.userId, id, true); });
-    return () => { void send("unview", visitor.userId, undefined, true); void supabase.removeChannel(ch); };
+    chRef.current = ch;
+    return () => { chRef.current = null; void send("unview", visitor.userId, undefined, true); void supabase.removeChannel(ch); };
   }, [visitor.userId]);
+  useEffect(() => {
+    const el = boxRef.current; if (!el) return;
+    const ro = new ResizeObserver(() => setBox(el.clientWidth)); ro.observe(el); return () => ro.disconnect();
+  }, [frame !== null]);
+  const ctl = (payload: ControlEvent) => { if (control) void chRef.current?.send({ type: "broadcast", event: "control", payload }); };
+  const scale = frame && box ? box / frame.w : 1;
+  const point = (e: React.MouseEvent) => { const r = boxRef.current!.getBoundingClientRect(); return { x: Math.round((e.clientX - r.left) / scale), y: Math.round((e.clientY - r.top) / scale) }; };
   return (
     <div className="space-y-2 rounded-lg border border-border bg-background p-3">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-2">
         <p className="text-sm font-medium text-foreground">Watching {visitor.name}{frame ? ` — ${frame.path}` : ""}</p>
-        <Button size="sm" variant="ghost" onClick={onClose}><X />Stop</Button>
+        <div className="flex gap-1">
+          <Button size="sm" variant={control ? "default" : "secondary"} onClick={() => setControl((c) => !c)}><MousePointer2 />{control ? "Controlling" : "Take control"}</Button>
+          <Button size="sm" variant="ghost" onClick={onClose}><X />Stop</Button>
+        </div>
       </div>
-      {frame ? <img src={frame.img} onError={() => setFrame(null)} alt={`${visitor.name}'s screen`} className="w-full rounded border border-border" />
-        : <p className="py-10 text-center text-sm text-muted-foreground">Waiting for their screen…</p>}
-      <p className="text-xs text-muted-foreground">Videos, games and wallpapers show as blank areas. Updates every few seconds.</p>
+      {frame ? (
+        <div ref={boxRef} tabIndex={0} className={`relative w-full overflow-hidden rounded border border-border outline-none ${control ? "cursor-pointer ring-2 ring-primary" : ""}`}
+          style={{ height: frame.h * scale, background: frame.bg }}
+          onClick={(e) => ctl({ type: "click", ...point(e) })}
+          onWheel={(e) => ctl({ type: "scroll", ...point(e), dy: Math.round(e.deltaY) })}
+          onKeyDown={(e) => { if (!control) return; e.preventDefault(); if (e.key.length === 1) ctl({ type: "type", text: e.key }); else ctl({ type: "key", key: e.key }); }}>
+          <div style={{ width: frame.w, height: frame.h, transform: `scale(${scale})`, transformOrigin: "0 0", position: "absolute", pointerEvents: "none" }}>
+            {frame.items.map((it, i) => it.img
+              ? <img key={i} src={it.img} alt="" style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, objectFit: "cover", borderRadius: it.r }} />
+              : <div key={i} style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, background: it.media ? "#111" : it.bg, border: it.bd ? `1px solid ${it.bd}` : undefined, borderRadius: it.r, color: it.c, fontSize: it.fs, fontWeight: it.fw, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", lineHeight: 1.2, display: "flex", alignItems: "center", justifyContent: it.media ? "center" : undefined }}>{it.media ? "▶ video / game" : it.t}</div>)}
+          </div>
+        </div>
+      ) : <p className="py-10 text-center text-sm text-muted-foreground">Waiting for their screen…</p>}
+      <p className="text-xs text-muted-foreground">{control ? "Click to click for them, scroll to scroll, and type while the screen is selected." : "Updates live. Videos, games and wallpapers show as dark boxes."}</p>
     </div>
   );
 }
