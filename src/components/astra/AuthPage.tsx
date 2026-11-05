@@ -25,7 +25,7 @@ export function AuthPage() {
   const [busy,setBusy]=useState(false); const [message,setMessage]=useState(""); const [devOpen,setDevOpen]=useState(false);
   const login=useServerFn(usernameSignIn);const signup=useServerFn(usernameSignUp);const status=useServerFn(accountSetupStatus);
   const name=String(user?.user_metadata?.["name"]??user?.user_metadata?.["full_name"]??user?.email?.split("@")[0]??"Player");
-  const skin=p.console==="sony"?"PlayStation / PS5":p.console==="series"?"Xbox Series X":p.console==="wii"?"Wii":p.console==="neutral"?"Neutral":p.layout==="switch"?"Switch":"Windows";
+  const skin=p.console==="sony"?"PlayStation / PS5":p.console==="series"?"Xbox Series X":p.console==="wii"?"Wii":p.console==="neutral"?"Neutral":p.layout==="switch"?"Switch":p.layout==="macos"?"macOS":p.layout==="ipad"?"iPad":"Windows";
   useEffect(()=>{
     const onKey=(e:KeyboardEvent)=>{
       const t=e.target as HTMLElement|null;
