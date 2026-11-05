@@ -1,0 +1,17 @@
+{
+  "id": "dh-Haikyuu-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Haikyuu-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b97a7bcd-a446-44e5-a214-eae18886d362/dh-Haikyuu-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657627818-1657627818-haikyuu-live-wallpaper.mp4",
+  "bytes": 28177262,
+  "sha256": "30c07919013d9b2a289de28bcb5f5a55fe1ceb4b4a00c2006807962fba0ed814",
+  "videoPointer": "assets/wallpapers/native/dh-Haikyuu-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Haikyuu-Live-Wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Deer",
+  "source": "https://www.desktophut.com/Deer",
+  "previousUrls": [
+    "/__l5e/assets-v1/d4a89d9d-b720-4b70-83ee-fec46355d964/dh-Deer.mp4"
+  ],
+  "status": "complete",
+  "resolution": "2560x1080",
+  "width": 2560,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674104373-1674104373-deer.mp4",
+  "bytes": 24163558,
+  "sha256": "0b413b6f150bd5cb98727cdc7d155a6240bab571e8bc6bea1e20a5cc185f881f",
+  "videoPointer": "assets/wallpapers/native/dh-Deer-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Deer-native.jpg.asset.json"
+}

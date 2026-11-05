@@ -1,0 +1,17 @@
+{
+  "id": "dh-yui-itadori-shibuya",
+  "source": "https://www.desktophut.com/yui-itadori-shibuya",
+  "previousUrls": [
+    "/__l5e/assets-v1/61eb75db-1ab3-44c6-acc7-06d73794ccf3/dh-yui-itadori-shibuya.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/T13UpjizjoYqqp0_Yui%20Itadori%20-%20Shibuya_2_prob4.mp4",
+  "bytes": 55890806,
+  "sha256": "b1f65a968a4248b1d3030d1b4a26e1f2be1329c5c2321b9d395f7083af9b8046",
+  "videoPointer": "assets/wallpapers/native/dh-yui-itadori-shibuya-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-yui-itadori-shibuya-native.jpg.asset.json"
+}

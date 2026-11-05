@@ -1,0 +1,17 @@
+{
+  "id": "dh-Sara-Kujou-Splash-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Sara-Kujou-Splash-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bfd2c028-0fa2-4b99-af71-a4f29f4b255b/dh-Sara-Kujou-Splash-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1659880676-1659880676-sara-kujou-splash-live-wallpaper.mp4",
+  "bytes": 33032723,
+  "sha256": "3cb788d076ec3a3a21de33f538c34cd102055f8477f25e534b0dd7a8ff70bd9a",
+  "videoPointer": "assets/wallpapers/native/dh-Sara-Kujou-Splash-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Sara-Kujou-Splash-Live-Wallpaper-native.jpg.asset.json"
+}

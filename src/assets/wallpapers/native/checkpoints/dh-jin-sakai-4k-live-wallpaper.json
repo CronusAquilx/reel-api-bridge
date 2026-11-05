@@ -1,0 +1,17 @@
+{
+  "id": "dh-jin-sakai-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/jin-sakai-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a19aa986-6bc4-4e9b-b509-f72442fefd45/dh-jin-sakai-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669906452-1669906452-jin-sakai-4k-live-wallpaper.mp4",
+  "bytes": 22796580,
+  "sha256": "08bb22b506027df5f2f9363fedc1c9da07be64b73dee58ac21ea7f8c2f863108",
+  "videoPointer": "assets/wallpapers/native/dh-jin-sakai-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-jin-sakai-4k-live-wallpaper-native.jpg.asset.json"
+}
