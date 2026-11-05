@@ -14,6 +14,7 @@ import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as GuestRouteImport } from './routes/guest'
 import { Route as GuestPlayRouteImport } from './routes/guest-play'
+import { Route as MovieUnavailableRouteImport } from './routes/movie-unavailable'
 import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as AuthenticatedDesktopRouteImport } from './routes/_authenticated/desktop'
 import { Route as AuthenticatedGamesRouteImport } from './routes/_authenticated/games'
@@ -79,6 +80,11 @@ const GuestRoute = GuestRouteImport.update({
 const GuestPlayRoute = GuestPlayRouteImport.update({
   id: '/guest-play',
   path: '/guest-play',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MovieUnavailableRoute = MovieUnavailableRouteImport.update({
+  id: '/movie-unavailable',
+  path: '/movie-unavailable',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
@@ -314,6 +320,7 @@ export interface FileRoutesByFullPath {
   '/auth': typeof AuthRoute
   '/guest': typeof GuestRoute
   '/guest-play': typeof GuestPlayRoute
+  '/movie-unavailable': typeof MovieUnavailableRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/desktop': typeof AuthenticatedDesktopRoute
   '/games': typeof AuthenticatedGamesRoute
@@ -362,6 +369,7 @@ export interface FileRoutesByTo {
   '/auth': typeof AuthRoute
   '/guest': typeof GuestRoute
   '/guest-play': typeof GuestPlayRoute
+  '/movie-unavailable': typeof MovieUnavailableRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/desktop': typeof AuthenticatedDesktopRoute
   '/games': typeof AuthenticatedGamesRoute
@@ -412,6 +420,7 @@ export interface FileRoutesById {
   '/auth': typeof AuthRoute
   '/guest': typeof GuestRoute
   '/guest-play': typeof GuestPlayRoute
+  '/movie-unavailable': typeof MovieUnavailableRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/_authenticated/desktop': typeof AuthenticatedDesktopRoute
   '/_authenticated/games': typeof AuthenticatedGamesRoute
@@ -462,6 +471,7 @@ export interface FileRouteTypes {
     | '/auth'
     | '/guest'
     | '/guest-play'
+    | '/movie-unavailable'
     | '/admin'
     | '/desktop'
     | '/games'
@@ -510,6 +520,7 @@ export interface FileRouteTypes {
     | '/auth'
     | '/guest'
     | '/guest-play'
+    | '/movie-unavailable'
     | '/admin'
     | '/desktop'
     | '/games'
@@ -559,6 +570,7 @@ export interface FileRouteTypes {
     | '/auth'
     | '/guest'
     | '/guest-play'
+    | '/movie-unavailable'
     | '/_authenticated/admin'
     | '/_authenticated/desktop'
     | '/_authenticated/games'
@@ -609,6 +621,7 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRoute
   GuestRoute: typeof GuestRoute
   GuestPlayRoute: typeof GuestPlayRoute
+  MovieUnavailableRoute: typeof MovieUnavailableRoute
   ApiChatRoute: typeof ApiChatRoute
   ApiGameAiRoute: typeof ApiGameAiRoute
   ApiMoviesRoute: typeof ApiMoviesRoute
@@ -659,6 +672,13 @@ declare module '@tanstack/react-router' {
       path: '/guest-play'
       fullPath: '/guest-play'
       preLoaderRoute: typeof GuestPlayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/movie-unavailable': {
+      id: '/movie-unavailable'
+      path: '/movie-unavailable'
+      fullPath: '/movie-unavailable'
+      preLoaderRoute: typeof MovieUnavailableRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_authenticated/admin': {
@@ -1031,6 +1051,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRoute,
   GuestRoute: GuestRoute,
   GuestPlayRoute: GuestPlayRoute,
+  MovieUnavailableRoute: MovieUnavailableRoute,
   ApiChatRoute: ApiChatRoute,
   ApiGameAiRoute: ApiGameAiRoute,
   ApiMoviesRoute: ApiMoviesRoute,
