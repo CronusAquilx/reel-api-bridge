@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { VISIBLE_LAYOUTS, initialAppearance, updateAppearance } from "./appearance";
 import { DEFAULT_PREFS } from "./prefs";
-import { filterWallpapers, wallpaperPatch, upgradeWallpaperSource, type CatalogWallpaper } from "./wallpaper-catalog";
+import { filterWallpapers, wallpaperCategories, wallpaperPatch, upgradeWallpaperSource, type CatalogWallpaper } from "./wallpaper-catalog";
 
 const item: CatalogWallpaper = { id: "lake", title: "Dreamy Landscape", source: "https://www.desktophut.com/lake", video: "/loop.mp4", image: "/lake.jpg", resolution: "3840x2160" };
 describe("shared live wallpaper catalog", () => {
@@ -27,5 +27,22 @@ describe("shared live wallpaper catalog", () => {
   it("searches titles and resolutions without case sensitivity", () => {
     expect(filterWallpapers([item], "DREAMY 3840")).toEqual([item]);
     expect(filterWallpapers([item], "naruto")).toEqual([]);
+  });
+  it("finds a specific wallpaper across punctuation and accents", () => {
+    const specific = { ...item, title: "Pokémon: Starry-Sky" };
+    expect(filterWallpapers([specific, item], "POKEMON starry sky")).toEqual([specific]);
+    expect(filterWallpapers([specific, item], "pokemon ocean")).toEqual([]);
+  });
+  it("combines genres with title searches instead of ignoring either filter", () => {
+    const anime = { ...item, id: "gojo", title: "Gojo Satoru Starlit Sky" };
+    const car = { ...item, id: "porsche", title: "Porsche 911 GT3 RS" };
+    expect(filterWallpapers([anime, car], "gojo", "Anime")).toEqual([anime]);
+    expect(filterWallpapers([anime, car], "gojo", "Cars")).toEqual([]);
+    expect(filterWallpapers([anime, car], "", "Cars")).toEqual([car]);
+  });
+  it("keeps source genres and allows a wallpaper in multiple categories", () => {
+    const mixed = { ...item, title: "Cozy Mountain Cabin", categories: ["Fantasy" as const] };
+    expect(wallpaperCategories(mixed)).toEqual(expect.arrayContaining(["Nature", "Cozy", "Fantasy"]));
+    expect(filterWallpapers([mixed], "cozy", "Nature")).toEqual([mixed]);
   });
 });
