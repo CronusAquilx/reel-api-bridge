@@ -63,7 +63,7 @@ export function captureFrame(): ScreenFrame {
     if (tag === "VIDEO" || tag === "IFRAME" || tag === "CANVAS" || tag === "EMBED" || tag === "OBJECT") {
       const shot = mediaShots < MAX_MEDIA ? snapshotMedia(el) : undefined;
       if (shot) mediaShots++;
-      items.push({ ...item, media: true, img: shot }); el = nextOutside(walker, el); continue;
+      items.push({ ...item, media: true, ...(shot ? { img: shot } : {}) }); el = nextOutside(walker, el); continue;
     }
     const cs = getComputedStyle(el);
     if (cs.visibility === "hidden" || cs.opacity === "0" || cs.display === "none") { el = nextOutside(walker, el); continue; }
