@@ -1,0 +1,17 @@
+{
+  "id": "dh-invoker-AE",
+  "source": "https://www.desktophut.com/invoker-AE",
+  "previousUrls": [
+    "/__l5e/assets-v1/5bd050db-0a55-4513-81eb-74437668e014/dh-invoker-AE.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673478253-1673478253-invoker-ae.mp4",
+  "bytes": 6577177,
+  "sha256": "9f0a8b5409b257377648e7f306054cd29fb02866a3ccd4f8c5621d00f692074d",
+  "videoPointer": "assets/wallpapers/native/dh-invoker-AE-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-invoker-AE-native.jpg.asset.json"
+}

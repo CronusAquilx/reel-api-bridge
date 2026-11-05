@@ -1,0 +1,17 @@
+{
+  "id": "dh-snowbreak-operative-live-wallpaper",
+  "source": "https://www.desktophut.com/snowbreak-operative-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8b329664-440a-475f-89d4-40e990bb7b71/dh-snowbreak-operative-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2304",
+  "width": 4096,
+  "height": 2304,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1758735028.mp4",
+  "bytes": 23462907,
+  "sha256": "578385b40cce4bd9b1174b870752f30f273254d67ee8bd17ab2df7d468bc1680",
+  "videoPointer": "assets/wallpapers/native/dh-snowbreak-operative-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-snowbreak-operative-live-wallpaper-native.jpg.asset.json"
+}

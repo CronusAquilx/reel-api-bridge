@@ -1,0 +1,17 @@
+{
+  "id": "dh-Goodnight",
+  "source": "https://www.desktophut.com/Goodnight",
+  "previousUrls": [
+    "/__l5e/assets-v1/df75c29c-6594-4c51-9d91-f7566ba89444/dh-Goodnight.mp4"
+  ],
+  "status": "complete",
+  "resolution": "882x720",
+  "width": 882,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1689432488-1689432488-goodnight.mp4",
+  "bytes": 533344,
+  "sha256": "0cf675bd76f832ddd748f7bd72b87a46dc0aed07177591eb3fc1185c6378ed25",
+  "videoPointer": "assets/wallpapers/native/dh-Goodnight-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Goodnight-native.jpg.asset.json"
+}

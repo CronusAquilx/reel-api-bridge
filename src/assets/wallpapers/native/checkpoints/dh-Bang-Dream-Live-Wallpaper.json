@@ -1,0 +1,17 @@
+{
+  "id": "dh-Bang-Dream-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Bang-Dream-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ae879fe1-71cc-4145-9393-b16fa60ae786/dh-Bang-Dream-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668458215-1668458215-bang-dream-live-wallpaper.mp4",
+  "bytes": 2684624,
+  "sha256": "eeb277c22535bf8360ffc8a648ed4f220d70de1d4be9923864d0db18a781bf85",
+  "videoPointer": "assets/wallpapers/native/dh-Bang-Dream-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Bang-Dream-Live-Wallpaper-native.jpg.asset.json"
+}

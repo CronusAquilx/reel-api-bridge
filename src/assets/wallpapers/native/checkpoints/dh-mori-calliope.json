@@ -1,0 +1,17 @@
+{
+  "id": "dh-mori-calliope",
+  "source": "https://www.desktophut.com/mori-calliope",
+  "previousUrls": [
+    "/__l5e/assets-v1/6e1937c5-940f-4fb1-a9d8-5d21b5ece522/dh-mori-calliope.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/jg5N801ostKeICV_Mori%20Calliope_7_111725.mp4",
+  "bytes": 71695448,
+  "sha256": "b27a6bb720420f9ee9b109da432f39a05505c02d4ba6f7494811b10549ccedc6",
+  "videoPointer": "assets/wallpapers/native/dh-mori-calliope-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-mori-calliope-native.jpg.asset.json"
+}

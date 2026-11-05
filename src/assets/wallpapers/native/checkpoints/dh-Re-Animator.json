@@ -1,0 +1,17 @@
+{
+  "id": "dh-Re-Animator",
+  "source": "https://www.desktophut.com/Re-Animator",
+  "previousUrls": [
+    "/__l5e/assets-v1/90e387fd-a0c5-4bd8-85a4-b5d0a5405928/dh-Re-Animator.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1671977802-1671977802-re-animator.mp4",
+  "bytes": 44395521,
+  "sha256": "69061c75cb702db5d45ffc8cfc69e7a28f66287cd6740a78c680a5fb0f177dd0",
+  "videoPointer": "assets/wallpapers/native/dh-Re-Animator-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Re-Animator-native.jpg.asset.json"
+}

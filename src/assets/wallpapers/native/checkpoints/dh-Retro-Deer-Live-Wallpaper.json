@@ -1,0 +1,17 @@
+{
+  "id": "dh-Retro-Deer-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Retro-Deer-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7e409b4a-a2e6-4cf9-b923-2ef5e1ed95ef/dh-Retro-Deer-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1658235233-1658235233-retro-deer-live-wallpaper.mp4",
+  "bytes": 22853897,
+  "sha256": "96d913ad56d5025e3add55a74581c5d65239305c3c8c6ce03b700690de048955",
+  "videoPointer": "assets/wallpapers/native/dh-Retro-Deer-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Retro-Deer-Live-Wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-miku-mega-drive-pixel-art-live-wallpaper",
+  "source": "https://www.desktophut.com/miku-mega-drive-pixel-art-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/cfb14504-706c-4dff-99df-d1d954dc2326/dh-miku-mega-drive-pixel-art-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1760007959.mp4",
+  "bytes": 69126382,
+  "sha256": "0c2c8958c0b1ab5d6a0d2ea58474596e9764b039ad6005aa23bf7ca42240a6d4",
+  "videoPointer": "assets/wallpapers/native/dh-miku-mega-drive-pixel-art-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-miku-mega-drive-pixel-art-live-wallpaper-native.jpg.asset.json"
+}

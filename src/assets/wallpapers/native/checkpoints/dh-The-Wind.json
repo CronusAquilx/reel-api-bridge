@@ -1,0 +1,17 @@
+{
+  "id": "dh-The-Wind",
+  "source": "https://www.desktophut.com/The-Wind",
+  "previousUrls": [
+    "/__l5e/assets-v1/0b6c23e9-e4f0-4f74-9273-77a6e7ae5a9c/dh-The-Wind.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674404735-1674404735-the-wind.mp4",
+  "bytes": 31136180,
+  "sha256": "5fb7bcd5274423482d949aa9669f5dd00948a7dcfbe877259f456ba3c7693378",
+  "videoPointer": "assets/wallpapers/native/dh-The-Wind-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-The-Wind-native.jpg.asset.json"
+}

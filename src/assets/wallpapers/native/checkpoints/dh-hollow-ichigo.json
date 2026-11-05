@@ -1,0 +1,17 @@
+{
+  "id": "dh-hollow-ichigo",
+  "source": "https://www.desktophut.com/hollow-ichigo",
+  "previousUrls": [
+    "/__l5e/assets-v1/e96dbeb2-998b-4bc3-a940-8d82d0195dca/dh-hollow-ichigo.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/MpthnO6TfoXFDXu_Ichigo-Hollowification-4K_2_124550.mp4",
+  "bytes": 25468492,
+  "sha256": "f43117a905b4f9f8398d3346c48820482c2aafc15ad6826511f2fa840b4597a8",
+  "videoPointer": "assets/wallpapers/native/dh-hollow-ichigo-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-hollow-ichigo-native.jpg.asset.json"
+}

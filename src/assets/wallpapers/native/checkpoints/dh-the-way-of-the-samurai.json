@@ -1,0 +1,17 @@
+{
+  "id": "dh-the-way-of-the-samurai",
+  "source": "https://www.desktophut.com/the-way-of-the-samurai",
+  "previousUrls": [
+    "/__l5e/assets-v1/083a2269-5d69-4d3d-ad6b-c26017a3665a/dh-the-way-of-the-samurai.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Ij1iiL3NUjB7W0h_Way%20Of%20The%20Samurai_2_prob4.mp4",
+  "bytes": 152525198,
+  "sha256": "1495428e1fde75d7eadb69c0c183cbdad08318134e22aaf49367b7b7f4012a6f",
+  "videoPointer": "assets/wallpapers/native/dh-the-way-of-the-samurai-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-the-way-of-the-samurai-native.jpg.asset.json"
+}

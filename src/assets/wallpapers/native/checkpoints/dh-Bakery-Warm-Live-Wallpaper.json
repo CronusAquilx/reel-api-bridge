@@ -1,0 +1,17 @@
+{
+  "id": "dh-Bakery-Warm-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Bakery-Warm-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/56e14126-f69a-41bf-89e8-66a6034538b3/dh-Bakery-Warm-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668457683-1668457683-bakery-warm-live-wallpaper.mp4",
+  "bytes": 2944253,
+  "sha256": "08c80f6406fa7ccb4e328179fb7edd62bd47bb5e18a901184c2c55b6b43b15df",
+  "videoPointer": "assets/wallpapers/native/dh-Bakery-Warm-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Bakery-Warm-Live-Wallpaper-native.jpg.asset.json"
+}

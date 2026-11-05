@@ -1,0 +1,17 @@
+{
+  "id": "dh-Silver-Wolf-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Silver-Wolf-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bfceb043-e105-4c3d-a796-311cf94f02b1/dh-Silver-Wolf-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687601508-1687601508-silver-wolf-live-wallpaper.mp4",
+  "bytes": 24158328,
+  "sha256": "ca7607e93921752cfd0af81941ff561d4801a5a0f228a1d28f80618dd6bf2f4e",
+  "videoPointer": "assets/wallpapers/native/dh-Silver-Wolf-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Silver-Wolf-Live-Wallpaper-native.jpg.asset.json"
+}

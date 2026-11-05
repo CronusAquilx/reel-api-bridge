@@ -1,0 +1,17 @@
+{
+  "id": "dh-Planet-Kirby-4K-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Planet-Kirby-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/fedeab0e-0705-4bfd-8118-29a69e3cc812/dh-Planet-Kirby-4K-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687681245-1687681245-planet-kirby-4k-live-wallpaper.mp4",
+  "bytes": 25120572,
+  "sha256": "e5fcb0324bfa9e3afa8de92e7bdf182a870755479f01cbe4947e53eca6903ae0",
+  "videoPointer": "assets/wallpapers/native/dh-Planet-Kirby-4K-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Planet-Kirby-4K-Live-Wallpaper-native.jpg.asset.json"
+}

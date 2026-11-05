@@ -1,0 +1,17 @@
+{
+  "id": "dh-Apoc10000",
+  "source": "https://www.desktophut.com/Apoc10000",
+  "previousUrls": [
+    "/__l5e/assets-v1/2cdcb154-4a86-43a8-bae5-0dc0c5884047/dh-Apoc10000.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674108659-1674108659-apoc10000.mp4",
+  "bytes": 168569560,
+  "sha256": "6bc5a12c7f34bad5a92082e0118cb3f1afda687efe25ee22ef5ef6b1127fbeb4",
+  "videoPointer": "assets/wallpapers/native/dh-Apoc10000-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Apoc10000-native.jpg.asset.json"
+}

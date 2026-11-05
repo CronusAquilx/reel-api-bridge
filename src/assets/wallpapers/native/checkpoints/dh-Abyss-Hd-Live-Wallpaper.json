@@ -1,0 +1,17 @@
+{
+  "id": "dh-Abyss-Hd-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Abyss-Hd-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/168127fa-2a35-4430-a6c0-d4fcb192fe53/dh-Abyss-Hd-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1888x1060",
+  "width": 1888,
+  "height": 1060,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684006454-1684006454-abyss-hd-live-wallpaper.mp4",
+  "bytes": 17529943,
+  "sha256": "126ba0594cc57aac5c82544d87531a0dc08d353c737024d337b8566395bb2a24",
+  "videoPointer": "assets/wallpapers/native/dh-Abyss-Hd-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Abyss-Hd-Live-Wallpaper-native.jpg.asset.json"
+}

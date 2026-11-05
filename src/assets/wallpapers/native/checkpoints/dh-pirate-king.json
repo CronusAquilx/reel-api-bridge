@@ -1,0 +1,17 @@
+{
+  "id": "dh-pirate-king",
+  "source": "https://www.desktophut.com/pirate-king",
+  "previousUrls": [
+    "/__l5e/assets-v1/95c0d1fb-3f9f-4778-9874-4af7d96f4519/dh-pirate-king.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Xo0UlRXkzjDsfwF_Luffy_1_120818.mp4",
+  "bytes": 69931536,
+  "sha256": "ce845ecd43e2f6dd42386fc1465a0452e2973ca42836c7ab30c2f2ddb9054d4e",
+  "videoPointer": "assets/wallpapers/native/dh-pirate-king-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-pirate-king-native.jpg.asset.json"
+}

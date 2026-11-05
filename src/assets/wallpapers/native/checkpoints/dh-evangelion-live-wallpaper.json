@@ -1,0 +1,17 @@
+{
+  "id": "dh-evangelion-live-wallpaper",
+  "source": "https://www.desktophut.com/evangelion-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/16175200-7380-4530-b98e-c102d7825b21/dh-evangelion-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "2560x1440",
+  "width": 2560,
+  "height": 1440,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/GzUe39Q9dluiwIR_Evangelion%20Live%20Wallpaper.mp4",
+  "bytes": 158993727,
+  "sha256": "3c51c8a9f3876413485056ae756b72f76d51ce7a58664dd5e3c06e96a002c372",
+  "videoPointer": "assets/wallpapers/native/dh-evangelion-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-evangelion-live-wallpaper-native.jpg.asset.json"
+}

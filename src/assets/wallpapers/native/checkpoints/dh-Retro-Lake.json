@@ -1,0 +1,17 @@
+{
+  "id": "dh-Retro-Lake",
+  "source": "https://www.desktophut.com/Retro-Lake",
+  "previousUrls": [
+    "/__l5e/assets-v1/66143680-5419-4593-a74f-1962f9721a48/dh-Retro-Lake.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1672869959-1672869959-retro-lake.mp4",
+  "bytes": 62824575,
+  "sha256": "ae2e96c37aa05a819add2edaaebb4f27c9f8e9fd7f4287a68b0fcc8780934893",
+  "videoPointer": "assets/wallpapers/native/dh-Retro-Lake-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Retro-Lake-native.jpg.asset.json"
+}

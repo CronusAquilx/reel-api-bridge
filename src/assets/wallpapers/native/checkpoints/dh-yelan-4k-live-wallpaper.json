@@ -1,0 +1,17 @@
+{
+  "id": "dh-yelan-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/yelan-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f2dd181e-c864-4994-926a-aaf71cc15bf3/dh-yelan-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669906247-1669906247-yelan-4k-live-wallpaper.mp4",
+  "bytes": 24592065,
+  "sha256": "1db843daf9b168f63d7d5c217dbbc10e617646824dc74a67f2bf9cf3c03062b4",
+  "videoPointer": "assets/wallpapers/native/dh-yelan-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-yelan-4k-live-wallpaper-native.jpg.asset.json"
+}

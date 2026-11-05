@@ -1,0 +1,17 @@
+{
+  "id": "dh-dragon-white-clouds",
+  "source": "https://www.desktophut.com/dragon-white-clouds",
+  "previousUrls": [
+    "/__l5e/assets-v1/3bf6cbb4-5d37-4d3d-b1a3-f89a6cb4cc7a/dh-dragon-white-clouds.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/adu11BxXNcXYdHN_Dragon%20in%20the%20White%20Clouds.mp4",
+  "bytes": 72971500,
+  "sha256": "b1b06ed4d42bf493af10e0c38bc7e4722ff3bf312ebe1e42d4acca72f5e09563",
+  "videoPointer": "assets/wallpapers/native/dh-dragon-white-clouds-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-dragon-white-clouds-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-rain-001-Lively-Wallpaper",
+  "source": "https://www.desktophut.com/rain-001-Lively-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f5ec234d-7251-4900-bccf-dc7d033a45c6/dh-rain-001-Lively-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4032x2268",
+  "width": 4032,
+  "height": 2268,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1658834370-1658834370-rain-001-lively-wallpaper.mp4",
+  "bytes": 39510355,
+  "sha256": "1d3f1c2e7e2f19dffbb29ed3f65f9daefb80f0822343a59154e1b6db97ae2b8a",
+  "videoPointer": "assets/wallpapers/native/dh-rain-001-Lively-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-rain-001-Lively-Wallpaper-native.jpg.asset.json"
+}

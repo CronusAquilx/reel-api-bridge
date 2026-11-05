@@ -1,0 +1,17 @@
+{
+  "id": "dh-wallpaper-3",
+  "source": "https://www.desktophut.com/аниме",
+  "previousUrls": [
+    "/__l5e/assets-v1/fec27544-9d63-424c-9a23-9167ba984327/dh-wallpaper-3.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1212x576",
+  "width": 1212,
+  "height": 576,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674237072-1674237072-%D0%B0%D0%BD%D0%B8%D0%BC%D0%B5.mp4",
+  "bytes": 6949592,
+  "sha256": "11b6787bbbec9e3959aab1ccecf245052237a112118bb0fa785406af0f318b21",
+  "videoPointer": "assets/wallpapers/native/dh-wallpaper-3-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-wallpaper-3-native.jpg.asset.json"
+}

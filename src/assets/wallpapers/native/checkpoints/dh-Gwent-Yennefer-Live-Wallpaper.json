@@ -1,0 +1,17 @@
+{
+  "id": "dh-Gwent-Yennefer-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Gwent-Yennefer-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e9f75231-c800-4b36-b668-9a13022505d1/dh-Gwent-Yennefer-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1662714231-1662714231-gwent-yennefer-live-wallpaper.mp4",
+  "bytes": 138714521,
+  "sha256": "4dbf00a3826746a9dedb5f15858dd828b2722d0fc96cf5f2e4a9c7eeb8c5ef92",
+  "videoPointer": "assets/wallpapers/native/dh-Gwent-Yennefer-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Gwent-Yennefer-Live-Wallpaper-native.jpg.asset.json"
+}

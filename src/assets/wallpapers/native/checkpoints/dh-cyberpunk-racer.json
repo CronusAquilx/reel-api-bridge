@@ -1,0 +1,17 @@
+{
+  "id": "dh-cyberpunk-racer",
+  "source": "https://www.desktophut.com/cyberpunk-racer",
+  "previousUrls": [
+    "/__l5e/assets-v1/389dc1e8-fd03-44ed-a113-dbc63dd4d7d2/dh-cyberpunk-racer.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/pSMe6AqIwW9JRcz_Cyberpunk%20Racer%20Live%20Wallpaper_1_15_121033.mp4",
+  "bytes": 85040555,
+  "sha256": "9a0d682cbbb01978428bb565db090e5a715361e50694f5a5b97fbff8d431009d",
+  "videoPointer": "assets/wallpapers/native/dh-cyberpunk-racer-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-cyberpunk-racer-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-itachi-wallpaper",
+  "source": "https://www.desktophut.com/itachi-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9b884812-f46f-465f-9f64-af435c38fa8e/dh-itachi-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673887671-1673887671-itachi-wallpaper.mp4",
+  "bytes": 25454290,
+  "sha256": "75103c636c07970db4faea95cba814ff4ceb8d6cf318b47cfd453c288b917532",
+  "videoPointer": "assets/wallpapers/native/dh-itachi-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-itachi-wallpaper-native.jpg.asset.json"
+}

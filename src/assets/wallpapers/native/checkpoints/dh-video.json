@@ -1,0 +1,17 @@
+{
+  "id": "dh-video",
+  "source": "https://www.desktophut.com/video",
+  "previousUrls": [
+    "/__l5e/assets-v1/a55792f2-3e29-4f7d-930b-0d1c2e276cd3/dh-video.mp4"
+  ],
+  "status": "complete",
+  "resolution": "640x480",
+  "width": 640,
+  "height": 480,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674102562-1674102562-video.mp4",
+  "bytes": 200151,
+  "sha256": "9249411a19172d3dd36106b298cf275a9927882121b0c33f914d1638cc1a9e7d",
+  "videoPointer": "assets/wallpapers/native/dh-video-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-video-native.jpg.asset.json"
+}

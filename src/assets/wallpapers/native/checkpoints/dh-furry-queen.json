@@ -1,0 +1,17 @@
+{
+  "id": "dh-furry-queen",
+  "source": "https://www.desktophut.com/furry-queen",
+  "previousUrls": [
+    "/__l5e/assets-v1/482806b8-3f6f-4867-83ac-891b2ad1cc51/dh-furry-queen.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/2LUou36DNZseiZj_Furry%20Aztec%20Queen%20Live%20Wallpaper_13_103712.mp4",
+  "bytes": 30913564,
+  "sha256": "074ff596186c17203ea60c1d3bdada7f7da39a2a185b2410af5fdf097b3851f3",
+  "videoPointer": "assets/wallpapers/native/dh-furry-queen-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-furry-queen-native.jpg.asset.json"
+}

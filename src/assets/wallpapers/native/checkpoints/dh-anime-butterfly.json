@@ -1,0 +1,17 @@
+{
+  "id": "dh-anime-butterfly",
+  "source": "https://www.desktophut.com/anime-butterfly",
+  "previousUrls": [
+    "/__l5e/assets-v1/dfaddb50-17fa-4304-839e-279c35840424/dh-anime-butterfly.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/XEEDs8U5D80lHuP_Green-Butterfly-Girl_9_093011.mp4",
+  "bytes": 30774654,
+  "sha256": "b57f5d1303dbb6f8b7b323edfdfd8a0c9e3bc10537d8e56f8842ceffa3d6f987",
+  "videoPointer": "assets/wallpapers/native/dh-anime-butterfly-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-anime-butterfly-native.jpg.asset.json"
+}

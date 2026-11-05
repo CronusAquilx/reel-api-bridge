@@ -1,0 +1,17 @@
+{
+  "id": "dh-hu-tao-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/hu-tao-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8c8f5e39-7baf-4ac5-81ce-1f68699828f1/dh-hu-tao-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669906987-1669906987-hu-tao-4k-live-wallpaper.mp4",
+  "bytes": 16725194,
+  "sha256": "936b248a443d93e7e9b60055caf982e849559a98d5e2d01549fd9ed3a843f0e1",
+  "videoPointer": "assets/wallpapers/native/dh-hu-tao-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-hu-tao-4k-live-wallpaper-native.jpg.asset.json"
+}

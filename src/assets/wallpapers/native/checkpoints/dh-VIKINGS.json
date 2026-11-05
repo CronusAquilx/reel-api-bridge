@@ -1,0 +1,17 @@
+{
+  "id": "dh-VIKINGS",
+  "source": "https://www.desktophut.com/VIKINGS",
+  "previousUrls": [
+    "/__l5e/assets-v1/e603a57a-1c3b-4219-9b70-f018cb0f57b3/dh-VIKINGS.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1280x720",
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674105322-1674105322-vikings.mp4",
+  "bytes": 8308534,
+  "sha256": "a4898b4a0e230526911eeca049e753d015e6088eeb597fec8741577e355acf47",
+  "videoPointer": "assets/wallpapers/native/dh-VIKINGS-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-VIKINGS-native.jpg.asset.json"
+}

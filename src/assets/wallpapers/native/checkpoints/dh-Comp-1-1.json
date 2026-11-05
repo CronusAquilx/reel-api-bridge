@@ -1,0 +1,17 @@
+{
+  "id": "dh-Comp-1-1",
+  "source": "https://www.desktophut.com/Comp-1-1",
+  "previousUrls": [
+    "/__l5e/assets-v1/747a52d6-6a97-4d07-ae38-896b0c25e6ce/dh-Comp-1-1.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674104343-1674104343-comp-1-1.mp4",
+  "bytes": 28137590,
+  "sha256": "1d3502050d466168854674d39476744aae3f47fe6f2873810bf17648e941931a",
+  "videoPointer": "assets/wallpapers/native/dh-Comp-1-1-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Comp-1-1-native.jpg.asset.json"
+}

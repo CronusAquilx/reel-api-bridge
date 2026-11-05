@@ -1,0 +1,17 @@
+{
+  "id": "dh-choso-live-wallpaper",
+  "source": "https://www.desktophut.com/choso-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/deefdcaa-6746-48bf-a5c5-e3bbfcb181a6/dh-choso-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/ae6jWrgs0nHE2lO_jj_2_prob4_hyp1.mp4",
+  "bytes": 50927476,
+  "sha256": "a415a9cb556c1773ff57468727f018f544c211178bbfd8c38d0207804d3c14af",
+  "videoPointer": "assets/wallpapers/native/dh-choso-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-choso-live-wallpaper-native.jpg.asset.json"
+}

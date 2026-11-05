@@ -1,0 +1,17 @@
+{
+  "id": "dh-arcane-vi-hammer-live-wallpaper",
+  "source": "https://www.desktophut.com/arcane-vi-hammer-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/3df64db7-09ca-4d5c-baca-09e123c7662b/dh-arcane-vi-hammer-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x1714",
+  "width": 4096,
+  "height": 1714,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1759918840.mp4",
+  "bytes": 136343940,
+  "sha256": "39d9a58bbf5ce32af32d6c22131c77edd9af282d9372c9c374fc17a20906fefd",
+  "videoPointer": "assets/wallpapers/native/dh-arcane-vi-hammer-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-arcane-vi-hammer-live-wallpaper-native.jpg.asset.json"
+}

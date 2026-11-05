@@ -1,0 +1,17 @@
+{
+  "id": "dh-monochrome-fantasy-stag-moon",
+  "source": "https://www.desktophut.com/monochrome-fantasy-stag-moon",
+  "previousUrls": [
+    "/__l5e/assets-v1/65dcd399-b1b4-48e7-b430-8206d151adae/dh-monochrome-fantasy-stag-moon.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2304",
+  "width": 4096,
+  "height": 2304,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1768922296.mp4",
+  "bytes": 40774754,
+  "sha256": "ae32702377d26d679ece2ef6b3f09854723a0abd47f93b04e8f06698f2c9e6ff",
+  "videoPointer": "assets/wallpapers/native/dh-monochrome-fantasy-stag-moon-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-monochrome-fantasy-stag-moon-native.jpg.asset.json"
+}

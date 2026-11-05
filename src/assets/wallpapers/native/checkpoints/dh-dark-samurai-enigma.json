@@ -1,0 +1,17 @@
+{
+  "id": "dh-dark-samurai-enigma",
+  "source": "https://www.desktophut.com/dark-samurai-enigma",
+  "previousUrls": [
+    "/__l5e/assets-v1/f20447b1-7094-4f81-ab1b-abb621e831ce/dh-dark-samurai-enigma.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/DA318iW7u8gPs8w_Samurai%20Girl_2_prob4.mp4",
+  "bytes": 76766063,
+  "sha256": "b49ac4f9c09cc94811029c56b7247b400998c824d557d99dbf0ef66f0b260b50",
+  "videoPointer": "assets/wallpapers/native/dh-dark-samurai-enigma-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-dark-samurai-enigma-native.jpg.asset.json"
+}

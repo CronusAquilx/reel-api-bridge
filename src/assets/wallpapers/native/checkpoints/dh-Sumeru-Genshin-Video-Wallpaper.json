@@ -1,0 +1,17 @@
+{
+  "id": "dh-Sumeru-Genshin-Video-Wallpaper",
+  "source": "https://www.desktophut.com/Sumeru-Genshin-Video-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/22131c61-c069-4be4-824f-6a6d92d63188/dh-Sumeru-Genshin-Video-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1660724419-1660724419-sumeru-genshin-video-wallpaper.mp4",
+  "bytes": 73384980,
+  "sha256": "9914c96aef49660618bb683de9e32543735d5140939336e592354f98ff932032",
+  "videoPointer": "assets/wallpapers/native/dh-Sumeru-Genshin-Video-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Sumeru-Genshin-Video-Wallpaper-native.jpg.asset.json"
+}

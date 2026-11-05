@@ -1,0 +1,17 @@
+{
+  "id": "dh-lonely-cat-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/lonely-cat-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/95a4da5d-08ef-494a-963a-33f7b1007d2c/dh-lonely-cat-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669906670-1669906670-lonely-cat-4k-live-wallpaper.mp4",
+  "bytes": 21545099,
+  "sha256": "06efd0d4a5b825ce74363bcb45f7413ea67d5e672e1024abec10b33d295f6ea8",
+  "videoPointer": "assets/wallpapers/native/dh-lonely-cat-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-lonely-cat-4k-live-wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-school-jinx",
+  "source": "https://www.desktophut.com/school-jinx",
+  "previousUrls": [
+    "/__l5e/assets-v1/8a97180b-f7d1-4d90-a04b-443d354ebce0/dh-school-jinx.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/3beaMq6tmKqSTMl_School%20Rascal%20Jinx_2_135544.mp4",
+  "bytes": 54877417,
+  "sha256": "87a507029ad1745baf9de0103096ffe4a994a76478f55a4d1f1503aea59d4ebb",
+  "videoPointer": "assets/wallpapers/native/dh-school-jinx-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-school-jinx-native.jpg.asset.json"
+}

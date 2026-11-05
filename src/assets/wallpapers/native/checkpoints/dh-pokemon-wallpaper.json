@@ -1,0 +1,17 @@
+{
+  "id": "dh-pokemon-wallpaper",
+  "source": "https://www.desktophut.com/pokemon-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/14517b22-b129-4cdc-ae86-c1f77e94ea44/dh-pokemon-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673887763-1673887763-pokemon-wallpaper.mp4",
+  "bytes": 16973090,
+  "sha256": "039ba243f03286250f56362a087540a20fcb6bf323a243aff4fbb417bc8f3423",
+  "videoPointer": "assets/wallpapers/native/dh-pokemon-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-pokemon-wallpaper-native.jpg.asset.json"
+}

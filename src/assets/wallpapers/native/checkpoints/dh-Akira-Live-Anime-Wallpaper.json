@@ -1,0 +1,17 @@
+{
+  "id": "dh-Akira-Live-Anime-Wallpaper",
+  "source": "https://www.desktophut.com/Akira-Live-Anime-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bd57f0c0-18fe-4d57-9200-a2dacc0932dd/dh-Akira-Live-Anime-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657713536-1657713536-akira-live-anime-wallpaper.mp4",
+  "bytes": 14316908,
+  "sha256": "625fee8ac036db09e3a515d64c46dda891b6d27543fa8abcd7a1eaf69b32b49e",
+  "videoPointer": "assets/wallpapers/native/dh-Akira-Live-Anime-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Akira-Live-Anime-Wallpaper-native.jpg.asset.json"
+}
