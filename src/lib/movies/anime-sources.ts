@@ -6,19 +6,17 @@ export function supportsAnimationSources(detail: { genres?: { id: number }[]; ge
 
 /** Anikoto's actual site search, not an invented embed/audio API. */
 export function anikotoSearchUrl(title: string): string {
+  void [title];
   return '/movie-unavailable';
-  const url = new URL('https://anikoto.com.co/');
-  url.searchParams.set('s', title.trim());
-  return url.toString();
 }
 
 /** VidLink's documented anime API uses MAL IDs, not TMDB IDs. No fallback to sub. */
 export function animeVoiceUrl(malId: number, episode: number, voice: 'en' | 'ja'): string {
+  void [malId,episode,voice];
   return '/movie-unavailable';
-  return `https://vidlink.pro/anime/${malId}/${episode}/${voice === 'en' ? 'dub' : 'sub'}`;
 }
 
 export function animeIcuVoiceUrl(anilistId: number, episode: number, voice: 'en' | 'ja'): string {
+  void [anilistId,episode,voice];
   return '/movie-unavailable';
-  return `https://vidsrc.icu/embed/anime/${anilistId}/${episode}/${voice === 'en' ? 1 : 0}`;
 }
