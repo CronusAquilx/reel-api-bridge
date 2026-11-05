@@ -75,7 +75,7 @@ function Virus() {
     try { ctx = new AudioContext(); } catch { /* no audio */ }
     const add = (count = 1) => setPops((p) => [...p, ...Array.from({ length: count }, () => ({
       id: ++n.current, x: Math.random() * 75, y: Math.random() * 70,
-      ad: ADS[Math.floor(Math.random() * ADS.length)],
+      ad: ADS[Math.floor(Math.random() * ADS.length)] ?? "",
       video: n.current % 6 === 0 ? VIRUS_VIDEOS[Math.floor(Math.random() * VIRUS_VIDEOS.length)] : undefined,
     }))].slice(-30));
     const t = setInterval(() => { add(); if (ctx) beep(ctx); }, 700);
@@ -155,7 +155,7 @@ function Runaway() {
 /** Renders the active staff troll (cleared by "untroll" or after 10 minutes). */
 export function TrollLayer({ troll, onEnd }: { troll: string; onEnd: () => void }) {
   useEffect(() => { const t = setTimeout(onEnd, 10 * 60 * 1000); return () => clearTimeout(t); }, [troll]);
-  const [kind, arg] = troll.split(":");
+  const [kind = "", arg = ""] = troll.split(":");
   if (kind === "video" || kind === "rickroll") {
     const id = kind === "rickroll" ? RICKROLL_ID : arg;
     return <div className="fixed inset-0 z-[9996] bg-background">
