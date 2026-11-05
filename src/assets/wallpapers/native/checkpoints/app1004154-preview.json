@@ -1,0 +1,18 @@
+{
+  "id": "app1004154-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Tonikaku-Kawaii",
+  "previousUrls": [
+    "/__l5e/assets-v1/ab849a68-5153-4b35-9a10-e2968339f391/app1004154-preview.mp4",
+    "/__l5e/assets-v1/136697eb-9a2f-4b67-9101-314be1a0b816/app1004154-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Tonikaku%20Kawaii.mp4",
+  "bytes": 30503911,
+  "sha256": "87284829b8f903696f865d7095cc98bca6a841b29857f86f91d285922f030a50",
+  "videoPointer": "assets/wallpapers/native/app1004154-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004154-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-elise",
+  "source": "https://www.desktophut.com/elise",
+  "previousUrls": [
+    "/__l5e/assets-v1/00991c9a-c6a7-4505-8804-972b386448f5/dh-elise.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673740401-1673740401-elise.mp4",
+  "bytes": 8910179,
+  "sha256": "7d2a0c87809a69f695540947661ff49856b8037753541b3f5eee7918d6eb181d",
+  "videoPointer": "assets/wallpapers/native/dh-elise-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-elise-native.jpg.asset.json"
+}

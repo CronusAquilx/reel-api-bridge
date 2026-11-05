@@ -1,0 +1,18 @@
+{
+  "id": "app1000117-preview",
+  "source": "https://www.desktophut.com/Blue-Fire-Abstract-Flame-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/2aeed8ad-ba02-4f3d-84ad-98a2157e74f9/app1000117-preview.mp4",
+    "/__l5e/assets-v1/7d34f59f-3dd7-4bef-8553-f3c4ab71671f/app1000117-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Blue%20%20Fire%20%20Abstract%20%20Flame%20%204K%20%20Live%20%20Wallpaper.mp4",
+  "bytes": 3537826,
+  "sha256": "d62cf768db247210462d7b5114b533330ea02e9b43eddf9e178a2038916ab6b9",
+  "videoPointer": "assets/wallpapers/native/app1000117-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000117-preview-native.jpg.asset.json"
+}

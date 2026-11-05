@@ -1,0 +1,17 @@
+{
+  "id": "dh-kino-journey-motorcycle-desert",
+  "source": "https://www.desktophut.com/kino-journey-motorcycle-desert",
+  "previousUrls": [
+    "/__l5e/assets-v1/c582ff58-c6dd-4a44-b67d-9822f79099bf/dh-kino-journey-motorcycle-desert.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1KGRRvO9D5JoQbL_Kino%20Journey%20Motorcycle%20Desert%20Live%20Wallpaper_3_120553.mp4",
+  "bytes": 70120319,
+  "sha256": "7a55ce4ba9d7b50be619ed1d1c3eb102446c034526e05814f171fb1aade54737",
+  "videoPointer": "assets/wallpapers/native/dh-kino-journey-motorcycle-desert-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-kino-journey-motorcycle-desert-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073415-preview",
+  "source": "https://www.desktophut.com/Madara-Uchiha-Rampage-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7eb6d5d4-9487-411d-90e8-63b10f4f624e/app1073415-preview.mp4",
+    "/__l5e/assets-v1/625c3f5f-381c-45a7-b0a6-3f17709ecd04/app1073415-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687451408-1687451408-madara-uchiha-rampage-4k-live-wallpaper.mp4",
+  "bytes": 19066972,
+  "sha256": "fd8d731b99e89d9971bbc67d16b943ab4819befe93337c4f4df41ee3bd737dc9",
+  "videoPointer": "assets/wallpapers/native/app1073415-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073415-preview-native.jpg.asset.json"
+}

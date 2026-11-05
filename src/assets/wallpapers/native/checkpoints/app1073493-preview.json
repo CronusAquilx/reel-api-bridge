@@ -1,0 +1,18 @@
+{
+  "id": "app1073493-preview",
+  "source": "https://www.desktophut.com/Zamasu-Goku-Black-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/51d37d3c-3edb-46e6-8989-372dc5e73166/app1073493-preview.mp4",
+    "/__l5e/assets-v1/53071a33-35ac-4313-9b3f-2e146d34a744/app1073493-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1688229702-1688229702-zamasu-goku-black-4k-live-wallpaper.mp4",
+  "bytes": 24889989,
+  "sha256": "d70cc0ad06e4c6890748287c771c2393076d2523b2f5effabaaabde4fd4ea623",
+  "videoPointer": "assets/wallpapers/native/app1073493-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073493-preview-native.jpg.asset.json"
+}

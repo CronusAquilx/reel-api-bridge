@@ -1,0 +1,17 @@
+{
+  "id": "dh-gokus-ultimate-challenge",
+  "source": "https://www.desktophut.com/gokus-ultimate-challenge",
+  "previousUrls": [
+    "/__l5e/assets-v1/0dbc9c74-8db7-44cd-8f79-f7c6d4033962/dh-gokus-ultimate-challenge.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/eYtQfs1dhavr1UX_Goku-Faces-Demon-4K_14_130011.mp4",
+  "bytes": 28366041,
+  "sha256": "9222f56b298f3b40238aa02e37ec1b2113f4cd9d5b93491bbe5c918274de0c87",
+  "videoPointer": "assets/wallpapers/native/dh-gokus-ultimate-challenge-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-gokus-ultimate-challenge-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-for-steam",
+  "source": "https://www.desktophut.com/for-steam",
+  "previousUrls": [
+    "/__l5e/assets-v1/d3fd340d-a7cd-4f65-89c5-eda1f9985490/dh-for-steam.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673480018-1673480018-for-steam.mp4",
+  "bytes": 13098981,
+  "sha256": "6c0e84930c575fdec75f3c48ee7afa2e84a3a3d3e39c397c5258e0789eb14721",
+  "videoPointer": "assets/wallpapers/native/dh-for-steam-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-for-steam-native.jpg.asset.json"
+}

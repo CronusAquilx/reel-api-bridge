@@ -1,0 +1,18 @@
+{
+  "id": "app1052063-preview",
+  "source": "https://www.desktophut.com/shadow-of-the-tomb-raider-4k-live-wallpaper-free",
+  "previousUrls": [
+    "/__l5e/assets-v1/58b243cb-4b9e-4458-aa10-07e3d035e2e8/app1052063-preview.mp4",
+    "/__l5e/assets-v1/1767aafb-fee2-4e31-a377-36e7cfdfd1a6/app1052063-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657119711-1657119711-shadow-of-the-tomb-raider-4k-live-wallpaper-free.mp4",
+  "bytes": 32620655,
+  "sha256": "9ce2b451128fe61dbf0836e95d339b6e53725944c463b4400a253a72c44282e1",
+  "videoPointer": "assets/wallpapers/native/app1052063-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1052063-preview-native.jpg.asset.json"
+}

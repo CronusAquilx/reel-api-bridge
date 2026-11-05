@@ -1,0 +1,18 @@
+{
+  "id": "app1010394-preview",
+  "source": "https://www.desktophut.com/4K-Halo-Infinite-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/41acf0ce-fe55-4988-9b5b-bfc165bb5d92/app1010394-preview.mp4",
+    "/__l5e/assets-v1/47967b99-2255-41fa-8cac-18c5bc26498a/app1010394-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877634-1654877634-4k-halo-infinite-live-wallpaper-for-pc.mp4",
+  "bytes": 74875863,
+  "sha256": "53c305151c926ac1d4f99a52b2f80dfcfcb10d156b5ba6a43a92d6e2c70ca938",
+  "videoPointer": "assets/wallpapers/native/app1010394-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010394-preview-native.jpg.asset.json"
+}

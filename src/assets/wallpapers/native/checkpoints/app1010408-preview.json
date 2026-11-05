@@ -1,0 +1,18 @@
+{
+  "id": "app1010408-preview",
+  "source": "https://www.desktophut.com/4K-Master-Chief-Halo-Combat-Evolved-Anniversary-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/cf1d5c83-1413-4574-87fd-274fb9d7f406/app1010408-preview.mp4",
+    "/__l5e/assets-v1/ace8549f-3204-4f70-a414-05b7bcafb2c9/app1010408-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877753-1654877753-4k-master-chief-halo-combat-evolved-anniversary-live-wallpaper-for-pc.mp4",
+  "bytes": 53610076,
+  "sha256": "640b9b6182ac40cdef2993da28e412b62bdf53768616fb35638649398f36e7e6",
+  "videoPointer": "assets/wallpapers/native/app1010408-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010408-preview-native.jpg.asset.json"
+}

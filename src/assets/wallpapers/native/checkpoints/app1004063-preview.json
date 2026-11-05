@@ -1,0 +1,18 @@
+{
+  "id": "app1004063-preview",
+  "source": "https://www.desktophut.com/Cool-Winter-Cabin-Snow-House-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4c57a2e4-2a57-49b5-8ecd-b09bd0c05f33/app1004063-preview.mp4",
+    "/__l5e/assets-v1/e4150e1e-d567-435b-90de-ebdcad2b331b/app1004063-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Winter%20Cabin%20Snow%20House%204k%20live%20wallpaper.mp4",
+  "bytes": 16243559,
+  "sha256": "7fb84b1da2d8480df1db4903ce372aada9d26f67b3b80b6cfdaf7fa21c5db3a4",
+  "videoPointer": "assets/wallpapers/native/app1004063-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004063-preview-native.jpg.asset.json"
+}

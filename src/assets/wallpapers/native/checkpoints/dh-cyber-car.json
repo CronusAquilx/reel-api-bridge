@@ -1,0 +1,17 @@
+{
+  "id": "dh-cyber-car",
+  "source": "https://www.desktophut.com/cyber-car",
+  "previousUrls": [
+    "/__l5e/assets-v1/5fceb779-6543-46e1-be16-c57229d0fa43/dh-cyber-car.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/BBgOgs39V8Wrccx_Synthwave-Cyberpunk-Car-1_181815.mp4",
+  "bytes": 29192257,
+  "sha256": "3c6389964d6dfea1f05b7c7b06797336388a72f8fca95b2b7a329dad36d1edfc",
+  "videoPointer": "assets/wallpapers/native/dh-cyber-car-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-cyber-car-native.jpg.asset.json"
+}

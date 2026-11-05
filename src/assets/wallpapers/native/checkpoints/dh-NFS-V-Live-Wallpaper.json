@@ -1,0 +1,17 @@
+{
+  "id": "dh-NFS-V-Live-Wallpaper",
+  "source": "https://www.desktophut.com/NFS-V-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b6e3d6f3-0a98-400a-a864-1b9d8a5bfdb5/dh-NFS-V-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1675815042-1675815042-nfs-v-live-wallpaper.mp4",
+  "bytes": 38234198,
+  "sha256": "6e937d37f9667f39e6e81259bdbc9e2ae8ba06df887e64114442d1123ad9e4b1",
+  "videoPointer": "assets/wallpapers/native/dh-NFS-V-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-NFS-V-Live-Wallpaper-native.jpg.asset.json"
+}

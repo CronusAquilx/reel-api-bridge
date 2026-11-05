@@ -1,0 +1,17 @@
+{
+  "id": "dh-reimu",
+  "source": "https://www.desktophut.com/reimu",
+  "previousUrls": [
+    "/__l5e/assets-v1/dcbe2853-f7f7-4954-8ff1-bcf50c72f697/dh-reimu.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674106424-1674106424-reimu.mp4",
+  "bytes": 56800093,
+  "sha256": "4956949a0996351e42bbab8030443eb8048f061b19cc8b7ff6a0533f6adb98ac",
+  "videoPointer": "assets/wallpapers/native/dh-reimu-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-reimu-native.jpg.asset.json"
+}

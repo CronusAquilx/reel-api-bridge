@@ -1,0 +1,17 @@
+{
+  "id": "dh-powder-ekko-fireworks",
+  "source": "https://www.desktophut.com/powder-ekko-fireworks",
+  "previousUrls": [
+    "/__l5e/assets-v1/bb405ec0-3594-4e44-8946-6c8dec3a315d/dh-powder-ekko-fireworks.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/nkIXZwGEAyFc8qY_Powder%20And%20Ekko%20Watching%20Fireworks_2_prob4_hyp1.mp4",
+  "bytes": 38118256,
+  "sha256": "bdd0aced37a9c03a85572207891785e3cf76f70a77a4b302e74c061f0217bbd9",
+  "videoPointer": "assets/wallpapers/native/dh-powder-ekko-fireworks-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-powder-ekko-fireworks-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app673432-preview",
+  "source": "https://www.desktophut.com/Doki-Doki-Literature-Club-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/215f55d5-66d1-4016-8038-8ec218d84b58/app673432-preview.mp4",
+    "/__l5e/assets-v1/699e91a7-fb97-4821-b943-c7976f975f2e/app673432-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "2560x1440",
+  "width": 2560,
+  "height": 1440,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Doki%20Doki%20Literature%20Club%204K%20Live%20Wallpaper.mp4",
+  "bytes": 3186143,
+  "sha256": "0ebb96b27e12d8b36414c50d1e802614e26555b34f93fcf46e797fd230ea367a",
+  "videoPointer": "assets/wallpapers/native/app673432-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app673432-preview-native.jpg.asset.json"
+}

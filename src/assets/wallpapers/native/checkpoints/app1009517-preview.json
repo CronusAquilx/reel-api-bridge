@@ -1,0 +1,18 @@
+{
+  "id": "app1009517-preview",
+  "source": "https://www.desktophut.com/PC-Heavy-Rain-4K-Live-Wallpaper-Free",
+  "previousUrls": [
+    "/__l5e/assets-v1/2697cf86-b0f5-466f-8884-7a23e0423147/app1009517-preview.mp4",
+    "/__l5e/assets-v1/9d84bd88-5e1b-4bc4-ace6-abc975a160df/app1009517-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654794323-1654794323-pc-heavy-rain-4k-live-wallpaper-free.mp4",
+  "bytes": 28201530,
+  "sha256": "a2c1881fded4cdeb5ce9c34c9435d1609529c1e0b89e37d92efe96a62ca342fe",
+  "videoPointer": "assets/wallpapers/native/app1009517-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1009517-preview-native.jpg.asset.json"
+}

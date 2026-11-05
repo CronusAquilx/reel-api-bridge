@@ -1,0 +1,18 @@
+{
+  "id": "app1004135-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Tokyo-Ghoul",
+  "previousUrls": [
+    "/__l5e/assets-v1/fff3eb17-d60b-4bc4-9e6a-1e3ae8bb4524/app1004135-preview.mp4",
+    "/__l5e/assets-v1/c9d978bc-3bb1-4ecc-b4e0-1d5f3f5c09d1/app1004135-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1280x720",
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Tokyo%20Ghoul.mp4",
+  "bytes": 26479984,
+  "sha256": "7ea4e516855b5a1c01c63ab0553e5a32d8ca8bb05b83d3f92c599a21436b7426",
+  "videoPointer": "assets/wallpapers/native/app1004135-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004135-preview-native.jpg.asset.json"
+}

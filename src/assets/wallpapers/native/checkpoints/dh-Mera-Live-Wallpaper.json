@@ -1,0 +1,17 @@
+{
+  "id": "dh-Mera-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Mera-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/63f06fc1-ee3f-4db7-9544-34195495a178/dh-Mera-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1659692026-1659692026-mera-live-wallpaper.mp4",
+  "bytes": 12932313,
+  "sha256": "d71353acc59b66134ba72f46e6dab88844e60208f5bdf257c601e315f32ff610",
+  "videoPointer": "assets/wallpapers/native/dh-Mera-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Mera-Live-Wallpaper-native.jpg.asset.json"
+}

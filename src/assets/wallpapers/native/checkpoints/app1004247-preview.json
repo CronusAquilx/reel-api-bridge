@@ -1,0 +1,18 @@
+{
+  "id": "app1004247-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Fire-Force",
+  "previousUrls": [
+    "/__l5e/assets-v1/4e7e3af0-8060-4bbc-baa3-c98862026845/app1004247-preview.mp4",
+    "/__l5e/assets-v1/527ee6d0-bf26-4533-80f9-dcfaf48c343a/app1004247-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Fire%20Force.mp4",
+  "bytes": 104209342,
+  "sha256": "df7ccd680ae6debb4951b707449bf2c5a5de486feb898f8bbdeec2063ffa6ff9",
+  "videoPointer": "assets/wallpapers/native/app1004247-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004247-preview-native.jpg.asset.json"
+}

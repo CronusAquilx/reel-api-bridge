@@ -1,0 +1,18 @@
+{
+  "id": "app1075139-preview",
+  "source": "https://www.desktophut.com/dune-minimalist-4k",
+  "previousUrls": [
+    "/__l5e/assets-v1/4b4f7c2f-fe02-402a-af8d-33a88a302ad0/app1075139-preview.mp4",
+    "/__l5e/assets-v1/eed2f59c-cc77-4191-b717-3f7e381b1962/app1075139-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/7cq7n0v4nuvsWid_Dune%204K_2_170756.mp4",
+  "bytes": 23869750,
+  "sha256": "69197f7f235bb5cae4b5167379e33c1661fb8d2314bb54f7a1d98624c8bc0270",
+  "videoPointer": "assets/wallpapers/native/app1075139-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1075139-preview-native.jpg.asset.json"
+}

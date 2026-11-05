@@ -1,0 +1,18 @@
+{
+  "id": "app1073445-preview",
+  "source": "https://www.desktophut.com/Subnautica-Below-Zero-%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%83%88-%EB%8F%99%EA%B5%B4-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/97edc10b-9053-4013-8741-56d837071465/app1073445-preview.mp4",
+    "/__l5e/assets-v1/540d9c64-da0f-4002-8e39-28e654cc1efd/app1073445-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1687684417-1687684417-subnautica-below-zero-%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%83%88-%EB%8F%99%EA%B5%B4-4k-live-wallpaper.mp4",
+  "bytes": 23508793,
+  "sha256": "063fb043f13740f2743970dd904f8d4c2cdaddf63051e6ecb09b512b28f3f911",
+  "videoPointer": "assets/wallpapers/native/app1073445-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073445-preview-native.jpg.asset.json"
+}

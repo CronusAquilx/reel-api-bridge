@@ -1,0 +1,17 @@
+{
+  "id": "dh-Oni-Fire-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Oni-Fire-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/98a7c763-7205-4133-81dc-cf48bbcafdcf/dh-Oni-Fire-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1661857772-1661857772-oni-fire-live-wallpaper.mp4",
+  "bytes": 24342088,
+  "sha256": "2521bb2e1bf41e2209636b24506ac58167e4d6ad657e047736ab9fedc1006d30",
+  "videoPointer": "assets/wallpapers/native/dh-Oni-Fire-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Oni-Fire-Live-Wallpaper-native.jpg.asset.json"
+}

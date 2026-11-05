@@ -1,0 +1,18 @@
+{
+  "id": "app1004117-preview",
+  "source": "https://www.desktophut.com/Sharingan-Naruto-Live-Wallpaper-4k",
+  "previousUrls": [
+    "/__l5e/assets-v1/70163588-7b17-43fb-8642-fc17ed24db5b/app1004117-preview.mp4",
+    "/__l5e/assets-v1/49f4c8af-bd73-4555-bbbf-ca3b7ce80450/app1004117-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Sharingan%20Naruto%20Live%20Wallpaper%204k.mp4",
+  "bytes": 22473406,
+  "sha256": "82715054e77a49551319f5c7863f16a93bb6c502440a5a7c8f3f0366ede00e65",
+  "videoPointer": "assets/wallpapers/native/app1004117-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004117-preview-native.jpg.asset.json"
+}

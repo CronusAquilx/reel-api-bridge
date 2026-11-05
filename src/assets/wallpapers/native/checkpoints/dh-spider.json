@@ -1,0 +1,17 @@
+{
+  "id": "dh-spider",
+  "source": "https://www.desktophut.com/spider",
+  "previousUrls": [
+    "/__l5e/assets-v1/fc5e0523-d871-4b21-b85b-f8506f5174a5/dh-spider.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1280x720",
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673588789-1673588789-spider.mp4",
+  "bytes": 6430771,
+  "sha256": "e00e7d05413badfbf3b2986d0f4e1c6a497b9952350964f417fafcae14e3d403",
+  "videoPointer": "assets/wallpapers/native/dh-spider-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-spider-native.jpg.asset.json"
+}

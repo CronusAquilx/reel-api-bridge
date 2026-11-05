@@ -1,0 +1,18 @@
+{
+  "id": "app1001262-preview",
+  "source": "https://www.desktophut.com/Fujiwara-No-Mokou-Touhou-Project-Red-Wings-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a97efd58-dfd6-4a50-a1eb-6b8acaa71dd2/app1001262-preview.mp4",
+    "/__l5e/assets-v1/dbd50dc8-ad56-4663-8ee5-3f583652d4bc/app1001262-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Fujiwara%20No%20Mokou%20Touhou%20Project%20Red%20Wings%204k%20Live%20Wallpaper.mp4",
+  "bytes": 13201371,
+  "sha256": "00046f46449203e5203e85df0c835e72a00aad0823608046162ac1bd2f031e5d",
+  "videoPointer": "assets/wallpapers/native/app1001262-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001262-preview-native.jpg.asset.json"
+}

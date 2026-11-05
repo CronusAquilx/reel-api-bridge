@@ -1,0 +1,18 @@
+{
+  "id": "app1056506-preview",
+  "source": "https://www.desktophut.com/Azur-Lane-Prinz-Eugen-Live-Anime-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/c58cdf78-aab8-471a-a095-cea8ca5b5942/app1056506-preview.mp4",
+    "/__l5e/assets-v1/7714ae19-ef98-4eda-ae82-74b85d8bf363/app1056506-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3506x2158",
+  "width": 3506,
+  "height": 2158,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657706056-1657706056-azur-lane-prinz-eugen-live-anime-wallpaper-4k.mp4",
+  "bytes": 70958453,
+  "sha256": "93909b2f97afa897bc1d37bd0c5431e7b0658834c23e81d7c226f99d85376a99",
+  "videoPointer": "assets/wallpapers/native/app1056506-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056506-preview-native.jpg.asset.json"
+}

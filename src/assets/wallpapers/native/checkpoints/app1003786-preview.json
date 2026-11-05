@@ -1,0 +1,18 @@
+{
+  "id": "app1003786-preview",
+  "source": "https://www.desktophut.com/Firewatch-Live-Wallpaper-4K-Upscale-by-FortuN",
+  "previousUrls": [
+    "/__l5e/assets-v1/4960c8fa-13d2-4b4c-8810-405b971422aa/app1003786-preview.mp4",
+    "/__l5e/assets-v1/69338e63-6a62-4504-8d42-0a663c291943/app1003786-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Firewatch%20Live%20Wallpaper%204K%20Upscale%20by%20FortuN.mp4",
+  "bytes": 5299208,
+  "sha256": "1f463241c03b7f62500abb1db67e9572c1782f612d85d75b3573808011061dbd",
+  "videoPointer": "assets/wallpapers/native/app1003786-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003786-preview-native.jpg.asset.json"
+}

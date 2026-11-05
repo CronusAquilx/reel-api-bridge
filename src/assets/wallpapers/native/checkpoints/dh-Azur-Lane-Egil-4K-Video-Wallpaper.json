@@ -1,0 +1,17 @@
+{
+  "id": "dh-Azur-Lane-Egil-4K-Video-Wallpaper",
+  "source": "https://www.desktophut.com/Azur-Lane-Egil-4K-Video-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/13724b83-61ea-4c16-9d70-aae4e87b9c7f/dh-Azur-Lane-Egil-4K-Video-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1659878637-1659878637-azur-lane-egil-4k-video-wallpaper.mp4",
+  "bytes": 29768237,
+  "sha256": "c1f999cec0592f7fe135dc609b027f1e8a2b0d9e45ef7e40ee9a7f287709b814",
+  "videoPointer": "assets/wallpapers/native/dh-Azur-Lane-Egil-4K-Video-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Azur-Lane-Egil-4K-Video-Wallpaper-native.jpg.asset.json"
+}

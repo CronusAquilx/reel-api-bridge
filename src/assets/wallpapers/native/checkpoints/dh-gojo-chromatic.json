@@ -1,0 +1,17 @@
+{
+  "id": "dh-gojo-chromatic",
+  "source": "https://www.desktophut.com/gojo-chromatic",
+  "previousUrls": [
+    "/__l5e/assets-v1/5ad0b6d2-4207-41df-8709-4a536f60c4ab/dh-gojo-chromatic.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/VoEio4qmoobqbad_Gojo%20Chromatic%20Live%20Wallpaper_3_124018.mp4",
+  "bytes": 31003387,
+  "sha256": "265e2885ea22add8caf9ba69f22a9a3850a6013d94918af9cbd7781b035dfd62",
+  "videoPointer": "assets/wallpapers/native/dh-gojo-chromatic-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-gojo-chromatic-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1003896-preview",
+  "source": "https://www.desktophut.com/Cool-Ryomen-Sakuna-4k-Live-wallpaper-Jujutsu-Kaisen-Anime-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f3c8ba22-d50d-4108-b851-ee24b76beb18/app1003896-preview.mp4",
+    "/__l5e/assets-v1/ca8dec02-f2d1-4b40-bac3-0dbb40712e45/app1003896-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Ryomen%20Sakuna%204k%20Live%20wallpaper%20Jujutsu%20Kaisen%20Anime%20Live%20Wallpaper.mp4",
+  "bytes": 8218858,
+  "sha256": "d64b4fe1e8ab0909454204158cdd8b7f750c179aa07a41d1e362f7acee36f309",
+  "videoPointer": "assets/wallpapers/native/app1003896-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003896-preview-native.jpg.asset.json"
+}

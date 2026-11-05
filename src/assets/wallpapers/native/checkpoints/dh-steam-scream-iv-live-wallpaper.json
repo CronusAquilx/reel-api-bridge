@@ -1,0 +1,17 @@
+{
+  "id": "dh-steam-scream-iv-live-wallpaper",
+  "source": "https://www.desktophut.com/steam-scream-iv-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/311022b1-988e-4a8f-861d-a2c2d1cb8a49/dh-steam-scream-iv-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1761741568.mp4",
+  "bytes": 10374561,
+  "sha256": "9db7f1a08fe9c635a9d54432a14fb8194fe08ad46bacf747cf354413eaead81b",
+  "videoPointer": "assets/wallpapers/native/dh-steam-scream-iv-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-steam-scream-iv-live-wallpaper-native.jpg.asset.json"
+}

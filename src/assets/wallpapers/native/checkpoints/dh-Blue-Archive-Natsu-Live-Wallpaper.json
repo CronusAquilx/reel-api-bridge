@@ -1,0 +1,17 @@
+{
+  "id": "dh-Blue-Archive-Natsu-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Blue-Archive-Natsu-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/3627d396-c17e-400c-8826-36365349573a/dh-Blue-Archive-Natsu-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668457014-1668457014-blue-archive-natsu-live-wallpaper.mp4",
+  "bytes": 3079125,
+  "sha256": "466c35519afafa6aa14aee25c96530e85e123f72bf839e5fe5859cbbd571c3fa",
+  "videoPointer": "assets/wallpapers/native/dh-Blue-Archive-Natsu-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Blue-Archive-Natsu-Live-Wallpaper-native.jpg.asset.json"
+}

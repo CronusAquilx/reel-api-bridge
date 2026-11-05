@@ -1,0 +1,17 @@
+{
+  "id": "dh-lofi-stargazing-live-wallpaper-rzcr",
+  "source": "https://www.desktophut.com/lofi-stargazing-live-wallpaper-rzcr",
+  "previousUrls": [
+    "/__l5e/assets-v1/1542bc86-e885-4ea7-bb62-1d16bfc7aae2/dh-lofi-stargazing-live-wallpaper-rzcr.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2304",
+  "width": 4096,
+  "height": 2304,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/aOu6RlVA4I-lofi-stargazing-live-wallpaper.mp4",
+  "bytes": 39258395,
+  "sha256": "90b5aa06bc16c95e2c5b5bd5179670bf2e4496b6565a8e3b04dc9500f246a4f4",
+  "videoPointer": "assets/wallpapers/native/dh-lofi-stargazing-live-wallpaper-rzcr-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-lofi-stargazing-live-wallpaper-rzcr-native.jpg.asset.json"
+}

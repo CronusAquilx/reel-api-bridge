@@ -1,0 +1,17 @@
+{
+  "id": "dh-lonely-samurai",
+  "source": "https://www.desktophut.com/lonely-samurai",
+  "previousUrls": [
+    "/__l5e/assets-v1/34f73472-e164-41b4-b2ca-608acacff53a/dh-lonely-samurai.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/j1AVMR4Mx6pBdN3_Ember%20Blade%20Samurai%204K_2_prob4.mp4",
+  "bytes": 68060807,
+  "sha256": "8d5b14e373e47d33510a43d6208973c298cfba5dcc12b61582f25819c24e2f5c",
+  "videoPointer": "assets/wallpapers/native/dh-lonely-samurai-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-lonely-samurai-native.jpg.asset.json"
+}

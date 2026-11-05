@@ -1,0 +1,18 @@
+{
+  "id": "app1010430-preview",
+  "source": "https://www.desktophut.com/4K-Rust-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/5503952d-4939-4a75-b47d-f1eb15e05568/app1010430-preview.mp4",
+    "/__l5e/assets-v1/3db94a45-9520-49ae-8955-9c5ced7bc563/app1010430-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877921-1654877921-4k-rust-live-wallpaper-for-pc.mp4",
+  "bytes": 62670115,
+  "sha256": "9deb8215edb90a8a15e1f251f95bbf361c8c3d2472139797e86cff2dabc3e03f",
+  "videoPointer": "assets/wallpapers/native/app1010430-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010430-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-yor-forger-live-wallpaper",
+  "source": "https://www.desktophut.com/yor-forger-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7ab56e42-b307-40b6-8a2f-46be836f3c22/dh-yor-forger-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/z5UFauSzgoqZPA2_Yor%20Forger%20Live%20Wallpaper_14_180454.mp4",
+  "bytes": 16316584,
+  "sha256": "053cff5495db7a680b8a73114922974de3e8c6df210a7f1359f9c83554dfa351",
+  "videoPointer": "assets/wallpapers/native/dh-yor-forger-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-yor-forger-live-wallpaper-native.jpg.asset.json"
+}

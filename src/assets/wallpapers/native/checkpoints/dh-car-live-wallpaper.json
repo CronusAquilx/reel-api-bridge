@@ -1,0 +1,17 @@
+{
+  "id": "dh-car-live-wallpaper",
+  "source": "https://www.desktophut.com/car-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/7343f35b-268a-4e56-97fe-4a5485dab873/dh-car-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674170556-1674170556-car-live-wallpaper.mp4",
+  "bytes": 21009917,
+  "sha256": "66b7cfdfc46a1d79499efb659d08b14603dfbb18c8e6532c330676827fc661cf",
+  "videoPointer": "assets/wallpapers/native/dh-car-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-car-live-wallpaper-native.jpg.asset.json"
+}

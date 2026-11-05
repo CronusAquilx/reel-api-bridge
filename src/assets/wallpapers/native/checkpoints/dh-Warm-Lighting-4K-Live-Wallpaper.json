@@ -1,0 +1,17 @@
+{
+  "id": "dh-Warm-Lighting-4K-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Warm-Lighting-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/23666a11-134b-4ed6-9223-5abe95e10587/dh-Warm-Lighting-4K-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669901129-1669901129-warm-lighting-4k-live-wallpaper.mp4",
+  "bytes": 9610309,
+  "sha256": "7c8c299238963c576cff10b3de0d65972cf0108ee4cfb22e50eb6239b972e832",
+  "videoPointer": "assets/wallpapers/native/dh-Warm-Lighting-4K-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Warm-Lighting-4K-Live-Wallpaper-native.jpg.asset.json"
+}

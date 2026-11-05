@@ -1,0 +1,18 @@
+{
+  "id": "app1077372-preview",
+  "source": "https://www.desktophut.com/zenitsu-agatsuma-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e6a274b7-1ccd-4312-8249-ca3430d51573/app1077372-preview.mp4",
+    "/__l5e/assets-v1/e98627e8-8c73-4a18-8fb5-eeb238c6ed3b/app1077372-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2304",
+  "width": 4096,
+  "height": 2304,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1774885353.mp4",
+  "bytes": 18481199,
+  "sha256": "42efa90ea62e2a38116ca5e5b7803e14b877b09ea79d9bffbf8aa3c8688f1fbe",
+  "videoPointer": "assets/wallpapers/native/app1077372-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1077372-preview-native.jpg.asset.json"
+}

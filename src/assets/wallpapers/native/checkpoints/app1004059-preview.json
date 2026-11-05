@@ -1,0 +1,18 @@
+{
+  "id": "app1004059-preview",
+  "source": "https://www.desktophut.com/Cool-Broly-Legendary-Super-Saiyan-4K-LIVE-WALLPAPER",
+  "previousUrls": [
+    "/__l5e/assets-v1/2bc160cf-08b6-4095-9e84-52045cc87183/app1004059-preview.mp4",
+    "/__l5e/assets-v1/88065196-c934-485f-a577-10fa59829b25/app1004059-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Broly%20Legendary%20Super%20Saiyan%204K%20LIVE%20WALLPAPER.mp4",
+  "bytes": 16426108,
+  "sha256": "ed79eb108da9b01f26f39bc42dc1e4eb876338e2db6d2a4521741cbe24c3a446",
+  "videoPointer": "assets/wallpapers/native/app1004059-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004059-preview-native.jpg.asset.json"
+}

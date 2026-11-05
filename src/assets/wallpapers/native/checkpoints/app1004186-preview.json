@@ -1,0 +1,18 @@
+{
+  "id": "app1004186-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Zoro-Purgatory-Onigiri",
+  "previousUrls": [
+    "/__l5e/assets-v1/5bf8fa21-f666-4bcc-b601-a3560ff766ac/app1004186-preview.mp4",
+    "/__l5e/assets-v1/cfd4803f-2058-4ffd-ab79-ac8e1ceeb2b0/app1004186-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Zoro%20Purgatory%20Onigiri.mp4",
+  "bytes": 36968154,
+  "sha256": "57d20b8fc8aab0a81c266174b603d60d9f6d6ca423bd360e9b43cef94b865c1d",
+  "videoPointer": "assets/wallpapers/native/app1004186-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004186-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-bulldog-jedi",
+  "source": "https://www.desktophut.com/bulldog-jedi",
+  "previousUrls": [
+    "/__l5e/assets-v1/c6aed384-fb43-4c6b-acd1-63d53af73bb2/dh-bulldog-jedi.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/d6dtw6oB4QPgF6P_Bulldog%20Jedi%20Live%20Wallpaper_10_114516.mp4",
+  "bytes": 21716010,
+  "sha256": "db560e236f6a36fc911dbc3d5340a23ff3b74145ca012eccef511cd2c76ebea0",
+  "videoPointer": "assets/wallpapers/native/dh-bulldog-jedi-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-bulldog-jedi-native.jpg.asset.json"
+}

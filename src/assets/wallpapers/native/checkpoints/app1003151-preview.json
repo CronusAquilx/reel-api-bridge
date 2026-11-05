@@ -1,0 +1,18 @@
+{
+  "id": "app1003151-preview",
+  "source": "https://www.desktophut.com/Wattson-Apex-Legends-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/49bb0e51-049d-4a2d-881d-d22f6548325c/app1003151-preview.mp4",
+    "/__l5e/assets-v1/a9576a32-3205-4acf-94d6-07fa8c1e80de/app1003151-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Wattson%20Apex%20Legends%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65890044,
+  "sha256": "dfcc77adf8747c6f259f367d0154b7727298b950ebf360c0ee83c040f2d6e12b",
+  "videoPointer": "assets/wallpapers/native/app1003151-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003151-preview-native.jpg.asset.json"
+}

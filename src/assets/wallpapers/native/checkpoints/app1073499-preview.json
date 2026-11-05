@@ -1,0 +1,18 @@
+{
+  "id": "app1073499-preview",
+  "source": "https://www.desktophut.com/Ai-Hoshino-Idol-Oshi-No-Ko-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/24e4c41c-71a1-4f9f-beb4-bb00376a8d95/app1073499-preview.mp4",
+    "/__l5e/assets-v1/90882302-4f09-49b6-9ea1-2f419456b78e/app1073499-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1688285024-1688285024-ai-hoshino-idol-oshi-no-ko-live-wallpaper-4k.mp4",
+  "bytes": 37939055,
+  "sha256": "51de3a581252ff3008581f22aba07cd80fb52de70f434c1b65533e25bd266975",
+  "videoPointer": "assets/wallpapers/native/app1073499-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073499-preview-native.jpg.asset.json"
+}

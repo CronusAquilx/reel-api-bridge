@@ -1,0 +1,17 @@
+{
+  "id": "dh-stargazing-night-boat",
+  "source": "https://www.desktophut.com/stargazing-night-boat",
+  "previousUrls": [
+    "/__l5e/assets-v1/7a4a09d2-9176-47b4-b236-64c740156427/dh-stargazing-night-boat.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/MNs4bmV7dA1ayxw_Starry-Night-Boat-Ride-4K_2_prob4.mp4",
+  "bytes": 55238376,
+  "sha256": "d7b5d87224b4403f7b7479d37fc5ac627787ff0901f5cd13a35469c4f1cb63ab",
+  "videoPointer": "assets/wallpapers/native/dh-stargazing-night-boat-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-stargazing-night-boat-native.jpg.asset.json"
+}

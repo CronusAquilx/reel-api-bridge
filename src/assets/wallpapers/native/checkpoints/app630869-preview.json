@@ -1,0 +1,18 @@
+{
+  "id": "app630869-preview",
+  "source": "https://www.desktophut.com/4k-Noire-Night-Sky-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/06f8f94c-1aae-4b4c-aca3-2ee63632ce33/app630869-preview.mp4",
+    "/__l5e/assets-v1/b249a503-9fcc-4396-8ffa-2c912b66cfab/app630869-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3440x1440",
+  "width": 3440,
+  "height": 1440,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/4k%20Noire%20Night%20Sky%20Live%20Wallpaper.mp4",
+  "bytes": 9126559,
+  "sha256": "e641c4cd7f6f04fc7a7fe7de47ebac0dcdcd26586bb8e0c347c9ff03250e68d1",
+  "videoPointer": "assets/wallpapers/native/app630869-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app630869-preview-native.jpg.asset.json"
+}

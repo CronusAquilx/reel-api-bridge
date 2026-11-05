@@ -1,0 +1,18 @@
+{
+  "id": "app1010358-preview",
+  "source": "https://www.desktophut.com/4K-Ada-Wong-Resident-Evil-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/9a4edad9-1b3d-4736-ad11-12a65d1a99e5/app1010358-preview.mp4",
+    "/__l5e/assets-v1/55b1dd36-f871-42b0-be4e-a20f1f77b698/app1010358-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877317-1654877317-4k-ada-wong-resident-evil-live-wallpaper-for-pc.mp4",
+  "bytes": 59310319,
+  "sha256": "4afc0c88053385bc214c7677b110db90b9e5f6c59dff1abf7399bda84b08b08f",
+  "videoPointer": "assets/wallpapers/native/app1010358-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010358-preview-native.jpg.asset.json"
+}

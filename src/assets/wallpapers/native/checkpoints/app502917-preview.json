@@ -1,0 +1,18 @@
+{
+  "id": "app502917-preview",
+  "source": "https://www.desktophut.com/Fortnite-Stormy-Sky-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/0d9d4faa-b5ed-40e3-8285-5c84d659b741/app502917-preview.mp4",
+    "/__l5e/assets-v1/7ca5ea1e-7e24-4b84-b1bb-efbbf99e4f10/app502917-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/%E2%9C%A8Fortnite%20Stormy%20Sky%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65498556,
+  "sha256": "8718db03f4529d1cea3da5ac3eddeb627b30fa77c70c447001c51aad83664820",
+  "videoPointer": "assets/wallpapers/native/app502917-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app502917-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1011145-preview",
+  "source": "https://www.desktophut.com/PC-Desktop-One-Piece-Luffy-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ab001d3c-1b7e-4906-acbb-e219c9cf9b24/app1011145-preview.mp4",
+    "/__l5e/assets-v1/7170cf25-d60e-49cc-833f-815acec3a2ce/app1011145-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1655034063-1655034063-pc-desktop-one-piece-luffy-4k--live-wallpaper.mp4",
+  "bytes": 10601416,
+  "sha256": "77a6c5012708f4efb205d97efc9eb93a9672a3a696d1fe143332a4061a4e8a99",
+  "videoPointer": "assets/wallpapers/native/app1011145-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1011145-preview-native.jpg.asset.json"
+}

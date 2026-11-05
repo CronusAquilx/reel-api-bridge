@@ -1,0 +1,17 @@
+{
+  "id": "dh-reaching-out-live-wallpaper",
+  "source": "https://www.desktophut.com/reaching-out-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b8cfd84a-6980-4c53-8d7a-de988c68ca18/dh-reaching-out-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2262",
+  "width": 4096,
+  "height": 2262,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1765308612.mp4",
+  "bytes": 77816290,
+  "sha256": "f71c1eed9cac2519dec1329e9a553f80c4c4785d9ee522f6019544a390c51d21",
+  "videoPointer": "assets/wallpapers/native/dh-reaching-out-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-reaching-out-live-wallpaper-native.jpg.asset.json"
+}

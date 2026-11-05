@@ -1,0 +1,18 @@
+{
+  "id": "app1004240-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Goblin-Slayer",
+  "previousUrls": [
+    "/__l5e/assets-v1/f51ca128-92ac-4578-8047-4d5373f69f78/app1004240-preview.mp4",
+    "/__l5e/assets-v1/5914217c-565e-4ca8-b306-bdf4a616de6f/app1004240-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Goblin%20Slayer.mp4",
+  "bytes": 85087577,
+  "sha256": "964c78f7cd92036b9e8066e7a44f34d6c17ecb0251afb96c6a055467ad2e7c60",
+  "videoPointer": "assets/wallpapers/native/app1004240-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004240-preview-native.jpg.asset.json"
+}

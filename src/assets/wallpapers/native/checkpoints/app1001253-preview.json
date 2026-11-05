@@ -1,0 +1,18 @@
+{
+  "id": "app1001253-preview",
+  "source": "https://www.desktophut.com/Itachi-Uchiha-Moonlight-Rain-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/edd8f844-3896-44ab-9407-34a70152ab13/app1001253-preview.mp4",
+    "/__l5e/assets-v1/4211f5ea-8ea4-41c4-99b5-81bfd7eea6a3/app1001253-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Itachi%20Uchiha%20Moonlight%20Rain%204K%20Live%20Wallpaper.mp4",
+  "bytes": 86987537,
+  "sha256": "057f6d5d612150d07469350a306715a33bc8fe762f43625e3a2c2dce0d324236",
+  "videoPointer": "assets/wallpapers/native/app1001253-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001253-preview-native.jpg.asset.json"
+}

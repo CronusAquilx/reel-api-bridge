@@ -1,0 +1,18 @@
+{
+  "id": "app479229-preview",
+  "source": "https://www.desktophut.com/Dark-Blue-Strings-60fps-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8b348442-067b-4b65-bc42-ebb06864b0dc/app479229-preview.mp4",
+    "/__l5e/assets-v1/b0a27156-8cb8-4342-937d-6fec0e27bb9e/app479229-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Dark%20Blue%20Strings%2060fps%20%204K%20Live%20Wallpaper.mp4",
+  "bytes": 129331901,
+  "sha256": "a67f99d5df77d4308d863a9fc41162a842d586fa46d648d6df3c7f0836c8cab7",
+  "videoPointer": "assets/wallpapers/native/app479229-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app479229-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1010412-preview",
+  "source": "https://www.desktophut.com/4K-Midnight-Forest-Beneath-The-Milky-Way-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/b415cff7-bd2a-4860-81e8-f2b701a68558/app1010412-preview.mp4",
+    "/__l5e/assets-v1/56895091-7cdc-4f0a-b76e-233abb08055b/app1010412-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877783-1654877783-4k-midnight-forest-beneath-the-milky-way-live-wallpaper-for-pc.mp4",
+  "bytes": 65903078,
+  "sha256": "116279ee8b8a70e20fe7d2e556a29878bb842e604034e87410cfd39e009ea2cc",
+  "videoPointer": "assets/wallpapers/native/app1010412-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010412-preview-native.jpg.asset.json"
+}

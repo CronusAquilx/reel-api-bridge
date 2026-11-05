@@ -1,0 +1,18 @@
+{
+  "id": "app1052070-preview",
+  "source": "https://www.desktophut.com/touhou-project-%E6%9D%B1%E6%96%B9project-anime-60fps-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f4110f38-70c8-40ef-bf12-12772f9ca06b/app1052070-preview.mp4",
+    "/__l5e/assets-v1/9308e138-e743-4c1d-aec5-9ab5f61a6d29/app1052070-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657119724-1657119724-touhou-project-%E6%9D%B1%E6%96%B9project-anime-60fps-4k-live-wallpaper.mp4",
+  "bytes": 35552677,
+  "sha256": "bea3dde758e96ffd01f09bff42c3d9611045d42bba01927c3b239826aff0e158",
+  "videoPointer": "assets/wallpapers/native/app1052070-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1052070-preview-native.jpg.asset.json"
+}

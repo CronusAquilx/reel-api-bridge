@@ -1,0 +1,18 @@
+{
+  "id": "app1003156-preview",
+  "source": "https://www.desktophut.com/La-Ferrari-Forza-Horizon-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6580ad11-bc8a-4e0c-9abc-102417d26934/app1003156-preview.mp4",
+    "/__l5e/assets-v1/79834f58-cc13-4ed8-8bcc-452e3e88f1a1/app1003156-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/La%20Ferrari%20Forza%20Horizon%204K%20Live%20Wallpaper.mp4",
+  "bytes": 66818284,
+  "sha256": "18b325d62240ea5d61b01dc5c67a5c4064b5d9ad8ee6809b70f70df9dd617acf",
+  "videoPointer": "assets/wallpapers/native/app1003156-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003156-preview-native.jpg.asset.json"
+}

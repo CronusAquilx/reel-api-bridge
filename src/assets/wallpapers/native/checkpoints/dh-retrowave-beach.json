@@ -1,0 +1,17 @@
+{
+  "id": "dh-retrowave-beach",
+  "source": "https://www.desktophut.com/retrowave-beach",
+  "previousUrls": [
+    "/__l5e/assets-v1/16123751-8d45-455d-b049-43e17fe8cf7e/dh-retrowave-beach.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/xDiDbX36ETmVdZJ_Retrowave%20Beach%20Live%20Wallpaper_3_194624.mp4",
+  "bytes": 49728588,
+  "sha256": "a5d2dfcd88ae80da966ec2637f6b446eeef25a8a898af047a886b05481f33579",
+  "videoPointer": "assets/wallpapers/native/dh-retrowave-beach-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-retrowave-beach-native.jpg.asset.json"
+}

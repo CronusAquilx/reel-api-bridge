@@ -1,0 +1,17 @@
+{
+  "id": "dh-forest-river",
+  "source": "https://www.desktophut.com/forest-river",
+  "previousUrls": [
+    "/__l5e/assets-v1/5b8c25bf-3a70-469d-9799-11e6bcd2811b/dh-forest-river.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Nsl59NpXexAm1Vt_Forest%20River%20Live%20Wallpaper_2_111341.mp4",
+  "bytes": 18954375,
+  "sha256": "7509b2a9d52f8f9d50f5b9396e9e4be63eddcb445f809954c4138b3641e4316c",
+  "videoPointer": "assets/wallpapers/native/dh-forest-river-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-forest-river-native.jpg.asset.json"
+}

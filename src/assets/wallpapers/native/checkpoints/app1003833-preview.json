@@ -1,0 +1,18 @@
+{
+  "id": "app1003833-preview",
+  "source": "https://www.desktophut.com/Cool-Jon-Snow-4k-Live-Wallpaper-Game-Of-Thrones",
+  "previousUrls": [
+    "/__l5e/assets-v1/4b7d2661-6b1d-4f52-acd5-e42e4452ae1d/app1003833-preview.mp4",
+    "/__l5e/assets-v1/3f1be610-0b4b-4f0f-b0fe-976c8c59f66a/app1003833-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Jon%20Snow%204k%20Live%20Wallpaper%20Game%20Of%20Thrones.mp4",
+  "bytes": 6013680,
+  "sha256": "7adcd9e92ed442cc37f69b4cdca32069e6d8b6b08859b52bfcad38f30d58caa5",
+  "videoPointer": "assets/wallpapers/native/app1003833-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003833-preview-native.jpg.asset.json"
+}

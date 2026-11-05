@@ -1,0 +1,17 @@
+{
+  "id": "dh-mysterious-goku",
+  "source": "https://www.desktophut.com/mysterious-goku",
+  "previousUrls": [
+    "/__l5e/assets-v1/ced9bc81-5cd5-4f16-bf93-75be145e766a/dh-mysterious-goku.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/QfA5BxlPWvMQzBr_Mysterious%20Goku%20Live%20Wallpaper.mp4",
+  "bytes": 24920401,
+  "sha256": "5a585493cf47a2fb669b5d5fea8b1be21ea3addfd7c3c50ed1a6d75060360b13",
+  "videoPointer": "assets/wallpapers/native/dh-mysterious-goku-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-mysterious-goku-native.jpg.asset.json"
+}

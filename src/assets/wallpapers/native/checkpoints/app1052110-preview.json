@@ -1,0 +1,18 @@
+{
+  "id": "app1052110-preview",
+  "source": "https://www.desktophut.com/warcraft-wow-world-of-warcraft-lich-king-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b39fdd69-4ff0-46c4-a574-790db7ead08a/app1052110-preview.mp4",
+    "/__l5e/assets-v1/f933dca2-af0d-4cce-a7b6-f30a038d5121/app1052110-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657124507-1657124507-warcraft-wow-world-of-warcraft-lich-king-4k-live-wallpaper.mp4",
+  "bytes": 23681067,
+  "sha256": "c574042a30504e974343f0f619df6a40758bc892f4be23a2343ffb30e2d88fab",
+  "videoPointer": "assets/wallpapers/native/app1052110-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1052110-preview-native.jpg.asset.json"
+}

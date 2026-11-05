@@ -1,0 +1,18 @@
+{
+  "id": "app1004160-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Fate-Stay-Night",
+  "previousUrls": [
+    "/__l5e/assets-v1/008bb987-5815-4a8d-b8a7-c8d0a76f71c8/app1004160-preview.mp4",
+    "/__l5e/assets-v1/64589272-5363-4779-a350-2f82e1efb747/app1004160-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Fate%20Stay%20Night.mp4",
+  "bytes": 28652661,
+  "sha256": "174ca41e0a6e405e2603ceec3b9897f3a8f95dbd2a58277569c239172b2256fb",
+  "videoPointer": "assets/wallpapers/native/app1004160-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004160-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1010441-preview",
+  "source": "https://www.desktophut.com/4K-The-Gas-Station-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/aa306e81-654b-41a2-971a-527663bfa247/app1010441-preview.mp4",
+    "/__l5e/assets-v1/3b6cb856-1a83-4396-8797-97048382b79b/app1010441-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877999-1654877999-4k-the-gas-station-live-wallpaper-for-pc.mp4",
+  "bytes": 76970579,
+  "sha256": "3f2d69090197f3e8bc404dab2e6fa03d44d8aa72f0786e55bea4ae7285334643",
+  "videoPointer": "assets/wallpapers/native/app1010441-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010441-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1073351-preview",
+  "source": "https://www.desktophut.com/McLaren-Car-Fog-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8b18ca1e-8da3-4b27-ba4c-7f3b8f063a8f/app1073351-preview.mp4",
+    "/__l5e/assets-v1/2cdd916c-af20-427c-994d-e265cbf85f0a/app1073351-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1686112086-1686112086-mclaren-car-fog-4k-live-wallpaper.mp4",
+  "bytes": 26260338,
+  "sha256": "d32c20e0ba634c3ec4c00a7df391736fcda3e6ad563fb63be27376fff35c9063",
+  "videoPointer": "assets/wallpapers/native/app1073351-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073351-preview-native.jpg.asset.json"
+}

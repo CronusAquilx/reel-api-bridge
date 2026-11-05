@@ -1,0 +1,18 @@
+{
+  "id": "app1056636-preview",
+  "source": "https://www.desktophut.com/Melia-Definitive-Edition-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/6c2c56ec-94c0-4dca-a31e-7faca302d5d5/app1056636-preview.mp4",
+    "/__l5e/assets-v1/950d2512-b62b-4321-8945-a32888d4e561/app1056636-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885542-1657885542-melia-definitive-edition-live-wallpaper-4k.mp4",
+  "bytes": 19254187,
+  "sha256": "d56b0cdcbaf793671a46dcd8af402c0cec84b60bd82e1d7195a44f272a0397c8",
+  "videoPointer": "assets/wallpapers/native/app1056636-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056636-preview-native.jpg.asset.json"
+}

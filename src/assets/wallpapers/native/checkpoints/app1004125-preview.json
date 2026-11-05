@@ -1,0 +1,18 @@
+{
+  "id": "app1004125-preview",
+  "source": "https://www.desktophut.com/Cool-Tokyo-Ghoul-Love-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4c6ded8f-3ebd-4760-a607-3dfd7d7fa721/app1004125-preview.mp4",
+    "/__l5e/assets-v1/69acdcae-297f-4ce9-b8e3-91e5b16f4b90/app1004125-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Tokyo%20Ghoul%20Love%204k%20Live%20Wallpaper.mp4",
+  "bytes": 20900110,
+  "sha256": "6d9e696f4988ab5ddc1369bdd400a920ac906db8f1ed0e45d9e18a494353d155",
+  "videoPointer": "assets/wallpapers/native/app1004125-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004125-preview-native.jpg.asset.json"
+}

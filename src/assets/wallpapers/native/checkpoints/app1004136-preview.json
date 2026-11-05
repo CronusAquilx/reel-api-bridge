@@ -1,0 +1,18 @@
+{
+  "id": "app1004136-preview",
+  "source": "https://www.desktophut.com/Cool-Tokyo-Ghoul-Glow-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/fef577df-275b-4c0a-80d0-7bd517937116/app1004136-preview.mp4",
+    "/__l5e/assets-v1/42df3491-cb5c-4aa9-9712-293882fcf6d3/app1004136-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Tokyo%20Ghoul%20Glow%204k%20Live%20Wallpaper.mp4",
+  "bytes": 26225170,
+  "sha256": "125b53f1914067356f4c514294e5e2612690290da0370220b5d6b0ef9af8f581",
+  "videoPointer": "assets/wallpapers/native/app1004136-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004136-preview-native.jpg.asset.json"
+}

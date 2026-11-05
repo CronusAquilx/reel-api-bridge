@@ -1,0 +1,18 @@
+{
+  "id": "app1004192-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Dreamy-Landscape",
+  "previousUrls": [
+    "/__l5e/assets-v1/34f770bd-4aed-47dc-9b53-e767060b5e3d/app1004192-preview.mp4",
+    "/__l5e/assets-v1/663101e8-c4ce-49b0-b3c0-a05967056ae5/app1004192-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Dreamy%20Landscape.mp4",
+  "bytes": 40789963,
+  "sha256": "2d347aa13108d2777f125bbfaac8bbe2e0492bf7b67dbcc0cbecf856b6d613f6",
+  "videoPointer": "assets/wallpapers/native/app1004192-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004192-preview-native.jpg.asset.json"
+}

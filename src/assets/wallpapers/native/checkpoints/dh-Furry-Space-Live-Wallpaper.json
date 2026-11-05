@@ -1,0 +1,17 @@
+{
+  "id": "dh-Furry-Space-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Furry-Space-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4cc9cb1f-b719-4291-bf00-fd4e4bdd9ff6/dh-Furry-Space-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684160761-1684160761-furry-space-live-wallpaper.mp4",
+  "bytes": 63194808,
+  "sha256": "0c5f5f06192163b3a4debf3d60e9e4047d3fd4dfed2d92d0024444abc50ee7ea",
+  "videoPointer": "assets/wallpapers/native/dh-Furry-Space-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Furry-Space-Live-Wallpaper-native.jpg.asset.json"
+}

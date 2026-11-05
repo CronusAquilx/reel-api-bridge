@@ -1,0 +1,17 @@
+{
+  "id": "dh-Hatsune-Miku-Face-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Hatsune-Miku-Face-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b0f5f1c5-4daa-4e0a-8dda-309e196cb86e/dh-Hatsune-Miku-Face-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1683984237-1683984237-hatsune-miku-face-live-wallpaper.mp4",
+  "bytes": 7596405,
+  "sha256": "642c0b4c439da9550242015d5a5bf6a552e02cb0052774f83bdb68c9826c0b14",
+  "videoPointer": "assets/wallpapers/native/dh-Hatsune-Miku-Face-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Hatsune-Miku-Face-Live-Wallpaper-native.jpg.asset.json"
+}

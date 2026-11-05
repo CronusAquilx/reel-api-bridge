@@ -1,0 +1,18 @@
+{
+  "id": "app1004185-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Jujutsu-Kaisen-Sukuna",
+  "previousUrls": [
+    "/__l5e/assets-v1/ebb6c85f-42ff-4d67-a77e-a260df45a53b/app1004185-preview.mp4",
+    "/__l5e/assets-v1/b444ead0-49ef-425b-9f5b-ca81b7d6ed29/app1004185-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Jujutsu%20Kaisen%20Sukuna.mp4",
+  "bytes": 37375320,
+  "sha256": "be565bac2ae7d55b5b78a5871330242800d6b78d85cb199a3be6932fc6695c59",
+  "videoPointer": "assets/wallpapers/native/app1004185-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004185-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Omen-HP-RGB-Animated-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Omen-HP-RGB-Animated-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a6f2e329-dc0d-46ab-9b52-3573653ee239/dh-Omen-HP-RGB-Animated-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "2560x1440",
+  "width": 2560,
+  "height": 1440,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/1661259772-1661259772-omen-hp-rgb-animated-live-wallpaper.mp4",
+  "bytes": 1233828,
+  "sha256": "5238f3a304109fb47e89a26c263a63a2d07b274b25894283a753bc8344ac5869",
+  "videoPointer": "assets/wallpapers/native/dh-Omen-HP-RGB-Animated-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Omen-HP-RGB-Animated-Live-Wallpaper-native.jpg.asset.json"
+}

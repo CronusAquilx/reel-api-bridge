@@ -1,0 +1,18 @@
+{
+  "id": "app706569-preview",
+  "source": "https://www.desktophut.com/Avangers-Infinity-War-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/d7f672e1-4af4-4d4b-b9cc-a673be2cdd79/app706569-preview.mp4",
+    "/__l5e/assets-v1/2cbd6224-92a4-4f50-a167-16873b028b90/app706569-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Avangers%20Infinity%20War%204K%20Live%20Wallpaper.mp4",
+  "bytes": 16576222,
+  "sha256": "b59fcc8c914851642b63245b1abf029ed8da611021407c266437c22d06b45bdb",
+  "videoPointer": "assets/wallpapers/native/app706569-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app706569-preview-native.jpg.asset.json"
+}

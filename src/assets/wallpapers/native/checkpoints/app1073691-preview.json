@@ -1,0 +1,18 @@
+{
+  "id": "app1073691-preview",
+  "source": "https://www.desktophut.com/hacker-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/c084dd9d-d4e2-4d41-bddf-0c3399508b9c/app1073691-preview.mp4",
+    "/__l5e/assets-v1/b4b9404d-7f31-4302-a83f-ff34cffd125c/app1073691-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/MEM4IB5a7waZ6Ca_Hacker%204K%20Live%20Wallpaper.mp4",
+  "bytes": 29944235,
+  "sha256": "1ef8d837a8bdc3474e818416f5167941f712c675e2952973535a91e4cf6b7d15",
+  "videoPointer": "assets/wallpapers/native/app1073691-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073691-preview-native.jpg.asset.json"
+}

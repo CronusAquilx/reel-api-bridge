@@ -1,0 +1,18 @@
+{
+  "id": "app1004193-preview",
+  "source": "https://www.desktophut.com/PC-Live-Wallpaper-4K-Attack-on-Titan-Levi-Ackerman",
+  "previousUrls": [
+    "/__l5e/assets-v1/f3a038e8-8648-4d8c-a501-16977f07d0d5/app1004193-preview.mp4",
+    "/__l5e/assets-v1/16dd5597-8f27-43b2-a91e-3948b96da965/app1004193-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/PC%20Live%20Wallpaper%204K%20Attack%20on%20Titan%20Levi%20Ackerman.mp4",
+  "bytes": 40319689,
+  "sha256": "cd78f9ac2ea1a66629223a29ea730a07fbf00179d9f9553863ea94911b98a959",
+  "videoPointer": "assets/wallpapers/native/app1004193-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004193-preview-native.jpg.asset.json"
+}

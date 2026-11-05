@@ -1,0 +1,17 @@
+{
+  "id": "dh-Raiden-Shogun-O1-PC",
+  "source": "https://www.desktophut.com/Raiden-Shogun-O1-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/76a72e2d-a15d-4235-8d40-641bc7121f1c/dh-Raiden-Shogun-O1-PC.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673475478-1673475478-raiden-shogun-o1-pc.mp4",
+  "bytes": 45096149,
+  "sha256": "407b41152c4dc8a22e86cc0856f59b0d64ef134454b37938d775c55273ece6ff",
+  "videoPointer": "assets/wallpapers/native/dh-Raiden-Shogun-O1-PC-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Raiden-Shogun-O1-PC-native.jpg.asset.json"
+}

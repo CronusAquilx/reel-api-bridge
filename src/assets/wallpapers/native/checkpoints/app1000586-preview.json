@@ -1,0 +1,18 @@
+{
+  "id": "app1000586-preview",
+  "source": "https://www.desktophut.com/Anime-Goku-SSJ2-Dragon-Ball-Z-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/027d6489-a9d3-446c-9188-dc5c5c54d8d9/app1000586-preview.mp4",
+    "/__l5e/assets-v1/93562057-e714-49fa-86fa-425dcd1fd091/app1000586-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Anime%20Goku%20SSJ2%20Dragon%20Ball%20Z%204K%20Live%20Wallpaper.mp4",
+  "bytes": 28147994,
+  "sha256": "69c05616341e635abe831f128f4ee957d7b61f7971c669ac6ca4ae9fac35d3ac",
+  "videoPointer": "assets/wallpapers/native/app1000586-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000586-preview-native.jpg.asset.json"
+}

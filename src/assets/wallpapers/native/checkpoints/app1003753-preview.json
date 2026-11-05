@@ -1,0 +1,18 @@
+{
+  "id": "app1003753-preview",
+  "source": "https://www.desktophut.com/Cool-Gogeta-4K-Live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/6ff880c8-5543-4696-8b01-09f7846c9f06/app1003753-preview.mp4",
+    "/__l5e/assets-v1/6f6e677a-eb71-4589-9980-af673be578a6/app1003753-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Gogeta%204K%20Live%20wallpaper.mp4",
+  "bytes": 3572661,
+  "sha256": "0bde1e3dd484e598243f17871ab98dfec52ee86e3ea5f13aac60c89b733932ca",
+  "videoPointer": "assets/wallpapers/native/app1003753-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003753-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1004183-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Meliodas-Seven-Deadly-Sins",
+  "previousUrls": [
+    "/__l5e/assets-v1/96920301-2d1c-43f0-a325-461da98dc260/app1004183-preview.mp4",
+    "/__l5e/assets-v1/98fbee38-f4a1-451c-9d0c-a257ec801a62/app1004183-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Meliodas%20Seven%20Deadly%20Sins.mp4",
+  "bytes": 37509183,
+  "sha256": "e847799629ba5c8a1b33a4c804128547134e41d49f954387e28f23b995bf3e90",
+  "videoPointer": "assets/wallpapers/native/app1004183-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004183-preview-native.jpg.asset.json"
+}

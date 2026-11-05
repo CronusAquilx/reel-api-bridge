@@ -1,0 +1,18 @@
+{
+  "id": "app1001184-preview",
+  "source": "https://www.desktophut.com/Okita-Souji-Fate-Grand-Order-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/23ae188a-4adf-411b-b6e3-629fa8cc37cd/app1001184-preview.mp4",
+    "/__l5e/assets-v1/7923b487-9afa-49a6-a159-d754b0fcc22f/app1001184-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Okita%20Souji%20Fate%20Grand%20Order%204k%20Live%20Wallpaper.mp4",
+  "bytes": 23540747,
+  "sha256": "0b230183f65387dd57918ad13da93a72014757ef294a9265ce1bda86a9c773c2",
+  "videoPointer": "assets/wallpapers/native/app1001184-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001184-preview-native.jpg.asset.json"
+}

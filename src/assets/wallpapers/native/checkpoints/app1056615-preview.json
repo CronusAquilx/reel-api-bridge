@@ -1,0 +1,18 @@
+{
+  "id": "app1056615-preview",
+  "source": "https://www.desktophut.com/CG5-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/16559bcd-ff03-41db-bd64-54d030c04ba0/app1056615-preview.mp4",
+    "/__l5e/assets-v1/4fff26f7-d87b-4b50-9434-8c5529830663/app1056615-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657885436-1657885436-cg5-live-wallpaper-4k.mp4",
+  "bytes": 25962887,
+  "sha256": "ea2458395d1a2671aacbb5004775c3a4597f0164d3b22bb49805472f8665d21f",
+  "videoPointer": "assets/wallpapers/native/app1056615-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056615-preview-native.jpg.asset.json"
+}

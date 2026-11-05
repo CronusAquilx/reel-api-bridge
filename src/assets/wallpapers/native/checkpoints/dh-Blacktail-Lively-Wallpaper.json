@@ -1,0 +1,17 @@
+{
+  "id": "dh-Blacktail-Lively-Wallpaper",
+  "source": "https://www.desktophut.com/Blacktail-Lively-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/3c7eb283-9909-46a1-8f89-fff366556d80/dh-Blacktail-Lively-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1671150095-1671150095-blacktail-lively-wallpaper.mp4",
+  "bytes": 9481362,
+  "sha256": "0d3a340d93daa2c3e53d6ca95b002a1bcca6d8155f9be9a82c321a20c286e45c",
+  "videoPointer": "assets/wallpapers/native/dh-Blacktail-Lively-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Blacktail-Lively-Wallpaper-native.jpg.asset.json"
+}

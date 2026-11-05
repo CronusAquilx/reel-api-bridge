@@ -1,0 +1,17 @@
+{
+  "id": "dh-Live-Night-View-Wallpaper",
+  "source": "https://www.desktophut.com/Live-Night-View-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/902a014f-a61c-4ccd-b7c9-01c359ca7d14/dh-Live-Night-View-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668115121-1668115121-live-night-view-wallpaper.mp4",
+  "bytes": 12531769,
+  "sha256": "af598dd951a1c999985983494a6a5610903cd82d13a2ae7bde1f433ffbfc6f48",
+  "videoPointer": "assets/wallpapers/native/dh-Live-Night-View-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Live-Night-View-Wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1003155-preview",
+  "source": "https://www.desktophut.com/Kaneki-Ken-Kakuja-Tokyo-Ghoul-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/97972687-4c3d-498b-b46d-75b81f00822f/app1003155-preview.mp4",
+    "/__l5e/assets-v1/0dfc8cb4-940c-4390-80ca-260367267d2b/app1003155-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Kaneki%20Ken%20Kakuja%20Tokyo%20Ghoul%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65433298,
+  "sha256": "47720de1ed1b1b4c643a8eb005d58699bf99719144f70dc6f15d3cdb84f31c94",
+  "videoPointer": "assets/wallpapers/native/app1003155-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003155-preview-native.jpg.asset.json"
+}

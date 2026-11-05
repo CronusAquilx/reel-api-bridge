@@ -1,0 +1,18 @@
+{
+  "id": "app1003150-preview",
+  "source": "https://www.desktophut.com/Venom-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/d0420ae4-87d2-427b-907d-acca31a65969/app1003150-preview.mp4",
+    "/__l5e/assets-v1/b0f24c5c-7a30-4347-b6ea-c4b127c5440b/app1003150-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Venom%204K%20Live%20Wallpaper.mp4",
+  "bytes": 64964147,
+  "sha256": "ffbaca39e9126d4f005d4b6b60686afa83bd6092590178d099584f297c26006f",
+  "videoPointer": "assets/wallpapers/native/app1003150-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003150-preview-native.jpg.asset.json"
+}

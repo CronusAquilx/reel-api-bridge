@@ -1,0 +1,17 @@
+{
+  "id": "dh-victor-arcane",
+  "source": "https://www.desktophut.com/victor-arcane",
+  "previousUrls": [
+    "/__l5e/assets-v1/457c542a-d3d4-4284-830c-4a3c6dd67fe2/dh-victor-arcane.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1GWrMX4aB2VdLnO_Arcane%20Victor.mp4",
+  "bytes": 188110090,
+  "sha256": "3515bd50b785ff258b581949ceb547e46ecbafb4020d688a50a1b7f19cce38b3",
+  "videoPointer": "assets/wallpapers/native/dh-victor-arcane-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-victor-arcane-native.jpg.asset.json"
+}

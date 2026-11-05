@@ -1,0 +1,17 @@
+{
+  "id": "dh-Monolith-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Monolith-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/d471bfb0-18c0-4d56-a231-e4195328eda4/dh-Monolith-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1665049329-1665049329-monolith-live-wallpaper.mp4",
+  "bytes": 6969546,
+  "sha256": "65a2d1821ce0b585638d68c81b5949b0e5b536b208d5cfa1cf9ba095c977770c",
+  "videoPointer": "assets/wallpapers/native/dh-Monolith-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Monolith-Live-Wallpaper-native.jpg.asset.json"
+}

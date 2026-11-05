@@ -1,0 +1,18 @@
+{
+  "id": "app1003774-preview",
+  "source": "https://www.desktophut.com/Cool-Magic-Spell-Book-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/4c4925b1-576f-4e63-809d-3be9b770565c/app1003774-preview.mp4",
+    "/__l5e/assets-v1/5c1a8502-293b-41c0-8618-03c15e1d82b0/app1003774-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1086x720",
+  "width": 1086,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Magic%20Spell%20Book%204k%20live%20wallpaper.mp4",
+  "bytes": 4218063,
+  "sha256": "518b9535b2539b5bf571dbd3843c16d3361d76388bdaf418326bf0c69ed1cff7",
+  "videoPointer": "assets/wallpapers/native/app1003774-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003774-preview-native.jpg.asset.json"
+}

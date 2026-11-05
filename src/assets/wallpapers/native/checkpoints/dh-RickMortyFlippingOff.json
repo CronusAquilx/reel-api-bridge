@@ -1,0 +1,17 @@
+{
+  "id": "dh-RickMortyFlippingOff",
+  "source": "https://www.desktophut.com/RickMortyFlippingOff",
+  "previousUrls": [
+    "/__l5e/assets-v1/d4c1c116-57e7-4000-82f5-9c375da64202/dh-RickMortyFlippingOff.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1280x720",
+  "width": 1280,
+  "height": 720,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1674102674-1674102674-rickmortyflippingoff.mp4",
+  "bytes": 4685082,
+  "sha256": "9cd54cf7c0e5414f12e9a4b2282f81bd6fcdb8be481c3d8df012ed1d17dc41d7",
+  "videoPointer": "assets/wallpapers/native/dh-RickMortyFlippingOff-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-RickMortyFlippingOff-native.jpg.asset.json"
+}

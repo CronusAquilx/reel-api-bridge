@@ -1,0 +1,18 @@
+{
+  "id": "app1000305-preview",
+  "source": "https://www.desktophut.com/Cyberpunk-2077-Logo-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/0b0dbc04-c1a9-4390-8d19-5abdb6cef73b/app1000305-preview.mp4",
+    "/__l5e/assets-v1/719d527c-c089-4975-935b-7a579655ffd6/app1000305-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cyberpunk%202077%20Logo%204K%20Live%20Wallpaper.mp4",
+  "bytes": 42534550,
+  "sha256": "fddd413ed9e819c2b1d23002e23ca9849a3c185cd0c5755dc018f76c05d0aca8",
+  "videoPointer": "assets/wallpapers/native/app1000305-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000305-preview-native.jpg.asset.json"
+}

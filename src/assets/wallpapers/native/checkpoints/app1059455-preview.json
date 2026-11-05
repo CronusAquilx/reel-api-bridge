@@ -1,0 +1,18 @@
+{
+  "id": "app1059455-preview",
+  "source": "https://www.desktophut.com/Horizontal-insertion-2-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/03e141e4-ab23-4e66-a2db-08b90d2be330/app1059455-preview.mp4",
+    "/__l5e/assets-v1/101351d7-524e-4a74-bee4-3e39c14927d3/app1059455-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1664360073-1664360073-horizontal-insertion-2-live-wallpaper-4k.mp4",
+  "bytes": 23144083,
+  "sha256": "efa5bcfab5902d7f1a6733f739192f1728c28c072fdf0d06ef4c4953c1fda7ee",
+  "videoPointer": "assets/wallpapers/native/app1059455-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059455-preview-native.jpg.asset.json"
+}

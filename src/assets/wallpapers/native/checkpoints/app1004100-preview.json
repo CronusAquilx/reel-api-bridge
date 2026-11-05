@@ -1,0 +1,18 @@
+{
+  "id": "app1004100-preview",
+  "source": "https://www.desktophut.com/Cool-GokuLuffyNaruto-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/8d8aade0-aeec-492d-ae14-e2f54d8fd016/app1004100-preview.mp4",
+    "/__l5e/assets-v1/5b37665a-c291-4524-9c5a-5c3c77a2f783/app1004100-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20GokuLuffyNaruto%204k%20live%20wallpaper.mp4",
+  "bytes": 18969612,
+  "sha256": "919748d5ad8b8eb100f490af2a71810af83ebed2a972e9766cc77c221ee57686",
+  "videoPointer": "assets/wallpapers/native/app1004100-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004100-preview-native.jpg.asset.json"
+}

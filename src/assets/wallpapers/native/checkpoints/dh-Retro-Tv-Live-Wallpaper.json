@@ -1,0 +1,17 @@
+{
+  "id": "dh-Retro-Tv-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Retro-Tv-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f96a64ac-9baf-44a6-8765-0f169007cf7e/dh-Retro-Tv-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1683983847-1683983847-retro-tv-live-wallpaper.mp4",
+  "bytes": 6800226,
+  "sha256": "ad4dcb9aeabf69e136f330cf6f46ee537cf6218ba7769563f753ffcf812ae055",
+  "videoPointer": "assets/wallpapers/native/dh-Retro-Tv-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Retro-Tv-Live-Wallpaper-native.jpg.asset.json"
+}

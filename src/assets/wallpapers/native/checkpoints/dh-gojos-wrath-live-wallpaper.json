@@ -1,0 +1,17 @@
+{
+  "id": "dh-gojos-wrath-live-wallpaper",
+  "source": "https://www.desktophut.com/gojos-wrath-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/ef88c46a-043a-413e-b96d-6f7b8376e765/dh-gojos-wrath-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/nx5JqN0LsoXQWNl_Bb%202%20Prob4.mp4",
+  "bytes": 40089847,
+  "sha256": "a77004468aea544f151361e0b3461f18b1663be7c5e8b378128703ef5fe1c9ea",
+  "videoPointer": "assets/wallpapers/native/dh-gojos-wrath-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-gojos-wrath-live-wallpaper-native.jpg.asset.json"
+}

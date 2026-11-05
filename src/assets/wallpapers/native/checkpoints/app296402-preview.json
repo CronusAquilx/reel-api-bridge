@@ -1,0 +1,18 @@
+{
+  "id": "app296402-preview",
+  "source": "https://www.desktophut.com/We-Bare-Bears-4K-Video-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/0acc86ca-53f4-45ae-9021-13648cde08a1/app296402-preview.mp4",
+    "/__l5e/assets-v1/40847c67-b642-483c-b0b3-3460a56176fe/app296402-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/We%20Bare%20Bears%204K%20Video%20Live%20Wallpaper.mp4",
+  "bytes": 1730453,
+  "sha256": "ef972ccd372a3e7394620ab50d55cbb1468a6c53f5f562f989b07e3dfd5424c4",
+  "videoPointer": "assets/wallpapers/native/app296402-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app296402-preview-native.jpg.asset.json"
+}

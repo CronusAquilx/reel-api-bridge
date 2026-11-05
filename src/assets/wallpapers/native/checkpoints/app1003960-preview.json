@@ -1,0 +1,18 @@
+{
+  "id": "app1003960-preview",
+  "source": "https://www.desktophut.com/Cool-Goku-and-Vegeta-Dragon-Ball-Super-Saiyan-4-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e998ae4f-b691-414e-bd41-96cc7ce5ca73/app1003960-preview.mp4",
+    "/__l5e/assets-v1/af648da1-c7a2-4e57-bb65-58755ab160f8/app1003960-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Goku%20and%20Vegeta%20Dragon%20Ball%20Super%20Saiyan%204%204k%20live%20wallpaper.mp4",
+  "bytes": 11762887,
+  "sha256": "700a86efa0ec0c1fa43a9908b237714b86392d15d9b029d3477d85c45c0cfbdc",
+  "videoPointer": "assets/wallpapers/native/app1003960-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003960-preview-native.jpg.asset.json"
+}

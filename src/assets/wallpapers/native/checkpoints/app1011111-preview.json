@@ -1,0 +1,18 @@
+{
+  "id": "app1011111-preview",
+  "source": "https://www.desktophut.com/PC-Desktop-Elden-Ring-Malenia-Blade-Of-Miquella-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1f107f3c-8693-4c41-9f2d-47f754878208/app1011111-preview.mp4",
+    "/__l5e/assets-v1/2086b60e-7536-40b7-ab71-f7e54ad34f22/app1011111-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1655034001-1655034001-pc-desktop-elden-ring-malenia-blade-of-miquella-4k--live-wallpaper.mp4",
+  "bytes": 11470290,
+  "sha256": "2fb5a2b8181fefd49556bc44f3c1a7c52dfdc5c06815918e8940b20be0065223",
+  "videoPointer": "assets/wallpapers/native/app1011111-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1011111-preview-native.jpg.asset.json"
+}

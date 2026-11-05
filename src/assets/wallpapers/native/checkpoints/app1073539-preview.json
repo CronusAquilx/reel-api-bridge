@@ -1,0 +1,18 @@
+{
+  "id": "app1073539-preview",
+  "source": "https://www.desktophut.com/Yellow-Sports-Car-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/dc21a571-984a-4074-8e14-a3763c03d050/app1073539-preview.mp4",
+    "/__l5e/assets-v1/fa21c406-6c0e-4f86-87b1-f2d6f0c30b19/app1073539-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1689092857-1689092857-yellow-sports-car-4k-live-wallpaper.mp4",
+  "bytes": 26776073,
+  "sha256": "407593d817836913ffeef8dd44f87dda1500fc36538528171edd8f7d7f388965",
+  "videoPointer": "assets/wallpapers/native/app1073539-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073539-preview-native.jpg.asset.json"
+}

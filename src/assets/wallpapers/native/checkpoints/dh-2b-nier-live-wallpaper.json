@@ -1,0 +1,17 @@
+{
+  "id": "dh-2b-nier-live-wallpaper",
+  "source": "https://www.desktophut.com/2b-nier-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5426b349-96df-4094-8cb6-a955a3fc4bed/dh-2b-nier-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/nTemdn97KWJNc7s_2B%20Nier%20Live%20Wallpaper.mp4",
+  "bytes": 7154117,
+  "sha256": "33918df1802275c3c1dfa7ab5946a5c8591d1015246965abac2c7296c8d230cb",
+  "videoPointer": "assets/wallpapers/native/dh-2b-nier-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-2b-nier-live-wallpaper-native.jpg.asset.json"
+}

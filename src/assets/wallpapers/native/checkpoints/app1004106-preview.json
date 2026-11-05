@@ -1,0 +1,18 @@
+{
+  "id": "app1004106-preview",
+  "source": "https://www.desktophut.com/Cool-Vegeta-Super-Saiyan-Blue-Evolution-4K-LIVE-WALLPAPER",
+  "previousUrls": [
+    "/__l5e/assets-v1/6c53ef12-4599-41b5-b255-f57a4e9690e4/app1004106-preview.mp4",
+    "/__l5e/assets-v1/3aa337a9-37f9-4420-bc76-1d0ebf417ec4/app1004106-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Vegeta%20Super%20Saiyan%20Blue%20Evolution%204K%20LIVE%20WALLPAPER.mp4",
+  "bytes": 18427052,
+  "sha256": "02903daba86d8f2b16d4df3cf26cb3a1b0c79a72840eb65b35775d33a5c21932",
+  "videoPointer": "assets/wallpapers/native/app1004106-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004106-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1000369-preview",
+  "source": "https://www.desktophut.com/SpaceShip-Cockpit-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bc08889d-b179-46f8-96be-8fcb25f351d2/app1000369-preview.mp4",
+    "/__l5e/assets-v1/0560ee51-92fb-48c4-bda9-d33063d55dda/app1000369-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/SpaceShip%20Cockpit%204k%20Live%20Wallpaper.mp4",
+  "bytes": 57000323,
+  "sha256": "ed02336cf7ed9a1f7ca5224c540dae7cbe69cb896b72e2d8d43d3ea3ae48bf3f",
+  "videoPointer": "assets/wallpapers/native/app1000369-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000369-preview-native.jpg.asset.json"
+}

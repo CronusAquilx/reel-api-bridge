@@ -1,0 +1,17 @@
+{
+  "id": "dh-AyakaWP",
+  "source": "https://www.desktophut.com/AyakaWP",
+  "previousUrls": [
+    "/__l5e/assets-v1/4bc84afe-2eb7-4b94-a130-d07e37601f2d/dh-AyakaWP.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673470631-1673470631-ayakawp.mp4",
+  "bytes": 112957008,
+  "sha256": "406b0bd45cdc5f3eae0cb43b65d95ccac18ddf362aa48b8c9f109c5b45e61c43",
+  "videoPointer": "assets/wallpapers/native/dh-AyakaWP-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-AyakaWP-native.jpg.asset.json"
+}

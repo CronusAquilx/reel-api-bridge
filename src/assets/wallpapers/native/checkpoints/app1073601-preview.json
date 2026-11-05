@@ -1,0 +1,18 @@
+{
+  "id": "app1073601-preview",
+  "source": "https://www.desktophut.com/Angry-Goku-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/78f7011b-aece-4ce5-9125-0be214028bc1/app1073601-preview.mp4",
+    "/__l5e/assets-v1/f3f968c8-e47e-4aad-bc9f-1cba574e0714/app1073601-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1689780255-1689780255-angry-goku-4k-live-wallpaper.mp4",
+  "bytes": 28290536,
+  "sha256": "3b909ae66bc17b6e0f93de5b89d65235763b5fc409b19c8057a6766a6a9c4791",
+  "videoPointer": "assets/wallpapers/native/app1073601-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073601-preview-native.jpg.asset.json"
+}

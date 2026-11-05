@@ -1,0 +1,18 @@
+{
+  "id": "app1004126-preview",
+  "source": "https://www.desktophut.com/Cool-HULK-VS-IRONMAN-4K-LIVE-WALLPAPER",
+  "previousUrls": [
+    "/__l5e/assets-v1/0684e32a-4309-4c38-83f1-1b6c969c9699/app1004126-preview.mp4",
+    "/__l5e/assets-v1/d1a5d9ad-3edb-4d30-8208-1dbdb5536d48/app1004126-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20HULK%20VS%20IRONMAN%204K%20LIVE%20WALLPAPER.mp4",
+  "bytes": 20668736,
+  "sha256": "2584ef201cb06ad03c6402b4c7318e933a909948aa64232d111df216280cc2a6",
+  "videoPointer": "assets/wallpapers/native/app1004126-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004126-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-sunset-circle",
+  "source": "https://www.desktophut.com/sunset-circle",
+  "previousUrls": [
+    "/__l5e/assets-v1/f9ba3cda-25df-417e-bcf4-7021e1768f41/dh-sunset-circle.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/2GwPrKDZKqpYrnn_Sunset%20Circle%20Live%20Wallpaper_1_182249.mp4",
+  "bytes": 22437311,
+  "sha256": "efe57500869df9f85f5e9bc62b0ff60574fe465ad79ff742f9ae7d910e3e023c",
+  "videoPointer": "assets/wallpapers/native/dh-sunset-circle-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-sunset-circle-native.jpg.asset.json"
+}

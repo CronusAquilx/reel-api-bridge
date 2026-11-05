@@ -1,0 +1,18 @@
+{
+  "id": "app1010367-preview",
+  "source": "https://www.desktophut.com/4K-Assassins-Creed-Project-Legacy-Live-Wallpaper-For-PC",
+  "previousUrls": [
+    "/__l5e/assets-v1/7b7761c7-db62-4ad6-a577-e8a19a4aecc4/app1010367-preview.mp4",
+    "/__l5e/assets-v1/1118694b-743d-40c7-a096-df743a91706f/app1010367-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654877392-1654877392-4k-assassins-creed-project-legacy-live-wallpaper-for-pc.mp4",
+  "bytes": 66009500,
+  "sha256": "1c3f39eb302ac20bb3dc743423a26512fac5acd564b70522b1be916fa96fa5f3",
+  "videoPointer": "assets/wallpapers/native/app1010367-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010367-preview-native.jpg.asset.json"
+}

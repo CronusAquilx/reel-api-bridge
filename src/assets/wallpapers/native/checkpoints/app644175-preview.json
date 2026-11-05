@@ -1,0 +1,18 @@
+{
+  "id": "app644175-preview",
+  "source": "https://www.desktophut.com/Space-Nebula-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/98fef5cc-be6e-4029-8e28-e89196dd5ea1/app644175-preview.mp4",
+    "/__l5e/assets-v1/eaf42897-90b1-470a-bd3d-0842d520ee8b/app644175-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Space%20Nebula%204k%20Live%20Wallpaper.mp4",
+  "bytes": 64524744,
+  "sha256": "b27b9e6b24a824c654ccc6e67f3489cade10c0837a4c7811f12180a773d51393",
+  "videoPointer": "assets/wallpapers/native/app644175-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app644175-preview-native.jpg.asset.json"
+}

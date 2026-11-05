@@ -1,0 +1,17 @@
+{
+  "id": "dh-dark-batman-shadow-portrait-live-wallpaper",
+  "source": "https://www.desktophut.com/dark-batman-shadow-portrait-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5e6dccc8-f14c-4d27-959b-7b732c7d3849/dh-dark-batman-shadow-portrait-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "4096x2304",
+  "width": 4096,
+  "height": 2304,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1773845366.mp4",
+  "bytes": 19055168,
+  "sha256": "27420f1d31a4f8a33e1e190a79962aca34d5e82f0baae8d4da25d4b8c7b3c18c",
+  "videoPointer": "assets/wallpapers/native/dh-dark-batman-shadow-portrait-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-dark-batman-shadow-portrait-live-wallpaper-native.jpg.asset.json"
+}

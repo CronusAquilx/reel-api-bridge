@@ -1,0 +1,18 @@
+{
+  "id": "app1010095-preview",
+  "source": "https://www.desktophut.com/PC-Lamborghini-Evening-City-4K-Live-Wallpaper-Free",
+  "previousUrls": [
+    "/__l5e/assets-v1/47ad3136-cf1a-4135-8445-1ed94cc41ca1/app1010095-preview.mp4",
+    "/__l5e/assets-v1/fbd64551-4cd5-4a59-b733-5e0b457c68ef/app1010095-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1654797460-1654797460-pc-lamborghini-evening-city-4k-live-wallpaper-free.mp4",
+  "bytes": 38686697,
+  "sha256": "59873105e3c3450bb2722557abefad9e2b5b21c4487f3ccf620472fab1de12d1",
+  "videoPointer": "assets/wallpapers/native/app1010095-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1010095-preview-native.jpg.asset.json"
+}

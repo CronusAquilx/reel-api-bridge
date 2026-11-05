@@ -1,0 +1,17 @@
+{
+  "id": "dh-F-Zero-Live-Wallpaper",
+  "source": "https://www.desktophut.com/F-Zero-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b7b442ab-369a-4931-9933-6696f4180e0b/dh-F-Zero-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668004702-1668004702-f-zero-live-wallpaper.mp4",
+  "bytes": 18354379,
+  "sha256": "940f6a52a7a97c2e32c06bc4449d82ba1c1ad970e82529387aae9fb9176a78e5",
+  "videoPointer": "assets/wallpapers/native/dh-F-Zero-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-F-Zero-Live-Wallpaper-native.jpg.asset.json"
+}

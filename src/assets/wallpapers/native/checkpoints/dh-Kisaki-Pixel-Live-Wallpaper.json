@@ -1,0 +1,17 @@
+{
+  "id": "dh-Kisaki-Pixel-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Kisaki-Pixel-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5eb388d1-6700-4a36-be66-d4d511fe75f2/dh-Kisaki-Pixel-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1683980343-1683980343-kisaki-pixel-live-wallpaper.mp4",
+  "bytes": 1127683,
+  "sha256": "32ab370f172e4fb8da1ed39e783513fc0fce28d3b802a146b37a9b65b3d36360",
+  "videoPointer": "assets/wallpapers/native/dh-Kisaki-Pixel-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Kisaki-Pixel-Live-Wallpaper-native.jpg.asset.json"
+}

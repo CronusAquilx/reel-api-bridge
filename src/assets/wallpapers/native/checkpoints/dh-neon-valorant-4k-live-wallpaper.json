@@ -1,0 +1,17 @@
+{
+  "id": "dh-neon-valorant-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/neon-valorant-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f16ef94e-d361-4946-a8e6-604c63cc6ee0/dh-neon-valorant-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669907139-1669907139-neon-valorant-4k-live-wallpaper.mp4",
+  "bytes": 12007487,
+  "sha256": "e509812236c6cf3a83c2835f8fdda42fb5fc33bc20f15a1f42e26c67c0f000e4",
+  "videoPointer": "assets/wallpapers/native/dh-neon-valorant-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-neon-valorant-4k-live-wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-The-Flash-Live-Wallpaper",
+  "source": "https://www.desktophut.com/The-Flash-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/686688a3-2b32-419a-aa1c-6fd0d0cdf036/dh-The-Flash-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1072x1076",
+  "width": 1072,
+  "height": 1076,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668461067-1668461067-the-flash-live-wallpaper.mp4",
+  "bytes": 5660054,
+  "sha256": "5a92a009d06488d251728baa5335b83715ba9abef089bb791a84d67d8d091694",
+  "videoPointer": "assets/wallpapers/native/dh-The-Flash-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-The-Flash-Live-Wallpaper-native.jpg.asset.json"
+}

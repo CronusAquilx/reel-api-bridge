@@ -1,0 +1,17 @@
+{
+  "id": "dh-Ayaka-Animated-Wallpaper",
+  "source": "https://www.desktophut.com/Ayaka-Animated-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e638dfc2-60ed-4e54-85dc-e40ea1a3df85/dh-Ayaka-Animated-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669734879-1669734879-ayaka-animated-wallpaper.mp4",
+  "bytes": 15074115,
+  "sha256": "525869d4d137ec84c2c0f20887b32c9ca320aa13aa42df9498f239dc999c8ed5",
+  "videoPointer": "assets/wallpapers/native/dh-Ayaka-Animated-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Ayaka-Animated-Wallpaper-native.jpg.asset.json"
+}

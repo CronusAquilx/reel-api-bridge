@@ -1,0 +1,17 @@
+{
+  "id": "dh-agassy-dance",
+  "source": "https://www.desktophut.com/agassy-dance",
+  "previousUrls": [
+    "/__l5e/assets-v1/919d88d4-5c54-45c6-9830-80f4d8dfbc58/dh-agassy-dance.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/YZiwNnf0cKpuwR0_AGASSY%20Live%20Wallpaper.mp4",
+  "bytes": 282628767,
+  "sha256": "ca5ef02300bdbb2cdae90caec723edb0240d5c9b7dbac0bcfe36b1e3c9103373",
+  "videoPointer": "assets/wallpapers/native/dh-agassy-dance-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-agassy-dance-native.jpg.asset.json"
+}

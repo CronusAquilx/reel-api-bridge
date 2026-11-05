@@ -1,0 +1,18 @@
+{
+  "id": "app1003148-preview",
+  "source": "https://www.desktophut.com/Torii-Gate-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/c8e888b4-5234-4fa6-b848-2de30f7458ba/app1003148-preview.mp4",
+    "/__l5e/assets-v1/b0fa3a7a-fbbe-49eb-adaa-c149ea22a52b/app1003148-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Torii%20Gate%204K%20Live%20Wallpaper.mp4",
+  "bytes": 76392092,
+  "sha256": "53558f631cf9bcf1b7a0de5e44b5843e41d04d3284793ef1127df638043f45da",
+  "videoPointer": "assets/wallpapers/native/app1003148-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003148-preview-native.jpg.asset.json"
+}

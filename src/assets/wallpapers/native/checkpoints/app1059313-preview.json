@@ -1,0 +1,18 @@
+{
+  "id": "app1059313-preview",
+  "source": "https://www.desktophut.com/Cozy-Bedroom-Rain-On-Window-Live-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/c9260718-e82d-43dd-84ba-6fefcbacde8c/app1059313-preview.mp4",
+    "/__l5e/assets-v1/1ad8de81-8ffb-48cd-9bc9-9164e5478af6/app1059313-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1662714265-1662714265-cozy-bedroom-rain-on-window-live-wallpaper-4k.mp4",
+  "bytes": 88094197,
+  "sha256": "f4265321ba4ca624d1eda32f5fe89a8be3cd4328960bedfba1e0a79d94b197c7",
+  "videoPointer": "assets/wallpapers/native/app1059313-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1059313-preview-native.jpg.asset.json"
+}

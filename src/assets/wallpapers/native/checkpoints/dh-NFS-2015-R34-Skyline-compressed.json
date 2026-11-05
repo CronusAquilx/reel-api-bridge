@@ -1,0 +1,17 @@
+{
+  "id": "dh-NFS-2015-R34-Skyline-compressed",
+  "source": "https://www.desktophut.com/NFS-2015-R34-Skyline-compressed",
+  "previousUrls": [
+    "/__l5e/assets-v1/e409ba6a-fa57-4bbf-a62e-9e2bdf9d8c63/dh-NFS-2015-R34-Skyline-compressed.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673476262-1673476262-nfs-2015-r34-skyline-compressed.mp4",
+  "bytes": 56301260,
+  "sha256": "b7e378cd9dfb5aeddf56cae79fab3c04bdfa13538fee094201d18a37d6a46e40",
+  "videoPointer": "assets/wallpapers/native/dh-NFS-2015-R34-Skyline-compressed-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-NFS-2015-R34-Skyline-compressed-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-violet-nissan",
+  "source": "https://www.desktophut.com/violet-nissan",
+  "previousUrls": [
+    "/__l5e/assets-v1/82a62b31-d1ed-4e7b-b2a7-24d05566e6db/dh-violet-nissan.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/lF9ERGF6D8zURr9_Nissan-Gtr-4_104659.mp4",
+  "bytes": 31285694,
+  "sha256": "1ee4e7bcea54e31f46bf52ecc9bf29b43be8b3ae82f57cc009b8c1f3b747768e",
+  "videoPointer": "assets/wallpapers/native/dh-violet-nissan-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-violet-nissan-native.jpg.asset.json"
+}

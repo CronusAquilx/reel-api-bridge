@@ -1,0 +1,17 @@
+{
+  "id": "dh-Live-Grid-2-Wallpaper",
+  "source": "https://www.desktophut.com/Live-Grid-2-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/0be0f45c-6f99-4359-9749-c896e243eb6a/dh-Live-Grid-2-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668195555-1668195555-live-grid-2-wallpaper.mp4",
+  "bytes": 13432823,
+  "sha256": "6dd165842f4ee8c5d21c9361abd68705662101da32185217834368e11cf5bffe",
+  "videoPointer": "assets/wallpapers/native/dh-Live-Grid-2-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Live-Grid-2-Wallpaper-native.jpg.asset.json"
+}

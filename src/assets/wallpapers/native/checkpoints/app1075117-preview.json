@@ -1,0 +1,18 @@
+{
+  "id": "app1075117-preview",
+  "source": "https://www.desktophut.com/night-rainy-room-4k-60fps",
+  "previousUrls": [
+    "/__l5e/assets-v1/ff008ebc-c03f-49d3-a6ec-860a142b517c/app1075117-preview.mp4",
+    "/__l5e/assets-v1/7e16e56c-5126-48fb-bd4a-f91faa208e52/app1075117-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/tVFzlzeKcIT5jKV_Night%20Rainy%20Room%204K%2060fps.mp4",
+  "bytes": 331797429,
+  "sha256": "b1ba33ef3470432379a59b70b9ad4b3fdcd7f03cc37fa00df0a8af7be75ed3bf",
+  "videoPointer": "assets/wallpapers/native/app1075117-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1075117-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1001365-preview",
+  "source": "https://www.desktophut.com/Tree-Genshin-Impact-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/e59ed675-a59e-4e96-b616-2cb64aa7e703/app1001365-preview.mp4",
+    "/__l5e/assets-v1/b361dafa-9c32-48cd-adb4-29ba9b6e44e1/app1001365-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Tree%20Genshin%20Impact%204K%20Live%20Wallpaper.mp4",
+  "bytes": 33892163,
+  "sha256": "0d75fac0dde3ee851b57248086121b08bf27e14b5009943cb1ffba606a6d85d4",
+  "videoPointer": "assets/wallpapers/native/app1001365-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001365-preview-native.jpg.asset.json"
+}

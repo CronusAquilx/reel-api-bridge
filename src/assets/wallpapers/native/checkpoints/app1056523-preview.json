@@ -1,0 +1,18 @@
+{
+  "id": "app1056523-preview",
+  "source": "https://www.desktophut.com/Le-Malin-Live-Anime-Wallpaper-4K",
+  "previousUrls": [
+    "/__l5e/assets-v1/f5774415-48fa-4820-98c1-8d179da9e87e/app1056523-preview.mp4",
+    "/__l5e/assets-v1/5a6a6ed7-7d3f-4374-9b4a-7f92d752062b/app1056523-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1657707968-1657707968-le-malin-live-anime-wallpaper-4k.mp4",
+  "bytes": 32906502,
+  "sha256": "83ef838d7596739f3211135675b0ce5d84d00ead1a53dc84e1e03d310272f39a",
+  "videoPointer": "assets/wallpapers/native/app1056523-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1056523-preview-native.jpg.asset.json"
+}

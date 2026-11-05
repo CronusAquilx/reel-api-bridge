@@ -1,0 +1,18 @@
+{
+  "id": "app1004203-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Genshin-Impact",
+  "previousUrls": [
+    "/__l5e/assets-v1/f4be119b-153c-4163-963a-4ac1304365ff/app1004203-preview.mp4",
+    "/__l5e/assets-v1/256edb2a-1b97-4ad3-bbc7-10140d0e874c/app1004203-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Genshin%20Impact.mp4",
+  "bytes": 45854525,
+  "sha256": "97ef2093b162e1bc1ad803239688b0acb7257c3d5b2f96d72d44565b89603659",
+  "videoPointer": "assets/wallpapers/native/app1004203-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004203-preview-native.jpg.asset.json"
+}

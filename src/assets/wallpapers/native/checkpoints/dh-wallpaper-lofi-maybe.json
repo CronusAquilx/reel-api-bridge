@@ -1,0 +1,17 @@
+{
+  "id": "dh-wallpaper-lofi-maybe",
+  "source": "https://www.desktophut.com/wallpaper-lofi-maybe",
+  "previousUrls": [
+    "/__l5e/assets-v1/0122852b-e4fd-45bc-97b1-d3d77b0a3447/dh-wallpaper-lofi-maybe.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1672961037-1672961037-wallpaper-lofi-maybe.mp4",
+  "bytes": 95484106,
+  "sha256": "b380e1bcdbed9433b7d29f023c52ceeea9e908a504c767cc164a631392239b76",
+  "videoPointer": "assets/wallpapers/native/dh-wallpaper-lofi-maybe-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-wallpaper-lofi-maybe-native.jpg.asset.json"
+}

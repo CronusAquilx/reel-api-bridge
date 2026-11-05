@@ -1,0 +1,17 @@
+{
+  "id": "dh-purple-knight",
+  "source": "https://www.desktophut.com/purple-knight",
+  "previousUrls": [
+    "/__l5e/assets-v1/58df3970-d96b-4127-a9ab-a186b14067ac/dh-purple-knight.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/XoFVbdLsCG7WVI7_Purple%20Knight_1_104602.mp4",
+  "bytes": 77248523,
+  "sha256": "ca3825e873f1b6a30976313f7bb9db7a407f01278c67f1758c4db53bf73e9e0e",
+  "videoPointer": "assets/wallpapers/native/dh-purple-knight-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-purple-knight-native.jpg.asset.json"
+}

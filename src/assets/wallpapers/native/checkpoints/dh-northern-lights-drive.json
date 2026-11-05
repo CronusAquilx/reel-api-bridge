@@ -1,0 +1,17 @@
+{
+  "id": "dh-northern-lights-drive",
+  "source": "https://www.desktophut.com/northern-lights-drive",
+  "previousUrls": [
+    "/__l5e/assets-v1/252cab8a-a451-4d80-aa11-eb9a93081e6c/dh-northern-lights-drive.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/hogeFepc4LST3Ym_Northern%20Lights%20Drive.mp4",
+  "bytes": 317135289,
+  "sha256": "66fcdf5c9b64c1f1a7474ad18d3efb14fa636f460f486ef4ca4ab3f680c9fddc",
+  "videoPointer": "assets/wallpapers/native/dh-northern-lights-drive-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-northern-lights-drive-native.jpg.asset.json"
+}

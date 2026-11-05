@@ -1,0 +1,17 @@
+{
+  "id": "dh-2B-Lollipop",
+  "source": "https://www.desktophut.com/2B-Lollipop",
+  "previousUrls": [
+    "/__l5e/assets-v1/45e0ade4-af4b-428d-b9fb-aa62bf55a990/dh-2B-Lollipop.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/qxC9h2Y2m5qWkT7_2B%20Lollipop_7_203944.mp4",
+  "bytes": 48351916,
+  "sha256": "c3d2aa43c9cf009731cd50acba8d8b2783a9b22eb53562023ee1fcb14a328602",
+  "videoPointer": "assets/wallpapers/native/dh-2B-Lollipop-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-2B-Lollipop-native.jpg.asset.json"
+}

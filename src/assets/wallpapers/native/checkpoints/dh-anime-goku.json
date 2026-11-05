@@ -1,0 +1,17 @@
+{
+  "id": "dh-anime-goku",
+  "source": "https://www.desktophut.com/anime-goku",
+  "previousUrls": [
+    "/__l5e/assets-v1/b13844ee-e07f-4e91-aa0a-92d891ae3323/dh-anime-goku.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/pwQDW4vdCOZChOp_DBZ%20Goku%20Live%20Wallpaper_5_212108.mp4",
+  "bytes": 29117873,
+  "sha256": "eebef41b6e4fa4615a952094865f786d4763ec6da36550a454101e78681c4265",
+  "videoPointer": "assets/wallpapers/native/dh-anime-goku-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-anime-goku-native.jpg.asset.json"
+}

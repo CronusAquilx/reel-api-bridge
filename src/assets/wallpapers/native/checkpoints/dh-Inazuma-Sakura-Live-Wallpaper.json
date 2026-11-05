@@ -1,0 +1,17 @@
+{
+  "id": "dh-Inazuma-Sakura-Live-Wallpaper",
+  "source": "https://www.desktophut.com/Inazuma-Sakura-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/20e1e009-e3fd-40e0-bf91-03ceeffd7c6b/dh-Inazuma-Sakura-Live-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1668457177-1668457177-inazuma-sakura-live-wallpaper.mp4",
+  "bytes": 3063292,
+  "sha256": "1b9b2ce6192fcb1ab4d41a2f2c722aa8eb5356b00a24a81cd78e297eda89a2f8",
+  "videoPointer": "assets/wallpapers/native/dh-Inazuma-Sakura-Live-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Inazuma-Sakura-Live-Wallpaper-native.jpg.asset.json"
+}

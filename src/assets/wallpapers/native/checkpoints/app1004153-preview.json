@@ -1,0 +1,18 @@
+{
+  "id": "app1004153-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Tobio-Kageyama-Haikyuu",
+  "previousUrls": [
+    "/__l5e/assets-v1/d36eb701-a3d7-41ac-b6f6-b6226dbde010/app1004153-preview.mp4",
+    "/__l5e/assets-v1/b3b59b3a-9c7e-4a0a-84df-76a0089a878d/app1004153-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Tobio%20Kageyama%20Haikyuu.mp4",
+  "bytes": 30888035,
+  "sha256": "d83dcad9ccefe7fc5d1664d495dadc3834821001edfd63bdcc2c15846affa509",
+  "videoPointer": "assets/wallpapers/native/app1004153-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004153-preview-native.jpg.asset.json"
+}

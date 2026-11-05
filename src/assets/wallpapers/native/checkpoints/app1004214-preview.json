@@ -1,0 +1,18 @@
+{
+  "id": "app1004214-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Shinobu-Kocho-Demon-Slayer",
+  "previousUrls": [
+    "/__l5e/assets-v1/084f3a4a-9d69-4e2c-9c47-30543714b0ef/app1004214-preview.mp4",
+    "/__l5e/assets-v1/684992a3-ae7f-41cd-a199-2fe75f2b096d/app1004214-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Shinobu%20Kocho%20Demon%20Slayer.mp4",
+  "bytes": 54335636,
+  "sha256": "3e39272bf9fa45ea93d6498e03489b0841c1449dbcd143b71e7462ad892cba32",
+  "videoPointer": "assets/wallpapers/native/app1004214-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004214-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1004057-preview",
+  "source": "https://www.desktophut.com/Cool-Attack-On-Titan-C-FIX-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/fe3eabe0-394a-4b70-9517-052e78eb66d8/app1004057-preview.mp4",
+    "/__l5e/assets-v1/a42596d1-9394-41db-8181-4478454262c9/app1004057-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Attack%20On%20Titan%20C%20FIX%204k%20Live%20Wallpaper.mp4",
+  "bytes": 16798166,
+  "sha256": "5052e31e3a673c6f5c7fc2e58dd7bc93bf280b7973a947a056203fd11e6d3a7d",
+  "videoPointer": "assets/wallpapers/native/app1004057-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004057-preview-native.jpg.asset.json"
+}

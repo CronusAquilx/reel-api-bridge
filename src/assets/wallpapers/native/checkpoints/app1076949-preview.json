@@ -1,0 +1,18 @@
+{
+  "id": "app1076949-preview",
+  "source": "https://www.desktophut.com/ellen-joe-zenless-zone-zero-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a2122384-2989-4f08-aa49-0182aef42c6a/app1076949-preview.mp4",
+    "/__l5e/assets-v1/7666f382-c8a0-4614-991d-52768696e289/app1076949-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1759397811.mp4",
+  "bytes": 124783142,
+  "sha256": "7399e8508fff435ccfc6496a2f8c76dc2bd19e012982532eee176a8bd8170331",
+  "videoPointer": "assets/wallpapers/native/app1076949-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1076949-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-crumpets-room",
+  "source": "https://www.desktophut.com/crumpets-room",
+  "previousUrls": [
+    "/__l5e/assets-v1/5527f9d3-f85f-425b-9a26-7657daad8280/dh-crumpets-room.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/OUT9VS7g88412tt_fma6HULkMA-CrumpetsRoomHalloween.mp4",
+  "bytes": 190629135,
+  "sha256": "134810ddd7e060c035ad5dc9c4fc039b5783d186aceba29df11a7d1c9732ca9b",
+  "videoPointer": "assets/wallpapers/native/dh-crumpets-room-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-crumpets-room-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-spring-blossom-lofi",
+  "source": "https://www.desktophut.com/spring-blossom-lofi",
+  "previousUrls": [
+    "/__l5e/assets-v1/65a52a84-ff95-4fef-9e8f-9289c1af8809/dh-spring-blossom-lofi.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/NZPq70J8RjB07Vq_Spring%20Blossoms_5_115709.mp4",
+  "bytes": 71350240,
+  "sha256": "9383bc6fdc06ca3d37d40794bbd8d445c05fc9235c99af3f720c06998a65185a",
+  "videoPointer": "assets/wallpapers/native/dh-spring-blossom-lofi-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-spring-blossom-lofi-native.jpg.asset.json"
+}

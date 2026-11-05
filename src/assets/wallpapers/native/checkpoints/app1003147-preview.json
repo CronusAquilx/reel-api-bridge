@@ -1,0 +1,18 @@
+{
+  "id": "app1003147-preview",
+  "source": "https://www.desktophut.com/The-Orchid-Galaxy-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/fdef4e73-794b-47d0-aa4e-ce15caa1116d/app1003147-preview.mp4",
+    "/__l5e/assets-v1/d7b4b723-3728-473c-ae2d-39af2309f35e/app1003147-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/The%20Orchid%20Galaxy%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65988138,
+  "sha256": "75e3c3cef94bd788720a1663b13fdeffd1d09afd03088633cd7ba12ccf4e2fcb",
+  "videoPointer": "assets/wallpapers/native/app1003147-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003147-preview-native.jpg.asset.json"
+}

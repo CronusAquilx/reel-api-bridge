@@ -1,0 +1,18 @@
+{
+  "id": "app1051947-preview",
+  "source": "https://www.desktophut.com/4K-LOL-ZED-3840x2160-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/250b2f7b-fe97-41fd-bed8-b932f71e8a42/app1051947-preview.mp4",
+    "/__l5e/assets-v1/4002b899-c67d-474d-83c9-3b7cb4d38cd1/app1051947-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1655962348-1655962348-4k-lol-zed-3840x2160-live-wallpaper.mp4",
+  "bytes": 86028527,
+  "sha256": "045d43349c34e81eaf2e39c101be4dbe53836fe8c74951274921cb9b4d492b1a",
+  "videoPointer": "assets/wallpapers/native/app1051947-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1051947-preview-native.jpg.asset.json"
+}

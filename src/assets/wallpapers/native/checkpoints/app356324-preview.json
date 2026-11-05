@@ -1,0 +1,18 @@
+{
+  "id": "app356324-preview",
+  "source": "https://www.desktophut.com/Pokemon-Rotom-Dex-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/9f0c8ba4-f071-4fa3-8884-904c912eefc1/app356324-preview.mp4",
+    "/__l5e/assets-v1/8ff60ec6-ffa2-44f0-bb50-7f73e47a4cc9/app356324-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Pokemon%20Rotom%20Dex%204k%20Live%20Wallpaper.mp4",
+  "bytes": 2198819,
+  "sha256": "4a8fb7474b57a2a3b1a429e92728f8be59be147234689d0756b6a483ec156aad",
+  "videoPointer": "assets/wallpapers/native/app356324-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app356324-preview-native.jpg.asset.json"
+}

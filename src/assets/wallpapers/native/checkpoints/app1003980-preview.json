@@ -1,0 +1,18 @@
+{
+  "id": "app1003980-preview",
+  "source": "https://www.desktophut.com/Cool-Joker-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/09ff138a-c39c-41d5-9fbb-db177d52be67/app1003980-preview.mp4",
+    "/__l5e/assets-v1/2d909779-5bb9-4d30-bc3f-0dfbb0598866/app1003980-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Joker%204k%20live%20wallpaper.mp4",
+  "bytes": 12528440,
+  "sha256": "14415d4de012a4520ed029d69570a75be8cf2435f3d26c7f98f8fac1819d17ba",
+  "videoPointer": "assets/wallpapers/native/app1003980-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003980-preview-native.jpg.asset.json"
+}

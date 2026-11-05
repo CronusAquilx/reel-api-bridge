@@ -1,0 +1,18 @@
+{
+  "id": "app1073326-preview",
+  "source": "https://www.desktophut.com/Blue-Archive-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/88fca185-e2b0-463e-bccc-78944a5df728/app1073326-preview.mp4",
+    "/__l5e/assets-v1/3c917aae-581c-43b3-ad75-2b13f52d3da0/app1073326-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1685699367-1685699367-blue-archive-4k-live-wallpaper.mp4",
+  "bytes": 33631232,
+  "sha256": "55b226c2ddb1143c411968bf23f2d82e903bfb2ef5095ba3185416015ba02625",
+  "videoPointer": "assets/wallpapers/native/app1073326-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1073326-preview-native.jpg.asset.json"
+}

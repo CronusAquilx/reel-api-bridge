@@ -1,0 +1,18 @@
+{
+  "id": "app1003936-preview",
+  "source": "https://www.desktophut.com/Cool-Sad-Naruto-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/93ce1919-92c3-4afe-9ebd-57eb3d7d795c/app1003936-preview.mp4",
+    "/__l5e/assets-v1/dd17f26a-f58a-480d-9132-d545ad089f73/app1003936-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Sad%20Naruto%204k%20Live%20Wallpaper.mp4",
+  "bytes": 9592108,
+  "sha256": "b5e6b90bdf919c72a36fa0378ffebcc45d67dd1532003f2a7204c7b8ebdc60d5",
+  "videoPointer": "assets/wallpapers/native/app1003936-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003936-preview-native.jpg.asset.json"
+}

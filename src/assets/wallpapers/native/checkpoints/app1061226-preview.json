@@ -1,0 +1,18 @@
+{
+  "id": "app1061226-preview",
+  "source": "https://www.desktophut.com/darth-vader-magma-star-wars-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/21327a98-27ae-48cd-9427-d6e85e45ca06/app1061226-preview.mp4",
+    "/__l5e/assets-v1/3069d7e4-2e9d-4ad1-9a59-9d17866688c7/app1061226-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669680899-1669680899-darth-vader-magma-star-wars-4k-live-wallpaper.mp4",
+  "bytes": 24287091,
+  "sha256": "fb76eb2731bd261fbcbf73c65b549b1b8b4f169ac6c7cbcda2649ac4bf7a229c",
+  "videoPointer": "assets/wallpapers/native/app1061226-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1061226-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app626155-preview",
+  "source": "https://www.desktophut.com/Nvidia-Minimal-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1fca8acb-174d-49db-9277-c901a29e6c97/app626155-preview.mp4",
+    "/__l5e/assets-v1/76bf3bff-85ee-4fe0-bfb4-6d3492adc7cf/app626155-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Nvidia%20Minimal%204K%20Live%20Wallpaper.mp4",
+  "bytes": 2990793,
+  "sha256": "b9ab04810d65e50beb426f47a2c0fb2cce98851b5a455542f9ff541c271a9a20",
+  "videoPointer": "assets/wallpapers/native/app626155-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app626155-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-cute-shinobu",
+  "source": "https://www.desktophut.com/cute-shinobu",
+  "previousUrls": [
+    "/__l5e/assets-v1/e3a65445-f7d1-4832-9b7f-0428dcf0683e/dh-cute-shinobu.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/O6oFwNePE2bIrwv_Cute%20Shinobu%20Kocho%20-%20Demon%20Slayer%20Live%20Wallpaper_4_170058.mp4",
+  "bytes": 49066795,
+  "sha256": "95789334f1272afb1f43ea3f83e7e3cb50e4b007b27fc6497ed00a08d3b5ebdc",
+  "videoPointer": "assets/wallpapers/native/dh-cute-shinobu-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-cute-shinobu-native.jpg.asset.json"
+}

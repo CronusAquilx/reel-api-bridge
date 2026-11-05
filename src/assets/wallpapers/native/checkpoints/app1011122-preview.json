@@ -1,0 +1,18 @@
+{
+  "id": "app1011122-preview",
+  "source": "https://www.desktophut.com/PC-Desktop-Fate-Stay-Night-Sakura-Mato-Dark-PC-Desktop-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/40cdb1cd-1adc-46fc-a298-e57ddc193d96/app1011122-preview.mp4",
+    "/__l5e/assets-v1/7d4d9134-8ea4-4aee-b45b-aa541b46302f/app1011122-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1655034024-1655034024-pc-desktop-fate-stay-night-sakura-mato-dark-pc-desktop-4k-live-wallpaper.mp4",
+  "bytes": 11000627,
+  "sha256": "187d20d561aa2be90cbb995929ffc4887b62fc38b6f315d56d5b88f7aac4b12c",
+  "videoPointer": "assets/wallpapers/native/app1011122-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1011122-preview-native.jpg.asset.json"
+}

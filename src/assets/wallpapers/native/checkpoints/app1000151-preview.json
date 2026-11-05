@@ -1,0 +1,18 @@
+{
+  "id": "app1000151-preview",
+  "source": "https://www.desktophut.com/Love-Fire-Blue-Orange-Red-Hands-Smoke-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/84833def-ba59-46af-9783-f6433076672a/app1000151-preview.mp4",
+    "/__l5e/assets-v1/b91d8bdf-7712-4cb0-bfe2-9a72dbc21412/app1000151-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Love%20%20Fire%20%20Blue%20%20Orange%20%20Red%20%20Hands%20%20Smoke%20%204K%20%20Live%20%20Wallpaper.mp4",
+  "bytes": 5444641,
+  "sha256": "f4b9c824917c5bbc97ba1731996be74c0a27b20129be599ba95ea38c5ddc256a",
+  "videoPointer": "assets/wallpapers/native/app1000151-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000151-preview-native.jpg.asset.json"
+}

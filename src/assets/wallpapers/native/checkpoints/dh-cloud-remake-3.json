@@ -1,0 +1,17 @@
+{
+  "id": "dh-cloud-remake-3",
+  "source": "https://www.desktophut.com/cloud-remake-3",
+  "previousUrls": [
+    "/__l5e/assets-v1/394fa331-5738-4ea8-a993-c9662cc3564e/dh-cloud-remake-3.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673469818-1673469818-cloud-remake-3.mp4",
+  "bytes": 48839613,
+  "sha256": "b2bb39f8312d1ccfc5780df860b02bb8eaa4a2c08c36334ed4e65a42b58c1b35",
+  "videoPointer": "assets/wallpapers/native/dh-cloud-remake-3-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-cloud-remake-3-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1011157-preview",
+  "source": "https://www.desktophut.com/PC-Desktop-Luffy-Gear-5-Full-White-4k-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1684c9ea-40cc-466d-a4bb-d39d28612881/app1011157-preview.mp4",
+    "/__l5e/assets-v1/943752e9-2c43-4504-8c1d-5abb6fecc822/app1011157-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1655034080-1655034080-pc-desktop-luffy-gear-5-full-white-4k-live-wallpaper.mp4",
+  "bytes": 10324431,
+  "sha256": "79fa3e0edfc1179e56635205f6d861c4a167d943b959444bfcfefa5f37b160fe",
+  "videoPointer": "assets/wallpapers/native/app1011157-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1011157-preview-native.jpg.asset.json"
+}

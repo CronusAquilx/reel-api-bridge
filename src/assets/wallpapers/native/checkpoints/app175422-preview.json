@@ -1,0 +1,18 @@
+{
+  "id": "app175422-preview",
+  "source": "https://www.desktophut.com/Fortnite-Animated-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1a26aa65-0286-4088-9559-2835beb2ba7b/app175422-preview.mp4",
+    "/__l5e/assets-v1/b715348e-bb52-442d-883d-e9d065ca809c/app175422-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Fortnite%20Animated%204K%20Live%20Wallpaper.mp4",
+  "bytes": 29713446,
+  "sha256": "b0869f54f294d6b75b63fdd00ccd3717e8cdfaea86276432a6e71ef089e8beb1",
+  "videoPointer": "assets/wallpapers/native/app175422-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app175422-preview-native.jpg.asset.json"
+}

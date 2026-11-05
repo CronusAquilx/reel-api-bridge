@@ -1,0 +1,18 @@
+{
+  "id": "app41892-preview",
+  "source": "https://www.desktophut.com/4k-Galaxy-Nebula-Animation-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b95ae5eb-cf3f-41ba-b791-354500f490a7/app41892-preview.mp4",
+    "/__l5e/assets-v1/792f705b-d15b-4396-ab9b-737d263ebcf8/app41892-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3824x2098",
+  "width": 3824,
+  "height": 2098,
+  "codec": "hevc",
+  "originalUrl": "https://media.desktophut.com/files/4k%20Galaxy%20Nebula%20Animation%20Live%20Wallpaper.mp4",
+  "bytes": 88617392,
+  "sha256": "36cc324d46ab2c5d830984b23baae3b5bd8b63903c18b68bdde29b8e44db8785",
+  "videoPointer": "assets/wallpapers/native/app41892-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app41892-preview-native.jpg.asset.json"
+}

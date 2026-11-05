@@ -1,0 +1,18 @@
+{
+  "id": "app1000394-preview",
+  "source": "https://www.desktophut.com/Apple-Logo-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/31af1a76-d9d0-4f1e-ba64-4a54d17fe073/app1000394-preview.mp4",
+    "/__l5e/assets-v1/0f937402-0a00-4c5a-96b2-e08cb961c7d5/app1000394-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Apple%20Logo%204K%20Live%20Wallpaper.mp4",
+  "bytes": 17217107,
+  "sha256": "79eb973e283affe6538d34bff475df972a632805840e07ab3a4a50068720f4da",
+  "videoPointer": "assets/wallpapers/native/app1000394-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000394-preview-native.jpg.asset.json"
+}

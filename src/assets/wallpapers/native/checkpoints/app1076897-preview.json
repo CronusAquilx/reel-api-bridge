@@ -1,0 +1,18 @@
+{
+  "id": "app1076897-preview",
+  "source": "https://www.desktophut.com/hornetwp-4288",
+  "previousUrls": [
+    "/__l5e/assets-v1/9fc85da0-a743-4847-891e-3d10eb4ceb89/app1076897-preview.mp4",
+    "/__l5e/assets-v1/f9273acc-f0bb-417b-9f7e-7de78290fd2c/app1076897-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1758733374.mp4",
+  "bytes": 53128352,
+  "sha256": "d72c12f9bce253461de81715c682c606d3752b0eba2bff7c9528af9dea5dd288",
+  "videoPointer": "assets/wallpapers/native/app1076897-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1076897-preview-native.jpg.asset.json"
+}

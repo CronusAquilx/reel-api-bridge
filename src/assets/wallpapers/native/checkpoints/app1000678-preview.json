@@ -1,0 +1,18 @@
+{
+  "id": "app1000678-preview",
+  "source": "https://www.desktophut.com/Counter-Strike-Global-Offensive-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/d90e9e40-8ca7-422d-8f0b-85bb9ca0f673/app1000678-preview.mp4",
+    "/__l5e/assets-v1/90302a46-3062-425f-9790-3044cb30cae5/app1000678-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Counter%20Strike%20Global%20Offensive%204K%20Live%20Wallpaper.mp4",
+  "bytes": 23412469,
+  "sha256": "e7914edbdd4242dc52387126d6fa1d14997bec5172332e3bb91dda00a26901d4",
+  "videoPointer": "assets/wallpapers/native/app1000678-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1000678-preview-native.jpg.asset.json"
+}

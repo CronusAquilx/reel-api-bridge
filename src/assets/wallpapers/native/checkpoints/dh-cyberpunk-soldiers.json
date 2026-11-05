@@ -1,0 +1,17 @@
+{
+  "id": "dh-cyberpunk-soldiers",
+  "source": "https://www.desktophut.com/cyberpunk-soldiers",
+  "previousUrls": [
+    "/__l5e/assets-v1/c9777633-cfa0-46cc-8f54-25118346b94f/dh-cyberpunk-soldiers.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Ip1swqaUHPJVM1G_0816_2_090831.mp4",
+  "bytes": 62612927,
+  "sha256": "44b3794525b159fb9e28614bc48d9ec2814b21754efe6db1dec81696c9eabb5e",
+  "videoPointer": "assets/wallpapers/native/dh-cyberpunk-soldiers-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-cyberpunk-soldiers-native.jpg.asset.json"
+}

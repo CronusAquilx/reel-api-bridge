@@ -1,0 +1,17 @@
+{
+  "id": "dh-Mandalorian-Star-Wars",
+  "source": "https://www.desktophut.com/Mandalorian-Star-Wars",
+  "previousUrls": [
+    "/__l5e/assets-v1/33e7f7db-0e74-4528-aed3-801d23ae6526/dh-Mandalorian-Star-Wars.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1684061471-1684061471-mandalorian-star-wars.mp4",
+  "bytes": 19491317,
+  "sha256": "28645bdb2539348d7602a261149f6997eaaf47814a1b7e360833c3ccd4e7a116",
+  "videoPointer": "assets/wallpapers/native/dh-Mandalorian-Star-Wars-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Mandalorian-Star-Wars-native.jpg.asset.json"
+}

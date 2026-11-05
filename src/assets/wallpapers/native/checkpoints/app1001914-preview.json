@@ -1,0 +1,18 @@
+{
+  "id": "app1001914-preview",
+  "source": "https://www.desktophut.com/Uzui-vs-Gyutaro-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/230b0bef-13d8-4e83-941c-b6c228be4589/app1001914-preview.mp4",
+    "/__l5e/assets-v1/dbed9360-afa4-47ef-8612-a40f8ca11b4e/app1001914-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "vp9",
+  "originalUrl": "https://media.desktophut.com/files/Uzui%20vs%20Gyutaro%204K%20Live%20Wallpaper.mp4",
+  "bytes": 39494874,
+  "sha256": "49814385985954ddb99622887279898c8a961f9cd6e5e3328464f88923632bde",
+  "videoPointer": "assets/wallpapers/native/app1001914-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1001914-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Mystical-Sky",
+  "source": "https://www.desktophut.com/Mystical-Sky",
+  "previousUrls": [
+    "/__l5e/assets-v1/e71765ab-1baa-403c-b6cd-e96c63e17a0b/dh-Mystical-Sky.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/fxnoLulh2waTO9j_Mystical%20Sky%20Live%20Wallpaper.mp4",
+  "bytes": 153037264,
+  "sha256": "e750e0771a6ff2d4683b51e47e39cdaf493ccfe3e353ef9f98fe9ca5e7be9f5a",
+  "videoPointer": "assets/wallpapers/native/dh-Mystical-Sky-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Mystical-Sky-native.jpg.asset.json"
+}

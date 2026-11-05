@@ -1,0 +1,18 @@
+{
+  "id": "app1004179-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Asta-Black-Clover",
+  "previousUrls": [
+    "/__l5e/assets-v1/5b44dc44-2117-4587-87b0-0851c85c8b87/app1004179-preview.mp4",
+    "/__l5e/assets-v1/dbef9985-4e7d-41b8-a776-d9696540be2f/app1004179-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Asta%20Black%20Clover.mp4",
+  "bytes": 36832435,
+  "sha256": "8cfcb6320ef5548f0f1d4cb41039661748002d6087bd82fadd03c1bb5f044cf4",
+  "videoPointer": "assets/wallpapers/native/app1004179-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004179-preview-native.jpg.asset.json"
+}

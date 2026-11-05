@@ -1,0 +1,17 @@
+{
+  "id": "dh-Heroic-Fanasy-Wallpaper",
+  "source": "https://www.desktophut.com/Heroic-Fanasy-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/2b187c55-406b-4d0e-92fd-d62ec200bee1/dh-Heroic-Fanasy-Wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1670427358-1670427358-heroic-fanasy-wallpaper.mp4",
+  "bytes": 17045537,
+  "sha256": "afc32c6e2c7ce6401a65f804da6e014ebaf0a3b0483158c0b49d1207a5f49f96",
+  "videoPointer": "assets/wallpapers/native/dh-Heroic-Fanasy-Wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Heroic-Fanasy-Wallpaper-native.jpg.asset.json"
+}

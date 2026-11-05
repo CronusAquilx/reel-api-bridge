@@ -1,0 +1,18 @@
+{
+  "id": "app1003142-preview",
+  "source": "https://www.desktophut.com/Samurai-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/5fa65afa-b18b-4eb7-b20b-65564b998b6a/app1003142-preview.mp4",
+    "/__l5e/assets-v1/3c3f7a28-5e77-4652-aeb4-d2f35d770a87/app1003142-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Samurai%204K%20Live%20Wallpaper.mp4",
+  "bytes": 66558808,
+  "sha256": "5ba005b8440cc6da835722ab5f501ddd462874e95b24efac5082eb2c7224f4f7",
+  "videoPointer": "assets/wallpapers/native/app1003142-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003142-preview-native.jpg.asset.json"
+}

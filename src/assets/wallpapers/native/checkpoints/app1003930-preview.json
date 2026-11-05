@@ -1,0 +1,18 @@
+{
+  "id": "app1003930-preview",
+  "source": "https://www.desktophut.com/Cool-GOKU-BLACK-SUPER-SAIYAN-ROSE-4K-LIVE-WALLPAPER-Dragon-Ball-Anime-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/b3575d0c-2d1f-4af9-82b7-d1b1824b4a2a/app1003930-preview.mp4",
+    "/__l5e/assets-v1/eb6c8b4a-bc9e-463c-b2d8-f2b011b3e496/app1003930-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20GOKU%20BLACK%20SUPER%20SAIYAN%20ROSE%204K%20LIVE%20WALLPAPER%20Dragon%20Ball%20Anime%20Live%20Wallpaper.mp4",
+  "bytes": 9851780,
+  "sha256": "bf5d8511cc2888da8032bf543edbbb75ad902068c360e01fff2ffe9bfd98de61",
+  "videoPointer": "assets/wallpapers/native/app1003930-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003930-preview-native.jpg.asset.json"
+}

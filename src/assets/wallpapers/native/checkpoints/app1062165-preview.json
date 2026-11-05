@@ -1,0 +1,18 @@
+{
+  "id": "app1062165-preview",
+  "source": "https://www.desktophut.com/Fallen-Angel-4k-Lively-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/a27e3e6e-e17d-4e74-a07c-ca85adea67ec/app1062165-preview.mp4",
+    "/__l5e/assets-v1/733f2379-5ba8-4497-b029-617dc8c192c4/app1062165-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1672773340-1672773340-fallen-angel-4k-lively-wallpaper.mp4",
+  "bytes": 22845371,
+  "sha256": "0c5883d746020890a35132d44be2a8f6eaceb778e0b8651384c923199189f9cb",
+  "videoPointer": "assets/wallpapers/native/app1062165-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1062165-preview-native.jpg.asset.json"
+}

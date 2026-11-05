@@ -1,0 +1,18 @@
+{
+  "id": "app1003963-preview",
+  "source": "https://www.desktophut.com/Cool-NARUTO-SASUKE-RINNEGAN-4K-LIVE-WALLPAPER",
+  "previousUrls": [
+    "/__l5e/assets-v1/c62f9240-8b7b-4629-8a11-705ebe66c3d3/app1003963-preview.mp4",
+    "/__l5e/assets-v1/f0ef6dc3-533a-4a1a-9572-4977be26ab89/app1003963-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20NARUTO%20SASUKE%20RINNEGAN%204K%20LIVE%20WALLPAPER.mp4",
+  "bytes": 11605633,
+  "sha256": "660b1854b6ae2aaae0271ddd2aa7e339950995e6c937114ec59d5eb4a4df7e0f",
+  "videoPointer": "assets/wallpapers/native/app1003963-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003963-preview-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-inferno-goku",
+  "source": "https://www.desktophut.com/inferno-goku",
+  "previousUrls": [
+    "/__l5e/assets-v1/10648977-6144-4ca3-ae66-1ff406aa0b81/dh-inferno-goku.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/WgTAY1Vfh5ihnIa_Goku-Blaze-4K_1_192906.mp4",
+  "bytes": 24637825,
+  "sha256": "ba581e00fce31020d16b9c91ee57f97cf621f072bd375709b2f444dd43263db3",
+  "videoPointer": "assets/wallpapers/native/dh-inferno-goku-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-inferno-goku-native.jpg.asset.json"
+}

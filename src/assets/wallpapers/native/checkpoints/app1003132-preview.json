@@ -1,0 +1,18 @@
+{
+  "id": "app1003132-preview",
+  "source": "https://www.desktophut.com/PC-Gods-Of-Sound-4K-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/bb58d26b-98a7-49e9-8736-cbb14f16f6f8/app1003132-preview.mp4",
+    "/__l5e/assets-v1/3709cae6-d51f-4fd9-bb63-934dfa1fa5e4/app1003132-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/PC%20Gods%20Of%20Sound%204K%20Live%20Wallpaper.mp4",
+  "bytes": 65574101,
+  "sha256": "570f6c45c557fc60690b18313481cb8216fa01400aed9f1ddb1fc93494603776",
+  "videoPointer": "assets/wallpapers/native/app1003132-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1003132-preview-native.jpg.asset.json"
+}

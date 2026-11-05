@@ -1,0 +1,18 @@
+{
+  "id": "app1004113-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Darth-Vader",
+  "previousUrls": [
+    "/__l5e/assets-v1/ebd915a7-63c8-48c9-8b97-7ae62f747262/app1004113-preview.mp4",
+    "/__l5e/assets-v1/cfd502d9-9b5e-4349-919f-f06ed0bc00d5/app1004113-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Darth%20Vader.mp4",
+  "bytes": 22554503,
+  "sha256": "7b0048271a5a5e53890abe6ddb4325b93879172ebc4b9c705e7709166c4e0cf8",
+  "videoPointer": "assets/wallpapers/native/app1004113-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004113-preview-native.jpg.asset.json"
+}

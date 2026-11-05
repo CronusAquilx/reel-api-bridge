@@ -1,0 +1,17 @@
+{
+  "id": "dh-dark-ichigo",
+  "source": "https://www.desktophut.com/dark-ichigo",
+  "previousUrls": [
+    "/__l5e/assets-v1/18fa8f4b-783d-4e67-b971-327fa6592d84/dh-dark-ichigo.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/dX36uM0JBgmyqSa_Ichigo-Wings-4K_8_111328.mp4",
+  "bytes": 25395205,
+  "sha256": "7182c5759fd096a25da167808c46d0a2734a90fbd318c0b45ffb428ac8d2a8b1",
+  "videoPointer": "assets/wallpapers/native/dh-dark-ichigo-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-dark-ichigo-native.jpg.asset.json"
+}

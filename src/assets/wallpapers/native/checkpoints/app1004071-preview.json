@@ -1,0 +1,18 @@
+{
+  "id": "app1004071-preview",
+  "source": "https://www.desktophut.com/Cool-Vegito-Super-Saiyan-Blue-4k-Live-Wallpaper-Dragon-Ball-Anime-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/dbdbf508-179f-4690-9302-239837bf7a82/app1004071-preview.mp4",
+    "/__l5e/assets-v1/1ada3c53-0e6b-4df1-a6b5-5b62d799291f/app1004071-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Vegito%20Super%20Saiyan%20Blue%204k%20Live%20Wallpaper%20Dragon%20Ball%20Anime%20Live%20Wallpaper.mp4",
+  "bytes": 16017298,
+  "sha256": "158d4814080dfc1633a30150e04aa181cac06b20e459bc27342350b876ca54ac",
+  "videoPointer": "assets/wallpapers/native/app1004071-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004071-preview-native.jpg.asset.json"
+}

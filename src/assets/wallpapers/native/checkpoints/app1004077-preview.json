@@ -1,0 +1,18 @@
+{
+  "id": "app1004077-preview",
+  "source": "https://www.desktophut.com/Cool-Goku-Ultainstinct-4k-Live-Wallpaper-Dragon-Ball-Anime-Live-Wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/f2e6c041-5811-4551-a729-3e56cc7c39be/app1004077-preview.mp4",
+    "/__l5e/assets-v1/8d754899-69fe-46e2-89f5-f4b93dd4146b/app1004077-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20Goku%20Ultainstinct%204k%20Live%20Wallpaper%20Dragon%20Ball%20Anime%20Live%20Wallpaper.mp4",
+  "bytes": 17871100,
+  "sha256": "6ef1c34522f820e9cfff45aa810e1eea678b39c84959cd0c20f79c78faccf0fc",
+  "videoPointer": "assets/wallpapers/native/app1004077-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004077-preview-native.jpg.asset.json"
+}

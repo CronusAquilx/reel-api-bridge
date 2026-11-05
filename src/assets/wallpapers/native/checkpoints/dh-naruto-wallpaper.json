@@ -1,0 +1,17 @@
+{
+  "id": "dh-naruto-wallpaper",
+  "source": "https://www.desktophut.com/naruto-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/1b7dd3f9-795e-4ba0-822e-cd27e79a6d6e/dh-naruto-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1673798035-1673798035-naruto-wallpaper.mp4",
+  "bytes": 16775949,
+  "sha256": "dacddd305314c7124db455912fdf2218796bb7ce29703ea0b0d1e4ea8270c9a2",
+  "videoPointer": "assets/wallpapers/native/dh-naruto-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-naruto-wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "app1004068-preview",
+  "source": "https://www.desktophut.com/Cool-GOKU-SUPER-SAIYAN-ROSE-4K-LIVE-WALLPAPER",
+  "previousUrls": [
+    "/__l5e/assets-v1/dcab0a4a-661f-47c9-b24e-b5abe94f66b8/app1004068-preview.mp4",
+    "/__l5e/assets-v1/f1b6a3b0-b9cd-4a91-8a2c-d1e14e642d2b/app1004068-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Cool%20GOKU%20SUPER%20SAIYAN%20ROSE%204K%20LIVE%20WALLPAPER.mp4",
+  "bytes": 16128749,
+  "sha256": "88695b6e2b285a2687bc413ed27639e5bc45c0c2436b736e1923a871658438d4",
+  "videoPointer": "assets/wallpapers/native/app1004068-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004068-preview-native.jpg.asset.json"
+}

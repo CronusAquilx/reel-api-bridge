@@ -1,0 +1,18 @@
+{
+  "id": "app1004180-preview",
+  "source": "https://www.desktophut.com/Live-Wallpaper-4K-Demon-Slayer-Pillars-Ashira",
+  "previousUrls": [
+    "/__l5e/assets-v1/cbd8ef7f-e740-4da0-a6b0-3b9018c615ec/app1004180-preview.mp4",
+    "/__l5e/assets-v1/cab15b9d-4ec1-4d2c-9dde-69c8ceb6fbc3/app1004180-preview.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/Live%20Wallpaper%204K%20Demon%20Slayer%20Pillars%20Ashira.mp4",
+  "bytes": 36388738,
+  "sha256": "71966bc470bf27fc7074070124e0148cf869829288fda00f83d1013f606d6ded",
+  "videoPointer": "assets/wallpapers/native/app1004180-preview-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/app1004180-preview-native.jpg.asset.json"
+}
