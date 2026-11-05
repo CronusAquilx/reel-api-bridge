@@ -1,7 +1,7 @@
 # Birchbeat import roadmap
 
 ## Current request — expanded wallpapers and layout chooser
-- [ ] Refresh DesktopHut wallpapers and import a substantially larger, diverse original-quality collection.
+- [x] Refreshed DesktopHut wallpapers: 693 new originals added (987 total), search and genre filters live.
 - [ ] Add shared wallpaper category filters and improve specific-title search.
 - [ ] Redesign the opening layout chooser with visual previews and smooth, accessible animations.
 - [ ] Run focused catalog checks and verify wallpaper selection plus chooser on desktop and phone.
