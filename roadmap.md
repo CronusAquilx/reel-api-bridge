@@ -1,5 +1,10 @@
 # Birchbeat import roadmap
 
+## Current request — full-quality collection refresh
+- [ ] Download and host the available native originals for all 987 catalog wallpapers, without compression or artificial upscaling.
+- [ ] Update actual dimensions and saved wallpaper URL upgrades; preserve working previews for unavailable sources.
+- [ ] Run focused catalog checks and verify original-quality wallpaper selection and playback.
+
 ## Current request — expanded wallpapers and layout chooser
 - [x] Refreshed DesktopHut wallpapers: 693 new originals added (987 total), search and genre filters live.
 - [ ] Add shared wallpaper category filters and improve specific-title search.
