@@ -152,9 +152,10 @@ export const tmdb = {
     tmdb.discover({ with_genres: genreId, sort_by: 'popularity.desc' }),
 };
 
-export type ServerCategory = 'new' | '4k' | 'fast' | 'multi' | 'backup';
+export type ServerCategory = 'sources' | 'new' | '4k' | 'fast' | 'multi' | 'backup';
 
 export const SERVER_CATEGORIES: { id: ServerCategory; name: string; description: string }[] = [
+  { id: 'sources', name: '🆕 New Sources', description: 'Recently added providers' },
   { id: 'new', name: '🔥 New Releases', description: 'Best for early releases & latest movies' },
   { id: '4k', name: '💎 4K / HD', description: 'High quality streams' },
   { id: 'fast', name: '⚡ Fast', description: 'Quick load, low buffering' },
@@ -169,6 +170,15 @@ type StreamingServer = {
 };
 
 export const STREAMING_SERVERS: StreamingServer[] = [
+  // 🆕 NEW SOURCES
+  { id: 'videasy', name: 'Videasy', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://player.videasy.net/tv/${id}/${s}/${e}` : `https://player.videasy.net/movie/${id}` },
+  { id: 'vidsrcxyz', name: 'VidSrc.xyz', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${s}&episode=${e}` : `https://vidsrc.xyz/embed/movie?tmdb=${id}` },
+  { id: 'vidsrcto', name: 'VidSrc.to', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.to/embed/tv/${id}/${s}/${e}` : `https://vidsrc.to/embed/movie/${id}` },
+  { id: 'embedsu', name: 'Embed.su', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://embed.su/embed/tv/${id}/${s}/${e}` : `https://embed.su/embed/movie/${id}` },
+  { id: 'moviesapi', name: 'MoviesAPI', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://moviesapi.club/tv/${id}-${s}-${e}` : `https://moviesapi.club/movie/${id}` },
+  { id: '111movies', name: '111Movies', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://111movies.com/tv/${id}/${s}/${e}` : `https://111movies.com/movie/${id}` },
+  { id: 'smashy', name: 'SmashyStream', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://player.smashy.stream/tv/${id}?s=${s}&e=${e}` : `https://player.smashy.stream/movie/${id}` },
+  { id: 'rivestream', name: 'RiveStream', category: 'sources', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://rivestream.org/embed?type=tv&id=${id}&season=${s}&episode=${e}` : `https://rivestream.org/embed?type=movie&id=${id}` },
   // Documented TMDB embed routes; audio availability is checked per title.
   { id: 'vidsrccc', name: 'VidSrc.cc', category: 'multi', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.cc/v2/embed/tv/${id}/${s}/${e}` : `https://vidsrc.cc/v2/embed/movie/${id}` },
   { id: 'vidsrcicu', name: 'VidSrc.icu', category: 'multi', url: (id, type = 'movie', s, e) => type === 'tv' && s && e ? `https://vidsrc.icu/embed/tv/${id}/${s}/${e}` : `https://vidsrc.icu/embed/movie/${id}` },
