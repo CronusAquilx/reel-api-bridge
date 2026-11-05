@@ -14,6 +14,10 @@ describe("Every-visit opening rules", () => {
     expect(visitDestination({console:"off",focus:"all",layout:"windows"})).toBe("/desktop");
     expect(visitDestination({console:"sony",focus:"all",layout:"windows"})).toBe("/console");
   });
+  it("opens macOS and iPad on their desktops after confirmation", () => {
+    expect(visitDestination({console:"off",focus:"all",layout:"macos"})).toBe("/desktop");
+    expect(visitDestination({console:"off",focus:"games",layout:"ipad"})).toBe("/desktop");
+  });
   it("starts each fresh visit at the questions instead of restoring completion", () => {
     expect(initialVisitStage()).toBe("setup");
     const finished = nextVisitStage(nextVisitStage("setup", "choices-complete"), "account-confirmed");

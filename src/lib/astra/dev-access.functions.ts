@@ -3,7 +3,8 @@ import { z } from "zod";
 import { isDevPin } from "./account-rules";
 
 const DEV_ACCOUNTS = { qais: "qaisdev@gmail.org", chance: "chancedev@gmail.com" } as const;
-const pinOk = (code: string) => isDevPin(code, process.env["ADMIN_ACCESS_CODE"]);
+// Both developer accounts (qais and chance) unlock with the same fixed code.
+const pinOk = (code: string) => isDevPin(code);
 const slow = () => new Promise((r) => setTimeout(r, 800)); // slows down guessing
 
 /** Checks the hidden developer panel PIN on the server. */

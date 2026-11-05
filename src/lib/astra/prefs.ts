@@ -9,7 +9,7 @@ export type Prefs = {
   musicTheme: string;
   musicBarHidden: boolean;
   appearances: AppearanceProfiles;
-  layout: "classic" | "launcher" | "windows" | "switch";
+  layout: "classic" | "launcher" | "windows" | "macos" | "ipad" | "switch";
   console: "off" | "sony" | "series" | "classic" | "wii" | "neutral";
   consoleSetup: boolean;
   consoleBg: "landscape" | "focused" | "custom";

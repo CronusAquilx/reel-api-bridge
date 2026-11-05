@@ -10,4 +10,4 @@ export const Route = createFileRoute("/_authenticated/desktop")({
   ] }),
   component: DesktopPage,
 });
-function DesktopPage() { const p = usePrefs(); return p.layout === "windows" && p.console === "off" ? null : <Navigate to="/home" replace/>; }
+function DesktopPage() { const p = usePrefs(); return (p.layout === "windows" || p.layout === "macos" || p.layout === "ipad") && p.console === "off" ? null : <Navigate to="/home" replace/>; }

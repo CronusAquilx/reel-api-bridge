@@ -23,7 +23,7 @@ export function PersonalizationSetup({ onConfirm, onBack, busy }: { onConfirm: (
     <label className="personalization-control"><span>Show clock</span><Switch aria-label="Show clock" checked={look.showClock} onCheckedChange={showClock => set({ showClock })}/></label>
     {select("Clock font", look.clockFont, ["clean", "rounded", "serif", "digital"], v => set({ clockFont: v as AppearanceProfile["clockFont"] }))}
     <PersonalizationControls look={look} onChange={set}/>
-    {layout === "windows" && <section className="border-b py-3"><h2 className="text-sm font-medium">Desktop widgets</h2>{(["weather", "notes", "music"] as const).map(kind => <label key={kind} className="personalization-control"><span>{kind}</span><Switch aria-label={`${kind} widget`} checked={look.widgets[kind]} onCheckedChange={on => set({ widgets: { ...look.widgets, [kind]: on } })}/></label>)}</section>}
+    {(layout === "windows" || layout === "macos" || layout === "ipad") && <section className="border-b py-3"><h2 className="text-sm font-medium">Desktop widgets</h2>{(["weather", "notes", "music"] as const).map(kind => <label key={kind} className="personalization-control"><span>{kind}</span><Switch aria-label={`${kind} widget`} checked={look.widgets[kind]} onCheckedChange={on => set({ widgets: { ...look.widgets, [kind]: on } })}/></label>)}</section>}
     <WallpaperCatalog layout={layout} appearance={look} onChange={set}/>
   </div></div></div></main>;
 }

@@ -107,9 +107,11 @@ export function SettingsView() {
             <Card title="App layout">
               <Choice
                 value={p.layout}
-                onChange={(layout) => { set({ layout, console: "off", focus: "all" }); if (layout === "windows") navigate({ to: "/desktop" }); else if (layout === "switch") navigate({ to: "/home" }); }}
+                onChange={(layout) => { set({ layout, console: "off", focus: "all" }); if (layout === "windows" || layout === "macos" || layout === "ipad") navigate({ to: "/desktop" }); else if (layout === "switch") navigate({ to: "/home" }); }}
                 options={[
                   { v: "windows", label: "Windows", sub: "Desktop, taskbar and app windows" },
+                  { v: "macos", label: "macOS", sub: "Menu bar, Dock, Spotlight and floating windows" },
+                  { v: "ipad", label: "iPad", sub: "Home Screen, Dock and full-screen apps" },
                   { v: "switch", label: "Switch", sub: "Game tiles and a compact app dock" },
                 ]}
               />
