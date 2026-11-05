@@ -1,9 +1,9 @@
 import type { Prefs } from "./prefs";
 import type { DesktopWidget } from "./widget-layout";
 
-export const LAYOUT_NAMES = { sony: "PlayStation / PS5", series: "Xbox Series X", wii: "Wii", neutral: "Neutral", classic: "Classic", launcher: "Launcher", windows: "Windows", switch: "Switch" } as const;
+export const LAYOUT_NAMES = { sony: "PlayStation / PS5", series: "Xbox Series X", wii: "Wii", neutral: "Neutral", classic: "Classic", launcher: "Launcher", windows: "Windows", macos: "macOS", ipad: "iPad", switch: "Switch" } as const;
 export type AppearanceLayout = keyof typeof LAYOUT_NAMES;
-export const VISIBLE_LAYOUTS: AppearanceLayout[] = ["windows", "switch", "sony", "series", "wii", "neutral"];
+export const VISIBLE_LAYOUTS: AppearanceLayout[] = ["windows", "macos", "ipad", "switch", "sony", "series", "wii", "neutral"];
 export type AppearanceProfile = Pick<Prefs, "palette" | "accent" | "fontScale" | "radius" | "density" | "background" | "reduceMotion" | "showClock" | "consoleBg" | "consoleCustomBg" | "customBg" | "customBgDim"> & {
   mode: "dark" | "light";
   tileSize: "small" | "standard" | "large";

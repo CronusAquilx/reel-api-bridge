@@ -86,8 +86,8 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
   const home = <div className="h-full overflow-auto p-8"><p className="text-xs text-muted-foreground">BIRCHBLOCK</p><h1 className="mt-2 text-3xl font-semibold">Welcome, {name}</h1><div className="mt-6 grid grid-cols-3 gap-4 sm:grid-cols-5">{DESKTOP_APPS.filter(a => a.id !== "home").map(a => <Button key={a.id} variant="ghost" className="apple-grid-app" onClick={() => open(a.id)}><Tile app={a.id} size="home"/><span>{a.title}</span></Button>)}</div></div>;
   const clock = now ? `${now.toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" })}  ${now.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}` : "";
 
-  const menu = (label: string, items: { label: string; run: () => void; disabled?: boolean }[], bold = false) => <DropdownMenu>
-    <DropdownMenuTrigger asChild><Button variant="ghost" size="sm" className={cn("apple-menu-button", bold && "font-semibold")}>{label}</Button></DropdownMenuTrigger>
+  const menu = (label: ReactNode, items: { label: string; run: () => void; disabled?: boolean }[], bold = false, aria?: string) => <DropdownMenu>
+    <DropdownMenuTrigger asChild><Button variant="ghost" size="sm" aria-label={aria} className={cn("apple-menu-button", bold && "font-semibold")}>{label}</Button></DropdownMenuTrigger>
     <DropdownMenuContent align="start" className="apple-menu min-w-52">{items.map((i, n) => i.label === "-" ? <DropdownMenuSeparator key={`sep-${n}`}/> : <DropdownMenuItem key={`${n}-${i.label}`} disabled={i.disabled} onSelect={i.run}>{i.label}</DropdownMenuItem>)}</DropdownMenuContent>
   </DropdownMenu>;
 
@@ -96,14 +96,14 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
     <WallpaperEffects/>
 
     {mac ? <header className="apple-menubar relative z-[320] flex shrink-0 items-center gap-0.5 px-2">
-      {menu("BirchBlock menu", [
+      {menu(<Apple className="size-4"/>, [
         { label: "About BirchBlock", run: () => open("home") },
         { label: "-", run: () => {} },
         { label: "System Settings…", run: () => open("settings") },
         { label: "Birch Store…", run: () => open("store") },
         { label: "-", run: () => {} },
         { label: `Log Out ${name}…`, run: () => void signOutAll() },
-      ])}
+      ], false, "System menu")}
       {menu(active ? titleOf(active) : "Finder", [
         { label: "Settings…", run: () => open("settings") },
         { label: "Hide", run: () => active && dispatch({ type: "minimize", id: active.id }), disabled: !active },

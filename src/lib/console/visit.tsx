@@ -12,7 +12,7 @@ export function nextVisitStage(stage: VisitStage, event: VisitEvent): VisitStage
   return stage;
 }
 export function visitDestination(p: Pick<Prefs,"console"|"focus"> & Partial<Pick<Prefs,"layout">>): "/desktop"|"/console"|"/console/media"|"/home"|"/games"|"/movies"|"/music"|"/web"|"/chat" {
-  if (p.console === "off" && p.layout === "windows") return "/desktop";
+  if (p.console === "off" && (p.layout === "windows" || p.layout === "macos" || p.layout === "ipad")) return "/desktop";
   if (p.console === "off" && p.layout === "switch") return "/home";
   if (p.console !== "off") return ["music","movies","ai","web"].includes(p.focus) ? "/console/media" : "/console";
   return ({games:"/games",movies:"/movies",music:"/music",web:"/web",ai:"/chat",all:"/home","":"/home"} as const)[p.focus];
