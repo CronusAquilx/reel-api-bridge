@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { ControlEvent, ScreenFrame } from "@/lib/astra/screen-share";
 import { toast } from "sonner";
 import { useServerFn } from "@tanstack/react-start";
-import { Pause, Play, LogOut, Send, Ban, Eye, X, UserPlus, MousePointer2 } from "lucide-react";
+import { Pause, Play, LogOut, Send, Ban, Eye, X, UserPlus, MousePointer2, Maximize, Minimize } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -33,6 +33,10 @@ function ScreenViewer({ visitor, onClose }: { visitor: LiveVisitor; onClose: () 
   const [box, setBox] = useState(0);
   const chRef = useRef<ReturnType<typeof supabase.channel> | null>(null);
   const boxRef = useRef<HTMLDivElement>(null);
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [full, setFull] = useState(false);
+  useEffect(() => { const f = () => setFull(document.fullscreenElement === wrapRef.current); document.addEventListener("fullscreenchange", f); return () => document.removeEventListener("fullscreenchange", f); }, []);
+  const toggleFull = () => { if (document.fullscreenElement) void document.exitFullscreen(); else void wrapRef.current?.requestFullscreen?.(); };
   useEffect(() => {
     const id = crypto.randomUUID();
     const ch = supabase.channel(`screen-${id}`).on("broadcast", { event: "frame" }, ({ payload }) => setFrame(payload as ScreenFrame));
@@ -45,31 +49,32 @@ function ScreenViewer({ visitor, onClose }: { visitor: LiveVisitor; onClose: () 
     const ro = new ResizeObserver(() => setBox(el.clientWidth)); ro.observe(el); return () => ro.disconnect();
   }, [frame !== null]);
   const ctl = (payload: ControlEvent) => { if (control) void chRef.current?.send({ type: "broadcast", event: "control", payload }); };
-  const scale = frame && box ? box / frame.w : 1;
+  const scale = frame && box ? (full ? Math.min(window.innerWidth / frame.w, (window.innerHeight - 90) / frame.h) : box / frame.w) : 1;
   const point = (e: React.MouseEvent) => { const r = boxRef.current!.getBoundingClientRect(); return { x: Math.round((e.clientX - r.left) / scale), y: Math.round((e.clientY - r.top) / scale) }; };
   return (
-    <div className="space-y-2 rounded-lg border border-border bg-background p-3">
+    <div ref={wrapRef} className={`space-y-2 rounded-lg border border-border bg-background p-3 ${full ? "flex flex-col justify-center overflow-hidden" : ""}`}>
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p className="text-sm font-medium text-foreground">Watching {visitor.name}{frame ? ` — ${frame.path}` : ""}</p>
         <div className="flex gap-1">
           <Button size="sm" variant={control ? "default" : "secondary"} onClick={() => setControl((c) => !c)}><MousePointer2 />{control ? "Controlling" : "Take control"}</Button>
+          <Button size="sm" variant="secondary" onClick={toggleFull}>{full ? <Minimize /> : <Maximize />}{full ? "Exit full screen" : "Full screen"}</Button>
           <Button size="sm" variant="ghost" onClick={onClose}><X />Stop</Button>
         </div>
       </div>
       {frame ? (
-        <div ref={boxRef} tabIndex={0} className={`relative w-full overflow-hidden rounded border border-border outline-none ${control ? "cursor-pointer ring-2 ring-primary" : ""}`}
-          style={{ height: frame.h * scale, background: frame.bg }}
+        <div ref={boxRef} tabIndex={0} className={`relative ${full ? "mx-auto" : "w-full"} overflow-hidden rounded border border-border outline-none ${control ? "cursor-pointer ring-2 ring-primary" : ""}`}
+          style={{ height: frame.h * scale, width: full ? frame.w * scale : undefined, background: frame.bg }}
           onClick={(e) => ctl({ type: "click", ...point(e) })}
           onWheel={(e) => ctl({ type: "scroll", ...point(e), dy: Math.round(e.deltaY) })}
           onKeyDown={(e) => { if (!control) return; e.preventDefault(); if (e.key.length === 1) ctl({ type: "type", text: e.key }); else ctl({ type: "key", key: e.key }); }}>
           <div style={{ width: frame.w, height: frame.h, transform: `scale(${scale})`, transformOrigin: "0 0", position: "absolute", pointerEvents: "none" }}>
             {frame.items.map((it, i) => it.img
-              ? <img key={i} src={it.img} alt="" style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, objectFit: "cover", borderRadius: it.r }} />
-              : <div key={i} style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, background: it.media ? "#111" : it.bg, border: it.bd ? `1px solid ${it.bd}` : undefined, borderRadius: it.r, color: it.c, fontSize: it.fs, fontWeight: it.fw, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", lineHeight: 1.2, display: "flex", alignItems: "center", justifyContent: it.media ? "center" : undefined }}>{it.media ? "▶ video / game" : it.t}</div>)}
+              ? <img key={i} src={it.img} alt="" style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, objectFit: it.media ? "contain" : "cover", background: it.media ? "#000" : undefined, borderRadius: it.r }} />
+              : <div key={i} style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, background: it.media ? "#111" : it.bg, border: it.bd ? `1px solid ${it.bd}` : undefined, borderRadius: it.r, color: it.c, fontSize: it.fs, fontWeight: it.fw, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", lineHeight: 1.2, display: "flex", alignItems: "center", justifyContent: it.media ? "center" : undefined }}>{it.media ? "▶ protected video / game" : it.t}</div>)}
           </div>
         </div>
       ) : <p className="py-10 text-center text-sm text-muted-foreground">Waiting for their screen…</p>}
-      <p className="text-xs text-muted-foreground">{control ? "Click to click for them, scroll to scroll, and type while the screen is selected." : "Updates live. Videos, games and wallpapers show as dark boxes."}</p>
+      <p className="text-xs text-muted-foreground">{control ? "Click to click for them, scroll to scroll, and type while the screen is selected." : "Updates live. Videos and games show as small live pictures; a few protected ones stay dark."}</p>
     </div>
   );
 }
