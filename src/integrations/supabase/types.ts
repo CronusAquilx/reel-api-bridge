@@ -360,6 +360,7 @@ export type Database = {
           kind: string
           message: string | null
           target: string | null
+          target_device: string | null
         }
         Insert: {
           created_at?: string
@@ -368,6 +369,7 @@ export type Database = {
           kind: string
           message?: string | null
           target?: string | null
+          target_device?: string | null
         }
         Update: {
           created_at?: string
@@ -376,6 +378,7 @@ export type Database = {
           kind?: string
           message?: string | null
           target?: string | null
+          target_device?: string | null
         }
         Relationships: []
       }
@@ -558,6 +561,30 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      staff_roles: {
+        Row: {
+          created_at: string
+          granted_by: string
+          label: string | null
+          role: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          granted_by?: string
+          label?: string | null
+          role: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          granted_by?: string
+          label?: string | null
+          role?: string
+          user_id?: string
+        }
+        Relationships: []
       }
       threads: {
         Row: {
@@ -785,6 +812,7 @@ export type Database = {
       social_member: { Args: { p: string; u: string }; Returns: boolean }
       social_party_owner: { Args: { p: string }; Returns: boolean }
       social_party_visible: { Args: { p: string }; Returns: boolean }
+      staff_can: { Args: { _kind: string; _uid: string }; Returns: boolean }
     }
     Enums: {
       app_role: "admin" | "user"

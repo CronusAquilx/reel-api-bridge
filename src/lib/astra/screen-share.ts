@@ -1,5 +1,5 @@
 /** Lightweight screen sharing: sends a layout outline (boxes, text, image links) instead of rendering pixels, so the shared tab stays fast. */
-export type ScreenItem = { x: number; y: number; w: number; h: number; bg?: string; c?: string; fs?: number; fw?: number; r?: string; t?: string; img?: string; media?: boolean; bd?: string };
+export type ScreenItem = { x: number; y: number; w: number; h: number; bg?: string; c?: string; fs?: number; fw?: number; r?: string; t?: string; img?: string; media?: boolean; bd?: string; icon?: boolean };
 export type ScreenFrame = { w: number; h: number; path: string; bg: string; items: ScreenItem[] };
 export type ControlEvent = { type: "click"; x: number; y: number } | { type: "type"; text: string } | { type: "key"; key: string } | { type: "scroll"; x: number; y: number; dy: number };
 
@@ -43,9 +43,27 @@ function snapshotMedia(el: HTMLElement): string | undefined {
 }
 
 let mediaShots = 0;
+let svgChars = 0;
+const svgCache = new Map<string, string>();
+/** Icons are sent as tiny SVG image links (inert in an <img>, so nothing in them can run on the viewer's side). */
+function svgImage(el: SVGSVGElement, color: string): string | undefined {
+  const raw = el.outerHTML;
+  if (raw.length > 4000 || svgChars > 80_000) return undefined;
+  const key = raw + color;
+  let url = svgCache.get(key);
+  if (!url) {
+    let s = raw.replace(/currentColor/g, color);
+    if (!s.includes("xmlns=")) s = s.replace("<svg", '<svg xmlns="http://www.w3.org/2000/svg"');
+    url = "data:image/svg+xml," + encodeURIComponent(s);
+    if (svgCache.size > 400) svgCache.clear();
+    svgCache.set(key, url);
+  }
+  svgChars += url.length;
+  return url;
+}
 
 export function captureFrame(): ScreenFrame {
-  mediaShots = 0;
+  mediaShots = 0; svgChars = 0;
   const w = window.innerWidth, h = window.innerHeight;
   const items: ScreenItem[] = [];
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
@@ -67,7 +85,14 @@ export function captureFrame(): ScreenFrame {
     }
     const cs = getComputedStyle(el);
     if (cs.visibility === "hidden" || cs.opacity === "0" || cs.display === "none") { el = nextOutside(walker, el); continue; }
+    if (tag.toLowerCase() === "svg") {
+      const icon = svgImage(el as unknown as SVGSVGElement, cs.color);
+      if (icon) items.push({ ...item, img: icon, icon: true });
+      el = nextOutside(walker, el); continue;
+    }
     let keep = false;
+    const bgi = cs.backgroundImage;
+    if (bgi && bgi !== "none" && tag !== "BODY") { const m = /url\("?(https?:[^")]+)"?\)/.exec(bgi); if (m?.[1] && m[1].length < 600) { item.img = m[1]; keep = true; } }
     if (!transparent(cs.backgroundColor)) { item.bg = cs.backgroundColor; keep = true; }
     if (cs.borderTopWidth !== "0px" && !transparent(cs.borderTopColor) && r.width < w) { item.bd = cs.borderTopColor; keep = true; }
     if (tag === "IMG") { const src = (el as HTMLImageElement).currentSrc; if (src && !src.startsWith("blob:") && src.length < 600) { item.img = src; keep = true; } }
