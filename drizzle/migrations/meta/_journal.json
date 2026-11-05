@@ -99,6 +99,13 @@
       "when": 1793906794685,
       "tag": "0013_site_command_kinds",
       "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1793910659955,
+      "tag": "0014_staff_roles_and_visitor_commands",
+      "breakpoints": true
     }
   ]
 }
