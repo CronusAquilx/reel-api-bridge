@@ -14,6 +14,18 @@ export type Database = {
   }
   public: {
     Tables: {
+      _probe: {
+        Row: {
+          id: number
+        }
+        Insert: {
+          id: number
+        }
+        Update: {
+          id?: number
+        }
+        Relationships: []
+      }
       account_attempts: {
         Row: {
           attempts: number
