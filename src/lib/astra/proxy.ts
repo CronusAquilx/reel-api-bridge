@@ -164,6 +164,10 @@ export function keepProxyAlive(prefs: Prefs, ms = 15000): () => void {
 }
 
 export async function openProxied(iframe: HTMLIFrameElement, url: string, prefs: Prefs): Promise<Frame> {
+  const target = new URL(url, window.location.origin);
+  if (target.origin === window.location.origin || !/^https?:$/.test(target.protocol)) {
+    throw new Error("The browser proxy needs an external website address.");
+  }
   const controller = await getProxyController(prefs);
   // Re-attach to the proxy worker each time: the browser stops idle workers,
   // which wipes their routing table and makes proxied pages 404.

@@ -1,0 +1,17 @@
+{
+  "id": "dh-Exusiai-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/Exusiai-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/dd6457f9-6d3a-4181-87ec-c7b041d4a790/dh-Exusiai-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1669815489-1669815489-exusiai-4k-live-wallpaper.mp4",
+  "bytes": 23476115,
+  "sha256": "835d7148ffb30865214e5dfdcd475f628570c4a4b50d80cbfea43cb66848ef4d",
+  "videoPointer": "assets/wallpapers/native/dh-Exusiai-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-Exusiai-4k-live-wallpaper-native.jpg.asset.json"
+}

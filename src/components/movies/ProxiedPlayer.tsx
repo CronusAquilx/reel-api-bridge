@@ -49,12 +49,18 @@ export function ProxiedPlayer({ src, title, onLoad, onError, anime = false, voic
     const iframe = ref.current;
     if (!iframe) return;
     let first = true;
-    const loaded = () => { if (first && iframe.src.includes("/scramjet/p/")) { first = false; loadRef.current?.(); } };
+    const target = new URL(src, window.location.origin);
+    const local = target.origin === window.location.origin;
+    const loaded = () => { if (first && (local || iframe.src.includes("/scramjet/p/"))) { first = false; loadRef.current?.(); } };
     iframe.addEventListener("load", loaded);
+    if (local) {
+      iframe.src = target.href;
+      return () => { iframe.removeEventListener("load", loaded); iframe.src = "about:blank"; };
+    }
     const detach = attachProxiedPopups(iframe, src, prefs);
     openProxied(iframe, src, prefs).catch(() => errRef.current?.());
     const stopKeepAlive = keepProxyAlive(prefs);
-    return () => { stopKeepAlive(); iframe.removeEventListener("load", loaded); detach(); };
+    return () => { stopKeepAlive(); iframe.removeEventListener("load", loaded); detach(); iframe.src = "about:blank"; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [src, prefs.transport, prefs.wisp]);
   const active = tracks.find(track => track.active)?.id;

@@ -3,7 +3,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ProxiedPlayer } from './ProxiedPlayer';
 import { VOICE_SEARCH_WAIT_MS } from '@/lib/movies/voice-search';
 
-const mocks = vi.hoisted(() => ({ openProxied: vi.fn(() => Promise.resolve()), tracks: [] as { id: string; label: string; language: string; active: boolean; select: () => void }[] }));
+const mocks = vi.hoisted(() => ({ openProxied: vi.fn((_frame: HTMLIFrameElement, _src: string, _prefs: unknown) => Promise.resolve()), tracks: [] as { id: string; label: string; language: string; active: boolean; select: () => void }[] }));
 vi.mock('@/lib/astra/prefs', () => ({ usePrefs: () => ({ transport: 'test', wisp: 'test' }) }));
 vi.mock('@/lib/astra/proxy', () => ({ openProxied: mocks.openProxied, keepProxyAlive: () => () => {} }));
 vi.mock('@/lib/astra/proxy-popups', () => ({ attachProxiedPopups: () => () => {} }));

@@ -1,0 +1,17 @@
+{
+  "id": "dh-abyss-watcher-hd-live-wallpaper",
+  "source": "https://www.desktophut.com/abyss-watcher-hd-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/2c93cf7f-f35a-4e55-9a5c-91ad2bf13122/dh-abyss-watcher-hd-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "1920x1080",
+  "width": 1920,
+  "height": 1080,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1661330974-1661330974-abyss-watcher-hd-live-wallpaper.mp4",
+  "bytes": 33385062,
+  "sha256": "298b5f4c0c64fb126a280c85954a044294d6a2682e27cf5611b3fcbd7bdc04b5",
+  "videoPointer": "assets/wallpapers/native/dh-abyss-watcher-hd-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-abyss-watcher-hd-live-wallpaper-native.jpg.asset.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dh-naruto-4k-live-wallpaper",
+  "source": "https://www.desktophut.com/naruto-4k-live-wallpaper",
+  "previousUrls": [
+    "/__l5e/assets-v1/619c3ef3-18f1-4ed4-af76-8085a87a017c/dh-naruto-4k-live-wallpaper.mp4"
+  ],
+  "status": "complete",
+  "resolution": "3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "codec": "h264",
+  "originalUrl": "https://media.desktophut.com/files/1ng0uxl2NT6lqyt_Naruto%204K%20Live%20Wallpaper.mp4",
+  "bytes": 23566551,
+  "sha256": "9ad9b92723830aa8e06be7b54a263d45045d6174ed053ef8f4d4058486a71e35",
+  "videoPointer": "assets/wallpapers/native/dh-naruto-4k-live-wallpaper-native.mp4.asset.json",
+  "imagePointer": "assets/wallpapers/native/dh-naruto-4k-live-wallpaper-native.jpg.asset.json"
+}
