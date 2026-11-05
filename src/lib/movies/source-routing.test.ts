@@ -4,9 +4,10 @@ import { STREAMING_SERVERS } from "./tmdb";
 import { anikotoSearchUrl, animeIcuVoiceUrl, animeVoiceUrl } from "./anime-sources";
 
 describe("imported movie source routing", () => {
-  it("restores the original twelve external source choices", () => {
-    expect(STREAMING_SERVERS).toHaveLength(12);
-    expect(new Set(STREAMING_SERVERS.map(source => source.id)).size).toBe(12);
+  it("lists all twenty external sources, eight under New Sources", () => {
+    expect(STREAMING_SERVERS).toHaveLength(20);
+    expect(new Set(STREAMING_SERVERS.map(source => source.id)).size).toBe(20);
+    expect(STREAMING_SERVERS.filter(source => source.category === "sources")).toHaveLength(8);
     for (const source of STREAMING_SERVERS) {
       expect(new URL(source.url(550, "movie")).protocol).toBe("https:");
       expect(source.url(550, "movie")).not.toContain("movie-unavailable");

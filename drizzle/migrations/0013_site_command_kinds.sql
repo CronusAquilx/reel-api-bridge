@@ -1,0 +1,2 @@
+ALTER TABLE public.site_commands DROP CONSTRAINT IF EXISTS site_commands_kind_check;
+ALTER TABLE public.site_commands ADD CONSTRAINT site_commands_kind_check CHECK (kind IN ('message','pause','resume','kick','ban','view','unview'));
