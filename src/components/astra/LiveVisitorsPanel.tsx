@@ -8,9 +8,23 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { createDevAccount } from "@/lib/astra/dev-access.functions";
 import { roleCan, STAFF_ROLE_INFO, useStaffRole, type StaffRole } from "@/lib/astra/staff";
+import { TROLLS, youtubeId } from "./TrollLayer";
 import { broadcastBanCheck, pingDevice, useLiveVisitors, type LiveVisitor } from "./SiteControl";
 
-type Kind = "message" | "pause" | "resume" | "kick" | "ban" | "view" | "unview" | "redirect" | "reload" | "announce" | "unannounce";
+type Kind = "message" | "pause" | "resume" | "kick" | "ban" | "view" | "unview" | "redirect" | "reload" | "announce" | "unannounce" | "troll" | "untroll";
+
+function TrollMenu({ to, name }: { to: Target; name: string }) {
+  const [open, setOpen] = useState(false);
+  const fire = (t: string) => { void send("troll", to, t, true).then((ok) => ok && toast.success(`Trolling ${name}`)); };
+  return <>
+    <Button size="sm" variant="secondary" onClick={() => setOpen((o) => !o)}>😈 Troll</Button>
+    {open && <div className="basis-full flex flex-wrap gap-1 rounded-md border border-border bg-muted/40 p-2">
+      {TROLLS.map((t) => <Button key={t.id} size="sm" variant="outline" onClick={() => fire(t.id)}>{t.emoji} {t.label}</Button>)}
+      <Button size="sm" variant="outline" onClick={() => { const u = prompt("YouTube link to play full screen"); const id = u ? youtubeId(u) : null; if (id) fire(`video:${id}`); else if (u) toast.error("That isn't a YouTube link."); }}>📺 YouTube video</Button>
+      <Button size="sm" variant="destructive" onClick={() => void send("untroll", to, undefined, true).then((ok) => ok && toast.success("Troll stopped"))}>Stop trolling</Button>
+    </div>}
+  </>;
+}
 type Target = { userId: string | null; deviceId?: string | null } | null;
 const DONE: Partial<Record<Kind, string>> = { message: "Message sent", kick: "Kicked", pause: "Screen paused", resume: "Screen resumed", redirect: "Sent to page", reload: "Reloaded", announce: "Announcement shown", unannounce: "Announcement cleared" };
 
@@ -235,6 +249,7 @@ export function LiveVisitorsPanel() {
                       <Button size="sm" variant="secondary" onClick={() => void send("resume", to)}><Play />Resume</Button></>}
                     {can("kick") && v.userId && <Button size="sm" variant="destructive" onClick={() => void send("kick", to)}><LogOut />Kick</Button>}
                     {can("ban") && v.deviceId && <Button size="sm" variant="destructive" onClick={() => void banDevice(v)}><Ban />Ban</Button>}
+                    {can("troll") && <TrollMenu to={to} name={v.name} />}
                   </>}
                 </div>
               </li>

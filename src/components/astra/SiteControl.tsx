@@ -6,6 +6,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth, signOutAll } from "@/lib/auth";
 import { applyControl, captureFrame, type ControlEvent } from "@/lib/astra/screen-share";
 import { visitorCommands } from "@/lib/astra/visitor-commands.functions";
+import { TrollLayer } from "./TrollLayer";
 
 export type LiveVisitor = { key: string; deviceId: string; userId: string | null; name: string; path: string; since: string; owner: boolean; idle?: boolean };
 export const OWNER_EMAIL = "qaisdev@gmail.org";
@@ -66,7 +67,10 @@ export function SiteControl() {
     if (cmd.kind === "redirect" && cmd.message && /^\/(?!\/)[^\\\s]*$/.test(cmd.message)) window.location.assign(cmd.message);
     if (cmd.kind === "kick") { void signOutAll().finally(() => window.location.replace("/")); }
     if (cmd.kind === "ban") checkBan();
+    if (cmd.kind === "troll" && cmd.message) setTroll(cmd.message);
+    if (cmd.kind === "untroll") setTroll(null);
   };
+  const [troll, setTroll] = useState<string | null>(null);
   const handleRef = useRef(handle); handleRef.current = handle;
 
   // Visitor activity (idle after 60s without input) shown to staff.
@@ -162,6 +166,7 @@ export function SiteControl() {
     </div>
   );
   return <>
+    {troll && !owner && <TrollLayer key={troll} troll={troll} onEnd={() => setTroll(null)} />}
     {viewing && <div data-screen-share="skip" className="fixed bottom-2 left-2 z-[9998] rounded-full bg-destructive px-3 py-1 text-xs text-destructive-foreground">{controlled ? "Staff is controlling your screen" : "Staff is viewing your screen"}</div>}
     {announce && (
       <div className="fixed inset-x-0 top-0 z-[9997] flex items-center justify-center gap-3 bg-primary px-4 py-3 text-sm font-medium text-primary-foreground shadow-lg" role="status">
