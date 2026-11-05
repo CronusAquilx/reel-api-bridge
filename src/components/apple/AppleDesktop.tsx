@@ -80,7 +80,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
   const patch = (id: string, value: Partial<DesktopWindow>) => dispatch({ type: "patch", id, patch: value });
   const active = state.windows.find(w => w.id === state.active && !w.minimized);
   const visible = state.windows.filter(w => !w.minimized);
-  const onHome = !mac && (visible.length === 0 || visible.every(w => w.mode !== "maximized" && !compact) === false ? visible.length === 0 : false);
+  const fullApp = visible.some(w => w.mode === "maximized" || compact);
   const results = DESKTOP_APPS.filter(a => a.id !== "home" && a.title.toLowerCase().includes(query.toLowerCase()));
   const toggleMode = (w: DesktopWindow) => patch(w.id, { mode: w.mode === "maximized" ? "normal" : "maximized" });
   const home = <div className="h-full overflow-auto p-8"><p className="text-xs text-muted-foreground">BIRCHBLOCK</p><h1 className="mt-2 text-3xl font-semibold">Welcome, {name}</h1><div className="mt-6 grid grid-cols-3 gap-4 sm:grid-cols-5">{DESKTOP_APPS.filter(a => a.id !== "home").map(a => <Button key={a.id} variant="ghost" className="apple-grid-app" onClick={() => open(a.id)}><Tile app={a.id} size="home"/><span>{a.title}</span></Button>)}</div></div>;
@@ -88,15 +88,15 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
 
   const menu = (label: string, items: { label: string; run: () => void; disabled?: boolean }[], bold = false) => <DropdownMenu>
     <DropdownMenuTrigger asChild><Button variant="ghost" size="sm" className={cn("apple-menu-button", bold && "font-semibold")}>{label}</Button></DropdownMenuTrigger>
-    <DropdownMenuContent align="start" className="apple-menu min-w-52">{items.map(i => i.label === "-" ? <DropdownMenuSeparator key={Math.random()}/> : <DropdownMenuItem key={i.label} disabled={i.disabled} onSelect={i.run}>{i.label}</DropdownMenuItem>)}</DropdownMenuContent>
+    <DropdownMenuContent align="start" className="apple-menu min-w-52">{items.map((i, n) => i.label === "-" ? <DropdownMenuSeparator key={`sep-${n}`}/> : <DropdownMenuItem key={`${n}-${i.label}`} disabled={i.disabled} onSelect={i.run}>{i.label}</DropdownMenuItem>)}</DropdownMenuContent>
   </DropdownMenu>;
 
-  return <div data-apple={variant} data-full-window={visible.some(w => w.mode === "maximized" || compact)} className="apple-desktop fixed inset-0 flex flex-col overflow-hidden bg-background text-foreground">
+  return <div data-apple={variant} data-full-window={fullApp} className="apple-desktop fixed inset-0 flex flex-col overflow-hidden bg-background text-foreground">
     {look.artwork && <WallpaperMedia src={look.customBg || (mac ? macWallpaper : ipadWallpaper)} type={look.wallpaperType} poster={look.wallpaperPoster} playback={look.wallpaperPlayback} reduceMotion={look.reduceMotion} className="absolute inset-0 size-full object-cover"/>}
     <WallpaperEffects/>
 
     {mac ? <header className="apple-menubar relative z-[320] flex shrink-0 items-center gap-0.5 px-2">
-      {menu("", [
+      {menu("BirchBlock menu", [
         { label: "About BirchBlock", run: () => open("home") },
         { label: "-", run: () => {} },
         { label: "System Settings…", run: () => open("settings") },
@@ -196,7 +196,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
     </div>
 
     <div className="relative z-[310]"><NowPlayingBar/></div>
-    {(mac || onHome || compact === false && visible.every(w => w.mode !== "maximized")) && <footer className="apple-dock-row relative z-[310] flex shrink-0 justify-center pb-2 pt-1">
+    {(mac || !fullApp) && <footer className="apple-dock-row relative z-[310] flex shrink-0 justify-center pb-2 pt-1">
       <nav className="apple-dock apple-glass flex items-end gap-1 overflow-x-auto" aria-label="Dock">
         {mac && <Button variant="ghost" className="apple-dock-item" aria-label="Launchpad" title="Launchpad" onClick={() => { setQuery(""); setPanel(panel === "launchpad" ? null : "launchpad"); }}><span className="apple-icon" data-tone="neutral"><LayoutGrid/></span></Button>}
         {DOCK.map(app => { const running = state.windows.some(w => w.tabs.some(t => t.app === app)); return <Button key={app} variant="ghost" className="apple-dock-item" aria-label={`Open ${desktopAppInfo(app).title}`} title={desktopAppInfo(app).title} onClick={() => open(app)}><Tile app={app}/>{running && <i className="apple-dock-dot"/>}</Button>; })}
@@ -204,7 +204,7 @@ export function AppleDesktop({ variant, children }: { variant: Variant; children
         {mac && <><span className="apple-dock-divider"/><Button variant="ghost" className="apple-dock-item" aria-label="System menu" title={name} onClick={() => open("settings")}><span className="apple-icon" data-tone="neutral"><Apple/></span></Button></>}
       </nav>
     </footer>}
-    {!mac && visible.some(w => w.mode === "maximized" || compact) && <button type="button" className="ipad-home-indicator" aria-label="Go to Home Screen" title="Home (double-tap for app switcher)" onClick={() => { dispatch({ type: "show-desktop" }); setPanel(null); }} onDoubleClick={() => setPanel("switcher")}/>}
+    {!mac && fullApp && <button type="button" className="ipad-home-indicator" aria-label="Go to Home Screen" title="Home (double-tap for app switcher)" onClick={() => { dispatch({ type: "show-desktop" }); setPanel(null); }} onDoubleClick={() => setPanel("switcher")}/>}
     <WebsiteFullscreenButton/><RoomFollower/>
   </div>;
 }
