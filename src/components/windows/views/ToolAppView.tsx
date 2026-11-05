@@ -123,7 +123,7 @@ function Typing() {
   return <div className="space-y-3"><p className="rounded-lg bg-muted p-3 font-mono">{SENTENCE.split("").map((ch, i) => <span key={i} className={i < t.length ? (t[i] === ch ? "text-primary" : "text-destructive") : ""}>{ch}</span>)}</p><Input value={t} onChange={e => { if (!start) setStart(Date.now()); if (!done) setT(e.target.value); }} placeholder="Start typing…"/>{done && <p className="text-xl">{wpm} words per minute</p>}<Button variant="secondary" onClick={() => { setT(""); setStart(0); }}>Restart</Button></div>;
 }
 function Reaction() {
-  const [s, setS] = useState<"idle" | "wait" | "go" | number>("idle"); const at = useRef(0); const tm = useRef<ReturnType<typeof setTimeout>>();
+  const [s, setS] = useState<"idle" | "wait" | "go" | number>("idle"); const at = useRef(0); const tm = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const click = () => { if (s === "wait") { clearTimeout(tm.current); setS("idle"); return; } if (s === "go") { setS(Date.now() - at.current); return; } setS("wait"); tm.current = setTimeout(() => { at.current = Date.now(); setS("go"); }, 1000 + Math.random() * 3000); };
   return <button onClick={click} className={`flex h-64 w-full items-center justify-center rounded-xl text-2xl font-semibold ${s === "go" ? "bg-primary text-primary-foreground" : "bg-muted"}`}>{s === "idle" ? "Click to start" : s === "wait" ? "Wait for it…" : s === "go" ? "CLICK!" : `${s} ms — click to retry`}</button>;
 }
