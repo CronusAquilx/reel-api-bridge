@@ -7,10 +7,10 @@ import { AstraMark } from "@/components/astra/Mark";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "BirchBlock — your own AI agent" },
-      { name: "description", content: "Chat with BirchBlock, a private AI agent running on your own model server." },
-      { property: "og:title", content: "BirchBlock — your own AI agent" },
-      { property: "og:description", content: "Chat with BirchBlock, a private AI agent running on your own model server." },
+      { title: "Birch OS — Choose your space" },
+      { name: "description", content: "Your personal Birch OS desktop with console, Windows, macOS and iPad layouts, live wallpapers, games and music." },
+      { property: "og:title", content: "Birch OS — Choose your space" },
+      { property: "og:description", content: "Make Birch OS yours with eight layouts and a searchable collection of live wallpapers." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
