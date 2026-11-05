@@ -1,9 +1,8 @@
-import { AccountOnly } from "@/components/astra/SignInRequired";
 import { signOutAll } from "@/lib/auth";
-import { lazy, Suspense, useEffect, useReducer, useRef, useState, type ReactNode } from "react";
+import { Suspense, useEffect, useReducer, useRef, useState, type ReactNode } from "react";
 import { Rnd } from "react-rnd";
 import { useNavigate, useRouterState } from "@tanstack/react-router";
-import { Bot, Brain, Film, Gamepad2, Globe, Home, LayoutGrid, Maximize2, Mic, Minus, Monitor, Music, PanelLeft, Plus, Power, Search, Settings, Square, Users, Volume2, Wifi, X, ExternalLink, ChevronRight } from "lucide-react";
+import { Film, Gamepad2, LayoutGrid, Maximize2, Minus, Monitor, PanelLeft, Plus, Power, Search, Settings, Square, Volume2, Wifi, X, ExternalLink, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/lib/auth";
@@ -18,33 +17,12 @@ import { WallpaperEffects } from "@/components/astra/WallpaperEffects";
 import { WallpaperMedia } from "@/components/astra/WallpaperMedia";
 import { DesktopClock, DesktopStatusBar } from "@/components/astra/DesktopSurface";
 import { AppIcon } from "@/components/astra/AppIcon";
-import { StoreView } from "./views/StoreView";
+import { DESKTOP_APPS, DesktopAppContent } from "./desktop-apps";
 import { DesktopWidgets } from "@/components/astra/DesktopWidgets";
 import { WebsiteFullscreenButton } from "@/components/FullscreenButton";
 import { removeDesktopShortcut, type DesktopShortcut } from "@/lib/windows/desktop-shortcuts";
 
-const MusicView = lazy(() => import("./views/MusicView").then(m => ({ default: m.MusicView })));
-const MoviesView = lazy(() => import("./views/MoviesView").then(m => ({ default: m.MoviesView })));
-const GamesView = lazy(() => import("./views/GamesView").then(m => ({ default: m.GamesView })));
-const WebView = lazy(() => import("./views/WebView").then(m => ({ default: m.WebView })));
-const ChatView = lazy(() => import("./views/ChatView").then(m => ({ default: m.ChatView })));
-const MemoryView = lazy(() => import("./views/MemoryView").then(m => ({ default: m.MemoryView })));
-const VoiceView = lazy(() => import("./views/VoiceView").then(m => ({ default: m.VoiceView })));
-const SettingsView = lazy(() => import("./views/SettingsView").then(m => ({ default: m.SettingsView })));
-const SocialHub = lazy(() => import("@/components/social/SocialHub").then(m => ({ default: m.SocialHub })));
-const APPS = [
-  { id: "home", title: "Home", icon: Home, tone: "cyan" },
-  { id: "store", title: "Birch Store", icon: LayoutGrid, tone: "cyan" },
-  { id: "games", title: "Games", icon: Gamepad2, tone: "green" },
-  { id: "web", title: "Browser", icon: Globe, tone: "cyan" },
-  { id: "movies", title: "Movies & TV", icon: Film, tone: "coral" },
-  { id: "music", title: "Music", icon: Music, tone: "green" },
-  { id: "chat", title: "BirchBlock AI", icon: Bot, tone: "gold" },
-  { id: "social", title: "Friends & parties", icon: Users, tone: "green" },
-  { id: "memory", title: "Memory", icon: Brain, tone: "gold" },
-  { id: "voice", title: "Voice", icon: Mic, tone: "cyan" },
-  { id: "settings", title: "Settings", icon: Settings, tone: "neutral" },
-] as const;
+const APPS = DESKTOP_APPS;
 const appInfo = (id: DesktopApp) => APPS.find(a => a.id === id) ?? APPS[0];
 let serial = 0;
 const uid = () => `desktop-${++serial}`;
@@ -105,22 +83,7 @@ export function WindowsDesktop({ children, desktopOnly = false }: { children?: R
   const patch = (id: string, value: Partial<DesktopWindow>) => dispatch({ type: "patch", id, patch: value });
   const appButton = (app: typeof APPS[number], target?: string) => <Button key={app.id} variant="ghost" className="windows-app-button" onClick={() => open(app.id, target)}><span className="windows-app-icon" data-tone={app.tone}><AppIcon app={app.id}/></span><span>{app.title}</span></Button>;
   const home = <div className="windows-home"><header><span className="text-xs text-muted-foreground">BIRCHBLOCK</span><h1 className="mt-2 text-3xl font-semibold">Home</h1><p className="mt-2 text-sm text-muted-foreground">{String(name)}’s workspace</p></header><h2 className="mt-8 mb-4 text-sm font-semibold">Your apps</h2><div className="grid grid-cols-2 gap-2 sm:grid-cols-3">{APPS.filter(a => a.id !== "home").map(a => appButton(a))}</div><div className="mt-8 flex items-center justify-between border-t pt-5"><div><p className="text-sm font-medium">Personalization</p><p className="mt-1 text-xs text-muted-foreground">Windows appearance</p></div><Button variant="ghost" onClick={() => open("settings")}><Settings/><ChevronRight/></Button></div></div>;
-  const renderApp = (tab: WindowTab) => {
-    switch (tab.app) {
-      case "home": return home;
-      case "store": return <StoreView onOpen={app => open(app)}/>;
-      case "music": return <MusicView/>;
-      case "movies": return <MoviesView/>;
-      case "games": return <GamesView initialGame={tab.game}/>;
-      case "web": return <WebView/>;
-      case "chat": return <AccountOnly><ChatView/></AccountOnly>;
-      case "memory": return <AccountOnly><MemoryView/></AccountOnly>;
-      case "voice": return <AccountOnly><VoiceView/></AccountOnly>;
-      case "settings": return <SettingsView/>;
-      case "social": return <div className="h-full overflow-auto p-4"><SocialHub/></div>;
-      case "route": return children;
-    }
-  };
+  const renderApp = (tab: WindowTab) => <DesktopAppContent tab={tab} onOpen={app => open(app)} home={home}>{children}</DesktopAppContent>;
   return <div data-full-window={fullWindow} className="windows-desktop fixed inset-0 flex flex-col overflow-hidden bg-background text-foreground">
     {look.artwork && <WallpaperMedia src={look.customBg || wallpaper} type={look.wallpaperType} poster={look.wallpaperPoster} playback={look.wallpaperPlayback} reduceMotion={look.reduceMotion} className="windows-wallpaper absolute inset-0 size-full object-cover"/>}
     <WallpaperEffects/>
