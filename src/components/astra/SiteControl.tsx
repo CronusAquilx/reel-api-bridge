@@ -100,8 +100,8 @@ export function SiteControl() {
       last = json; lastSent = Date.now();
       if (json.length < 240_000) void ch.send({ type: "broadcast", event: "frame", payload: frame });
     };
-    const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(tick, { timeout: 1000 }) : tick());
-    const t = setInterval(idle, 1000);
+    const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(tick, { timeout: 400 }) : tick());
+    const t = setInterval(idle, 350);
     const end = setTimeout(() => setViewing(null), 15 * 60 * 1000);
     idle();
     return () => { clearInterval(t); clearTimeout(end); setControlled(false); void supabase.removeChannel(ch); };

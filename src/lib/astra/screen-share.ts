@@ -7,7 +7,7 @@ const MAX_ITEMS = 650;
 const transparent = (v: string) => !v || v === "transparent" || v === "rgba(0, 0, 0, 0)";
 
 const MAX_MEDIA = 3;
-const SHOT_W = 360;
+const SHOT_W = 960;
 let shotCanvas: HTMLCanvasElement | null = null;
 
 /** Picks the drawable source for a media element; same-origin iframes (arcade, proxied pages) expose their biggest canvas/video. */
@@ -38,7 +38,7 @@ function snapshotMedia(el: HTMLElement): string | undefined {
     shotCanvas ??= document.createElement("canvas");
     shotCanvas.width = Math.min(SHOT_W, sw); shotCanvas.height = Math.round(shotCanvas.width * sh / sw);
     shotCanvas.getContext("2d")!.drawImage(src, 0, 0, shotCanvas.width, shotCanvas.height);
-    return shotCanvas.toDataURL("image/jpeg", 0.5);
+    return shotCanvas.toDataURL("image/jpeg", 0.78);
   } catch { return undefined; } // cross-origin pixels can't be read
 }
 

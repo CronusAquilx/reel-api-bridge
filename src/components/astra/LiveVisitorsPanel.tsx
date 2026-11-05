@@ -65,13 +65,18 @@ function ScreenViewer({ visitor, onClose }: { visitor: LiveVisitor; onClose: () 
         <div ref={boxRef} tabIndex={0} className={`relative ${full ? "mx-auto" : "w-full"} overflow-hidden rounded border border-border outline-none ${control ? "cursor-pointer ring-2 ring-primary" : ""}`}
           style={{ height: frame.h * scale, width: full ? frame.w * scale : undefined, background: frame.bg }}
           onClick={(e) => ctl({ type: "click", ...point(e) })}
+          onDoubleClick={() => { if (!control) toggleFull(); }}
           onWheel={(e) => ctl({ type: "scroll", ...point(e), dy: Math.round(e.deltaY) })}
           onKeyDown={(e) => { if (!control) return; e.preventDefault(); if (e.key.length === 1) ctl({ type: "type", text: e.key }); else ctl({ type: "key", key: e.key }); }}>
           <div style={{ width: frame.w, height: frame.h, transform: `scale(${scale})`, transformOrigin: "0 0", position: "absolute", pointerEvents: "none" }}>
             {frame.items.map((it, i) => it.img
-              ? <img key={i} src={it.img} alt="" style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, objectFit: it.media ? "contain" : "cover", background: it.media ? "#000" : undefined, borderRadius: it.r }} />
+              ? <img key={i} src={it.img} alt="" style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, objectFit: it.media ? "contain" : "cover", imageRendering: "auto", background: it.media ? "#000" : undefined, borderRadius: it.r }} />
               : <div key={i} style={{ position: "absolute", left: it.x, top: it.y, width: it.w, height: it.h, background: it.media ? "#111" : it.bg, border: it.bd ? `1px solid ${it.bd}` : undefined, borderRadius: it.r, color: it.c, fontSize: it.fs, fontWeight: it.fw, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", lineHeight: 1.2, display: "flex", alignItems: "center", justifyContent: it.media ? "center" : undefined }}>{it.media ? "▶ protected video / game" : it.t}</div>)}
           </div>
+          <button type="button" aria-label={full ? "Exit full screen" : "Full screen"} onClick={(e) => { e.stopPropagation(); toggleFull(); }}
+            className="absolute right-2 top-2 z-10 grid h-8 w-8 place-items-center rounded-md bg-background/80 text-foreground shadow backdrop-blur hover:bg-background">
+            {full ? <Minimize className="h-4 w-4" /> : <Maximize className="h-4 w-4" />}
+          </button>
         </div>
       ) : <p className="py-10 text-center text-sm text-muted-foreground">Waiting for their screen…</p>}
       <p className="text-xs text-muted-foreground">{control ? "Click to click for them, scroll to scroll, and type while the screen is selected." : "Updates live. Videos and games show as small live pictures; a few protected ones stay dark."}</p>
