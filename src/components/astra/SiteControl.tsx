@@ -30,7 +30,7 @@ export function SiteControl() {
     const ch = supabase.channel("site-presence", { config: { presence: { key } } });
     ch.on("presence", { event: "sync" }, () => {
       const state = ch.presenceState<LiveVisitor>();
-      visitors = Object.values(state).map((v) => v[0]).filter(Boolean);
+      visitors = Object.values(state).map((v) => v[0]).filter((v): v is NonNullable<typeof v> => Boolean(v));
       emit();
     }).subscribe((s) => { if (s === "SUBSCRIBED") setChannel(ch); });
     return () => { setChannel(null); void supabase.removeChannel(ch); };
