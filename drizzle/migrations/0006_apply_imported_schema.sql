@@ -1,0 +1,1 @@
+COMMENT ON TABLE public.profiles IS 'Player profiles';

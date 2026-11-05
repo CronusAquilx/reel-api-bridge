@@ -1,0 +1,48 @@
+{
+  "source": "qaisifyy-main_3.zip",
+  "scope": "Integrate the old music app into Birch without replacing other applications",
+  "capabilities": [
+    {
+      "capability": "music interface",
+      "source": "Qaisify React screens",
+      "outcome": "migrate",
+      "status": "implemented",
+      "next_action": "User listening and UI check requested; no browser playback check performed"
+    },
+    {
+      "capability": "catalog and metadata",
+      "source": "iTunes public API",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "User listening and UI check requested; no browser playback check performed"
+    },
+    {
+      "capability": "playback",
+      "source": "YouTube verified embed candidates",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "User listening and UI check requested; no browser playback check performed"
+    },
+    {
+      "capability": "secrets",
+      "source": "Hardcoded YouTube API credential",
+      "outcome": "secure configuration only",
+      "status": "pending",
+      "next_action": "Complete fresh Qaisify YouTube connection in the new workspace; connection attempt was interrupted"
+    },
+    {
+      "capability": "records and auth",
+      "source": "No schema or record exports detected; generated client present",
+      "outcome": "retain existing Birch accounts",
+      "status": "preserved",
+      "next_action": "Source has no active database/auth; existing Birch accounts and playlists retained"
+    },
+    {
+      "capability": "verification",
+      "source": "UI, search and playback",
+      "outcome": "verify",
+      "status": "partial",
+      "next_action": "Four compatibility tests passed; preview compilation clean; user performs listening checks"
+    }
+  ]
+}

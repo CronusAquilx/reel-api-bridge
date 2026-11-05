@@ -27,3 +27,11 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## Console Mode
+
+Sony Console includes Games and Media home screens, real cloud and arcade games, install/uninstall and wishlist menus, an app library, profile editing, background selection, and device/layout setup. Installations are library shortcuts simulated locally per signed-in user; provider subscriptions and hardware requirements still apply.
+
+### Adding a skin
+
+A skin consists of scoped theme tokens in `src/styles.css`, a layout configuration in `src/lib/console/skins.ts`, and home/store/library/settings/profile components. Add its ID to preferences, register the components in `ConsoleScreen`, and expose it in layout selection only once those screens work. Reuse `useConsoleCtx`, `useConsoleInput`, catalog queries, and library actions; do not change classic/launcher or gameplay layouts. Focus sounds default off and all motion respects reduced-motion preferences. Xbox skins remain separate future work.

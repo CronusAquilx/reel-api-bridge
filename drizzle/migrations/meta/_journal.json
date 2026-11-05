@@ -1,5 +1,76 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793426190783,
+      "tag": "0000_astra_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793472207165,
+      "tag": "0001_console_social",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793472330808,
+      "tag": "0002_social_privacy_projection",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793472454305,
+      "tag": "0003_social_nonrecursive_membership",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793486795649,
+      "tag": "0004_developer_game_catalog",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793501491297,
+      "tag": "0005_username_accounts",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793503240470,
+      "tag": "0006_apply_imported_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793562391887,
+      "tag": "0007_drop_stale_type",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793562426957,
+      "tag": "0008_restore_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793580320207,
+      "tag": "0009_account_personalization",
+      "breakpoints": true
+    }
+  ]
 }
