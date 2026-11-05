@@ -17,13 +17,13 @@ import { WallpaperEffects } from "@/components/astra/WallpaperEffects";
 import { WallpaperMedia } from "@/components/astra/WallpaperMedia";
 import { DesktopClock, DesktopStatusBar } from "@/components/astra/DesktopSurface";
 import { AppIcon } from "@/components/astra/AppIcon";
-import { DESKTOP_APPS, DesktopAppContent } from "./desktop-apps";
+import { DESKTOP_APPS, DesktopAppContent, desktopAppInfo, useLauncherApps, type DesktopAppInfo } from "./desktop-apps";
 import { DesktopWidgets } from "@/components/astra/DesktopWidgets";
 import { WebsiteFullscreenButton } from "@/components/FullscreenButton";
 import { removeDesktopShortcut, type DesktopShortcut } from "@/lib/windows/desktop-shortcuts";
 
 const APPS = DESKTOP_APPS;
-const appInfo = (id: DesktopApp) => APPS.find(a => a.id === id) ?? APPS[0];
+const appInfo = desktopAppInfo;
 let serial = 0;
 const uid = () => `desktop-${++serial}`;
 const tabFor = (app: DesktopApp): WindowTab => ({ id: uid(), app, title: appInfo(app).title });
@@ -46,6 +46,7 @@ export function WindowsDesktop({ children, desktopOnly = false }: { children?: R
     observer.observe(node); const timer = setInterval(() => setNow(new Date()), 30000);
     return () => { observer.disconnect(); clearInterval(timer); };
   }, []);
+  const launcher = useLauncherApps();
   const open = (app: DesktopApp, windowId?: string) => {
     const tab = tabFor(app);
     if (windowId) dispatch({ type: "tab", id: windowId, tab });
@@ -81,7 +82,7 @@ export function WindowsDesktop({ children, desktopOnly = false }: { children?: R
   };
   const fullWindow = state.windows.some(w => !w.minimized && (w.mode === "maximized" || area.width < 640));
   const patch = (id: string, value: Partial<DesktopWindow>) => dispatch({ type: "patch", id, patch: value });
-  const appButton = (app: typeof APPS[number], target?: string) => <Button key={app.id} variant="ghost" className="windows-app-button" onClick={() => open(app.id, target)}><span className="windows-app-icon" data-tone={app.tone}><AppIcon app={app.id}/></span><span>{app.title}</span></Button>;
+  const appButton = (app: DesktopAppInfo, target?: string) => <Button key={app.id} variant="ghost" className="windows-app-button" onClick={() => open(app.id, target)}><span className="windows-app-icon" data-tone={app.tone}><AppIcon app={app.id}/></span><span>{app.title}</span></Button>;
   const home = <div className="windows-home"><header><span className="text-xs text-muted-foreground">BIRCHBLOCK</span><h1 className="mt-2 text-3xl font-semibold">Home</h1><p className="mt-2 text-sm text-muted-foreground">{String(name)}’s workspace</p></header><h2 className="mt-8 mb-4 text-sm font-semibold">Your apps</h2><div className="grid grid-cols-2 gap-2 sm:grid-cols-3">{APPS.filter(a => a.id !== "home").map(a => appButton(a))}</div><div className="mt-8 flex items-center justify-between border-t pt-5"><div><p className="text-sm font-medium">Personalization</p><p className="mt-1 text-xs text-muted-foreground">Windows appearance</p></div><Button variant="ghost" onClick={() => open("settings")}><Settings/><ChevronRight/></Button></div></div>;
   const renderApp = (tab: WindowTab) => <DesktopAppContent tab={tab} onOpen={app => open(app)} home={home}>{children}</DesktopAppContent>;
   return <div data-full-window={fullWindow} className="windows-desktop fixed inset-0 flex flex-col overflow-hidden bg-background text-foreground">
@@ -115,14 +116,14 @@ export function WindowsDesktop({ children, desktopOnly = false }: { children?: R
               <Button variant="ghost" size="icon" className="size-7 shrink-0" aria-label="Add app tab" title="Add app tab" onClick={() => setAddTab(addTab === w.id ? null : w.id)}><Plus/></Button>
               {w.tabs.length > 1 && <Button variant="ghost" size="icon" className="size-7 shrink-0" aria-label="Move tab to new window" title="Move tab to new window" onClick={() => dispatch({ type: "detach", id: w.id, tabId: w.activeTab, newId: uid() })}><ExternalLink/></Button>}
             </div>
-            {addTab === w.id && <div className="grid max-h-56 shrink-0 grid-cols-3 gap-1 overflow-auto border-b p-3">{APPS.map(a => appButton(a, w.id))}</div>}
+            {addTab === w.id && <div className="grid max-h-56 shrink-0 grid-cols-3 gap-1 overflow-auto border-b p-3">{launcher.map(a => appButton(a, w.id))}</div>}
             {w.tabs.map(t => <div key={t.id} data-app={t.app === "route" ? path.split("/")[1] : t.app} className={cn("windows-app-content native-app min-h-0 flex-1 overflow-hidden bg-background", t.id !== w.activeTab && "hidden")}><Suspense fallback={<div className="p-6 text-sm text-muted-foreground">Opening {t.title}…</div>}>{renderApp(t)}</Suspense></div>)}
           </section>
         </Rnd>;
       })}
       {start && <section aria-label="Start menu" className="windows-start windows-glass absolute bottom-3 left-1/2 z-[300] flex -translate-x-1/2 flex-col rounded-lg border">
         <div className="px-6 pt-6"><div className="relative"><Search className="absolute left-3 top-3 size-4 text-muted-foreground"/><Input autoFocus aria-label="Search apps" placeholder="Search apps" value={query} onChange={e => setQuery(e.target.value)} className="h-10 bg-background/70 pl-10"/></div><h2 className="mt-6 mb-3 text-sm font-semibold">{query ? "Search results" : "Pinned"}</h2></div>
-        <div className="grid grid-cols-3 gap-2 overflow-auto px-5 pb-5 sm:grid-cols-4">{APPS.filter(a => a.title.toLowerCase().includes(query.toLowerCase())).map(a => appButton(a))}</div>
+        <div className="grid grid-cols-3 gap-2 overflow-auto px-5 pb-5 sm:grid-cols-4">{launcher.filter(a => a.title.toLowerCase().includes(query.toLowerCase())).map(a => appButton(a))}</div>
         {!query && <div className="border-t px-6 py-4"><h2 className="mb-3 text-sm font-semibold">Open windows</h2>{state.windows.length ? state.windows.slice(-3).map(w => <Button key={w.id} variant="ghost" className="w-full justify-start" onClick={() => { dispatch({ type: "focus", id: w.id }); setStart(false); }}><Monitor/>{w.tabs.find(t => t.id === w.activeTab)?.title}</Button>) : <p className="text-xs text-muted-foreground">No recent windows</p>}</div>}
         <footer className="mt-auto flex items-center justify-between border-t bg-secondary/60 px-6 py-3"><span className="truncate text-sm">{String(name)}</span><Button variant="ghost" size="icon" title="Sign out" aria-label="Sign out" onClick={() => void signOutAll()}><Power/></Button></footer>
       </section>}
